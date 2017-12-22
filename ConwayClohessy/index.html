@@ -150,13 +150,13 @@ For instructions on how to use this site in mind boggling detail see the
  			[].forEach.call(emails, setEmailLink);
 		}
 		catch (err) {
- 			var emails=documents.querySelectAll('.email');
+ 			var emails=document.querySelectorAll('.email');
 
 			var linkCount = emails.length;
 			for (var i = 0; i < linkCount; i++ ) {
 				setEmailLink(emails[i]);
 			};
-		}
+		};
 	};
 
 	setEmailLinks();
@@ -182,7 +182,7 @@ End Home
 			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
     </script>
     <br/>
-    Last change was the 2017-12-22 19:32:57
+    Last change was the 2017-12-22 19:50:36
    </p>
    <p id="copyright">
     <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
