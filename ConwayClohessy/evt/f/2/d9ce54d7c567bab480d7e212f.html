@@ -12,6 +12,8 @@
   <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
   <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
   <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
   <script id="timestampjs" src="../../../timestamp.js">
   </script>
  </head>
@@ -130,7 +132,10 @@ End Header
     4.2.2
     <script id="onTimeStamp">
      var placeholder = document.getElementById("onTimeStamp");
-			var newTextNode = document.createTextNode( placeholder.previousSibling.textContent + timestampText() );
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
 			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
     </script>
     <br/>
