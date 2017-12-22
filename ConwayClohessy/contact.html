@@ -118,15 +118,31 @@ Contact
      <a href="introduction.html#errors"><em>Introduction</em></a>
      page.
      <script language="javascript">
-      function myEmail() {
+      function getEmailAddress() {
       		return "abfrcnz-snzvyl@lnubb.pb.hx".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
 	};
 
-      emails=document.getElementsByClassName("email");
-      [].forEach.call(emails, function(email) {
-		email['href']="mailto:"+myEmail();
-		email.text=myEmail();
-	});
+	function setEmailLink(email) {
+		email.href="mailto:"+getEmailAddress();
+		email.innerHTML=getEmailAddress();
+	};
+
+	function setEmailLinks() {
+	 	try {
+ 			emails=document.getElementsByClassName("email");
+ 			[].forEach.call(emails, setEmailLink);
+		}
+		catch (err) {
+ 			var emails=document.querySelectorAll('.email');
+
+			var linkCount = emails.length;
+			for (var i = 0; i < linkCount; i++ ) {
+				setEmailLink(emails[i]);
+			};
+		};
+	};
+
+	setEmailLinks();
      </script>
      <!--
 End Contact

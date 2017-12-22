@@ -658,16 +658,32 @@ Wildcards can help with name variation on some sites like <a href="https://ances
 <span> There are no prizes for finding errors, but if you do find
               something that I should fix then please send an email to <a class="email"></a>
 <script language="javascript">
-      function myEmail() {{{{
-      		return "abfrcnz-snzvyl@lnubb.pb.hx".replace(/[a-zA-Z]/g,function(c){{{{return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}}}});
-	}}}};
+	function getEmailAddress() {{
+      		return "abfrcnz-snzvyl@lnubb.pb.hx".replace(/[a-zA-Z]/g,function(c){{return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}});
+	}};
 
-      emails=document.getElementsByClassName("email");
-      [].forEach.call(emails, function(email) {{{{
-		email['href']="mailto:"+myEmail();
-		email.text=myEmail();
-	}}}});
-     </script> and I'll fix it (or I'll start a heated e-mail exchange in which
+	function setEmailLink(email) {{
+		email.href="mailto:"+getEmailAddress();
+		email.innerHTML=getEmailAddress();
+	}};
+
+	function setEmailLinks() {{
+	 	try {{
+ 			emails=document.getElementsByClassName("email");
+ 			[].forEach.call(emails, setEmailLink);
+		}}
+		catch (err) {{
+ 			var emails=document.querySelectorAll('.email');
+
+			var linkCount = emails.length;
+			for (var i = 0; i < linkCount; i++ ) {{
+				setEmailLink(emails[i]);
+			}};
+		}};
+	}};
+
+	setEmailLinks();
+</script> and I'll fix it (or I'll start a heated e-mail exchange in which
               I will convince you that I was right in the first place). Note
               though that it is often not enough just to say that something is
               wrong, e.g. saying that "John Smith wasn't born on that date"
@@ -696,7 +712,7 @@ End Introduction-->
 			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
     </script>
     <br/>
-    Last change was the 2017-12-21 22:43:02
+    Last change was the 2017-12-22 20:00:21
    </p>
    <p id="copyright">
     <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
