@@ -12,6 +12,8 @@
   <link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
   <link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
   <link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <!--[if IE ]><link href="css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
   <script id="timestampjs" src="timestamp.js">
   </script>
  </head>
@@ -50,6 +52,7 @@ Header
        Bridie Clohessy
       </b>
      </a>
+     <br/>
      <br/>
      <!--
 End Header
@@ -111,10 +114,10 @@ End Header
       </a>
      </li>
      <li class="CurrentSection">
-      <a href="updates.html" title="Update - 22 Dec 2017">
+      <a href="updates.html" title="Update - 01 Jan 2018">
        Update -
        <i>
-        22 Dec 2017
+        01 Jan 2018
        </i>
       </a>
      </li>
@@ -145,6 +148,16 @@ End Header
     <br/>
     <br/>
     <strong>
+     MONDAY, 01 JANUARY, 2018
+    </strong>
+    <h2>
+     New Year, New People
+    </h2>
+    Added James Sullivan, Clothilde Cusack, Agnes Gleeson, Bridie Gleeson, Eily Gleeson, Kathleen Geary, Bridget Ryan, May Ryan, Burdis Redford, Luke Hartigan,
+    <br/>
+    <br/>
+    <br/>
+    <strong>
      FRIDAY, 22 DECEMBER, 2017
     </strong>
     <h2>
@@ -167,11 +180,14 @@ End Header
     4.2.2
     <script id="onTimeStamp">
      var placeholder = document.getElementById("onTimeStamp");
-			var newTextNode = document.createTextNode( placeholder.previousSibling.textContent + timestampText() );
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
 			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
     </script>
     <br/>
-    Last change was the 2017-12-22 11:42:27
+    Last change was the 2017-12-22 19:59:47
    </p>
    <p id="copyright">
     <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" rel="license">

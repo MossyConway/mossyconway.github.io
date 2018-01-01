@@ -2,11 +2,11 @@
 1 SOUR Gramps
 2 VERS 4.2.2
 2 NAME Gramps
-1 DATE 22 DEC 2017
-2 TIME 14:10:29
+1 DATE 1 JAN 2018
+2 TIME 11:42:29
 1 SUBM @SUBM@
-1 FILE /home/mossy/code/gene/ConwayClohessyPublic/ConwayClohessy/downloads/ConwayClohessy.ged
-1 COPR Copyright (c) 2017 .
+1 FILE /home/mossy/code/gene/ConwayClohessyPublic/ConwayClohessy/ConwayClohessy.ged
+1 COPR Copyright (c) 2018 .
 1 GEDC
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
@@ -3103,8 +3103,8 @@
 2 NOTE @N0395@
 2 NOTE @N0262@
 1 CHAN
-2 DATE 18 DEC 2017
-3 TIME 11:13:39
+2 DATE 30 DEC 2017
+3 TIME 13:43:01
 0 @I0048@ INDI
 1 NAME Jeremiah /Ambrose/
 2 GIVN Jeremiah
@@ -4542,7 +4542,12 @@
 2 GIVN James
 2 SURN Sullivan
 1 SEX M
-1 DEAT Y
+1 BIRT
+2 TYPE Assuming hw was 10 years older than his wife
+2 DATE EST 1891
+1 DEAT
+2 TYPE Assuming he was less than 120 when he died
+2 DATE BEF 2011
 1 RESI
 2 PLAC Freemount, Cork, Ireland
 3 MAP
@@ -4555,8 +4560,8 @@
 1 SOUR @S0006@
 2 QUAY 3
 1 CHAN
-2 DATE 20 DEC 2017
-3 TIME 14:31:09
+2 DATE 30 DEC 2017
+3 TIME 15:10:31
 0 @I0068@ INDI
 1 NAME Bridget /O' Brien/
 2 GIVN Bridget
@@ -7713,6 +7718,128 @@
 1 CHAN
 2 DATE 7 DEC 2017
 3 TIME 17:06:38
+0 @I0140@ INDI
+1 NAME Bridget /Ryan/
+2 GIVN Bridget
+2 SURN Ryan
+2 SOUR @S0005@
+3 PAGE Ryan in Ballynamona
+3 DATA
+4 TEXT Census 1901
+5 CONT 
+5 CONT Residents of a house 4 in Ballynamona (Hospital, Limerick)
+5 CONT 
+5 CONT Ryan	Daniel	35	Male	Head of Family	Roman Catholic	County Limk	Farmer	Rea
+5 CONC d and write	-	Married	-
+5 CONT Ryan	Bridget	40	Female	Wife	Roman Catholic	County Limk	-	Read and writ
+5 CONC e	-	Not Married	-
+5 CONT Ryan	Mary	5	Female	Daughter	Roman Catholic	County Limk	Farmers Daughte
+5 CONC r	Cannot read	-	-	-
+5 CONT Ryan	Bridget	3	Female	Daughter	Roman Catholic	County Limk	Farmers Daught
+5 CONC er	-	-	-	-
+5 CONT Ryan	Patrick	2	Male	Son	Roman Catholic	County Limk	Farmers Son	-	-	-	-
+5 CONT Clohesy	David	80	Male	Father in Law	Roman Catholic	County Limk	None	Rea
+5 CONC d and write	-	Widower	-
+5 CONT Moroney	James	30	Male	Servant	Roman Catholic	County Clare	Farm Servant	R
+5 CONC ead and write	-	Not Married	-
+5 CONT Doyle	William	19	Male	Servant	Roman Catholic	County Limk	Farm Servant	Re
+5 CONC ad and write	-	Not Married	-
+5 CONT Farrant	Mary	24	Female	Servant	Roman Catholic	County Kerry	Farm Servan
+5 CONC t	Read and write	-	Not Married	-
+3 NOTE @N0341@
+2 SOUR @S0007@
+3 PAGE Ryan in Ballynamona
+3 DATA
+4 TEXT Residents of a house 23 in Ballynamona (Hospital, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT Ryan	Daniel	44	Male	Head of Family	R Catholic	Co Limerick	Farmer	Read an
+5 CONC d write	-	Married	-	16	4	4
+5 CONT Ryan	Bridget	48	Female	Wife	R Catholic	Co Limerick	-	Read and write	-	Ma
+5 CONC rried	-	-	-	-
+5 CONT Ryan	Mary	15	Female	Daughter	R Catholic	Co Limerick	-	Read and write	Iri
+5 CONC sh English	-	-	-	-	-
+5 CONT Ryan	Bridget	13	Female	Daughter	R Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	Irish English	-	-	-	-	-
+5 CONT Ryan	Patrick	12	Male	Son	R Catholic	Co Limerick	Scholar	Read and write	I
+5 CONC rish English	-	-	-	-	-
+5 CONT Ryan	Nora	9	Female	Daughter	R Catholic	-	Scholar	Read and write	Englis
+5 CONC h	-	-	-	-	-
+5 CONT 
+3 NOTE @N0491@
+1 NAME Delia //
+2 GIVN Delia
+2 SOUR @S0006@
+1 SEX F
+1 BIRT
+2 DATE CAL ABT 1898
+2 PLAC Ballinamona, Hospital, Limerick, Ireland
+3 MAP
+4 LATI N52.5
+4 LONG W8.45
+2 ADDR
+3 CTRY Ireland
+2 SOUR @S0005@
+3 PAGE Ryan in Ballynamona
+3 DATA
+4 TEXT Census 1901
+5 CONT 
+5 CONT Residents of a house 4 in Ballynamona (Hospital, Limerick)
+5 CONT 
+5 CONT Ryan	Daniel	35	Male	Head of Family	Roman Catholic	County Limk	Farmer	Rea
+5 CONC d and write	-	Married	-
+5 CONT Ryan	Bridget	40	Female	Wife	Roman Catholic	County Limk	-	Read and writ
+5 CONC e	-	Not Married	-
+5 CONT Ryan	Mary	5	Female	Daughter	Roman Catholic	County Limk	Farmers Daughte
+5 CONC r	Cannot read	-	-	-
+5 CONT Ryan	Bridget	3	Female	Daughter	Roman Catholic	County Limk	Farmers Daught
+5 CONC er	-	-	-	-
+5 CONT Ryan	Patrick	2	Male	Son	Roman Catholic	County Limk	Farmers Son	-	-	-	-
+5 CONT Clohesy	David	80	Male	Father in Law	Roman Catholic	County Limk	None	Rea
+5 CONC d and write	-	Widower	-
+5 CONT Moroney	James	30	Male	Servant	Roman Catholic	County Clare	Farm Servant	R
+5 CONC ead and write	-	Not Married	-
+5 CONT Doyle	William	19	Male	Servant	Roman Catholic	County Limk	Farm Servant	Re
+5 CONC ad and write	-	Not Married	-
+5 CONT Farrant	Mary	24	Female	Servant	Roman Catholic	County Kerry	Farm Servan
+5 CONC t	Read and write	-	Not Married	-
+3 NOTE @N0341@
+1 DEAT
+2 TYPE Assuming she was lesss than 120 when she died
+2 DATE EST BEF 2018
+1 FAMC @F0041@
+1 FAMS @F0046@
+1 SOUR @S0005@
+2 PAGE Ryan in Ballynamona
+2 DATA
+3 TEXT Census 1901
+4 CONT 
+4 CONT Residents of a house 4 in Ballynamona (Hospital, Limerick)
+4 CONT 
+4 CONT Ryan	Daniel	35	Male	Head of Family	Roman Catholic	County Limk	Farmer	Rea
+4 CONC d and write	-	Married	-
+4 CONT Ryan	Bridget	40	Female	Wife	Roman Catholic	County Limk	-	Read and writ
+4 CONC e	-	Not Married	-
+4 CONT Ryan	Mary	5	Female	Daughter	Roman Catholic	County Limk	Farmers Daughte
+4 CONC r	Cannot read	-	-	-
+4 CONT Ryan	Bridget	3	Female	Daughter	Roman Catholic	County Limk	Farmers Daught
+4 CONC er	-	-	-	-
+4 CONT Ryan	Patrick	2	Male	Son	Roman Catholic	County Limk	Farmers Son	-	-	-	-
+4 CONT Clohesy	David	80	Male	Father in Law	Roman Catholic	County Limk	None	Rea
+4 CONC d and write	-	Widower	-
+4 CONT Moroney	James	30	Male	Servant	Roman Catholic	County Clare	Farm Servant	R
+4 CONC ead and write	-	Not Married	-
+4 CONT Doyle	William	19	Male	Servant	Roman Catholic	County Limk	Farm Servant	Re
+4 CONC ad and write	-	Not Married	-
+4 CONT Farrant	Mary	24	Female	Servant	Roman Catholic	County Kerry	Farm Servan
+4 CONC t	Read and write	-	Not Married	-
+2 NOTE @N0341@
+1 NOTE @N0741@
+1 CHAN
+2 DATE 30 DEC 2017
+3 TIME 12:28:11
 0 @I0155@ INDI
 1 NAME John /Cusack/
 2 GIVN John
@@ -11023,6 +11150,92 @@
 1 CHAN
 2 DATE 7 DEC 2017
 3 TIME 13:46:00
+0 @I0372@ INDI
+1 NAME Luke /Hartigan/
+2 GIVN Luke
+2 SURN Hartigan
+1 SEX M
+1 BIRT
+2 DATE 1 NOV 1898
+2 PLAC Fort West, Limerick, Ireland
+2 ADDR
+3 CTRY Ireland
+2 SOUR @S0018@
+3 PAGE Luke Harrington b1898 - Group Registration ID: 10190021, SR District/Reg Area: Kilmallock
+3 DATA
+4 DATE 22 DEC 1898
+3 NOTE @N0805@
+3 NOTE @N0806@
+1 DEAT
+2 TYPE Assuming he died before he was 120
+2 DATE EST BEF 2018
+1 CENS
+2 DATE 1901
+2 PLAC Fort West, Limerick, Ireland
+2 ADDR
+3 CTRY Ireland
+2 SOUR @S0005@
+3 PAGE Hartigan in Fort West
+3 DATA
+4 DATE 1901
+4 TEXT Residents of a house 5 in Fort West (Colmanswell, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses
+5 CONT Hartigan	Luke	46	Male	Head of Family	Catholic Church	Co Limerick	Farme
+5 CONC r	Read and write	-	Widower	-
+5 CONT Hartigan	John	4	Male	Son	Catholic Church	Co Limerick	Scholar	Cannot rea
+5 CONC d	-	Not Married	-
+5 CONT Hartigan	Luke	2	Male	Son	Catholic Church	Co Limerick	Scholar	Cannot rea
+5 CONC d	-	Not Married	-
+5 CONT Hartigan	Deborah	48	Female	Sister	Catholic Church	Co Limerick	HouseKeepe
+5 CONC r	Read and write	-	Not Married	-
+5 CONT Daly	Joseph	16	Male	Servant	Catholic Church	Co Cork	Farm Servant	Read an
+5 CONC d write	-	Not Married	-
+5 CONT Fox	Hannie	19	Female	Servant	Catholic Church	Co Limerick	Domestic Servan
+5 CONC t	Read and write	-	Not Married	-
+5 CONT Connell	Mary	17	Female	Servant	Catholic Church	Co Cork	Nurse-Domestic Se
+5 CONC rvant	Read and write	-	Not Married	-
+5 CONT 
+3 NOTE @N0797@
+1 CENS
+2 DATE 1911
+2 PLAC Fort West, Limerick, Ireland
+2 ADDR
+3 CTRY Ireland
+2 SOUR @S0007@
+3 PAGE Hartigan in Fort West
+3 DATA
+4 TEXT Residents of a house 3 in Fort West (Colmanswell, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT Hartigan	Luke	56	Male	Head of Family	R Catholic	Co Limerick	Farmer	Rea
+5 CONC d and write	-	Widower	-	-	-	-
+5 CONT Hartigan	Ellie	15	Female	Daughter	R Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	-	Single	-	-	-	-
+5 CONT Hartigan	John	14	Male	Son	R Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Hartigan	Luke	12	Male	Son	R Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Hartigan	Deborah	60	Female	Sister	R Catholic	Co Limerick	-	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT McCarthy	Jeremiah	23	Male	Servant	R Catholic	Co Cork	Farm Servant	Read a
+5 CONC nd write	-	Single	-	-	-	-
+5 CONT Keeffe	Bridget	45	Female	Servant	R Catholic	Co Cork	General Domestic Ser
+5 CONC vant	Read and write
+3 NOTE @N0938@
+1 FAMC @F0104@
+1 SOUR @S0018@
+2 PAGE Luke Harrington b1898 - Group Registration ID: 10190021, SR District/Reg Area: Kilmallock
+2 DATA
+3 DATE 22 DEC 1898
+2 NOTE @N0805@
+2 NOTE @N0806@
+1 CHAN
+2 DATE 30 DEC 2017
+3 TIME 12:26:32
 0 @I0373@ INDI
 1 NAME Vernon Clair /Creedon/
 2 GIVN Vernon Clair
@@ -12347,7 +12560,12 @@
 2 GIVN Clothilde
 2 SURN Cusack
 1 SEX F
-1 DEAT Y
+1 BIRT
+2 TYPE Estimate based on the birth dates of her siblings
+2 DATE EST 1870
+1 DEAT
+2 TYPE Assuming she was less than 120 when she died
+2 DATE EST BEF 1990
 1 RESI
 2 PLAC France
 2 ADDR
@@ -12356,8 +12574,8 @@
 1 FAMC @F0050@
 1 SOUR @S0058@
 1 CHAN
-2 DATE 20 DEC 2017
-3 TIME 14:22:51
+2 DATE 30 DEC 2017
+3 TIME 16:20:50
 0 @I0426@ INDI
 1 NAME William /Gleeson/
 2 GIVN William
@@ -12763,6 +12981,40 @@
 1 CHAN
 2 DATE 20 DEC 2017
 3 TIME 14:15:40
+0 @I0435@ INDI
+1 NAME Bridie /Gleeson/
+2 GIVN Bridie
+2 SURN Gleeson
+2 SOUR @S0058@
+1 SEX F
+1 BIRT
+2 DATE 26 NOV 1898
+2 PLAC Fedamore, Limerick, Ireland
+3 MAP
+4 LATI N52.544828
+4 LONG W8.598886
+2 ADDR
+3 CTRY Ireland
+2 SOUR @S0018@
+3 PAGE Bridget Gleeson b1898 - Group Registration ID: 10192879, SR District/Reg Area: Croom
+3 DATA
+4 DATE 16 DEC 1898
+3 NOTE @N1078@
+3 NOTE @N1000@
+1 DEAT
+2 TYPE Assuming she was less than 120 when she died
+2 DATE EST BEF 2018
+1 FAMC @F0123@
+1 FAMS @F0126@
+1 SOUR @S0018@
+2 PAGE Bridget Gleeson b1898 - Group Registration ID: 10192879, SR District/Reg Area: Croom
+2 DATA
+3 DATE 16 DEC 1898
+2 NOTE @N1078@
+2 NOTE @N1000@
+1 CHAN
+2 DATE 30 DEC 2017
+3 TIME 19:21:21
 0 @I0436@ INDI
 1 NAME Dick /Gleeson/
 2 GIVN Dick
@@ -12812,11 +13064,46 @@
 0 @I0437@ INDI
 1 NAME  /Gleeson/
 2 SURN Gleeson
-1 DEAT Y
+1 DEAT
+2 DATE BEF 2 APR 1911
+2 SOUR @S0007@
+3 PAGE Gleeson in Castlequater
+3 DATA
+4 DATE 2 APR 1911
+4 TEXT Residents of a house 6 in Castlequarter (Fedamore, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses
+5 CONT 
+5 CONT Gleeson	William	39	Male	Head of Family	Roman Catholic	Co Limerick	Builde
+5 CONC r and Contractor	Read and write	-	Married	-
+5 CONT Gleeson	Bridget	35	Female	Wife	Roman Catholic	Co Limerick	-	Read and wri
+5 CONC te	-	Married	-
+5 CONT Gleeson	Stephen J	13	Male	Son	Roman Catholic	City of Limerick	Scholar	Re
+5 CONC ad and write	-	Not Married	-
+5 CONT Gleeson	John F	11	Male	Son	Roman Catholic	City of Limerick	Scholar	Rea
+5 CONC d and write	-	Not Married	-
+5 CONT Gleeson	Mary Anne	10	Female	Daughter	Roman Catholic	City of Limerick	Sch
+5 CONC olar	Read and write	-	Not Married	-
+5 CONT Gleeson	William	8	Male	Son	Roman Catholic	City of Limerick	Scholar	Rea
+5 CONC d and write	-	Not Married	-
+5 CONT Gleeson	Agnes	7	Female	Daughter	Roman Catholic	County of Limerick	Schola
+5 CONC r	Read and write	-	Not Married	-
+5 CONT Gleeson	Ellen	5	Female	Daughter	Roman Catholic	County of Limerick	Schola
+5 CONC r	Read and write	-	Not Married	-
+5 CONT Gleeson	Bridget	3	Female	Daughter	Roman Catholic	County of Limerick	-	Re
+5 CONC ad and write	-	-	-
+5 CONT Mc Namara	Patrick	24	Male	Workman	Roman Catholic	County of Limerick	Carp
+5 CONC enter	Read and write	-	Not Married	-
+5 CONT Hickey	Bridget	17	Female	Servant	Roman Catholic	County of Limerick	Gener
+5 CONC al Servant Domestic	Read and write	-	Not Married	-
+5 CONT 
+3 NOTE @N1071@
 1 FAMC @F0123@
 1 SOUR @S0007@
 2 PAGE Gleeson in Castlequater
 2 DATA
+3 DATE 2 APR 1911
 3 TEXT Residents of a house 6 in Castlequarter (Fedamore, Limerick)
 4 CONT 
 4 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
@@ -12848,18 +13135,23 @@
 2 NOTE @N1071@
 1 NOTE @N1003@
 1 CHAN
-2 DATE 21 DEC 2017
-3 TIME 20:25:57
+2 DATE 30 DEC 2017
+3 TIME 16:24:55
 0 @I0438@ INDI
 1 NAME  /Williams/
 2 SURN Williams
 1 SEX M
-1 DEAT Y
+1 BIRT
+2 TYPE Assuming he 10 years older than his wife
+2 DATE EST 1888
+1 DEAT
+2 TYPE Assuming he was less than 120 when he died
+2 DATE EST BEF 2008
 1 FAMS @F0126@
 1 SOUR @S0058@
 1 CHAN
-2 DATE 20 DEC 2017
-3 TIME 14:20:39
+2 DATE 30 DEC 2017
+3 TIME 19:25:57
 0 @I0443@ INDI
 1 NAME Peter /Galbraith/
 2 GIVN Peter
@@ -13043,18 +13335,84 @@
 1 NAME  /Kemp/
 2 SURN Kemp
 1 SEX M
-1 DEAT Y
+1 BIRT
+2 TYPE Assuming he was 10 years older than his wife
+2 DATE EST 1885
+1 DEAT
+2 TYPE Assuming he was less than 120 when he died
+2 DATE EST BEF 2005
 1 FAMS @F0130@
 1 SOUR @S0058@
 1 CHAN
-2 DATE 20 DEC 2017
-3 TIME 14:16:40
+2 DATE 30 DEC 2017
+3 TIME 19:23:53
 0 @I0448@ INDI
 1 NAME Burdis William Bertram /Redford/
 2 GIVN Burdis William Bertram
 2 SURN Redford
 1 SEX M
-1 DEAT Y
+1 BIRT
+2 DATE 12 AUG 1897
+2 PLAC Sunderland, Durham, England
+3 MAP
+4 LATI N54.91
+4 LONG W1.41
+2 ADDR
+3 CTRY England
+2 SOUR @S0059@
+3 PAGE Burdis William Redford b1897 - Registration district: 	Sunderland, Volume: 10a, Page:  683
+3 DATA
+4 TEXT Name: 	Burdis William Redford
+5 CONT Registration Year: 	1897
+5 CONT Registration Quarter: 	Jul-Aug-Sep
+5 CONT Registration district: 	Sunderland
+5 CONT Inferred County: 	Durham
+5 CONT Volume: 	10a
+5 CONT Page: 	683
+3 NOTE @N1049@
+2 SOUR @S0060@
+3 PAGE Burdis Redford - Reference: ADM 159/110/2140, Register Number: 2140, Division: Royal Marines Band
+3 DATA
+4 TEXT Reference:	ADM 159/110/2140
+5 CONT Description:	
+5 CONT Name	Redford, Burdis William
+5 CONT Register Number:	2140
+5 CONT Division:	Royal Marines Band
+5 CONT When Enlisted/Date of Enlistment:	25 July 1913
+5 CONT Date of Birth:	12 August 1897
+5 CONT Date:	[1911-1913]
+5 CONT Held by:	The National Archives, Kew
+5 CONT Legal status:	Public Record(s)
+5 CONT Closure status:	Open Document, Open Description
+5 CONT 
+3 NOTE @N1077@
+1 DEAT
+2 TYPE Assuming he died before he was 120
+2 DATE EST BEF 2017
+1 OCCU Royal Marines Band
+2 DATE 1913
+2 SOUR @S0060@
+3 PAGE Burdis Redford - Reference: ADM 159/110/2140, Register Number: 2140, Division: Royal Marines Band
+3 DATA
+4 TEXT Reference:	ADM 159/110/2140
+5 CONT Description:	
+5 CONT Name	Redford, Burdis William
+5 CONT Register Number:	2140
+5 CONT Division:	Royal Marines Band
+5 CONT When Enlisted/Date of Enlistment:	25 July 1913
+5 CONT Date of Birth:	12 August 1897
+5 CONT Date:	[1911-1913]
+5 CONT Held by:	The National Archives, Kew
+5 CONT Legal status:	Public Record(s)
+5 CONT Closure status:	Open Document, Open Description
+5 CONT 
+3 NOTE @N1077@
+1 OCCU R.I.C.
+2 DATE 1921
+2 SOUR @S0017@
+3 PAGE Agnes Gleeson & Burdis Redford 1921
+3 NOTE @N1013@
+3 NOTE @N1029@
 1 RESI
 2 DATE 1921
 2 PLAC Fedamore, Limerick, Ireland
@@ -13067,11 +13425,6 @@
 3 PAGE Agnes Gleeson & Burdis Redford 1921
 3 NOTE @N1013@
 3 NOTE @N1029@
-1 OCCU R.I.C.
-2 SOUR @S0017@
-3 PAGE Agnes Gleeson & Burdis Redford 1921
-3 NOTE @N1013@
-3 NOTE @N1029@
 1 FAMS @F0131@
 1 SOUR @S0017@
 2 PAGE Agnes Gleeson & Burdis Redford 1921
@@ -13079,8 +13432,8 @@
 2 NOTE @N1029@
 1 NOTE @N1030@
 1 CHAN
-2 DATE 20 DEC 2017
-3 TIME 13:10:53
+2 DATE 30 DEC 2017
+3 TIME 16:17:47
 0 @I0449@ INDI
 1 NAME Kate /Cusack/
 2 GIVN Kate
@@ -13626,6 +13979,7 @@
 3 NOTE @N0444@
 3 NOTE @N0424@
 1 CHIL @I0139@
+1 CHIL @I0140@
 1 CHAN
 2 DATE 6 JUN 2017
 3 TIME 19:00:30
@@ -13694,6 +14048,11 @@
 1 CHAN
 2 DATE 5 JUL 2012
 3 TIME 17:20:35
+0 @F0046@ FAM
+1 WIFE @I0140@
+1 CHAN
+2 DATE 5 JUL 2012
+3 TIME 17:22:37
 0 @F0048@ FAM
 1 CHIL @I0132@
 1 CHAN
@@ -13921,6 +14280,7 @@
 1 WIFE @I0359@
 1 CHIL @I0370@
 1 CHIL @I0371@
+1 CHIL @I0372@
 1 CHIL @I0374@
 1 CHAN
 2 DATE 29 JUN 2017
@@ -14008,6 +14368,7 @@
 1 CHIL @I0432@
 1 CHIL @I0433@
 1 CHIL @I0434@
+1 CHIL @I0435@
 1 CHIL @I0436@
 1 CHIL @I0437@
 1 CHAN
@@ -14047,6 +14408,7 @@
 3 TIME 10:00:02
 0 @F0126@ FAM
 1 HUSB @I0438@
+1 WIFE @I0435@
 1 CHAN
 2 DATE 19 DEC 2017
 3 TIME 11:59:41
@@ -14159,8 +14521,8 @@
 1 PUBL http://www.census.nationalarchives.ie/
 1 NOTE @N0426@
 1 CHAN
-2 DATE 8 DEC 2017
-3 TIME 20:27:56
+2 DATE 1 JAN 2018
+3 TIME 01:19:44
 0 @S0012@ SOUR
 1 TITL Prison Registers, 1790-1924, Ireland
 1 AUTH The Church of Jesus Christ of Latter-day Saints
@@ -14184,8 +14546,8 @@
 1 PUBL http://registers.nli.ie/
 1 NOTE @N0457@
 1 CHAN
-2 DATE 15 DEC 2017
-3 TIME 16:01:14
+2 DATE 26 DEC 2017
+3 TIME 11:23:18
 0 @S0016@ SOUR
 1 TITL Civil Death Records, Ireland
 1 AUTH Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs
@@ -14234,14 +14596,14 @@
 2 DATE 17 APR 2017
 3 TIME 21:30:12
 0 @S0021@ SOUR
-1 TITL United States Census
+1 TITL United States Census 1900-1940
 1 AUTH The Church of Jesus Christ of Latter-day Saints
 1 PUBL https://familysearch.org/search/collection/list/?page=1&dateRange=dateRa
 2 CONC nge6&collectionsWithImages=true&recordType=Census&countryId=1
 1 NOTE @N0646@
 1 CHAN
-2 DATE 29 MAY 2017
-3 TIME 22:56:39
+2 DATE 28 DEC 2017
+3 TIME 16:24:36
 0 @S0022@ SOUR
 1 TITL Calendars of Wills and Administrations, 1858 - 1920
 1 AUTH The National Archives of Ireland
@@ -14554,6 +14916,22 @@
 1 CHAN
 2 DATE 21 DEC 2017
 3 TIME 19:43:48
+0 @S0059@ SOUR
+1 TITL England & Wales, Civil Registration Birth Index, 1837-1915
+1 AUTH Ancestry Information Operations Unlimited Company
+1 PUBL https://search.ancestry.co.uk/search/db.aspx?dbid=8912
+1 NOTE @N0955@
+1 CHAN
+2 DATE 30 DEC 2017
+3 TIME 15:30:17
+0 @S0060@ SOUR
+1 TITL Admiralty: Royal Marines: Registers of Service
+1 AUTH Board of Admiralty, Royal Marines
+1 PUBL http://discovery.nationalarchives.gov.uk/details/r/C1868
+1 NOTE @N1074@
+1 CHAN
+2 DATE 30 DEC 2017
+3 TIME 16:07:28
 0 @N0010@ NOTE Recorded as aged 48 on death burial records. Note that the age repo
 1 CONC rted in Census 1901 is 40, presumably he underexaggerated his age. Als
 1 CONC o people from this time often did not have a good idea of exactly how ol
@@ -18621,8 +18999,9 @@
 1 CONT             <h2 id="publicdiscussion"> Public Discussion of this Websit
 1 CONC e and
 1 CONT               Tree </h2>
-1 CONT             I have started a thread at [url thing] so that anyone who wa
-1 CONC nts to
+1 CONT             I have started a thread on <a href="https://www.ancestry.co.
+1 CONC uk/boards/localities.britisles.ireland.lim.general/7345/mb.ashx">Ancestr
+1 CONC y's Message Boards</a> so that anyone who wants to
 1 CONT             can discuss this website / family tree in an open forum. Tha
 1 CONC t will
 1 CONT             allow people to say what they want to say without limiting t
@@ -18633,8 +19012,8 @@
 1 CONC here's
 1 CONT             nothing stopping people from using other websites for this p
 1 CONC urpose.
-1 CONT             I chose [website name] because it's popular and is likely t
-1 CONC o remain
+1 CONT             I chose Ancestry because it's popular and is likely to remai
+1 CONC n
 1 CONT             operational for a while. <br />
 1 CONT             <br />
 1 CONT             <h2 id="grampsref"> Gramps </h2>
@@ -18683,20 +19062,36 @@
 1 CONC o find
 1 CONT               something that I should fix then please send an email to <
 1 CONC a class="email"></a>
-1 CONT               <script language="javascript">
-1 CONT       function myEmail() {{
+1 CONT <script language="javascript">
+1 CONT 	function getEmailAddress() {
 1 CONT       		return "abfrcnz-snzvyl@lnubb.pb.hx".replace(/[a-zA-Z]/g,function
-1 CONC (c){{return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?
-1 CONC c:c-26);}});
-1 CONT 	}};
+1 CONC (c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c
+1 CONC :c-26);});
+1 CONT 	};
 1 CONT 
-1 CONT       emails=document.getElementsByClassName("email");
-1 CONT       [].forEach.call(emails, function(email) {{
-1 CONT 		email['href']="mailto:"+myEmail();
-1 CONT 		email.text=myEmail();
-1 CONT 	}});
-1 CONT      </script> and I'll fix it (or I'll start a heated e-mail exchange i
-1 CONC n which
+1 CONT 	function setEmailLink(email) {
+1 CONT 		email.href="mailto:"+getEmailAddress();
+1 CONT 		email.innerHTML=getEmailAddress();
+1 CONT 	};
+1 CONT 
+1 CONT 	function setEmailLinks() {
+1 CONT 	 	try {
+1 CONT  			emails=document.getElementsByClassName("email");
+1 CONT  			[].forEach.call(emails, setEmailLink);
+1 CONT 		}
+1 CONT 		catch (err) {
+1 CONT  			var emails=document.querySelectorAll('.email');
+1 CONT 
+1 CONT 			var linkCount = emails.length;
+1 CONT 			for (var i = 0; i < linkCount; i++ ) {
+1 CONT 				setEmailLink(emails[i]);
+1 CONT 			};
+1 CONT 		};
+1 CONT 	};
+1 CONT 
+1 CONT 	setEmailLinks();
+1 CONT </script> and I'll fix it (or I'll start a heated e-mail exchange in whi
+1 CONC ch
 1 CONT               I will convince you that I was right in the first place)
 1 CONC . Note
 1 CONT               though that it is often not enough just to say that someth
@@ -21595,19 +21990,35 @@
 1 CONT      <br/>
 1 CONT      For information about Errors and Omissions see the<a href="introduc
 1 CONC tion.html#errors">Introduction</a> page.
-1 CONT      <script language="javascript">
-1 CONT       function myEmail() {
+1 CONT <script language="javascript">
+1 CONT 	function getEmailAddress() {
 1 CONT       		return "abfrcnz-snzvyl@lnubb.pb.hx".replace(/[a-zA-Z]/g,function
 1 CONC (c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c
 1 CONC :c-26);});
 1 CONT 	};
 1 CONT 
-1 CONT       emails=document.getElementsByClassName("email");
-1 CONT       [].forEach.call(emails, function(email) {
-1 CONT 		email['href']="mailto:"+myEmail();
-1 CONT 		email.text=myEmail();
-1 CONT 	});
-1 CONT      </script>
+1 CONT 	function setEmailLink(email) {
+1 CONT 		email.href="mailto:"+getEmailAddress();
+1 CONT 		email.innerHTML=getEmailAddress();
+1 CONT 	};
+1 CONT 
+1 CONT 	function setEmailLinks() {
+1 CONT 	 	try {
+1 CONT  			emails=document.getElementsByClassName("email");
+1 CONT  			[].forEach.call(emails, setEmailLink);
+1 CONT 		}
+1 CONT 		catch (err) {
+1 CONT  			var emails=document.querySelectorAll('.email');
+1 CONT 
+1 CONT 			var linkCount = emails.length;
+1 CONT 			for (var i = 0; i < linkCount; i++ ) {
+1 CONT 				setEmailLink(emails[i]);
+1 CONT 			};
+1 CONT 		};
+1 CONT 	};
+1 CONT 
+1 CONT 	setEmailLinks();
+1 CONT </script>
 1 CONT <!--
 1 CONT End Contact
 1 CONT -->
@@ -21663,17 +22074,33 @@
 1 CONC e <A href='introduction.html'>Introduction</A> page.
 1 CONT 
 1 CONT <script language="javascript">
-1 CONT 	function myEmail() {
+1 CONT 	function getEmailAddress() {
 1 CONT       		return "abfrcnz-snzvyl@lnubb.pb.hx".replace(/[a-zA-Z]/g,function
 1 CONC (c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c
 1 CONC :c-26);});
 1 CONT 	};
 1 CONT 
-1 CONT       emails=document.getElementsByClassName("email");
-1 CONT       [].forEach.call(emails, function(email) {
-1 CONT 		email['href']="mailto:"+myEmail();
-1 CONT 		email.text=myEmail();
-1 CONT 	});
+1 CONT 	function setEmailLink(email) {
+1 CONT 		email.href="mailto:"+getEmailAddress();
+1 CONT 		email.innerHTML=getEmailAddress();
+1 CONT 	};
+1 CONT 
+1 CONT 	function setEmailLinks() {
+1 CONT 	 	try {
+1 CONT  			emails=document.getElementsByClassName("email");
+1 CONT  			[].forEach.call(emails, setEmailLink);
+1 CONT 		}
+1 CONT 		catch (err) {
+1 CONT  			var emails=document.querySelectorAll('.email');
+1 CONT 
+1 CONT 			var linkCount = emails.length;
+1 CONT 			for (var i = 0; i < linkCount; i++ ) {
+1 CONT 				setEmailLink(emails[i]);
+1 CONT 			};
+1 CONT 		};
+1 CONT 	};
+1 CONT 
+1 CONT 	setEmailLinks();
 1 CONT </script>
 1 CONT <!--
 1 CONT End Home
@@ -28262,6 +28689,66 @@
 1 CONT When Registered: Fourteenth July 1888
 0 @N0953@ NOTE Wall Data
 0 @N0954@ NOTE DBA
+0 @N0955@ NOTE Source Information
+1 CONT 
+1 CONT FreeBMD. England & Wales, Civil Registration Birth Index, 1837-1915 [dat
+1 CONC abase on-line]. Provo, UT, USA: Ancestry.com Operations Inc, 2006.
+1 CONT Original data: General Register Office. England and Wales Civil Registra
+1 CONC tion Indexes. London, England: General Register Office. © Crown copyrigh
+1 CONC t. Published by permission of the Controller of HMSO and the Office fo
+1 CONC r National Statistics. You must not copy on, transfer or reproduce recor
+1 CONC ds without the prior permission of ONS. Database Copyright © 1998-2003 G
+1 CONC raham Hart, Ben Laurie, Camilla von Massenbach and David Mayall.
+1 CONT 
+1 CONT 
+1 CONT About England & Wales, Civil Registration Birth Index, 1837-1915
+1 CONT 
+1 CONT Country wide civil registration of births, marriages and deaths commence
+1 CONC d on 1 July 1837 in England and Wales. Registration took place at loca
+1 CONC l civil registrars who in turn reported to the Registrar General at th
+1 CONC e General Register Office (GRO) in London. This national index to vita
+1 CONC l records is an essential source of genealogical information for famil
+1 CONC y historians.
+1 CONT 
+1 CONT Since the original birth, marriage and death registers are not open to t
+1 CONC he public, access to the information on one of these certificates is don
+1 CONC e by first searching the national birth, marriage and death indexes, tha
+1 CONC t have been created by the GRO for this purpose. The indexes for the thr
+1 CONC ee events are divided into volumes by year following which entries are l
+1 CONC isted alphabetically. Once an entry in one of the indexes is found, yo
+1 CONC u are then able to use that information to order of copy of a death, mar
+1 CONC riage or birth certificate from the GRO. Information that can be obtaine
+1 CONC d from the birth index includes:
+1 CONT 
+1 CONT     Full name of child
+1 CONT 
+1 CONT     Maiden name of mother
+1 CONT 
+1 CONT     Month and year of registration
+1 CONT 
+1 CONT     Registration district (each county in England and Wales was divide
+1 CONC d up into registration districts; jurisdictions are organized and appea
+1 CONC r as they existed at the time the record was created)
+1 CONT 
+1 CONT     Inferred county (the county is inferred based on what counties the r
+1 CONC egistration district covered)
+1 CONT 
+1 CONT     Volume number
+1 CONT 
+1 CONT     Page number
+1 CONT 
+1 CONT Note: The district listed is the district where the event was registered
+1 CONC , not necessarily the location where the event actually occurred.
+1 CONT 
+1 CONT This database is made available to Ancestry.com users, courtesy of the v
+1 CONC olunteers of the FreeBMD organization. The leadership of FreeBMD have or
+1 CONC ganized the permissions and tools necessary to enable thousands of volun
+1 CONC teers to convert to electronic text, and publish online, searchable inde
+1 CONC xes to the civil registrations in England and Wales. Because of the natu
+1 CONC re of the index you will note that not all of the fields have been index
+1 CONC ed all of the time. Until 1866, most of the indexes were handwritten, ma
+1 CONC king the task of conversion sometimes difficult.
+1 CONT 
 0 @N0956@ NOTE https://search.ancestry.co.uk/cgi-bin/sse.dll?db=NYCMarriageIndex&g
 1 CONC ss=sfs28_ms_r_db&new=1&rank=1&gsfn=Augusta%20M&gsfn_x=1&gsln=Conway&gsln
 1 CONC _x=1&msgdd=6&msgdd_x=1&msgdm=6&msgdm_x=1&msgdy=1930&msgdy_x=1&msgpn__ftp
@@ -28845,15 +29332,21 @@
 1 CONC m=&yyDfrom=&yyPfrom=&ddBto=&ddMto=&ddDto=&ddPto=&mmBto=&mmMto=&mmDto=&mm
 1 CONC Pto=&yyBto=&yyMto=&yyDto=&yyPto=&locationB=&locationM=&locationD=&locati
 1 CONC onP=&keywordb=&keywordm=&keywordd=&keywordp=&event=&district=
-0 @N1000@ NOTE Process:
+0 @N1000@ NOTE Births Registered in the District of Croom in the County of Limeric
+1 CONC k
 1 CONT 
-1 CONT https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-searc
-1 CONC h.jsp?namefm=&namel=gleeson&location=Croom&yyfrom=1894&yyto=1898&type=B&
-1 CONC submit=Search&sort=&pageSize=100&century=&decade=&exact=&ddBfrom=&ddMfro
-1 CONC m=&ddDfrom=&ddPfrom=&mmBfrom=&mmMfrom=&mmDfrom=&mmPfrom=&yyBfrom=&yyMfro
-1 CONC m=&yyDfrom=&yyPfrom=&ddBto=&ddMto=&ddDto=&ddPto=&mmBto=&mmMto=&mmDto=&mm
-1 CONC Pto=&yyBto=&yyMto=&yyDto=&yyPto=&locationB=&locationM=&locationD=&locati
-1 CONC onP=&keywordb=&keywordm=&keywordd=&keywordp=&event=&district=
+1 CONT No.: 158
+1 CONT Date and Place of Birth: 1898 Twenty Sixth November  / Fedamore
+1 CONT Name (if any): Bridget
+1 CONT Sex: F
+1 CONT Name and Surname and Dwelling Place of Father: William Gleeson / Fedamor
+1 CONC e
+1 CONT Name and Surname and Maiden Surname of Mother: Bridget Gleesn formerly C
+1 CONC usack
+1 CONT Rank of Profession of Father: Builder
+1 CONT Signature, Qualification and Residence of Informant: William Gleeson / F
+1 CONC ather / Fedamore
+1 CONT When Registered: Sixteenth December 1898
 0 @N1001@ NOTE https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-
 1 CONC search.jsp?namefm=&namel=gleeson&ddBfrom=&mmBfrom=&yyBfrom=&ddBto=&mmBto
 1 CONC =&yyBto=&locationB=&keywordb=cusack&ddMfrom=&mmMfrom=&yyMfrom=&ddMto=&mm
@@ -29202,11 +29695,6 @@
 0 @N1030@ NOTE To do: Add birth registration Sunderland 1897 and Royal Marines reg
 1 CONC istration 1913
 1 CONT 
-1 CONT https://search.ancestry.co.uk/cgi-bin/sse.dll?_phsrc=qzc552&_phstart=suc
-1 CONC cessSource&usePUBJs=true&gss=angs-g&new=1&rank=1&gsfn=burdis&gsfn_x=1&gs
-1 CONC ln=redford&gsln_x=NP_NN&cp=0&catbucket=rstp&MSAV=1&uidh=qm3&pcat=ROOT_CA
-1 CONC TEGORY&h=30182449&recoff=7%209&dbid=8912&indiv=1&ml_rpos=4
-1 CONT 
 1 CONT http://discovery.nationalarchives.gov.uk/details/r/D7799465
 0 @N1031@ NOTE Possible family connection:
 1 CONT 
@@ -29508,6 +29996,11 @@
 1 CONT When Registered: Tenth January 1961
 1 CONT 
 1 CONT 
+0 @N1049@ NOTE $ubscription only -  https://search.ancestry.co.uk/cgi-bin/sse.dll?
+1 CONC _phsrc=qzc552&_phstart=successSource&usePUBJs=true&gss=angs-g&new=1&rank
+1 CONC =1&gsfn=burdis&gsfn_x=1&gsln=redford&gsln_x=NP_NN&cp=0&catbucket=rstp&MS
+1 CONC AV=1&uidh=qm3&pcat=ROOT_CATEGORY&h=30182449&recoff=7%209&dbid=8912&indiv
+1 CONC =1&ml_rpos=4
 0 @N1050@ NOTE 1953 Deaths registered in the District of No 2 in the Superintenden
 1 CONC t Registrar's District of Limerick the county of
 1 CONT 
@@ -29881,4 +30374,78 @@
 1 CONT Hickey	Bridget	17	Female	Servant	Roman Catholic	County of Limerick	Gener
 1 CONC al Servant Domestic	Read and write	-	Not Married	-
 1 CONT 
+0 @N1073@ NOTE Name: 	Burdis William Redford
+1 CONT Registration Year: 	1897
+1 CONT Registration Quarter: 	Jul-Aug-Sep
+1 CONT Registration district: 	Sunderland
+1 CONT Inferred County: 	Durham
+1 CONT Volume: 	10a
+1 CONT Page: 	683
+0 @N1074@ NOTE Reference:	ADM 159
+1 CONT 
+1 CONT Title:	Admiralty: Royal Marines: Registers of Service
+1 CONT 
+1 CONT Description:	
+1 CONT These registers of Royal Marines' service contain, as well as informatio
+1 CONC n similar to that contained in attestation papers, a description of phys
+1 CONC ical characteristics at the time of re-engagement and discharge togethe
+1 CONC r with full details of service.
+1 CONT Digital copies of records of those who joined the Royal Marines betwee
+1 CONC n 1842 and 1936 can be searched and downloaded.
+1 CONT Note:	Referencing: In 2012, as part of transferring digitised records t
+1 CONC o The National Archives' new Discovery catalogue, the items throughout t
+1 CONC his series were temporarily numbered, starting at 1 within each piece. I
+1 CONC n March 2013 these were corrected to have their item references construc
+1 CONC ted of the piece number followed by a slash and the numerical part of th
+1 CONC e register number; for example ADM 159/5/1 is now ADM 159/5/2549.
+1 CONT 
+1 CONT Date:	1842-1936
+1 CONT 
+1 CONT Arrangement:	
+1 CONT Entries are arranged in register number order within divisions (e.g. Roy
+1 CONC al Marines Light Infantry, Chatham, or Royal Marines Band) but the date
+1 CONC s noted in the catalogue give an approximate indication of the enlistmen
+1 CONC t years covered in each register volume.
+1 CONT 
+1 CONT Related material:	
+1 CONT Indexes are in ADM 313
+1 CONT 
+1 CONT Held by:	The National Archives, Kew
+1 CONT 
+1 CONT Legal status:	Public Record(s)
+1 CONT 
+1 CONT Language:	English
+1 CONT 
+1 CONT Creator:	
+1 CONT Board of Admiralty, Royal Marines, Chatham Division, 1755-1947
+1 CONT Board of Admiralty, Royal Marines, Plymouth Division, 1755-1947
+1 CONT Board of Admiralty, Royal Marines, Portsmouth Division, 1755-1947
+1 CONT Board of Admiralty, Royal Marines, Woolwich Division, 1805-1869
+1 CONT 
+1 CONT Physical description:	213 volume(s)
+1 CONT 
+1 CONT Access conditions:	Available in digital format unless otherwise stated
+1 CONT 
+1 CONT Accruals:	Series is accruing
+0 @N1076@ NOTE Reference:	ADM 159/110/2140
+1 CONT Description:	
+1 CONT Name	Redford, Burdis William
+1 CONT Register Number:	2140
+1 CONT Division:	Royal Marines Band
+1 CONT When Enlisted/Date of Enlistment:	25 July 1913
+1 CONT Date of Birth:	12 August 1897
+1 CONT Date:	[1911-1913]
+1 CONT Held by:	The National Archives, Kew
+1 CONT Legal status:	Public Record(s)
+1 CONT Closure status:	Open Document, Open Description
+1 CONT 
+0 @N1077@ NOTE $ubscription only - http://discovery.nationalarchives.gov.uk/detail
+1 CONC s/r/D7799465
+0 @N1078@ NOTE https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-
+1 CONC search.jsp?namefm=&namel=gleeson&location=Croom&yyfrom=1894&yyto=1898&ty
+1 CONC pe=B&submit=Search&sort=&pageSize=100&century=&decade=&exact=&ddBfrom=&d
+1 CONC dMfrom=&ddDfrom=&ddPfrom=&mmBfrom=&mmMfrom=&mmDfrom=&mmPfrom=&yyBfrom=&y
+1 CONC yMfrom=&yyDfrom=&yyPfrom=&ddBto=&ddMto=&ddDto=&ddPto=&mmBto=&mmMto=&mmDt
+1 CONC o=&mmPto=&yyBto=&yyMto=&yyDto=&yyPto=&locationB=&locationM=&locationD=&l
+1 CONC ocationP=&keywordb=&keywordm=&keywordd=&keywordp=&event=&district=
 0 TRLR
