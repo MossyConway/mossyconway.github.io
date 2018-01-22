@@ -1,169 +1,169 @@
-ppl/0/2/bd87b702c8f73973f20.html|Conway|Patrick /Conway/|CAL ABT 1853||1 MAY 1901||
-ppl/5/6/bd87c421d486a25ed65.html|Clohessy|Patrick /Clohessy/|||17 APR 1948||
-ppl/6/b/c32a128fbb04c4853b6.html|Kelly|Edith /Kelly/|CAL ABT 1884||EST BEF 2004||
-ppl/b/7/c326ca7c8744e41a07b.html|Ambrose|Jeremiah /Ambrose/|||10 JAN 1934|Brooklyn, Kings, New York, New York, USA|
-ppl/6/6/dc455391a154dd42fc0f10d4666.html|Galbraith|Ronald /Galbraith/|1924||24 APR 1942|Limerick, Limerick, Ireland|
-ppl/f/8/dc436b2183c10bdbb7777e0bb8f.html|Gleeson|Stephen /Gleeson/|2 JUL 1887|Limerick, Limerick, Ireland|EST BEF 2007||
-ppl/e/d/c32ad315dce17dd0ede.html|Sheehan|Eileen /Sheehan/|9 NOV 1903||22 FEB 1967||
-ppl/8/1/c31defba94934d90e18.html|Conway|Josephine /Conway/|EST FROM 1849 TO 1863||EST BEF 1983||
-ppl/b/2/c32a3ba513f4ed11e2b.html|Ambrose|Christine Francis /Ambrose/|CAL ABT 1890|New York, New York, USA|1972||
-ppl/8/7/c32985a7e9a01256878.html|Long|William /Long/|||AFT 1934||
-ppl/f/f/d68c9520d3d5a878c918923fdff.html|Cusack| /Cusack/|2 DEC 1902||2 DEC 1902|Fanningstown, Fedamore, Limerick, Ireland|
-ppl/1/0/c326e16ec2347ffb501.html|Meaney|Nicholas /Meaney/|EST ABT 1850||EST BEF 1970||
-ppl/5/7/dc42f77492861e20c0551d59c75.html|Gleeson|William /Gleeson/|CAL ABT 1861||24 MAR 1942|Fedamore, Limerick, Ireland|
-ppl/9/4/c32a35e85fc22a30649.html|Ambrose|Keane Matthew /Ambrose/|27 AUG 1884||1952||
-ppl/1/c/c3498d3588b245ea3c1.html|Long|Kevin /Long/|1935||1995||
+ppl/6/b/c34986828ef4a436ab6.html|Long|Liam /Long/|CAL AFT 1921||1968|Africa|
 ppl/3/d/c3bba0baf7d4cb877d3.html|Spano|Thomas B /Spano/|CAL ABT 1897|Italy|AFT 1952||
-ppl/5/4/bd8788da36c551b6745.html|Conway|Michael /Conway/|||EST BEF 1975||
-ppl/a/0/c33120abce505d31c0a.html|Hannan|Annie /Hannan/|CAL ABT 1861||20 MAY 1946|Fanningstown, Fedamore, Limerick, Ireland|
-ppl/4/0/c32999a17ad6675e904.html|Sullivan|James /Sullivan/|EST 1891||BEF 2011||
-ppl/e/2/dc42e4e9fc6d0e18e673bca52e.html|Cusack|Clothilde /Cusack/|EST 1870||EST BEF 1990||
-ppl/1/8/c326e8542a01016aa81.html|Dillon|John /Dillon/|||BEF 9 APR 1930||
-ppl/3/5/c32a36a23513b4a0353.html|Perry|Sadie Viola /Perry/|28 DEC 1887||NOV 1973||
-ppl/d/1/dc4576613914cc15e21bb45f11d.html|Cusack|Kate /Cusack/|||1920||
-ppl/7/d/d87070c85a073b217bd408194d7.html|Conway|Mary /Conway/|22 JUL 1867||EST BEF 1987||
+ppl/5/d/dc429107b8b6e7b7dfff915e0d5.html|Markham|Mike /Markham/|9 MAR 1903|Ballysheen, Sixmilebridge, Clare, Ireland|2 OCT 1953|St John's Hospital, Limerick, Limerick, Ireland|
+ppl/6/7/c32a17fff534e899276.html|Conway|Helen /Conway/|17 MAY 1871|Boherload, Cahirnorry, Limerick, Ireland|EST BEF 1991||
+ppl/8/5/c32ada22bdb6d34ec58.html|Clohessy|Kathleen /Clohessy/|6 JUL 1911|Fanningstown, Fedamore, Limerick, Ireland|13 JUL 1912|Fanningstown, Fedamore, Limerick, Ireland|
+ppl/8/1/d9bf58a5edefd2026e854c4618.html|Conway|Margaret /Conway/|||3 SEP 1900|Fort Cottage, Limerick, Ireland|
+ppl/9/5/bd87cd3f2037cc8f859.html|Clohessy|Eily /Clohessy/|16 JUL 1901|Fanningstown, Fedamore, Limerick, Ireland|5 DEC 1998|Castletroy, Limerick, Ireland|
 ppl/f/e/d92421e7d461b5f8269861306ef.html|Conway|Patrick /Conway/|CAL ABT 1866||8 JUN 1901||
-ppl/7/f/d9241842bec6241cbaee04f82f7.html|Moran|Margaret /Moran/|CAL ABT 1825||2 JUL 1888|Fanningstown, Fedamore, Limerick, Ireland|
-ppl/2/e/bd87c6fced13b22a2e2.html|Clohessy|Andy /Clohessy/|13 APR 1899|Fanningstown, Fedamore, Limerick, Ireland|DEC 1975|St John's Hospital, Limerick, Limerick, Ireland|
-ppl/8/0/dc4563dba6150b9ae3db3e87d08.html|Redford|Burdis William Bertram /Redford/|12 AUG 1897|Sunderland, Durham, England|EST BEF 2017||
+ppl/2/3/c32a74e1fce525fbd32.html|Ambrose|Frances Ann /Ambrose/|15 JUN 1901||12 JAN 1995|Brooklyn, Kings, New York, New York, USA|
+ppl/6/b/d924205a66c14f4684f183e81b6.html|Conway|Ellen /Conway/|CAL ABT 1863||EST BEF 1983||
+ppl/6/0/dc42929344d52da4979e2784906.html|Markham|Annie /Markham/|14 APR 1910|Ballysheen, Sixmilebridge, Clare, Ireland|1989|Ballysheen, Sixmilebridge, Clare, Ireland|
 ppl/5/7/c330a2f44f04b28bf75.html|Cusack|Thomas /Cusack/|||20 JUN 1925|Fanningstown, Fedamore, Limerick, Ireland|
-ppl/3/4/c3bba2207ac5ff52943.html|Ambrose|Richard Keane /Ambrose/|8 OCT 1907|Brooklyn, Kings, New York, New York, USA|4 JAN 1994|South Carolina, USA|
+ppl/1/e/c32a294aa5c17269fe1.html|Conway|Brendan /Conway/|CAL AFT 1909||1990||
+ppl/c/b/d68ca04599d65203da0f435eebc.html|Cusack| /Cusack/|2 DEC 1902|Fanningstown, Fedamore, Limerick, Ireland|2 DEC 1902|Fanningstown, Fedamore, Limerick, Ireland|
+ppl/8/e/dc450cb642955bddf33ffb98ae8.html|Gleeson|Mary Anne /Gleeson/|23 JUL 1890||CAL AFT 20 AUG 1961||
+ppl/d/1/dc4576613914cc15e21bb45f11d.html|Cusack|Kate /Cusack/|||1920||
+ppl/e/7/bd87c61b24851c0987e.html|Cusack|Ellie /Cusack/|13 MAY 1868||24 MAR 1917||
+ppl/8/0/bd878d1015a45fa6208.html|Conway|Catherine /Conway/|EST BET 20 SEP 1873 AND 27 SEP 1873|Carnane, Fedamore, Limerick, Ireland|14 DEC 1887|Carnane, Fedamore, Limerick, Ireland|
+ppl/c/2/c3276f1508a641ffa2c.html|Conway|John /Conway/|EST BEF 1800||EST BEF 1920||
 ppl/4/3/da193fe40c02cb166f9cbe4fb34.html|Hartigan|Luke /Hartigan/|EST ABT 1855|Limerick, Ireland|1 OCT 1936|Fort West, Limerick, Ireland|
 ppl/a/7/c32ab9909126258bb7a.html|Clohessy|John /Clohessy/|||1867||
-ppl/3/e/dc4583673232f0730a99469b6e3.html|Cusack|Mary /Cusack/|CAL ABT 1840|Trough, Clare, Ireland|28 DEC 1878||
-ppl/2/1/dc45151706e4c598f0a7b508712.html|Gleeson|Dick /Gleeson/|21 JUL 1901|Fedamore, Limerick, Ireland|27 JAN 1937|St John's Hospital, Limerick, Limerick, Ireland|
-ppl/6/b/c32abc1c9f06f4192b6.html|Clohessy|Bridgie /Clohessy/|||EST BEF 1978||
-ppl/7/0/c32a32c926849a02607.html|Ambrose|May Catherine /Ambrose/|MAR 1881||BEF JUL 1939||
-ppl/f/6/d6cb3710c8a1951f121e7ae246f.html|Hayes|Hugh /Hayes/|EST BEF 1820||EST BEF 1940||
-ppl/8/1/d9bf58a5edefd2026e854c4618.html|Conway|Margaret /Conway/|||3 SEP 1900|Fort Cottage, Limerick, Ireland|
-ppl/8/5/c32ada22bdb6d34ec58.html|Clohessy|Kathleen /Clohessy/|6 JUL 1911|Fanningstown, Fedamore, Limerick, Ireland|13 JUL 1912|Fanningstown, Fedamore, Limerick, Ireland|
+ppl/0/2/bd87b702c8f73973f20.html|Conway|Patrick /Conway/|CAL ABT 1853||1 MAY 1901||
 ppl/c/9/c3341f9f62c1dbafc9c.html|Halpin|Bridget /Halpin/|4 NOV 1865||EST BEF 1985||
-ppl/8/4/c32a1b5a29810e97e48.html|Conway|Bridget /Conway/|8 SEP 1881|Boherload, Cahirnorry, Limerick, Ireland|EST BEF 2001||
-ppl/7/6/c32a18f14dc12aebd67.html|Conway|John /Conway/|10 DEC 1872|Boherload, Cahirnorry, Limerick, Ireland|29 AUG 1931||
-ppl/b/7/c32abb516cb5e336f7b.html|Clohessy|Mary Anne /Clohessy/|1850||1872||
-ppl/6/a/dc425fbbe5d3fe0c24a347e4da6.html|Cusack|Annie /Cusack/|1871||13 MAY 1947|Ballysheen, Sixmilebridge, Clare, Ireland|
-ppl/0/6/dc4283e6fc56a03cd0529308b60.html|Markham|Eily /Markham/|2 JUL 1899||1996|Cashel , Tipperary, Ireland|
-ppl/1/c/d68c9c161f84ab96564f7c916c1.html|Cusack| /Cusack/|2 DEC 1902||2 DEC 1902||
-ppl/5/1/bd885df1d201f8ae815.html|Conway|Tom /Conway/|10 AUG 1938|Maternity Hospital, Bedford Row, Limerick, Limerick, Ireland|12 SEP 1973|Richmond Hospital, Dublin, Ireland|
-ppl/e/1/c32ab4442e97377fc1e.html|Gleeson|Mary /Gleeson/|1823||1872||
-ppl/d/6/c3296cea2b53da84a6d.html|Sullivan|Margaret /Sullivan/|24 DEC 1887|Cloncrippa, Feenagh, Limerick, Ireland|EST BEF 2007||
-ppl/d/6/c32a1aa3d8279a77e6d.html|Conway|Patrick /Conway/|26 FEB 1877|Boherload, Cahirnorry, Limerick, Ireland|EST BEF 1997||
-ppl/5/1/bd87bdb1ae15a5bed15.html|Halpin|Mary Agnes /Halpin/|||16 JAN 1947|Carnane, Fedamore, Limerick, Ireland|
-ppl/1/b/c32ab1463037ce2b1b1.html|Clohessy|Dave /Clohessy/|CAL ABT 1821||25 JUN 1902||
-ppl/3/d/c31df23928e7c9691d3.html|Conway|John /Conway/|||12 SEP 1929|Castlemahon, Limerick, Ireland|
-ppl/e/5/dc45506c4671772fd68f9de695e.html|Galbraith|Gerard Joseph /Galbraith/|23 MAY 1917||25 MAY 1917|Limerick, Limerick, Ireland|
-ppl/c/c/d6deaa714b132fa808297b645cc.html|Assing|Agnes /Assing/|21 APR 1906|Brooklyn, Kings, New York, New York, USA|27 OCT 1906|Brooklyn, Kings, New York, New York, USA|
-ppl/c/1/c329768618809c2021c.html|O' Sullivan|Timothy /O' Sullivan/|25 FEB 1892|Cloncrippa, Feenagh, Limerick, Ireland|EST BEF 2012||
-ppl/c/c/c329774bedf5902c9cc.html|McNally|Mary Josephine /McNally/|||AFT 1937||
-ppl/c/2/c3276f1508a641ffa2c.html|Conway|John /Conway/|EST BEF 1800||EST BEF 1920||
-ppl/9/7/c343a40c1bd5d0dc079.html|Conway|Harriet /Conway/|19 FEB 1912|Boherload, Cahirnorry, Limerick, Ireland|21 FEB 1912|Boherload, Cahirnorry, Limerick, Ireland|
-ppl/b/7/c326d4a0475282c4b7b.html|Sullivan|Michael /Sullivan/|CAL ABT 1836||EST BEF 1956||
-ppl/1/b/c32ad7fcee53fe13eb1.html|Clifford|Hannie /Clifford/|1 OCT 1913||JUN 1998||
-ppl/8/f/da19640ad7271b0abc93093e2f8.html|Hartigan|Luke /Hartigan/|1 NOV 1898|Fort West, Limerick, Ireland|EST BEF 2018||
-ppl/a/8/c32a3a7c7e02c642f8a.html|Ambrose|James Thomas /Ambrose/|16 OCT 1888||29 NOV 1888|Kings, New York, New York, USA|
-ppl/3/6/c32a96989f409ff2d63.html|Sullivan|Nell /Sullivan/|AUG 1922||FEB 2011||
-ppl/f/8/da195615b0b7c5879d3c794ba8f.html|Hartigan|John /Hartigan/|1 NOV 1896|Fort West, Limerick, Ireland|AFT 29 SEP 1947||
-ppl/2/e/dc42922b43028ac88d0b4ecd4e2.html|Markham|Joseph /Markham/|20 JUN 1907|Ballysheen, Sixmilebridge, Clare, Ireland|13 FEB 1909|Ballysheen, Sixmilebridge, Clare, Ireland|
-ppl/b/c/c363f76fd0a6eac8ecb.html|Halpin|Michael /Halpin/|9 NOV 1866|Cahirnorry, Limerick, Ireland|EST BEF 1986||
-ppl/2/3/c32a74e1fce525fbd32.html|Ambrose|Frances Ann /Ambrose/|15 JUN 1901||12 JAN 1995|Brooklyn, Kings, New York, New York, USA|
-ppl/2/f/c32a482c29f37530ff2.html|Ambrose|Esther Lillian /Ambrose/|APR 1899||1937||
-ppl/9/1/d9ce55c966b200f5652e8248a19.html|Ambrose| /Ambrose/|BEF 5 JUN 1900||BEF 5 JUN 1900||
-ppl/a/d/da1b510e51876db9966799afda.html|Creedon|Vernon Clair /Creedon/|1894|Liverpool, England|1975|Brighton, Victoria, Austalia|
-ppl/3/2/bd8789df2ad5b158723.html|Conway|Hannie /Conway/|||1 JUL 1939|Brooklyn, Kings, New York, New York, USA|
-ppl/0/0/d6deabe13dd439633d228ae1200.html|Ambrose|Leonard /Ambrose/|13 DEC 1908|Brooklyn, Kings, New York, New York, USA|12 SEP 1909||
-ppl/b/9/bd87de29d8a0a634f9b.html|Clohessy|Bridie /Clohessy/|16 JUL 1904|Fanningstown, Fedamore, Limerick, Ireland|2 JUN 1986|Ballymacrory, Croom, Limerick, Ireland|
-ppl/b/0/c331138ddaa48a1380b.html|Cusack|Margaret /Cusack/|EST BET 6 JAN 1874 AND 13 JAN 1874|Croom, Limerick, Ireland|EST BEF 1994||
-ppl/1/e/c32a39bcc582ac913e1.html|Ambrose|Ellen Bridgit /Ambrose/|16 OCT 1888||13 AUG 1889|Kings, New York, New York, USA|
-ppl/4/6/c31deac9bd374a0c564.html|Conway|Ellen /Conway/|CAL ABT 1855||EST BEF 1975||
-ppl/7/0/dc451452fd2e26a89956dd4e07.html|Gleeson|Bridie /Gleeson/|26 NOV 1898|Fedamore, Limerick, Ireland|EST BEF 2018||
-ppl/f/7/da053de5ed4530aadd74fd7ab7f.html|Kennedy|Michael /Kennedy/|||CAL AFT 1911||
-ppl/d/d/dc450fa1bd1748dbfa516c791dd.html|Gleeson|Bill /Gleeson/|19 APR 1892|Limerick, Limerick, Ireland|EST BEF 2012||
-ppl/4/4/c3297578f400476ab44.html|Sullivan|Tom /Sullivan/|10 JAN 1890|Cloncrippa, Feenagh, Limerick, Ireland|MAR 1975|Bronx, New York, New York, USA|
-ppl/8/e/dc450cb642955bddf33ffb98ae8.html|Gleeson|Mary Anne /Gleeson/|23 JUL 1890||CAL AFT 20 AUG 1961||
-ppl/5/0/c3297436be34b029805.html|Geary|Kathleen /Geary/|CAL ABT 1896||EST BEF 2016||
-ppl/b/7/c333f32859129a0b17b.html|Halpin|Patrick /Halpin/|EST BEF 1842||EST BEF 1962||
-ppl/6/8/d689cf8d7ad3615b1498e4c6d86.html|Cusack|Lar /Cusack/|||20 MAR 1934|Limerick, Ireland|
-ppl/9/1/dc4542a4f5774b2f0e3bfe38219.html|Galbraith|Peter /Galbraith/|16 FEB 1888|Limerick, Limerick, Ireland|20 AUG 1961|Limerick, Limerick, Ireland|
-ppl/2/d/dc42933d43186e8423fa3952d2.html|Markham|Joe /Markham/|1 AUG 1916|Ballysheen, Sixmilebridge, Clare, Ireland|1979|Church View, Sixmilebridge, Clare, Ireland|
-ppl/9/a/c32a9226a44721414a9.html|Russell|Thomas /Russell/|29 DEC 1941||1997||
-ppl/4/9/c32ff5f276c219f6b94.html|Cusack|John /Cusack/|CAL ABT 1831|Trough, Clare, Ireland|13 APR 1894|Fanningstown, Fedamore, Limerick, Ireland|
-ppl/6/0/dc42929344d52da4979e2784906.html|Markham|Annie /Markham/|14 APR 1910|Ballysheen, Sixmilebridge, Clare, Ireland|1989|Ballysheen, Sixmilebridge, Clare, Ireland|
-ppl/0/9/c32a8e662c8165a2890.html|Conway|Pat /Conway/|JUL 1935|Maternity Hospital, Bedford Row, Limerick, Limerick, Ireland|18 SEP 1940|Carnane, Fedamore, Limerick, Ireland|
-ppl/c/d/da21f4b6f8974118d4744f5bbdc.html|Shanny|Delia /Shanny/|CAL ABT 1874||EST BEF 1994||
-ppl/7/a/c31ded608033bece6a7.html|Conway|Maggie /Conway/|||EST BEF 1981||
-ppl/9/5/bd87cd3f2037cc8f859.html|Clohessy|Eily /Clohessy/|16 JUL 1901|Fanningstown, Fedamore, Limerick, Ireland|5 DEC 1998|Castletroy, Limerick, Ireland|
-ppl/6/3/da19645f5a6c397c924b3d4b36.html|Hartigan|Rita /Hartigan/|10 JUN 1900|Fort West, Limerick, Ireland|1970|Box Hill, Victoria, Austalia|
-ppl/d/d/bd878c60e226369a6dd.html|Conway|Thomas /Conway/|||18 FEB 1910|Limerick, Limerick, Ireland|
-ppl/6/b/c34986828ef4a436ab6.html|Long|Liam /Long/|CAL AFT 1921||1968|Africa|
-ppl/9/b/c31deeda960579c44b9.html|Conway|William /Conway/|||24 NOV 1919|Manhattan, New York, New York, USA|
-ppl/c/b/d68ca04599d65203da0f435eebc.html|Cusack| /Cusack/|2 DEC 1902|Fanningstown, Fedamore, Limerick, Ireland|2 DEC 1902|Fanningstown, Fedamore, Limerick, Ireland|
-ppl/a/d/dc4562e1a365a8eb542f44670da.html|Kemp| /Kemp/|EST 1885||EST BEF 2005||
-ppl/4/0/dc451366d1f65107386c559304.html|Gleeson|Agnes /Gleeson/|21 JAN 1894||EST BEF 2014||
-ppl/5/e/c31df0cd59f7acb9ee5.html|Conway| /Conway/|EST BET 1849 AND 1873||EST BEF 1993||
-ppl/3/4/c32773837490bd7c043.html|Conway|Patrick /Conway/|CAL ABT 1837||8 JUN 1909||
-ppl/a/b/bd87cdb1554159a0aba.html|Clohessy|John Joseph /Clohessy/|18 OCT 1902|Fanningstown, Fedamore, Limerick, Ireland|31 DEC 1969|Cook, Illinois, USA|
-ppl/b/2/dc429256e56470bb90fa48b3a2b.html|Markham|Patrick /Markham/|2 OCT 1908|Ballysheen, Sixmilebridge, Clare, Ireland|1995|Ballysheen, Sixmilebridge, Clare, Ireland|
-ppl/5/5/c32777d5ef10fc77955.html|Conway|John /Conway/|CAL ABT 1826||22 MAR 1898|Feenagh, Limerick, Ireland|
-ppl/5/7/c32a11403d30f6dc375.html|Conway|Laurence Francis /Conway/|26 SEP 1879|Boherload, Cahirnorry, Limerick, Ireland|21 MAY 1930|Boherload, Cahirnorry, Limerick, Ireland|
-ppl/4/9/c3299c045674970f394.html|O' Brien|Bridget /O' Brien/|CAL ABT 1872|Ireland|EST BEF 1992||
-ppl/1/7/c32abdbee7242828a71.html|Ryan|Dan /Ryan/|CAL ABT 1861||EST BEF 1981||
-ppl/e/2/bd877d7b2b90195152e.html|Conway|Thomas /Conway/|CAL ABT 1820||24 SEP 1900||
-ppl/c/1/c31df12d92e2e20621c.html|Conway|Nora /Conway/|9 JUL 1868|Carnane, Fedamore, Limerick, Ireland|19 AUG 1948|Brooklyn, Kings, New York, New York, USA|
-ppl/8/0/bd878d1015a45fa6208.html|Conway|Catherine /Conway/|EST BET 20 SEP 1873 AND 27 SEP 1873|Carnane, Fedamore, Limerick, Ireland|14 DEC 1887|Carnane, Fedamore, Limerick, Ireland|
-ppl/5/a/c32a34ffc735c3f7aa5.html|Ambrose|Thomas Joseph /Ambrose/|1882||3 MAR 1885|Brooklyn, Kings, New York, New York, USA|
-ppl/9/5/dc429308dc3943650728ab7359.html|Markham|Tom /Markham/|6 NOV 1911|Ballysheen, Sixmilebridge, Clare, Ireland|1988|Ballysheen, Sixmilebridge, Clare, Ireland|
-ppl/5/a/d9241e8c3ca6bc602aa63ade8a5.html|Conway|John /Conway/|||3 AUG 1905|Ballybunion, Kerry, Ireland|
-ppl/a/2/d9242223b383da23042e809b92a.html|Conway|Thomas /Conway/|||EST BEF 1986||
-ppl/1/a/c31de17ca7c1a7035a1.html|Hannon|Bridget /Hannon/|1830||5 OCT 1903|Kilmurray House, Feenagh, Limerick, Ireland|
-ppl/b/6/c333f37a2a57350c46b.html|Cunningham|Jane /Cunningham/|EST BEF 1842||EST BEF 1962||
-ppl/0/3/c32a3c42daf1ff41c30.html|McCullough|John E /McCullough/|CAL ABT 1884||17 JUL 1940|Brooklyn, Kings, New York, New York, USA|
-ppl/b/9/c363fa9683f25b5569b.html|Halpin|Johanna /Halpin/|||EST BEF 1989||
-ppl/e/7/bd87c61b24851c0987e.html|Cusack|Ellie /Cusack/|13 MAY 1868||24 MAR 1917||
-ppl/6/7/c32a17fff534e899276.html|Conway|Helen /Conway/|17 MAY 1871|Boherload, Cahirnorry, Limerick, Ireland|EST BEF 1991||
-ppl/d/2/bd87c99a2585e8ff22d.html|Clohessy|Mary Leliah /Clohessy/|26 APR 1900|Fanningstown, Fedamore, Limerick, Ireland|JUN 1982|Fedamore, Limerick, Ireland|
-ppl/1/e/c32a294aa5c17269fe1.html|Conway|Brendan /Conway/|CAL AFT 1909||1990||
-ppl/a/4/dc427ec1de736326f12b461f84a.html|Markham|Jerome /Markham/|5 JUL 1895|Ballysheen, Sixmilebridge, Clare, Ireland|7 JAN 1961|Ennis, Clare, Ireland|
-ppl/a/2/c31ffe873001ef0732a.html|Geary|John /Geary/|CAL ABT 1866||13 MAR 1906||
-ppl/e/8/c363eb39da125645c8e.html|Halpin|Anne /Halpin/|||EST BEF 1983||
-ppl/9/a/d87054689f84f2e04e16d3d28a9.html|Conway|Michael /Conway/|CAL ABT 1824||18 NOV 1897|Fanningstown, Fedamore, Limerick, Ireland|
-ppl/1/9/dc428ef002e7f61f97c6585e791.html|Markham|John /Markham/|11 NOV 1901|Ballysheen, Sixmilebridge, Clare, Ireland|1990|Caherdavin, Limerick, Limerick, Ireland|
-ppl/d/2/bd87e070f322d7e372d.html|Clohessy|Dave /Clohessy/|13 NOV 1905|Fanningstown, Fedamore, Limerick, Ireland|NOV 1986||
-ppl/3/d/c31dec3e5da40d4e8d3.html|Conway|Mary Anne /Conway/|||24 FEB 1934||
-ppl/4/4/dc45200835a3ec41650f7116144.html|Gleeson| /Gleeson/|||BEF 2 APR 1911||
-ppl/4/6/c32a38f78e00d553164.html|Ambrose|Jeremiah John /Ambrose/|12 JUL 1886||8 SEP 1886||
-ppl/f/5/c32a142911c1311b35f.html|Conway|Anne /Conway/|6 MAR 1875|Boherload, Cahirnorry, Limerick, Ireland|EST BEF 1995||
-ppl/7/7/c32ab6c410a4848aa77.html|Clohessy|Dave /Clohessy/|EST 1860||EST BEF 1980||
-ppl/2/0/bd87e12203f055c6f02.html|Clohessy|Paddy /Clohessy/|16 APR 1908|Fanningstown, Fedamore, Limerick, Ireland|AUG 1971|St John's Hospital, Limerick, Limerick, Ireland|
-ppl/6/3/c31dee940e03ed31936.html|Conway|James /Conway/|EST BET 7 JAN 1866 AND 14 JAN 1866|Carnane, Fedamore, Limerick, Ireland|EST BEF 1986||
-ppl/d/c/dc42918c33960572fce23cfc3cd.html|Markham|Thomas /Markham/|10 AUG 1904|Ballysheen, Sixmilebridge, Clare, Ireland|10 FEB 1909|Ballysheen, Sixmilebridge, Clare, Ireland|
 ppl/0/f/c3440b2a3d1553c58f0.html|Sullivan|Sean /Sullivan/|1928||JAN 2010||
-ppl/2/6/c3bba285f4672a71b62.html|Sparkman|Nora /Sparkman/|11 DEC 1912|South Carolina, USA|14 SEP 2010||
-ppl/7/1/c32adad60c3780ac017.html|Ryan|May /Ryan/|CAL ABT 1896||EST BEF 2016||
-ppl/1/7/bd87ba505da3e0d8671.html|Conway|Thomas Joseph /Conway/|23 NOV 1900|Carnane, Fedamore, Limerick, Ireland|30 JUN 1980|St John's Hospital, Limerick, Limerick, Ireland|
-ppl/7/6/d9ce5442b98744acd1988c94e67.html|Ambrose| /Ambrose/|BEF 5 JUN 1900||BEF 5 JUN 1900||
-ppl/d/6/c321193a73e1ecbc56d.html|McAuliffe|James /McAuliffe/|CAL ABT 1863||31 MAY 1919|Kells, Dromcollogher, Limerick, Ireland|
-ppl/e/9/c3312d70baa0e1cc59e.html|Cusack|Mary Patrick /Cusack/|17 MAR 1904||1985|Limerick, Limerick, Ireland|
-ppl/7/e/c32a7bb1d741ac4a7e7.html|Looby|Pat /Looby/|9 NOV 1928|Tullovin, Croom, Limerick, Ireland|21 JUL 2001|Ballymacrory, Croom, Limerick, Ireland|
-ppl/6/b/d924205a66c14f4684f183e81b6.html|Conway|Ellen /Conway/|CAL ABT 1863||EST BEF 1983||
-ppl/8/7/dc42e3a17a139882547bf82d278.html|Cusack|Jack /Cusack/|||1935|Melbourne, Victoria, Austalia|
-ppl/8/0/dc4526d5df3594c76979837fd08.html|Williams| /Williams/|EST 1888||EST BEF 2008||
-ppl/a/2/c33115f16042191762a.html|Cusack|Bridget /Cusack/|BET 17 JUN 1865 AND 24 JUN 1865|Fanningstown, Fedamore, Limerick, Ireland|10 JUN 1930|Fedamore, Limerick, Ireland|
-ppl/9/f/c330004cdb0450ee4f9.html|Gleeson|Ellen Anastasia /Gleeson/|CAL ABT 1840|Clare, Ireland|5 MAR 1918||
-ppl/8/3/c3296d95fc34c276538.html|Sullivan|John /Sullivan/|6 DEC 1884|Cloncrippa, Feenagh, Limerick, Ireland|EST BEF 2004||
-ppl/3/d/c32ab8bcf8b240e00d3.html|Clohessy|Andrew G /Clohessy/|22 MAR 1864|Fanningstown, Fedamore, Limerick, Ireland|16 AUG 1946||
-ppl/f/5/da195f4545477898f3da3bfd45f.html|Hartigan|Ellen Mary /Hartigan/|13 APR 1895|Fort West, Limerick, Ireland|24 SEP 1947|Fort West, Limerick, Ireland|
-ppl/b/9/d792f0cdf272c7b22a77c663a9b.html|Clohessy| /Clohessy/|21 FEB 1910||21 FEB 1910||
-ppl/1/8/c3296f8f80461977981.html|Sullivan|William /Sullivan/|10 DEC 1882||EST BEF 2002||
-ppl/8/1/dc4266052dc5817efd218c7218.html|Markham|Darby /Markham/|3 MAY 1873|Creevagh Beg, Quin, Clare, Ireland|27 DEC 1939|Ballysheen, Sixmilebridge, Clare, Ireland|
-ppl/1/0/dc4291fcb3939dc38ffe899c701.html|Markham|Laurence /Markham/|8 DEC 1905|Ballysheen, Sixmilebridge, Clare, Ireland|19 MAY 1939|Ballysheen, Sixmilebridge, Clare, Ireland|
-ppl/a/b/c32ac44240a5f20cdba.html|Condon|Maggie /Condon/|CAL ABT 1900||12 MAY 1957|Mulgrave Street, Limerick, Limerick, Ireland|
-ppl/5/d/dc429107b8b6e7b7dfff915e0d5.html|Markham|Mike /Markham/|9 MAR 1903|Ballysheen, Sixmilebridge, Clare, Ireland|2 OCT 1953|St John's Hospital, Limerick, Limerick, Ireland|
-ppl/9/e/c32adb0b39d72af43e9.html|Ryan|Bridget /Ryan/|CAL ABT 1898|Ballinamona, Hospital, Limerick, Ireland|EST BEF 31 DEC 2017||
-ppl/e/e/dc4513e2053593d2ea1a004d6ee.html|Gleeson|Eily /Gleeson/|19 MAY 1895||EST BEF 2015||
-ppl/0/e/c32a33eb25a20658fe0.html|Assing|James /Assing/|CAL ABT 1870||EST BEF 1990||
-ppl/7/9/dc44dd96abe72a6f0e4913a7397.html|Gleeson|John /Gleeson/|2 DEC 1888|Limerick, Limerick, Ireland|EST BEF 2008||
+ppl/8/1/c31defba94934d90e18.html|Conway|Josephine /Conway/|EST FROM 1849 TO 1863||EST BEF 1983||
+ppl/b/7/c326ca7c8744e41a07b.html|Ambrose|Jeremiah /Ambrose/|||10 JAN 1934|Brooklyn, Kings, New York, New York, USA|
+ppl/b/9/c363fa9683f25b5569b.html|Halpin|Johanna /Halpin/|||EST BEF 1989||
 ppl/a/3/da11e8ed5bb460fc0ca7caa4b3a.html|Kennedy|William /Kennedy/|28 APR 1905||NOV 1976||
-ppl/e/0/c32971160f00ab0430e.html|Sullivan|Patrick /Sullivan/|19 JAN 1895|Cloncrippa, Feenagh, Limerick, Ireland|EST BEF 2015||
-ppl/d/0/dc42825c5be7eb9b9f45ef6de0d.html|Markham|May /Markham/|13 NOV 1877||1962|Ballysheen, Sixmilebridge, Clare, Ireland|
-ppl/6/8/c329b2be92840dc3086.html|Hayes|Ellen /Hayes/|CAL ABT 1843||10 MAR 1909||
+ppl/0/0/d6deabe13dd439633d228ae1200.html|Ambrose|Leonard /Ambrose/|13 DEC 1908|Brooklyn, Kings, New York, New York, USA|12 SEP 1909||
+ppl/0/9/c32a8e662c8165a2890.html|Conway|Pat /Conway/|JUL 1935|Maternity Hospital, Bedford Row, Limerick, Limerick, Ireland|18 SEP 1940|Carnane, Fedamore, Limerick, Ireland|
+ppl/1/9/dc428ef002e7f61f97c6585e791.html|Markham|John /Markham/|11 NOV 1901|Ballysheen, Sixmilebridge, Clare, Ireland|1990|Caherdavin, Limerick, Limerick, Ireland|
+ppl/9/b/c31deeda960579c44b9.html|Conway|William /Conway/|||24 NOV 1919|Manhattan, New York, New York, USA|
+ppl/7/a/c31ded608033bece6a7.html|Conway|Maggie /Conway/|||EST BEF 1981||
+ppl/b/c/c363f76fd0a6eac8ecb.html|Halpin|Michael /Halpin/|9 NOV 1866|Cahirnorry, Limerick, Ireland|EST BEF 1986||
+ppl/3/4/c3bba2207ac5ff52943.html|Ambrose|Richard Keane /Ambrose/|8 OCT 1907|Brooklyn, Kings, New York, New York, USA|4 JAN 1994|South Carolina, USA|
+ppl/3/e/dc4583673232f0730a99469b6e3.html|Cusack|Mary /Cusack/|CAL ABT 1840|Trough, Clare, Ireland|28 DEC 1878||
+ppl/2/f/c32a482c29f37530ff2.html|Ambrose|Esther Lillian /Ambrose/|APR 1899||1937||
+ppl/7/6/c32a18f14dc12aebd67.html|Conway|John /Conway/|10 DEC 1872|Boherload, Cahirnorry, Limerick, Ireland|29 AUG 1931||
+ppl/c/c/c329774bedf5902c9cc.html|McNally|Mary Josephine /McNally/|||AFT 1937||
+ppl/4/4/c3297578f400476ab44.html|Sullivan|Tom /Sullivan/|10 JAN 1890|Cloncrippa, Feenagh, Limerick, Ireland|MAR 1975|Bronx, New York, New York, USA|
+ppl/c/1/c329768618809c2021c.html|O' Sullivan|Timothy /O' Sullivan/|25 FEB 1892|Cloncrippa, Feenagh, Limerick, Ireland|EST BEF 2012||
+ppl/8/0/dc4526d5df3594c76979837fd08.html|Williams| /Williams/|EST 1888||EST BEF 2008||
+ppl/4/6/c32a38f78e00d553164.html|Ambrose|Jeremiah John /Ambrose/|12 JUL 1886||8 SEP 1886||
+ppl/8/1/dc4266052dc5817efd218c7218.html|Markham|Darby /Markham/|3 MAY 1873|Creevagh Beg, Quin, Clare, Ireland|27 DEC 1939|Ballysheen, Sixmilebridge, Clare, Ireland|
+ppl/5/5/c32777d5ef10fc77955.html|Conway|John /Conway/|CAL ABT 1826||22 MAR 1898|Feenagh, Limerick, Ireland|
+ppl/1/a/c31de17ca7c1a7035a1.html|Hannon|Bridget /Hannon/|1830||5 OCT 1903|Kilmurray House, Feenagh, Limerick, Ireland|
+ppl/d/2/bd87e070f322d7e372d.html|Clohessy|Dave /Clohessy/|13 NOV 1905|Fanningstown, Fedamore, Limerick, Ireland|NOV 1986||
+ppl/7/f/d9241842bec6241cbaee04f82f7.html|Moran|Margaret /Moran/|CAL ABT 1825||2 JUL 1888|Fanningstown, Fedamore, Limerick, Ireland|
+ppl/5/0/c3297436be34b029805.html|Geary|Kathleen /Geary/|CAL ABT 1896||EST BEF 2016||
+ppl/d/d/bd878c60e226369a6dd.html|Conway|Thomas /Conway/|||18 FEB 1910|Limerick, Limerick, Ireland|
+ppl/e/d/c32ad315dce17dd0ede.html|Sheehan|Eileen /Sheehan/|9 NOV 1903||22 FEB 1967||
+ppl/d/c/dc42918c33960572fce23cfc3cd.html|Markham|Thomas /Markham/|10 AUG 1904|Ballysheen, Sixmilebridge, Clare, Ireland|10 FEB 1909|Ballysheen, Sixmilebridge, Clare, Ireland|
+ppl/1/0/dc4291fcb3939dc38ffe899c701.html|Markham|Laurence /Markham/|8 DEC 1905|Ballysheen, Sixmilebridge, Clare, Ireland|19 MAY 1939|Ballysheen, Sixmilebridge, Clare, Ireland|
+ppl/8/4/c32a1b5a29810e97e48.html|Conway|Bridget /Conway/|8 SEP 1881|Boherload, Cahirnorry, Limerick, Ireland|EST BEF 2001||
+ppl/0/e/c32a33eb25a20658fe0.html|Assing|James /Assing/|CAL ABT 1870||EST BEF 1990||
+ppl/c/d/da21f4b6f8974118d4744f5bbdc.html|Shanny|Delia /Shanny/|CAL ABT 1874||EST BEF 1994||
 ppl/e/2/c32a1604f8e4b395a2e.html|Conway|Mary /Conway/|27 MAY 1869|Boherload, Cahirnorry, Limerick, Ireland|EST BEF 1989||
+ppl/d/6/c3296cea2b53da84a6d.html|Sullivan|Margaret /Sullivan/|24 DEC 1887|Cloncrippa, Feenagh, Limerick, Ireland|EST BEF 2007||
+ppl/7/9/dc44dd96abe72a6f0e4913a7397.html|Gleeson|John /Gleeson/|2 DEC 1888|Limerick, Limerick, Ireland|EST BEF 2008||
+ppl/3/d/c32ab8bcf8b240e00d3.html|Clohessy|Andrew G /Clohessy/|22 MAR 1864|Fanningstown, Fedamore, Limerick, Ireland|16 AUG 1946||
+ppl/e/2/bd877d7b2b90195152e.html|Conway|Thomas /Conway/|CAL ABT 1820||24 SEP 1900||
+ppl/e/2/dc42e4e9fc6d0e18e673bca52e.html|Cusack|Clothilde /Cusack/|EST 1870||EST BEF 1990||
+ppl/3/d/c31dec3e5da40d4e8d3.html|Conway|Mary Anne /Conway/|||24 FEB 1934||
+ppl/1/e/c32a39bcc582ac913e1.html|Ambrose|Ellen Bridgit /Ambrose/|16 OCT 1888||13 AUG 1889|Kings, New York, New York, USA|
+ppl/9/4/c32a35e85fc22a30649.html|Ambrose|Keane Matthew /Ambrose/|27 AUG 1884||1952||
+ppl/7/0/c32a32c926849a02607.html|Ambrose|May Catherine /Ambrose/|MAR 1881||BEF JUL 1939||
+ppl/5/1/bd885df1d201f8ae815.html|Conway|Tom /Conway/|10 AUG 1938|Maternity Hospital, Bedford Row, Limerick, Limerick, Ireland|12 SEP 1973|Richmond Hospital, Dublin, Ireland|
+ppl/3/5/c32a36a23513b4a0353.html|Perry|Sadie Viola /Perry/|28 DEC 1887||NOV 1973||
+ppl/5/a/c32a34ffc735c3f7aa5.html|Ambrose|Thomas Joseph /Ambrose/|1882||3 MAR 1885|Brooklyn, Kings, New York, New York, USA|
+ppl/5/7/c32a11403d30f6dc375.html|Conway|Laurence Francis /Conway/|26 SEP 1879|Boherload, Cahirnorry, Limerick, Ireland|21 MAY 1930|Boherload, Cahirnorry, Limerick, Ireland|
+ppl/e/0/c32971160f00ab0430e.html|Sullivan|Patrick /Sullivan/|19 JAN 1895|Cloncrippa, Feenagh, Limerick, Ireland|EST BEF 2015||
+ppl/a/b/bd87cdb1554159a0aba.html|Clohessy|John Joseph /Clohessy/|18 OCT 1902|Fanningstown, Fedamore, Limerick, Ireland|31 DEC 1969|Cook, Illinois, USA|
+ppl/b/6/c333f37a2a57350c46b.html|Cunningham|Jane /Cunningham/|EST BEF 1842||EST BEF 1962||
+ppl/7/0/dc451452fd2e26a89956dd4e07.html|Gleeson|Bridie /Gleeson/|26 NOV 1898|Fedamore, Limerick, Ireland|EST BEF 2018||
+ppl/7/d/d87070c85a073b217bd408194d7.html|Conway|Mary /Conway/|22 JUL 1867||EST BEF 1987||
+ppl/a/0/c33120abce505d31c0a.html|Hannan|Annie /Hannan/|CAL ABT 1861||20 MAY 1946|Fanningstown, Fedamore, Limerick, Ireland|
+ppl/1/b/c32ad7fcee53fe13eb1.html|Clifford|Hannie /Clifford/|1 OCT 1913||JUN 1998||
+ppl/9/a/d87054689f84f2e04e16d3d28a9.html|Conway|Michael /Conway/|CAL ABT 1824||18 NOV 1897|Fanningstown, Fedamore, Limerick, Ireland|
+ppl/c/1/c31df12d92e2e20621c.html|Conway|Nora /Conway/|9 JUL 1868|Carnane, Fedamore, Limerick, Ireland|19 AUG 1948|Brooklyn, Kings, New York, New York, USA|
+ppl/f/8/da195615b0b7c5879d3c794ba8f.html|Hartigan|John /Hartigan/|1 NOV 1896|Fort West, Limerick, Ireland|AFT 29 SEP 1947||
+ppl/f/7/da053de5ed4530aadd74fd7ab7f.html|Kennedy|Michael /Kennedy/|||CAL AFT 1911||
+ppl/1/7/c32abdbee7242828a71.html|Ryan|Dan /Ryan/|CAL ABT 1861||EST BEF 1981||
+ppl/a/d/da1b510e51876db9966799afda.html|Creedon|Vernon Clair /Creedon/|1894|Liverpool, England|1975|Brighton, Victoria, Austalia|
+ppl/e/9/c3312d70baa0e1cc59e.html|Cusack|Mary Patrick /Cusack/|17 MAR 1904||1985|Limerick, Limerick, Ireland|
+ppl/3/4/c32773837490bd7c043.html|Conway|Patrick /Conway/|CAL ABT 1837||8 JUN 1909||
+ppl/8/7/c32985a7e9a01256878.html|Long|William /Long/|||AFT 1934||
+ppl/9/f/c330004cdb0450ee4f9.html|Gleeson|Ellen Anastasia /Gleeson/|CAL ABT 1840|Clare, Ireland|5 MAR 1918||
+ppl/b/7/c333f32859129a0b17b.html|Halpin|Patrick /Halpin/|EST BEF 1842||EST BEF 1962||
+ppl/8/3/c3296d95fc34c276538.html|Sullivan|John /Sullivan/|6 DEC 1884|Cloncrippa, Feenagh, Limerick, Ireland|EST BEF 2004||
+ppl/a/d/dc4562e1a365a8eb542f44670da.html|Kemp| /Kemp/|EST 1885||EST BEF 2005||
+ppl/2/0/bd87e12203f055c6f02.html|Clohessy|Paddy /Clohessy/|16 APR 1908|Fanningstown, Fedamore, Limerick, Ireland|AUG 1971|St John's Hospital, Limerick, Limerick, Ireland|
+ppl/6/b/c32abc1c9f06f4192b6.html|Clohessy|Bridgie /Clohessy/|||EST BEF 1978||
+ppl/9/5/dc429308dc3943650728ab7359.html|Markham|Tom /Markham/|6 NOV 1911|Ballysheen, Sixmilebridge, Clare, Ireland|1988|Ballysheen, Sixmilebridge, Clare, Ireland|
+ppl/b/7/c32abb516cb5e336f7b.html|Clohessy|Mary Anne /Clohessy/|1850||1872||
+ppl/2/1/dc45151706e4c598f0a7b508712.html|Gleeson|Dick /Gleeson/|21 JUL 1901|Fedamore, Limerick, Ireland|27 JAN 1937|St John's Hospital, Limerick, Limerick, Ireland|
+ppl/6/3/da19645f5a6c397c924b3d4b36.html|Hartigan|Rita /Hartigan/|10 JUN 1900|Fort West, Limerick, Ireland|1970|Box Hill, Victoria, Austalia|
+ppl/b/2/dc429256e56470bb90fa48b3a2b.html|Markham|Patrick /Markham/|2 OCT 1908|Ballysheen, Sixmilebridge, Clare, Ireland|1995|Ballysheen, Sixmilebridge, Clare, Ireland|
+ppl/2/e/bd87c6fced13b22a2e2.html|Clohessy|Andy /Clohessy/|13 APR 1899|Fanningstown, Fedamore, Limerick, Ireland|DEC 1975|St John's Hospital, Limerick, Limerick, Ireland|
+ppl/4/9/c32ff5f276c219f6b94.html|Cusack|John /Cusack/|CAL ABT 1831|Trough, Clare, Ireland|13 APR 1894|Fanningstown, Fedamore, Limerick, Ireland|
+ppl/f/f/d68c9520d3d5a878c918923fdff.html|Cusack| /Cusack/|2 DEC 1902||2 DEC 1902|Fanningstown, Fedamore, Limerick, Ireland|
+ppl/8/7/dc42e3a17a139882547bf82d278.html|Cusack|Jack /Cusack/|||1935|Melbourne, Victoria, Austalia|
+ppl/1/8/c3296f8f80461977981.html|Sullivan|William /Sullivan/|10 DEC 1882||EST BEF 2002||
+ppl/c/c/d6deaa714b132fa808297b645cc.html|Assing|Agnes /Assing/|21 APR 1906|Brooklyn, Kings, New York, New York, USA|27 OCT 1906|Brooklyn, Kings, New York, New York, USA|
+ppl/d/0/dc42825c5be7eb9b9f45ef6de0d.html|Markham|May /Markham/|13 NOV 1897||1962|Ballysheen, Sixmilebridge, Clare, Ireland|
+ppl/8/0/dc4563dba6150b9ae3db3e87d08.html|Redford|Burdis William Bertram /Redford/|12 AUG 1897|Sunderland, Durham, England|EST BEF 2017||
+ppl/5/6/bd87c421d486a25ed65.html|Clohessy|Patrick /Clohessy/|||17 APR 1948||
+ppl/5/e/c31df0cd59f7acb9ee5.html|Conway| /Conway/|EST BET 1849 AND 1873||EST BEF 1993||
+ppl/b/7/c326d4a0475282c4b7b.html|Sullivan|Michael /Sullivan/|CAL ABT 1836||EST BEF 1956||
+ppl/6/b/c32a128fbb04c4853b6.html|Kelly|Edith /Kelly/|CAL ABT 1884||EST BEF 2004||
+ppl/1/8/c326e8542a01016aa81.html|Dillon|John /Dillon/|||BEF 9 APR 1930||
+ppl/6/3/c31dee940e03ed31936.html|Conway|James /Conway/|EST BET 7 JAN 1866 AND 14 JAN 1866|Carnane, Fedamore, Limerick, Ireland|EST BEF 1986||
+ppl/0/3/c32a3c42daf1ff41c30.html|McCullough|John E /McCullough/|CAL ABT 1884||17 JUL 1940|Brooklyn, Kings, New York, New York, USA|
+ppl/1/c/c3498d3588b245ea3c1.html|Long|Kevin /Long/|1935||1995||
+ppl/b/9/d792f0cdf272c7b22a77c663a9b.html|Clohessy| /Clohessy/|21 FEB 1910||21 FEB 1910||
+ppl/7/e/c32a7bb1d741ac4a7e7.html|Looby|Pat /Looby/|9 NOV 1928|Tullovin, Croom, Limerick, Ireland|21 JUL 2001|Ballymacrory, Croom, Limerick, Ireland|
+ppl/b/0/c331138ddaa48a1380b.html|Cusack|Margaret /Cusack/|EST BET 6 JAN 1874 AND 13 JAN 1874|Croom, Limerick, Ireland|EST BEF 1994||
+ppl/d/d/dc450fa1bd1748dbfa516c791dd.html|Gleeson|Bill /Gleeson/|19 APR 1892|Limerick, Limerick, Ireland|EST BEF 2012||
+ppl/4/9/c3299c045674970f394.html|O' Brien|Bridget /O' Brien/|CAL ABT 1872|Ireland|EST BEF 1992||
+ppl/a/8/c32a3a7c7e02c642f8a.html|Ambrose|James Thomas /Ambrose/|16 OCT 1888||29 NOV 1888|Kings, New York, New York, USA|
+ppl/e/5/dc45506c4671772fd68f9de695e.html|Galbraith|Gerard Joseph /Galbraith/|23 MAY 1917||25 MAY 1917|Limerick, Limerick, Ireland|
+ppl/6/a/dc425fbbe5d3fe0c24a347e4da6.html|Cusack|Annie /Cusack/|1871||13 MAY 1947|Ballysheen, Sixmilebridge, Clare, Ireland|
+ppl/e/e/dc4513e2053593d2ea1a004d6ee.html|Gleeson|Eily /Gleeson/|19 MAY 1895||EST BEF 2015||
+ppl/5/1/bd87bdb1ae15a5bed15.html|Halpin|Mary Agnes /Halpin/|||16 JAN 1947|Carnane, Fedamore, Limerick, Ireland|
+ppl/9/1/dc4542a4f5774b2f0e3bfe38219.html|Galbraith|Peter /Galbraith/|16 FEB 1888|Limerick, Limerick, Ireland|20 AUG 1961|Limerick, Limerick, Ireland|
+ppl/f/5/c32a142911c1311b35f.html|Conway|Anne /Conway/|6 MAR 1875|Boherload, Cahirnorry, Limerick, Ireland|EST BEF 1995||
+ppl/a/b/c32ac44240a5f20cdba.html|Condon|Maggie /Condon/|CAL ABT 1900||12 MAY 1957|Mulgrave Street, Limerick, Limerick, Ireland|
+ppl/f/8/dc436b2183c10bdbb7777e0bb8f.html|Gleeson|Stephen /Gleeson/|2 JUL 1887|Limerick, Limerick, Ireland|EST BEF 2007||
+ppl/a/4/dc427ec1de736326f12b461f84a.html|Markham|Jerome /Markham/|5 JUL 1895|Ballysheen, Sixmilebridge, Clare, Ireland|7 JAN 1961|Ennis, Clare, Ireland|
+ppl/d/6/c32a1aa3d8279a77e6d.html|Conway|Patrick /Conway/|26 FEB 1877|Boherload, Cahirnorry, Limerick, Ireland|EST BEF 1997||
+ppl/7/7/c32ab6c410a4848aa77.html|Clohessy|Dave /Clohessy/|EST 1860||EST BEF 1980||
+ppl/3/d/c31df23928e7c9691d3.html|Conway|John /Conway/|||12 SEP 1929|Castlemahon, Limerick, Ireland|
+ppl/f/6/d6cb3710c8a1951f121e7ae246f.html|Hayes|Hugh /Hayes/|EST BEF 1820||EST BEF 1940||
+ppl/d/6/c321193a73e1ecbc56d.html|McAuliffe|James /McAuliffe/|CAL ABT 1863||31 MAY 1919|Kells, Dromcollogher, Limerick, Ireland|
+ppl/6/6/dc455391a154dd42fc0f10d4666.html|Galbraith|Ronald /Galbraith/|1924||24 APR 1942|Limerick, Limerick, Ireland|
+ppl/1/0/c326e16ec2347ffb501.html|Meaney|Nicholas /Meaney/|EST ABT 1850||EST BEF 1970||
+ppl/7/1/c32adad60c3780ac017.html|Ryan|May /Ryan/|CAL ABT 1896||EST BEF 2016||
+ppl/5/7/dc42f77492861e20c0551d59c75.html|Gleeson|William /Gleeson/|CAL ABT 1861||24 MAR 1942|Fedamore, Limerick, Ireland|
+ppl/4/6/c31deac9bd374a0c564.html|Conway|Ellen /Conway/|CAL ABT 1855||EST BEF 1975||
+ppl/f/5/da195f4545477898f3da3bfd45f.html|Hartigan|Ellen Mary /Hartigan/|13 APR 1895|Fort West, Limerick, Ireland|24 SEP 1947|Fort West, Limerick, Ireland|
+ppl/4/0/c32999a17ad6675e904.html|Sullivan|James /Sullivan/|EST 1891||BEF 2011||
+ppl/7/6/d9ce5442b98744acd1988c94e67.html|Ambrose| /Ambrose/|BEF 5 JUN 1900||BEF 5 JUN 1900||
+ppl/3/6/c32a96989f409ff2d63.html|Sullivan|Nell /Sullivan/|AUG 1922||FEB 2011||
+ppl/4/4/dc45200835a3ec41650f7116144.html|Gleeson| /Gleeson/|||BEF 2 APR 1911||
+ppl/9/a/c32a9226a44721414a9.html|Russell|Thomas /Russell/|29 DEC 1941||1997||
+ppl/9/7/c343a40c1bd5d0dc079.html|Conway|Harriet /Conway/|19 FEB 1912|Boherload, Cahirnorry, Limerick, Ireland|21 FEB 1912|Boherload, Cahirnorry, Limerick, Ireland|
+ppl/0/6/dc4283e6fc56a03cd0529308b60.html|Markham|Eily /Markham/|2 JUL 1899||1996|Cashel , Tipperary, Ireland|
+ppl/6/8/c329b2be92840dc3086.html|Hayes|Ellen /Hayes/|CAL ABT 1843||10 MAR 1909||
+ppl/1/c/d68c9c161f84ab96564f7c916c1.html|Cusack| /Cusack/|2 DEC 1902||2 DEC 1902||
+ppl/5/4/bd8788da36c551b6745.html|Conway|Michael /Conway/|||EST BEF 1975||
+ppl/a/2/c33115f16042191762a.html|Cusack|Bridget /Cusack/|BET 17 JUN 1865 AND 24 JUN 1865|Fanningstown, Fedamore, Limerick, Ireland|10 JUN 1930|Fedamore, Limerick, Ireland|
+ppl/a/2/d9242223b383da23042e809b92a.html|Conway|Thomas /Conway/|||EST BEF 1986||
+ppl/9/e/c32adb0b39d72af43e9.html|Ryan|Bridget /Ryan/|CAL ABT 1898|Ballinamona, Hospital, Limerick, Ireland|EST BEF 2018||
+ppl/2/d/dc42933d43186e8423fa3952d2.html|Markham|Joe /Markham/|1 AUG 1916|Ballysheen, Sixmilebridge, Clare, Ireland|1979|Church View, Sixmilebridge, Clare, Ireland|
+ppl/1/b/c32ab1463037ce2b1b1.html|Clohessy|Dave /Clohessy/|CAL ABT 1821||25 JUN 1902||
+ppl/3/2/bd8789df2ad5b158723.html|Conway|Hannie /Conway/|||1 JUL 1939|Brooklyn, Kings, New York, New York, USA|
+ppl/8/f/da19640ad7271b0abc93093e2f8.html|Hartigan|Luke /Hartigan/|1 NOV 1898|Fort West, Limerick, Ireland|EST BEF 2018||
+ppl/b/2/c32a3ba513f4ed11e2b.html|Ambrose|Christine Francis /Ambrose/|CAL ABT 1890|New York, New York, USA|1972||
+ppl/a/2/c31ffe873001ef0732a.html|Geary|John /Geary/|CAL ABT 1866||13 MAR 1906||
+ppl/e/1/c32ab4442e97377fc1e.html|Gleeson|Mary /Gleeson/|1823||1872||
+ppl/9/1/d9ce55c966b200f5652e8248a19.html|Ambrose| /Ambrose/|BEF 5 JUN 1900||BEF 5 JUN 1900||
+ppl/b/9/bd87de29d8a0a634f9b.html|Clohessy|Bridie /Clohessy/|16 JUL 1904|Fanningstown, Fedamore, Limerick, Ireland|2 JUN 1986|Ballymacrory, Croom, Limerick, Ireland|
+ppl/2/e/dc42922b43028ac88d0b4ecd4e2.html|Markham|Joseph /Markham/|20 JUN 1907|Ballysheen, Sixmilebridge, Clare, Ireland|13 FEB 1909|Ballysheen, Sixmilebridge, Clare, Ireland|
+ppl/d/2/bd87c99a2585e8ff22d.html|Clohessy|Mary Leliah /Clohessy/|26 APR 1900|Fanningstown, Fedamore, Limerick, Ireland|JUN 1982|Fedamore, Limerick, Ireland|
+ppl/6/8/d689cf8d7ad3615b1498e4c6d86.html|Cusack|Lar /Cusack/|||20 MAR 1934|Limerick, Ireland|
+ppl/1/7/bd87ba505da3e0d8671.html|Conway|Thomas Joseph /Conway/|23 NOV 1900|Carnane, Fedamore, Limerick, Ireland|30 JUN 1980|St John's Hospital, Limerick, Limerick, Ireland|
+ppl/5/a/d9241e8c3ca6bc602aa63ade8a5.html|Conway|John /Conway/|||3 AUG 1905|Ballybunion, Kerry, Ireland|
+ppl/4/0/dc451366d1f65107386c559304.html|Gleeson|Agnes /Gleeson/|21 JAN 1894||EST BEF 2014||
+ppl/e/8/c363eb39da125645c8e.html|Halpin|Anne /Halpin/|||EST BEF 1983||
+ppl/2/6/c3bba285f4672a71b62.html|Sparkman|Nora /Sparkman/|11 DEC 1912|South Carolina, USA|14 SEP 2010||

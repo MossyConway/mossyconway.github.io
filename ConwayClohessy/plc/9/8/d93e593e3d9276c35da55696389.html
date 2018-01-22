@@ -2,7 +2,7 @@
 <html lang="en-GB" xml:lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
  <head lang="en-GB">
   <title>
-   The Conway &amp; Clohessy Tree - Sources - The Old Limerick Journal
+   The Conway &amp; Clohessy Tree - Places
   </title>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" name="viewport"/>
@@ -12,12 +12,38 @@
   <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
   <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
   <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-maps.css" media="screen" rel="stylesheet" type="text/css"/>
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   var myLatLng = new google.maps.LatLng(53.78000000, -8.90600000);
+
+  function initialize() {
+    var mapOptions = {
+      scaleControl:    true,
+      panControl:      true,
+      backgroundColor: '#000000',
+      draggable:       true,
+      zoom:            10,
+      center:          myLatLng,
+      mapTypeId:       google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(document.getElementById("place_canvas"), mapOptions);
+
+    var marker = new google.maps.Marker({
+      position:  myLatLng,
+      draggable: true,
+      title:     "Knock, Mayo, Ireland",
+      map:       map
+    });
+  }
+  </script>
   <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
   <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
   <script id="timestampjs" src="../../../timestamp.js">
   </script>
  </head>
- <body>
+ <body onload="initialize();">
   <div id="header">
    <h1 id="SiteTitle">
     The Conway &amp; Clohessy Tree
@@ -73,10 +99,10 @@ End Header
      <li>
       <a href="../../../events.html" title="Events">Events</a>
      </li>
-     <li>
+     <li class="CurrentSection">
       <a href="../../../places.html" title="Places">Places</a>
      </li>
-     <li class="CurrentSection">
+     <li>
       <a href="../../../sources.html" title="Sources">Sources</a>
      </li>
      <li>
@@ -93,60 +119,60 @@ End Header
     </ul>
    </div>
   </div>
-  <div class="content" id="SourceDetail">
+  <div class="content" id="PlaceDetail">
    <h3>
-    The Old Limerick Journal
+    Knock
    </h3>
-   <table class="infolist source">
-    <tbody>
-     <tr>
-      <td class="ColumnAttribute">
-       Author
-      </td>
-      <td class="ColumnValue">
-       Limerick City Council
-      </td>
-     </tr>
-     <tr>
-      <td class="ColumnAttribute">
-       Publication information
-      </td>
-      <td class="ColumnValue">
-       <a href="http://www.limerickcity.ie/Library/LocalStudies/BooksJournals/TheOldLimerickJournal/">http://www.limerickcity.ie/Library/LocalStudies/BooksJournals/TheOldLimerickJour...</a>
-      </td>
-     </tr>
-    </tbody>
-   </table>
-   <div class="subsection narrative">
-    <h4>
-     Narrative
-    </h4>
-    <div class="grampsstylednote">
-     <p>
-      From the Introduction of Vol. 1, December 1979:
-     </p>
-     <p>
-      "The Old Limerick Society was founded in November, 1943, with high hopes and ambitions. The aims of the Society were:
-     </p>
-     <p>
-      1. To promote the study of the history and antiquities of Limerick.
-      <br/>
-      2. To acquire and conserve local documents, books, plans, etc.
-      <br/>
-      3. To create and foster an interest in everything pertaining to Old Limerick, and thereby help to help to cultivate a better civic spirit.
-     </p>
-     <p>
-      The Society also worked to preserve local monuments, buildings, documents, legends, ballads, etc.- which were in danger of being lost - and to record and maintain sites of historic interest.
-      <br/>
-      In December 1946 the Society produced its first, and only, journal. This magazine made a valuable contribution to the study of Limerick's history. The journal contained five articles, a book review and an account of the proceedings of the Society, which included talks during the winter sessions and summer visits to historic places.
-     </p>
-     <p>
-      The Society continued in existence for a few more years but eventually petered out in 1953. Its dissolution was a serious loss to the cultural life of Limerick. Since that time much good work has been done by the Thomond Archaeological Society, the local press and inidividuals in the promotion of he study of local history.
-     </p>
-     <p>
-      This journal and the re-formed Old Limerick Society wish to take up, continue and expand on the work of the 1940s group. We hope our readers will find an immediate sense of the past and its people in these pages. We hope they will find this sense in pictures and articales on the buildings, streets and waterways of the city, on the fields and farms of the country - and the workers who lived and laboured on them through the centuries. This journal will attempt to chart some of the real-life experiences of Limerick and its people."
-     </p>
-    </div>
+   <div id="summaryarea">
+    <table class="infolist place">
+     <tbody>
+      <tr>
+       <td class="ColumnAttribute">
+        Latitude
+       </td>
+       <td class="ColumnValue">
+        53.78
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Longitude
+       </td>
+       <td class="ColumnValue">
+        -8.906
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Church Parish
+       </td>
+       <td class="ColumnValue">
+        Knock
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        County
+       </td>
+       <td class="ColumnValue">
+        Mayo
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Country
+       </td>
+       <td class="ColumnValue">
+        Ireland
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+   <h4>
+    Place Map
+   </h4>
+   <div id="place_canvas">
    </div>
    <div class="subsection" id="references">
     <h4>
@@ -154,51 +180,16 @@ End Header
     </h4>
     <ol class="Col1" role="Volume-n-Page" type="1">
      <li>
-      Vol. 48 Winter 2014 - pp. 7 - 11
-      <ol class="Col1" role="Volume-n-Page" type="a">
-       <li>
-        <a href="../../../ppl/5/5/c32777d5ef10fc77955.html">
-							Conway, John
-							
-							</a>
-       </li>
-       <li>
-        <a href="../../../ppl/3/d/c31df23928e7c9691d3.html">
-							Conway, John
-							
-							</a>
-       </li>
-       <li>
-        <a href="../../../ppl/5/a/d9241e8c3ca6bc602aa63ade8a5.html">
-							Conway, John
-							
-							</a>
-       </li>
-       <li>
-        <a href="../../../evt/9/7/d86fb5495297862607663fb6179.html">
-							Matriculation
-							
-							</a>
-       </li>
-       <li>
-        <a href="../../../evt/2/8/d86fcd0187865757ed0a361a782.html">
-							Parish Priest
-							
-							</a>
-       </li>
-       <li>
-        <a href="../../../evt/5/6/c329efbface698c3565.html">
-							Parish Priest of Mahoonagh
-							
-							</a>
-       </li>
-       <li>
-        <a href="../../../evt/1/b/d86fbb64a9737c9003bdc8873b1.html">
-							Presentation Convent
-							
-							</a>
-       </li>
-      </ol>
+      <a href="../../../ppl/5/1/bd885df1d201f8ae815.html">
+					Conway, Tom
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/3/d/bd8860f1d4c441f0cd3.html">
+					Family of Conway, Tom and Walsh, Bridie
+					
+					</a>
      </li>
     </ol>
    </div>
@@ -219,7 +210,7 @@ End Header
 			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
     </script>
     <br/>
-    Last change was the 1970-01-01 01:00:00
+    Last change was the 2017-04-22 19:40:22
    </p>
    <p id="copyright">
     <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>

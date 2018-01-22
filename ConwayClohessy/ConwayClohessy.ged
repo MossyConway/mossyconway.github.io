@@ -2,10 +2,10 @@
 1 SOUR Gramps
 2 VERS 4.2.2
 2 NAME Gramps
-1 DATE 1 JAN 2018
-2 TIME 11:42:29
+1 DATE 22 JAN 2018
+2 TIME 21:19:25
 1 SUBM @SUBM@
-1 FILE /home/mossy/code/gene/ConwayClohessyPublic/ConwayClohessy/ConwayClohessy.ged
+1 FILE /home/mossy/code/gene/github/ConwayClohessy/ConwayClohessy.ged
 1 COPR Copyright (c) 2018 .
 1 GEDC
 2 VERS 5.5.1
@@ -1816,8 +1816,8 @@
 2 NOTE @N0566@
 2 NOTE @N0567@
 1 CHAN
-2 DATE 21 DEC 2017
-3 TIME 10:58:16
+2 DATE 22 JAN 2018
+3 TIME 17:09:03
 0 @I0016@ INDI
 1 NAME Paddy /Clohessy/
 2 GIVN Paddy
@@ -1976,8 +1976,8 @@
 4 CONT Subcategory	Births & baptisms
 2 NOTE @N0849@
 1 CHAN
-2 DATE 21 DEC 2017
-3 TIME 11:10:02
+2 DATE 19 JAN 2018
+3 TIME 13:14:39
 0 @I0029@ INDI
 1 NAME Bridget /Hannon/
 2 GIVN Bridget
@@ -6628,8 +6628,8 @@
 2 NOTE @N0412@
 1 NOTE @N0081@
 1 CHAN
-2 DATE 16 DEC 2017
-3 TIME 14:14:55
+2 DATE 22 JAN 2018
+3 TIME 17:09:03
 0 @I0126@ INDI
 1 NAME Mary /Gleeson/
 2 GIVN Mary
@@ -6707,8 +6707,8 @@
 1 SOUR @S0006@
 2 QUAY 3
 1 CHAN
-2 DATE 16 DEC 2017
-3 TIME 14:16:16
+2 DATE 22 JAN 2018
+3 TIME 17:09:03
 0 @I0128@ INDI
 1 NAME Andrew G /Clohessy/
 2 GIVN Andrew G
@@ -7838,8 +7838,8 @@
 2 NOTE @N0341@
 1 NOTE @N0741@
 1 CHAN
-2 DATE 30 DEC 2017
-3 TIME 12:28:11
+2 DATE 1 JAN 2018
+3 TIME 13:05:17
 0 @I0155@ INDI
 1 NAME John /Cusack/
 2 GIVN John
@@ -11234,8 +11234,8 @@
 2 NOTE @N0805@
 2 NOTE @N0806@
 1 CHAN
-2 DATE 30 DEC 2017
-3 TIME 12:26:32
+2 DATE 1 JAN 2018
+3 TIME 12:26:20
 0 @I0373@ INDI
 1 NAME Vernon Clair /Creedon/
 2 GIVN Vernon Clair
@@ -11856,7 +11856,7 @@
 3 NOTE @N1037@
 1 SEX F
 1 BIRT
-2 DATE 13 NOV 1877
+2 DATE 13 NOV 1897
 2 SOUR @S0018@
 3 PAGE May Markham b1897 - Group Registration ID: 10762343, SR District/Reg Area: Tulla
 3 DATA
@@ -11880,8 +11880,8 @@
 2 NOTE @N0970@
 2 NOTE @N1037@
 1 CHAN
-2 DATE 20 DEC 2017
-3 TIME 17:33:08
+2 DATE 18 JAN 2018
+3 TIME 11:41:48
 0 @I0414@ INDI
 1 NAME Eily /Markham/
 2 GIVN Eily
@@ -13013,8 +13013,8 @@
 2 NOTE @N1078@
 2 NOTE @N1000@
 1 CHAN
-2 DATE 30 DEC 2017
-3 TIME 19:21:21
+2 DATE 1 JAN 2018
+3 TIME 12:26:45
 0 @I0436@ INDI
 1 NAME Dick /Gleeson/
 2 GIVN Dick
@@ -30427,6 +30427,8 @@
 1 CONT Access conditions:	Available in digital format unless otherwise stated
 1 CONT 
 1 CONT Accruals:	Series is accruing
+0 @N1075@ NOTE Add config file for times.py/feeds.py
+1 CONT Mod narrativeweb.py to save seperate config for each tree
 0 @N1076@ NOTE Reference:	ADM 159/110/2140
 1 CONT Description:	
 1 CONT Name	Redford, Burdis William

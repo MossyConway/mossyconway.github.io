@@ -1,3 +1,3 @@
 function timestampText() {
-	return " on 2018-01-01";
+	return " on 2018-01-22";
 }
