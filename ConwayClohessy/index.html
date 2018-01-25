@@ -86,7 +86,7 @@ End Header
       <a href="contact.html" title="Contact">Contact</a>
      </li>
      <li>
-      <a href="updates.html" title="Update - 01 Jan 2018">Update - <i>01 Jan 2018</i></a>
+      <a href="updates.html" title="Update">Update - <i id="updateDate"></i></a>
      </li>
     </ul>
     <ul class="menu" id="dropmenu">
@@ -108,7 +108,7 @@ Home
     <h2>
      Starting Point
     </h2>
-    <span>The <a href="ppl/5/1/bd885df1d201f8ae815.html">page of <strong>Thomas Conway</strong> <em>b1938</em></a>  will show you a visual tree of the ancestors of <a href="ppl/1/7/bd87ba505da3e0d8671.html"><strong>Thomas Conway</strong> <em>b1900</em></a> and <a href="ppl/b/9/bd87de29d8a0a634f9b.html"><strong>Bridie Clohessy</strong></a>. That's as good a starting as any. Alternatively, in the menu bar above you can use the <a href="individuals.html"><em>Individuals</em></a>, <a href="surnames.html"><em>Surnames</em></a> and <a href="families.html"><em>Families</em></a> pages to find anyone in the tree.</span>
+    <span>The <a href="ppl/5/1/bd885df1d201f8ae815.html">page of <strong>Thomas Conway</strong> <em>b1938</em></a>  will show you a visual tree of the ancestors of <a href="ppl/1/7/bd87ba505da3e0d8671.html"><strong>Thomas Conway</strong> <em>b1900</em></a> and <a href="ppl/b/9/bd87de29d8a0a634f9b.html"><strong>Bridie Clohessy</strong></a> That's as good a starting as any. Alternatively, in the menu bar above you can use the <a href="individuals.html"><em>Individuals</em></a>, <a href="surnames.html"><em>Surnames</em></a> and <a href="families.html"><em>Families</em></a> pages to find anyone in the tree.</span>
     <br/>
     <br/>
     <h2>
@@ -161,6 +161,7 @@ For instructions on how to use this site in mind boggling detail see the
 
 	setEmailLinks();
     </script>
+    .
     <!--
 End Home
 -->
@@ -180,9 +181,10 @@ End Home
 		
 			var newTextNode = document.createTextNode( version + timestampText() );
 			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
     </script>
     <br/>
-    Last change was the 2017-12-22 19:59:47
+    Last change was the 2018-01-24 20:46:11
    </p>
    <p id="copyright">
     <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>

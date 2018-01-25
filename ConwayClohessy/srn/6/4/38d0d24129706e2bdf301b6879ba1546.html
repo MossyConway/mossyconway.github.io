@@ -86,7 +86,7 @@ End Header
       <a href="../../../contact.html" title="Contact">Contact</a>
      </li>
      <li>
-      <a href="../../../updates.html" title="Update - 01 Jan 2018">Update - <i>01 Jan 2018</i></a>
+      <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
      </li>
     </ul>
     <ul class="menu" id="dropmenu">
@@ -123,7 +123,7 @@ End Header
     <tbody>
      <tr>
       <td class="ColumnName">
-       <a href="../../../ppl/7/6/d9ce5442b98744acd1988c94e67.html"></a>
+       <a href="../../../ppl/9/1/d9ce55c966b200f5652e8248a19.html"></a>
       </td>
       <td class="ColumnBirth">
        before 1900-06-05
@@ -144,7 +144,7 @@ End Header
      </tr>
      <tr>
       <td class="ColumnName">
-       <a href="../../../ppl/9/1/d9ce55c966b200f5652e8248a19.html"></a>
+       <a href="../../../ppl/7/6/d9ce5442b98744acd1988c94e67.html"></a>
       </td>
       <td class="ColumnBirth">
        before 1900-06-05
@@ -435,6 +435,7 @@ End Header
 		
 			var newTextNode = document.createTextNode( version + timestampText() );
 			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
     </script>
     <br/>
     Last change was the 2017-12-17 14:27:42

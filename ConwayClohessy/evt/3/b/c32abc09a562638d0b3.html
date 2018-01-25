@@ -86,7 +86,7 @@ End Header
       <a href="../../../contact.html" title="Contact">Contact</a>
      </li>
      <li>
-      <a href="../../../updates.html" title="Update - 01 Jan 2018">Update - <i>01 Jan 2018</i></a>
+      <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
      </li>
     </ul>
     <ul class="menu" id="dropmenu">
@@ -151,6 +151,7 @@ End Header
 		
 			var newTextNode = document.createTextNode( version + timestampText() );
 			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
     </script>
     <br/>
     Last change was the 2017-12-16 14:04:29
