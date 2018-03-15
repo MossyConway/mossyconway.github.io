@@ -1,7 +1,7 @@
 function timestampText() {
-	return " on 2018-01-24";
+	return " on 2018-03-15";
 }
 
 function updateTimestampText() {
-	return "01 Jan 2018";
+	return "15 Mar 2018";
 }
