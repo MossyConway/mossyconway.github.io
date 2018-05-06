@@ -1,83 +1,217 @@
-ppl/d/b/dc62a88c2b812e816a0bc5e11bd.html|Cleary|Ellen /Cleary/|||15 OCT 1937|Cuillaun, Kilvine, Mayo, Ireland|
-ppl/3/1/dcc2c62fa121f920abb15de6613.html|Cleary|Michael /Cleary/|2 JUN 1890|Redhill, Culnacleha, Mayo, Ireland|13 JUL 1950|Redhill, Culnacleha, Mayo, Ireland|
-ppl/c/4/dc62a88bc37552be17fdc3a834c.html|Walsh|Patrick /Walsh/|||8 APR 1928||
-ppl/c/e/dc62a88bf742f7b4f5c1c947eec.html|Walsh|Bride /Walsh/|21 APR 1880|Carrownamallaght, Knock, Mayo, Ireland|JUL 1963|Pennsylvania, USA|
-ppl/2/6/dc75a186c9b6cc3d80e65f49862.html|Cleary|Thomas /Cleary/|||EST BEF 1975||
-ppl/0/c/dc62a88c0b371792d81cf948c0.html|Davis| /Davis/|||BEF 20 APR 1910||
-ppl/2/e/dc62a88c8b821203b0dea26e4e2.html|Merrick|James /Merrick/|14 DEC 1877|Rockfield, Kilcolman, Mayo, Ireland|EST BEF 1997||
-ppl/e/a/dc62a88ca1823e479ffc8ce60ae.html|Walsh|Michael /Walsh/|27 DEC 1852||EST BEF 1972||
-ppl/1/3/dc79a0bf2462cb68a35b7bfb131.html|Walsh|Martin Jarlath /Walsh/|CAL MAY 1942||16 AUG 1942|Knock, Mayo, Ireland|
-ppl/4/e/dc62a88c82d6cbaf2bf3be49fe4.html|Henehan|Bridget /Henehan/|CAL ABT 1830||12 SEP 1903|Cossallagh, Culnacleha, Mayo, Ireland|
-ppl/1/3/dc62a88c94146014b8e63ee731.html|Cleary|William /Cleary/|10 JUL 1872|Cossallagh, Culnacleha, Mayo, Ireland|EST BEF 1992||
-ppl/a/7/dc62a88c7675a78cb0f7ba6bd7a.html|Concannon|John /Concannon/|15 APR 1898|Ballybaun, Culnacleha, Mayo, Ireland|EST BEF 1 JAN 2018||
-ppl/2/3/dc62a88c5425c111f96b756d532.html|Donnelly|James /Donnelly/|4 JUL 1892|Boleyboy, Kilvine, Mayo, Ireland|EST BEF 2012||
-ppl/7/a/dcc2e7855aa622ea95b44484aa7.html|Cleary|William /Cleary/|30 JUL 1900|Redhill, Culnacleha, Mayo, Ireland|21 SEP 1921||
-ppl/a/9/dc62a88c87f43986416d2c1b89a.html|Begley|Bridget /Begley/|CAL ABT 1872||10 OCT 1912|Cossallagh, Culnacleha, Mayo, Ireland|
-ppl/f/4/dca9fd3dbd71b29c65728a9644f.html|Rattigan|Patrick /Rattigan/|||5 SEP 1930||
-ppl/2/d/dcc2e75639f2b9e91c291d8c9d2.html|Cleary|Patrick /Cleary/|15 MAR 1895|Redhill, Culnacleha, Mayo, Ireland|1943||
-ppl/3/e/dc62a88c5737c58640a5d93ece3.html|Concannon|Thomas /Concannon/|CAL ABT 1861||EST BEF 1981||
-ppl/a/c/dc85be0186d473572c5ddfa65ca.html|McEveena|Michael /McEveena/|CAL ABT 1868||12 JAN 1942|Ballinlough , Claremorris, Mayo, Ireland|
-ppl/d/f/dc62a88c95526182e516c861cfd.html|Cleary|Sara /Cleary/|10 JUL 1872|Cossallagh, Culnacleha, Mayo, Ireland|BET 10 JUL 1872 AND 30 SEP 1872||
-ppl/a/7/dc62a88c5272a6a5f40acb2e17a.html|Donnelly|Agnes /Donnelly/|CAL ABT 1891||EST BEF 2011||
-ppl/5/8/dc62a88bfc6309b1b3f4e3d7585.html|Davis|Bridget /Davis/|CAL ABT 1833||25 NOV 1921|Carrownamallaght, Knock, Mayo, Ireland|
-ppl/2/5/dcc2e7cb73b949cdbc5010a552.html|Cleary|Henry /Cleary/|10 OCT 1904|Redhill, Culnacleha, Mayo, Ireland|14 JAN 1931|Redhill, Culnacleha, Mayo, Ireland|
-ppl/f/4/dc62a88c4c873ed4b39ee46f44f.html|Donnelly|Laurence /Donnelly/|16 AUG 1882|Boleyboy, Kilvine, Mayo, Ireland|22 FEB 1964|Feamore, Tulrahan, Mayo, Ireland|
-ppl/b/4/dc62a88ca5c59f339decfc5474b.html|Cleary|John /Cleary/|||3 JUN 1980||
-ppl/1/c/dc62a88c1e93a51d1b11bde9bc1.html|Ruane|Thomas Patrick /Ruane/|14 MAY 1882|Bolinree, Mayo, Ireland|1957||
-ppl/b/c/dca3f1597792bfeb3a675c87acb.html|Cleary|Pat /Cleary/|CAL ABT 1808||15 MAY 1893|Cossallagh, Culnacleha, Mayo, Ireland|
 ppl/9/a/dc62a88bc1357d7b7d184b138a9.html|Ruane|Delia /Ruane/|23 DEC 1914|Bolinree, Mayo, Ireland|27 SEP 2007||
-ppl/8/9/dca02edeb553ad5fb0805350098.html|Mulkeen|Thomas /Mulkeen/|CAL ABT 1840||19 JUL 1925|Ballybaun, Culnacleha, Mayo, Ireland|
-ppl/d/1/dc62a88c9ca6d033d081c7fb71d.html|Walsh|Martin /Walsh/|||EST BEF 1970||
-ppl/d/5/dc62a88c88a47310acf123bd5d.html|Eaton|John /Eaton/|CAL ABT 1880||EST BEF 2000||
-ppl/c/2/dcc0d63de6d540f642801b7c72c.html|Murphy|Maggie /Murphy/|CAL ABT 1861||4 FEB 1926|Redhill, Culnacleha, Mayo, Ireland|
-ppl/1/e/dcbd99bb88d96921eeadbf57e1.html|Rattigan|Sarah /Rattigan/|||3 JUN 2008||
-ppl/6/c/dc62a88bfe6747a27d90caf5cc6.html|Davis|Thomas /Davis/|||EST ABT 1860|USA|
-ppl/c/7/dc62a88c98c787d8e54110c887c.html|Cleary|Mary /Cleary/|15 JAN 1867|Cossallagh, Culnacleha, Mayo, Ireland|EST BEF 1987||
-ppl/e/4/dc78a11f9fe5955df4ce972804e.html|Walsh|Catherine /Walsh/|||26 NOV 1912|Philadelphia, Pennsylvania, USA|
-ppl/6/a/dc62a88c10b1522acfbcf7b28a6.html|Ruane|Martin John /Ruane/|EST BET 26 MAY 1888 AND 2 JUN 1888|Bolinree, Mayo, Ireland|EST BEF 2008||
-ppl/4/e/dc62a88ca7f50b31feb8b7461e4.html||Mary //|||8 MAR 1997||
-ppl/f/8/dca90c8412f2798f500d6c4948f.html|Conway|Tom /Conway/|10 AUG 1938|Limerick, Limerick, Ireland|12 SEP 1973|Dublin, Dublin, Ireland|
-ppl/a/1/dc62a88c90a3eab461c6a3ee91a.html|Rhatigan|James /Rhatigan/|CAL ABT 1867||EST BEF 1987||
-ppl/7/3/dc62a88c9767a23d9e60c7bb537.html|Cleary|Henry /Cleary/|28 JUL 1868|Cossallagh, Culnacleha, Mayo, Ireland|EST BEF 1988||
-ppl/2/8/dc62a88bf6027d85a4f3e5b4c82.html|Walsh|Patrick /Walsh/|CAL ABT 1829||15 MAR 1889|Carrownamallaght, Knock, Mayo, Ireland|
-ppl/8/2/dc62a88c6b1359d14a5f3807628.html|Donnelly|Kate /Donnelly/|13 MAY 1884|Boleyboy, Kilvine, Mayo, Ireland|27 JAN 1898|Boleyboy, Kilvine, Mayo, Ireland|
-ppl/6/c/dc62a88c5c32ed622b31ce8dcc6.html|Donnelly|Laurence /Donnelly/|EST ABT 1803||4 JUN 1883|Claremorris, Mayo, Ireland|
-ppl/8/8/dc62a88c1933b9fd7e490ded188.html|Ruane|Mary /Ruane/|8 AUG 1873|Bolinree, Mayo, Ireland|EST BEF 1993||
-ppl/c/6/dc62a88bcc8212ca018bbf27a6c.html|Walsh|James Thomas /Walsh/|14 MAY 1890||EST BEF 2010||
-ppl/d/b/dc62a88c25515e87adc23d16cbd.html|Ruane|John /Ruane/|12 JUN 1875|Bolinree, Mayo, Ireland|EST BEF 1995||
-ppl/e/0/dc62a88c5024615220a42e4770e.html|Donnelly|Annie /Donnelly/|5 MAR 1888|Boleyboy, Kilvine, Mayo, Ireland|EST BEF 2008||
-ppl/c/5/dc62a88c0517e72f4e72221485c.html|Ruane|Martin Stephen /Ruane/|BET DEC 1919 AND MAR 1920||EST BEF 2007||
-ppl/8/c/dc62a88c5f21793b255beaf2fc8.html|Cleary|James /Cleary/|CAL ABT 1821||18 OCT 1912|Cossallagh, Culnacleha, Mayo, Ireland|
-ppl/f/1/dc62a88c6d23ba0984b771041f.html|Donnelly|Nora /Donnelly/|3 JAN 1878||20 FEB 1959||
-ppl/5/c/dc62a88bedc30ae2afe312838c5.html|Walsh|Norah /Walsh/|9 OCT 1896|Carrownamallaght, Knock, Mayo, Ireland|EST BEF 2016||
-ppl/a/c/dc62a88c74864f59bddafeafca.html|Concannon|Martin /Concannon/|6 SEP 1896|Ballybaun, Culnacleha, Mayo, Ireland|EST BEF 2016||
-ppl/2/0/dc62a88c2ee150490564d34c602.html|Donnelly|Mary /Donnelly/|10 APR 1876||EST BEF 1996||
-ppl/6/f/dc62a88c80c70ba4fc96063b2f6.html|Concannon|Ellie /Concannon/|6 JUN 1904|Ballybaun, Culnacleha, Mayo, Ireland|25 APR 1935|Lurgan, Bekan, Mayo, Ireland|
-ppl/5/b/dc62a88be132757c5af587a02b5.html|Walsh|Charles D /Walsh/|27 JUL 1893|Ballinderris, Carrownamallaght, Knock, Mayo, Ireland|22 DEC 1969|Pennsylvania, USA|
-ppl/0/1/dc62a88bd95605b6609ff056910.html|Walsh|Michael John /Walsh/|7 JAN 1886|Ballinderris, Carrownamallaght, Knock, Mayo, Ireland|EST BEF 2006||
-ppl/9/b/dc62a88c1323af9774cfde2fab9.html|Ruane|Thomas /Ruane/|CAL ABT 1842||BET 1911 AND 1937||
-ppl/d/3/dc62a88ca8e65dbb216f61463d.html|Cleary|Mary /Cleary/|||EST BEF 2010||
-ppl/e/b/dc62a88c2267a79429fad8fd2be.html|Ruane|Austin /Ruane/|EST BEF 1822||EST BEF 1942||
-ppl/d/7/dc62a88bd6363ea78cbbe501b7d.html|Walsh|Patrick /Walsh/|30 JAN 1878|Carrownamallaght, Knock, Mayo, Ireland|EST BEF 1998||
-ppl/7/8/dc62a88c9274715f0633ff4b387.html|Cleary|James /Cleary/|||14 JUL 1937|Redhill, Culnacleha, Mayo, Ireland|
-ppl/e/f/dc62a88c16247eeedc4300b5bfe.html|Mulkeen|Bridget /Mulkeen/|CAL ABT 1846||21 OCT 1937|Bolinree, Mayo, Ireland|
-ppl/f/0/dc62a88bfa16eb356960363090f.html|Walsh|Mary Ellen /Walsh/|25 JAN 1876|Carrownamallaght, Knock, Mayo, Ireland|EST BEF 1996||
-ppl/3/0/dc62a88bc85516823e51b9d1803.html|Davis|Mary Jane /Davis/|CAL ABT 1855|Ohio, USA|15 JUN 1933|Carrowmore, Knock, Mayo, Ireland|
-ppl/f/5/dc62a88c08f297329bc560e8b5f.html|Ruane|Auty /Ruane/|||DEC 1981||
+ppl/4/5/ddae0a321d725e46571bd2ec254.html|Cleary|Martin /Cleary/|1862||1865|Claremorris, Mayo, Ireland|
+ppl/8/f/ddb20a2a73e3ee7be4adf3f47f8.html|Cleary|Edward /Cleary/|CAL ABT 1866||17 APR 1928|St. Louis City, Missouri, USA|
+ppl/5/4/dcc2e77102327f92cdc5d742b45.html|Cleary|Austin /Cleary/|BET 15 MAR 1896 AND 21 MAR 1896|Redhill, Culnacleha, Mayo, Ireland|1960||
+ppl/d/3/dc62a88ca8e65dbb216f61463d.html|Cahill|Molly /Cahill/|||8 SEP 1997||
 ppl/6/d/dc62a88bcf034eb1b71d81fbdd6.html|Walsh|Kate /Walsh/|18 FEB 1884|Knock, Mayo, Ireland|EST BEF 2004||
-ppl/e/2/dc62a88bde718f0d15d62c7802e.html|Walsh|Lizzy /Walsh/|27 FEB 1892|Ballinderris, Carrownamallaght, Knock, Mayo, Ireland|EST BEF 2012||
-ppl/6/0/dc62a88bd3240a2f8ceec3a3006.html|Walsh|Anne /Walsh/|9 DEC 1887||EST BEF 2007||
-ppl/6/2/dc62a88c45b2f725145853eb526.html|Donnelly|Sarah /Donnelly/|20 JUL 1880||EST BEF 2000||
-ppl/b/4/dc62a88c7294fc36f0a97c3b24b.html|Concannon|William /Concannon/|9 DEC 1894|Ballybaun, Culnacleha, Mayo, Ireland|EST BEF 2014||
-ppl/6/d/dc62a88ca457a1d817edfa0f2d6.html|Flanagan|Mary /Flanagan/|23 APR 1886|Brickeens, Culnacleha, Mayo, Ireland|8 SEP 1925||
-ppl/7/f/dc62a88bf07272fbf32753e31f7.html|Kyne|Bridget /Kyne/|CAL ABT 1815||21 MAR 1902|Ballinderris, Carrownamallaght, Knock, Mayo, Ireland|
+ppl/1/3/dc62a88c94146014b8e63ee731.html|Cleary|William /Cleary/|10 JUL 1872|Cossallagh, Culnacleha, Mayo, Ireland|BEF 17 APR 1928||
+ppl/3/3/dde18b5222421c4ebb10460b133.html|Ronayne|Margaret /Ronayne/|||EST BEF 1920||
+ppl/8/9/ddf53a955ab7c280a9e35082498.html|Cleary|Mary Philomena /Cleary/|13 MAY 1925||28 JUL 1982||
+ppl/b/4/dc62a88ca5c59f339decfc5474b.html|Cleary|Jackie /Cleary/|2 DEC 1923||3 JUN 1980||
+ppl/f/4/dca9fd3dbd71b29c65728a9644f.html|Rattigan|Patrick /Rattigan/|||5 SEP 1930|Cloonfane, Galway, Ireland|
+ppl/7/6/ddd55082f701ed66d85dc3e4967.html|Glynn|Bridget /Glynn/|20 SEP 1886|Kiltullagh, Roscommon, Ireland|BEF 2 APR 1911||
+ppl/7/b/dd9e4dfee226780b793e4be7b7.html|Mulkeen|Mary /Mulkeen/|6 SEP 1874|Cloonbook, Mayo, Ireland|EST BEF 1994||
+ppl/2/6/dc75a186c9b6cc3d80e65f49862.html|Cleary|Thomas /Cleary/|||BEF 17 APR 1928||
+ppl/2/8/dc62a88c0762b1e9a5f9d9e7d82.html|Ruane|Tommy /Ruane/|||1 AUG 1969||
+ppl/0/1/dca9f0bee2623e1de82a3420310.html|Rhatigan|Thomas /Rhatigan/|CAL ABT 1886||2006||
+ppl/d/f/dc62a88c95526182e516c861cfd.html|Cleary|Sara /Cleary/|10 JUL 1872|Cossallagh, Culnacleha, Mayo, Ireland|9 SEP 1872||
+ppl/4/4/dda468075af5d682781bf76af44.html|O' Cléirigh|Micheál /O' Cléirigh/|EST FROM 26 JUN 1897 TO 3 JUL 1897|Cossallagh, Culnacleha, Mayo, Ireland|1988||
+ppl/c/2/ddf55954106771126c2b9be1b2c.html|Clapham|James Kerridge /Clapham/|1929||1987||
 ppl/3/7/dc76a2a55c45acc24f7e0e1ce73.html|Jordan|Patrick J /Jordan/|||BET 11 APR 1930 AND 15 APR 1940||
+ppl/7/4/dc62a88bab448b1305c92af5747.html|Walsh|Martin Joseph /Walsh/|28 MAY 1882|Carrownamallaght, Knock, Mayo, Ireland|29 AUG 1970||
+ppl/0/7/ddf4f13a56933523a42f2fa5e70.html|Healey|Mary Jane /Healey/|1870|Victoria, Australia|1906|Victoria, Australia|
+ppl/a/5/dde188043c113df01a4b02d0a5a.html|Ronayne|Kathleen /Ronayne/|EST 1861||EST BEF 1981||
+ppl/c/5/dc62a88c0517e72f4e72221485c.html|Ruane|Martin Stephen /Ruane/|BET DEC 1919 AND MAR 1920||19 AUG 1997||
+ppl/b/0/dcc3b688eae4fc476f46630750b.html|Flanagan|Pat /Flanagan/|CAL ABT 1866||4 JUL 1939|Brickeens, Culnacleha, Mayo, Ireland|
+ppl/0/a/dda142d8b3715149d17201cb1a0.html|Cleary|Bridget /Cleary/|10 APR 1892|Cossallagh, Culnacleha, Mayo, Ireland|EST BEF 2012||
+ppl/2/3/dc62a88c5425c111f96b756d532.html|Donnelly|James /Donnelly/|4 JUL 1892|Boleyboy, Kilvine, Mayo, Ireland|EST BEF 2012||
+ppl/6/e/dda0bd00a6f42f17295db7ac3e6.html|Ratigan|Mary /Ratigan/|CAL ABT 1865||1985||
+ppl/8/e/dc62a88c0c22250f01f74543fe8.html|Donnelly|Ellen /Donnelly/|12 APR 1886|Boleyboy, Kilvine, Mayo, Ireland|AFT 6 MAR 1937||
+ppl/5/2/ddd55568615678067e1e206f925.html|Glynn|John /Glynn/|3 SEP 1889|Kiltullagh, Roscommon, Ireland|AFT JUL 1937||
+ppl/7/6/dc62a88be6c3a2aef7544033767.html|Walsh|Willie /Walsh/|25 MAY 1895|Ballinderris, Carrownamallaght, Knock, Mayo, Ireland|11 APR 1967||
+ppl/f/a/dd9e5722c539dbf1a5930ddfaf.html|Mulkeen|Delia /Mulkeen/|25 APR 1876|Cloonbook, Mayo, Ireland|24 AUG 1917|Ballykilleen, Mayo, Ireland|
+ppl/e/f/dc62a88c16247eeedc4300b5bfe.html|Mulkeen|Bridget /Mulkeen/|CAL ABT 1846||21 OCT 1937|Bolinree, Mayo, Ireland|
+ppl/5/3/ddeda74c1425e044db3e58f1535.html|Carr|Mary Ann /Carr/|JUL 1867||29 JUN 1941||
+ppl/f/9/dc62a88c7df273dc882ba92019f.html|Concannon|Mary /Concannon/|10 SEP 1908|Ballybaun, Culnacleha, Mayo, Ireland|1986|Feamore, Tulrahan, Mayo, Ireland|
+ppl/a/9/dc62a88c87f43986416d2c1b89a.html|Begley|Bridget /Begley/|CAL ABT 1872||10 OCT 1912|Cossallagh, Culnacleha, Mayo, Ireland|
+ppl/9/b/dc62a88c1323af9774cfde2fab9.html|Ruane|Thomas /Ruane/|CAL ABT 1842||BET 1911 AND 1937||
+ppl/c/7/dc62a88c98c787d8e54110c887c.html|Cleary|Mary /Cleary/|15 JAN 1867|Cossallagh, Culnacleha, Mayo, Ireland|19 JUN 1950|Brickeens, Culnacleha, Mayo, Ireland|
+ppl/5/1/dcc2e6f8935303eb62731306e15.html|Cleary|Delia A /Cleary/|EST BET 11 OCT 1891 AND 17 OCT 1891|Redhill, Culnacleha, Mayo, Ireland|31 DEC 1967||
+ppl/8/5/ddf499722303388cd4c80211658.html|Heaney|Terrance /Heaney/|EST ABT 1868||EST BEF 1988||
+ppl/3/1/ddf5478725e31acb2bb5322b913.html|Cleary|Eileen Theresa /Cleary/|27 SEP 1928||13 MAY 1978|Australia|
+ppl/3/4/ddd50be5cfd15cb86d095f63043.html|Walsh|Leo B /Walsh/|CAL ABT 1896|Missouri, USA|FEB 1954||
+ppl/1/c/dc62a88c1e93a51d1b11bde9bc1.html|Ruane|Thomas Patrick /Ruane/|14 MAY 1882|Bolinree, Mayo, Ireland|1957||
+ppl/e/2/dc62a88bde718f0d15d62c7802e.html|Walsh|Lizzy /Walsh/|27 FEB 1892|Ballinderris, Carrownamallaght, Knock, Mayo, Ireland|EST BEF 2012||
+ppl/8/3/ddd4d438fdd6dd35e381641bd38.html|Cleary|Isabel M /Cleary/|CAL ABT 1899||AUG 1972||
+ppl/d/b/dc62a88c25515e87adc23d16cbd.html|Ruane|John /Ruane/|12 JUN 1875|Bolinree, Mayo, Ireland|EST BEF 1995||
+ppl/6/2/dc62a88c45b2f725145853eb526.html|Donnelly|Sarah /Donnelly/|20 JUL 1880||EST BEF 2000||
+ppl/2/0/dc62a88c2ee150490564d34c602.html|Donnelly|Mary /Donnelly/|10 APR 1876||25 JUN 1958|Ballybaun, Culnacleha, Mayo, Ireland|
+ppl/b/4/dc62a88c7294fc36f0a97c3b24b.html|Concannon|Wille /Concannon/|9 DEC 1894|Ballybaun, Culnacleha, Mayo, Ireland|EST BEF 2014|Ballybaun, Culnacleha, Mayo, Ireland|
+ppl/8/9/dca02edeb553ad5fb0805350098.html|Mulkeen|Thomas /Mulkeen/|CAL ABT 1840||19 JUL 1925|Ballybaun, Culnacleha, Mayo, Ireland|
+ppl/8/8/dd206ca6b9b4c91bcc8f3744888.html|Ronayne|Thomas J /Ronayne/|25 APR 1935|||Brickeens, Culnacleha, Mayo, Ireland|
+ppl/a/4/ddedab78b1a4c790b6d9b3f634a.html|Cleary|Joseph James /Cleary/|9 OCT 1898|Missouri, USA|MAY 1936||
+ppl/c/5/ddf1343b3c7647d2acadcdd5d5c.html|Mulkeen|James /Mulkeen/|CAL ABT 1878||1998||
+ppl/9/2/dda1f09852f339206de04648f29.html|Gibbons|Johanna /Gibbons/|||25 JAN 1990||
+ppl/d/5/dc62a88c88a47310acf123bd5d.html|Eaton|John /Eaton/|CAL ABT 1880||EST BEF 2000||
+ppl/0/4/ddf4808e9513cc5f0fe3c90cc40.html|Inerey|Nano /Inerey/|||1971||
+ppl/2/7/ddb74be1c056033f0def4b56672.html|Cleary|Tess /Cleary/|17 MAR 1922||11 MAY 1988||
+ppl/f/d/ddf173a7f8876c9f5b4e934b8df.html|Cleary|Patrick /Cleary/|11 SEP 1864||1 MAY 1948|Ballymangan, Mayo, Ireland|
+ppl/a/4/dcaa153b7d4575d3abbecb8344a.html|Ronayne|Michael /Ronayne/|EST ABT 1895||EST BEF 2015||
+ppl/2/c/ddf135a999e78aa09298eab98c2.html|Mulkeen|Kate /Mulkeen/|CAL ABT 1883||2003||
+ppl/7/d/ddf1825e4d86c3cec27b1aeb9d7.html|Cleary|John /Cleary/|30 OCT 1866||27 JUL 1941|Ballymangan, Mayo, Ireland|
+ppl/a/8/dc62a88c28346fb608a993388a.html|Donnelly|Martin /Donnelly/|CAL ABT 1841||24 JUN 1928|Ballynagran, Claremorris, Mayo, Ireland|
+ppl/5/c/dc62a88bedc30ae2afe312838c5.html|Walsh|Norah /Walsh/|9 OCT 1896|Carrownamallaght, Knock, Mayo, Ireland|EST BEF 2016||
+ppl/8/0/dcc41060d887151ccb27231ea08.html|Flanagan|Thomas /Flanagan/|EST BET 1 MAR 1889 AND 7 MAR 1889|Brickeens, Culnacleha, Mayo, Ireland|EST BEF 2009||
+ppl/f/0/dc62a88bfa16eb356960363090f.html|Walsh|Mary Ellen /Walsh/|25 JAN 1876|Carrownamallaght, Knock, Mayo, Ireland|EST BEF 1996||
+ppl/c/d/ddf1830b631fb9ba07a19ba3dc.html|Cleary|Kate /Cleary/|1 JAN 1883|Ballymangan, Mayo, Ireland|21 OCT 1959|Melbourne, Victoria, Australia|
+ppl/d/b/dc62a88c2b812e816a0bc5e11bd.html|Cleary|Ellen /Cleary/|||15 OCT 1937|Cuillaun, Kilvine, Mayo, Ireland|
+ppl/d/0/ddaba82237a7822aabdb5762a0d.html|Solan|Martin /Solan/|CAL ABT 1850||EST BEF 1970||
+ppl/1/e/dde18a8b4304b50b175c2ab7ae1.html|Ronayne|Michael /Ronayne/|||BEF 1911||
+ppl/e/8/dde901d3439e6d1733df5cb38e.html|Cleary|Mary Virginia /Cleary/|1931|Missouri, USA|1974||
+ppl/0/1/dc62a88bd95605b6609ff056910.html|Walsh|Michael John /Walsh/|7 JAN 1886|Ballinderris, Carrownamallaght, Knock, Mayo, Ireland|EST BEF 2006||
+ppl/0/a/ddedd64ed8f766fa64d72d9e3a0.html|Cleary|Frank Edward /Cleary/|CAL ABT 1903||APR 1980||
+ppl/6/d/ddf4de5b66e2150067a3db691d6.html|Cleary|Thomas /Cleary/|EST BET 18 MAY 1881 AND 24 MAY 1881|Ballymangan, Mayo, Ireland|28 MAY 1881|Ballymangan, Mayo, Ireland|
+ppl/2/5/dd9e9107e806a065144fc89dd52.html|Scally|Kate /Scally/|CAL ABT 1878||EST BEF 1998||
+ppl/d/f/dd844f7e6721838173b43f12dfd.html|Cleary|Martin /Cleary/|CAL ABT 1812||21 MAR 1892|Cossallagh, Culnacleha, Mayo, Ireland|
+ppl/3/9/dc62a88c7c2651cba0d42300a93.html|Concannon|Delia /Concannon/|7 AUG 1906|Ballybaun, Culnacleha, Mayo, Ireland||USA|
+ppl/1/0/dde125302e622646ba32b9bd801.html|Lyons|Tom /Lyons/|EST ABT 1892||2012||
+ppl/3/d/dde8dc00b7dc5f96e3129d8d3.html|Cooney|Loretta /Cooney/|1903||1974||
+ppl/e/5/ddf182a9ca0bf9527c095b535e.html|Cleary|Ellen /Cleary/|EST BET 18 JAN 1874 AND 24 JAN 1874|Cossallagh, Culnacleha, Mayo, Ireland|EST BEF 1994||
+ppl/3/1/dc62a88c862501cc07824a47d13.html|Cleary|John /Cleary/|EST ABT 1854||8 AUG 1929|Cossallagh, Culnacleha, Mayo, Ireland|
+ppl/2/5/dda519c3a162766e5a517fdf352.html|Cleary|Patrick Martin /Cleary/|||EST BEF 2018||
+ppl/e/7/dd9b57487f268af1d8532aea27e.html|Delaney|Kate /Delaney/|CAL ABT 1840||30 DEC 1901|Ballymangan, Mayo, Ireland|
+ppl/9/4/dda4063ca796694027b942bd849.html|Cleary|Thomas /Cleary/|EST BET 13 NOV 1894 AND 1894|Cossallagh, Culnacleha, Mayo, Ireland|10 APR 1907|Cossallagh, Culnacleha, Mayo, Ireland|
+ppl/7/f/dc62a88bf07272fbf32753e31f7.html|Kyne|Bridget /Kyne/|CAL ABT 1815||21 MAR 1902|Ballinderris, Carrownamallaght, Knock, Mayo, Ireland|
+ppl/a/c/dc85be0186d473572c5ddfa65ca.html|McEveena|Michael /McEveena/|CAL ABT 1868||12 JAN 1942|Ballinlough, Claremorris, Mayo, Ireland|
+ppl/4/6/ddf4525a36a71cdc90faaf7d64.html|Hughes|John /Hughes/|CAL ABT 1862||EST BEF 1982||
+ppl/8/4/dddaf85c00d7d6180a855fb0d48.html|Cleary|Mary /Cleary/|1918|Durham, England|JAN 1997|Durham, England|
+ppl/2/a/ddb3ee7e9a4eb16db4c9c9e5a2.html|McGagh|Willie /McGagh/|||6 JUN 1952|Liskeevy, Galway, Ireland|
+ppl/b/8/dda1d50ee0a305eafb9f5929c8b.html|Cleary|Martin /Cleary/|20 MAR 1893|Cossallagh, Culnacleha, Mayo, Ireland|APR 1970||
+ppl/7/5/dda06093902447d4331869dd857.html|Regan|Patrick /Regan/|CAL ABT 1880||EST BEF 2000||
+ppl/9/2/ddf134e591b6a115709e347e129.html|Mulkeen|Thomas /Mulkeen/|CAL ABT 1880||EST BEF 2000||
+ppl/5/8/dc62a88bfc6309b1b3f4e3d7585.html|Davis|Bridget /Davis/|CAL ABT 1833||25 NOV 1921|Carrownamallaght, Knock, Mayo, Ireland|
+ppl/9/3/ddd55f4e2651faa175e232e7c39.html|Glynn|Anne /Glynn/|17 APR 1895|Kiltullagh, Roscommon, Ireland|EST BEF 2015||
+ppl/f/5/dc62a88c08f297329bc560e8b5f.html|Ruane|Auty /Ruane/|||DEC 1981||
+ppl/a/f/ddf416dfeb5b8f8b4f0ede34fa.html|Cleary|Delia /Cleary/|1 FEB 1872|Cossallagh, Culnacleha, Mayo, Ireland|EST BEF 1992||
+ppl/0/1/dd9ddefa769247a27c247eb4510.html|Cleary|Ellen /Cleary/|CAL ABT 1849||11 NOV 1878|Cloonbook, Mayo, Ireland|
+ppl/a/c/dc62a88c74864f59bddafeafca.html|Concannon|Martin /Concannon/|6 SEP 1896|Ballybaun, Culnacleha, Mayo, Ireland|EST BEF 2016|USA|
+ppl/6/d/dc62a88ca457a1d817edfa0f2d6.html|Flanagan|Mary /Flanagan/|23 APR 1886|Brickeens, Culnacleha, Mayo, Ireland|8 SEP 1925||
+ppl/7/a/dcc2e7855aa622ea95b44484aa7.html|Cleary|Willie /Cleary/|BET 15 APR 1900 AND 21 APR 1900|Redhill, Culnacleha, Mayo, Ireland|13 SEP 1921||
+ppl/2/2/dde186e6edf578dff6f154f8b22.html|Flanagan|Michael /Flanagan/|EST 1854||EST BEF 1974||
+ppl/4/f/dddae0ac6a92547252d2b4303f4.html|Russell|Betty /Russell/|||1968||
+ppl/0/c/ddf11783ac379dd13240cd0efc0.html|McEveeney|John /McEveeney/|10 FEB 1914|Ballinlough, Claremorris, Mayo, Ireland|10 FEB 1914|Ballinlough, Claremorris, Mayo, Ireland|
+ppl/d/1/dcc418c87f46835a988fafa911d.html|Flanagan|Delia /Flanagan/|4 SEP 1893|Brickeens, Culnacleha, Mayo, Ireland|EST BEF 2013||
+ppl/e/2/dde1864d8e0363023ee6d9f1e2e.html|Flanagan|Thomas /Flanagan/|EST BEF 1834||EST BEF 1954||
+ppl/0/0/dcc418a7efffa65eabe4aca500.html|Flanagan|Maggie /Flanagan/|22 FEB 1892|Brickeens, Culnacleha, Mayo, Ireland|EST BEF 2012||
+ppl/a/7/dc62a88c7675a78cb0f7ba6bd7a.html|Concannon|John /Concannon/|15 APR 1898|Ballybaun, Culnacleha, Mayo, Ireland|EST BEF 1 JAN 2018||
+ppl/0/a/dcc2c66494977c17ece9ae2d7a0.html|Cleary|John /Cleary/|BET 3 DEC 1892 AND 10 DEC 1892|Redhill, Culnacleha, Mayo, Ireland|AFT 31 JUL 1937||
+ppl/7/2/ddd728c6ae345a6854ea6db8f27.html|Murray|Michael /Murray/|EST ABT 1876||EST BEF 1996||
+ppl/7/8/dc62a88c9274715f0633ff4b387.html|Cleary|James /Cleary/|||14 JUL 1937|Redhill, Culnacleha, Mayo, Ireland|
+ppl/2/5/dcc2e7cb73b949cdbc5010a552.html|Cleary|Henry /Cleary/|10 OCT 1904|Redhill, Culnacleha, Mayo, Ireland|14 JAN 1931|Redhill, Culnacleha, Mayo, Ireland|
+ppl/2/0/dda22431fdc54c03db0a6403802.html|Cleary|Michael /Cleary/|1939|Claremorris, Mayo, Ireland|1967||
+ppl/e/b/dc62a88c2267a79429fad8fd2be.html|Ruane|Austin /Ruane/|EST BEF 1822||EST BEF 1942||
+ppl/f/1/dc62a88c6d23ba0984b771041f.html|Donnelly|Nora /Donnelly/|3 JAN 1878|Boleyboy, Kilvine, Mayo, Ireland|20 FEB 1959|Cloonfane, Galway, Ireland|
+ppl/b/3/ddf4f7cbd1d288c492ba17073b.html|Scott|Anne Eileen /Scott/|1 AUG 1888|Victoria, Australia|6 JAN 1970|Victoria, Australia|
+ppl/7/e/ddf182e7f33bcda2e2712d4e7.html|Cleary|Anne /Cleary/|7 FEB 1878|Ballymangan, Mayo, Ireland|27 SEP 1963|Kilrush, Mayo, Ireland|
+ppl/e/2/ddb4177cf651c8e5490b68b192e.html|McGagh|Pa /McGagh/|29 JUN 1927|Liskeevy, Galway, Ireland|4 JUN 1993|Galway, Ireland|
+ppl/8/a/ddb1cd9c6c821f21f39113bc8a8.html|Glynn|James /Glynn/|CAL ABT 1850||21 JUL 1912|Kiltullagh, Roscommon, Ireland|
 ppl/8/4/dc62a88c24b3342605faa488748.html|Mulkeen|Martin /Mulkeen/|CAL ABT 1798||12 SEP 1889|Ballybaun, Culnacleha, Mayo, Ireland|
 ppl/d/3/dc62a88bff14bc67e66572dce3d.html|Ruane|Austin /Ruane/|BET 5 FEB 1878 AND 12 FEB 1878|Bolinree, Mayo, Ireland|6 MAR 1937|Bolinree, Mayo, Ireland|
-ppl/3/1/dc62a88c862501cc07824a47d13.html|Cleary|John /Cleary/|EST ABT 1854||8 AUG 1929|Cossallagh, Culnacleha, Mayo, Ireland|
-ppl/2/8/dc62a88c0762b1e9a5f9d9e7d82.html|Ruane|Tommy /Ruane/|||1 AUG 1969||
-ppl/7/4/dc62a88bab448b1305c92af5747.html|Walsh|Martin Joseph /Walsh/|28 MAY 1882|Carrownamallaght, Knock, Mayo, Ireland|29 AUG 1970||
-ppl/c/2/dc62a88c66f36851ad0295d5d2c.html|Donnelly|Bridget /Donnelly/|1 NOV 1878|Boleyboy, Kilvine, Mayo, Ireland|EST BEF 1998||
-ppl/7/6/dc62a88be6c3a2aef7544033767.html|Walsh|Willie /Walsh/|25 MAY 1895|Ballinderris, Carrownamallaght, Knock, Mayo, Ireland|11 APR 1967||
-ppl/a/8/dc62a88c28346fb608a993388a.html|Donnelly|Martin /Donnelly/|CAL ABT 1841||24 JUN 1928|Ballnagran, Claremorris, Mayo, Ireland|
-ppl/8/e/dc62a88c0c22250f01f74543fe8.html|Donnelly|Ellen /Donnelly/|12 APR 1886|Boleyboy, Kilvine, Mayo, Ireland|AFT 6 MAR 1937||
+ppl/3/0/dc62a88bc85516823e51b9d1803.html|Davis|Mary Jane /Davis/|CAL ABT 1855|Ohio, USA|15 JUN 1933|Carrowmore, Knock, Mayo, Ireland|
+ppl/4/6/ddd52526b0c21013472bf967964.html|Cleary|Virginia /Cleary/|CAL ABT 1902|Missouri, USA|MAR 1984||
+ppl/1/7/dde8af7152744d73e39b4d77571.html|Cleary|Delphine /Cleary/|24 DEC 1901|Missouri, USA|AUG 1983||
+ppl/3/e/dc62a88c5737c58640a5d93ece3.html|Concannon|Tom /Concannon/|CAL ABT 1861||8 AUG 1939|Ballybaun, Culnacleha, Mayo, Ireland|
+ppl/9/e/dcc418fe98a193a38c6926011e9.html|Flanagan|William /Flanagan/|BET 21 FEB 1896 AND 28 FEB 1896|Brickeens, Culnacleha, Mayo, Ireland|3 NOV 1905|Brickeens, Culnacleha, Mayo, Ireland|
+ppl/a/1/dc62a88c90a3eab461c6a3ee91a.html|Rhatigan|James /Rhatigan/|CAL ABT 1867||EST BEF 1987||
+ppl/3/1/dcc2c62fa121f920abb15de6613.html|Cleary|Michael /Cleary/|2 JUN 1890|Redhill, Culnacleha, Mayo, Ireland|19 JUL 1950|Redhill, Culnacleha, Mayo, Ireland|
+ppl/0/a/dd9e134340f2247b6bee40959a0.html|Mulkeen|Thomas /Mulkeen/|8 DEC 1870|Bekan, Mayo, Ireland|EST BEF 1990||
+ppl/8/2/dc62a88c6b1359d14a5f3807628.html|Donnelly|Kate /Donnelly/|13 MAY 1884|Boleyboy, Kilvine, Mayo, Ireland|27 JAN 1898|Boleyboy, Kilvine, Mayo, Ireland|
+ppl/0/c/dc62a88c0b371792d81cf948c0.html|Davis| /Davis/|||BEF 20 APR 1910||
+ppl/b/6/ddedaad6213480d2a2abb28e26b.html|Cleary|Adele M /Cleary/|7 MAY 1896|Missouri, USA|26 FEB 1963||
+ppl/e/0/ddf4748a1fb1698eaad9430760e.html|Roche| /Roche/|EST ABT 1864||EST BEF 1984||
+ppl/e/7/dddab1ca215193137ed058de87e.html|Cleary|Thomas /Cleary/|24 FEB 1915|Durham, England|1999|Bolton, Lancashire, England|
+ppl/6/0/dc62a88bd3240a2f8ceec3a3006.html|Walsh|Anne /Walsh/|9 DEC 1887||EST BEF 2007||
+ppl/d/5/ddd723fd883161764310f29535d.html|Glynn|Mary /Glynn/|CAL ABT 1888||AFT 31 JUL 1937||
+ppl/d/1/dc62a88c9ca6d033d081c7fb71d.html|Walsh|Martin /Walsh/|||EST BEF 1970||
+ppl/5/2/ddd79c7a435173245dccdc19e25.html|Ronayne|Eileen /Ronayne/|EST ABT 1898||EST BEF 2018||
+ppl/6/f/dc62a88c80c70ba4fc96063b2f6.html|Concannon|Ellie /Concannon/|6 JUN 1904|Ballybaun, Culnacleha, Mayo, Ireland|25 APR 1935|Lurgan, Bekan, Mayo, Ireland|
+ppl/4/e/dc62a88c82d6cbaf2bf3be49fe4.html|Henehan|Biddy /Henehan/|CAL ABT 1830||12 SEP 1903|Cossallagh, Culnacleha, Mayo, Ireland|
+ppl/8/c/dc62a88c5f21793b255beaf2fc8.html|Cleary|James /Cleary/|CAL ABT 1821||18 OCT 1912|Cossallagh, Culnacleha, Mayo, Ireland|
+ppl/3/b/dddbd35c9dd1ab57b9e8063f1b3.html|Quirke|Willie /Quirke/|||1983||
+ppl/7/8/ddde4b1886926e3ff26456ba187.html|Cleary|Austin Gerald /Cleary/|14 MAY 1928|New York, USA|16 NOV 1992|New York, USA|
+ppl/6/a/dc62a88c10b1522acfbcf7b28a6.html|Ruane|Martin John /Ruane/|EST BET 26 MAY 1888 AND 2 JUN 1888|Bolinree, Mayo, Ireland|EST BEF 2008||
+ppl/5/5/dddac3ca5b51692102891a99955.html|Cleary|Austin /Cleary/|12 JUL 1916|Durham, England|1972|Durham, England|
+ppl/d/d/ddd880269ad407e17c3b74590dd.html|Penman|Ann /Penman/|CAL ABT 1892||EST BEF 2012||
+ppl/1/e/dcbd99bb88d96921eeadbf57e1.html|Rattigan|Sarah /Rattigan/|||3 JUN 2008||
+ppl/e/0/dc62a88c5024615220a42e4770e.html|Donnelly|Annie /Donnelly/|5 JAN 1888|Boleyboy, Kilvine, Mayo, Ireland|EST BEF 2008||
+ppl/c/2/dcc0d63de6d540f642801b7c72c.html|Murphy|Maggie /Murphy/|CAL ABT 1861||4 FEB 1926|Redhill, Culnacleha, Mayo, Ireland|
+ppl/1/3/dc79a0bf2462cb68a35b7bfb131.html|Walsh|Martin Jarlath /Walsh/|CAL MAY 1942||16 AUG 1942|Knock, Mayo, Ireland|
+ppl/d/1/ddf476e298575295895e6db71d.html|Cleary|Michael /Cleary/|EST BET 25 DEC 1874 AND 31 DEC 1874|Ballymangan, Mayo, Ireland|1934|Finley, New South Wales, Australia|
+ppl/c/9/ddf4d64d8b7496bf57d5238759c.html|Kyne|Edward Joseph /Kyne/|1876||1935||
+ppl/6/c/dc62a88bfe6747a27d90caf5cc6.html|Davis|Thomas /Davis/|||EST ABT 1860|USA|
+ppl/7/3/dc62a88c9767a23d9e60c7bb537.html|Cleary|Henry J /Cleary/|28 JUL 1868|Cossallagh, Culnacleha, Mayo, Ireland|MAR 1935||
+ppl/6/0/ddda98ac1b22e654df226ce506.html|Cleary|James /Cleary/|1913||1961|Seaham, Durham, England|
+ppl/a/7/dda45d3a71a17a80c36f592a37a.html|Cleary|Kate Mary /Cleary/|FROM 24 AUG 1895 TO 31 AUG 1895|Cossallagh, Culnacleha, Mayo, Ireland|EST BEF 2015||
+ppl/1/9/ddabae1db7955ff872e37f30b91.html|Solan|Margaret Mary /Solan/|28 JUL 1886|Cloonboy, Mayo, Ireland|2006||
+ppl/9/b/ddf265ecb033e29c83a602425b9.html|Cleary|James /Cleary/|30 JAN 1867|Cossallagh, Culnacleha, Mayo, Ireland|7 FEB 1948|Victoria, Australia|
+ppl/f/1/dde74a32dbf3d3bcf70f56c5e1f.html|Fleming|Catherine /Fleming/|EST BEF 1876||EST BEF 1996||
+ppl/8/8/dc62a88c1933b9fd7e490ded188.html|Ruane|Mary /Ruane/|8 AUG 1873|Bolinree, Mayo, Ireland|EST BEF 1993||
+ppl/d/2/ddf198f0a565c1c8e15242dc42d.html|Gilligan|Annie /Gilligan/|CAL ABT 1890||20 MAY 1951|Ballymangan, Mayo, Ireland|
+ppl/6/0/ddf40a76ccb427b87b236f80306.html|Cleary|Thomas /Cleary/|15 DEC 1869|Ballymangan, Mayo, Ireland|BEF 1881||
+ppl/b/c/dca3f1597792bfeb3a675c87acb.html|Cleary|Pat /Cleary/|CAL ABT 1808||15 MAY 1893|Cossallagh, Culnacleha, Mayo, Ireland|
+ppl/1/e/dde8dc668e15bd307514b0d49e1.html|Cleary|Frank X Jr /Cleary/|29 SEP 1929|Missouri, USA|8 DEC 2010||
+ppl/3/0/ddab3c696675c43b17f67577203.html|Cleary|William Joseph /Cleary/|FROM 1 SEP 1901 TO 7 SEP 1901|Cossallagh, Culnacleha, Mayo, Ireland|29 MAR 1903|Cossallagh, Culnacleha, Mayo, Ireland|
+ppl/f/4/dddbc63b94b2560812065b11e4f.html|Donnelly|Babs /Donnelly/|||1 FEB 2003||
+ppl/c/9/ddedd53325cf069cde6a77749c.html|Cleary|Florence /Cleary/|27 AUG 1900|Missouri, USA|JAN 1983||
+ppl/4/b/dde18ac0cbf778adb47c264a2b4.html|Ronayne|Thomas /Ronayne/|EST ABT 1800||EST BEF 1920||
+ppl/0/2/ddd53863c1570eed7ccc3c45c20.html|Glynn|Honoria /Glynn/|5 NOV 1885|Kiltullagh, Roscommon, Ireland|BEF 2 APR 1911||
+ppl/5/5/dd9e097b336f3831dd6cf58c55.html|Mulkeen|James /Mulkeen/|EST ABT 1839||EST BEF 1969||
+ppl/b/9/dde46f72a223a6ca6300a195b9b.html|Ronayne|Delia /Ronayne/|CAL ABT 1893||EST BEF 2013||
+ppl/f/a/ddb734d799f69c159bc2d7ebfaf.html|Cleary|Kathleen Canice /Cleary/|||24 APR 1921|Cossallagh, Culnacleha, Mayo, Ireland|
+ppl/6/c/dc62a88c5c32ed622b31ce8dcc6.html|Donnelly|Laurence /Donnelly/|EST ABT 1803||4 JUN 1883|Claremorris, Mayo, Ireland|
+ppl/e/4/ddf5449fa776e42e56b5954ff4e.html|Claringbull|Gwen Fenton /Claringbull/|3 DEC 1919||12 JAN 2006|Victoria, Australia|
+ppl/e/9/dde57dae3706d887bcb7c8ada9e.html|Flanagan|William /Flanagan/|3 AUG 1908||10 JAN 1910|Brickeens, Culnacleha, Mayo, Ireland|
+ppl/c/2/dc62a88c66f36851ad0295d5d2c.html|Donnelly|Delia /Donnelly/|1 NOV 1878|Boleyboy, Kilvine, Mayo, Ireland|EST BEF 1998||
+ppl/5/c/dc62a88c7a574c2fbec26a1dcc5.html|Concannon|Kate /Concannon/|4 JUN 1902|Ballybaun, Culnacleha, Mayo, Ireland|28 OCT 1979|Tuam, Galway, Ireland|
+ppl/2/4/dde8aeeaf5637ed1d6dd4c1cc42.html|Cleary|Frank Xavier /Cleary/|3 JAN 1900|Missouri, USA|DEC 1975||
+ppl/b/a/ddb10248a9f708d877a1da81cab.html|Cleary|Biddy /Cleary/|||25 APR 1937|Kiltullagh, Roscommon, Ireland|
+ppl/1/8/dcc418845445ca8066b64e75d81.html|Flanagan|James /Flanagan/|20 JAN 1891|Brickeens, Culnacleha, Mayo, Ireland|EST BEF 2011||
+ppl/2/5/ddd55b2bc0b7519ab68b5b3e552.html|Glynn|James /Glynn/|20 MAY 1892|Kiltullagh, Roscommon, Ireland|AFT 31 JUL 1937||
+ppl/2/7/ddd527b3150fc9a8325c962072.html|Chartrand|Arthur J /Chartrand/|CAL ABT 1901|Missouri, USA|DEC 1976||
+ppl/7/e/dd9b277b7db6a4a32615e2670e7.html|Cleary|Thomas [Speculative] /Cleary/|EST ABT 1828||19 JAN 1891|Ballymangan, Mayo, Ireland|
+ppl/a/7/dc62a88c5272a6a5f40acb2e17a.html|Donnelly|Agnes /Donnelly/|CAL ABT 1891||EST BEF 2011||
+ppl/3/c/ddf4db462361c281b668b53fec3.html|Kyne|Margaret /Kyne/|1920||2002||
+ppl/1/4/dc62a88c7864f709c1ea0f71541.html|Concannon|Thomas /Concannon/|12 JUN 1900|Ballybaun, Culnacleha, Mayo, Ireland|1970|Ballyhaunis, Mayo, Ireland|
+ppl/d/b/ddd4d35dec12e66d6561c919fbd.html|Cleary|Mary M /Cleary/|CAL ABT 1866|Ireland|1933||
+ppl/2/d/dcc2e75639f2b9e91c291d8c9d2.html|Cleary|Patrick /Cleary/|BET 25 JAN 1895 AND 1 FEB 1895|Redhill, Culnacleha, Mayo, Ireland|25 MAY 1943|Castlebar, Mayo, Ireland|
+ppl/5/4/ddf4f4274b66f280d44ed0d3045.html|Cleary|Terrance Thomas /Cleary/|1906|Victoria, Australia|1906|Victoria, Australia|
+ppl/c/e/dc62a88bf742f7b4f5c1c947eec.html|Walsh|Bride /Walsh/|21 APR 1880|Carrownamallaght, Knock, Mayo, Ireland|JUL 1963|Pennsylvania, USA|
+ppl/c/4/dc62a88bc37552be17fdc3a834c.html|Walsh|Patrick /Walsh/|||8 APR 1928||
+ppl/0/f/ddf4865a1bf673f63928e2f3f0.html|Cleary|Pauline /Cleary/|||1931||
+ppl/b/b/ddf1239380e298b923c8190eebb.html|Connell|Anne /Connell/|CAL ABT 1849||EST BEF 1969||
+ppl/c/6/dc62a88bcc8212ca018bbf27a6c.html|Walsh|James Thomas /Walsh/|14 MAY 1890||EST BEF 2010||
+ppl/2/8/dc62a88bf6027d85a4f3e5b4c82.html|Walsh|Patrick /Walsh/|CAL ABT 1819||15 MAR 1889|Carrownamallaght, Knock, Mayo, Ireland|
+ppl/d/7/dc62a88bd6363ea78cbbe501b7d.html|Walsh|Patrick /Walsh/|30 JAN 1878|Carrownamallaght, Knock, Mayo, Ireland|EST BEF 1998||
+ppl/b/1/dcc3302ff922d23fb5a5189f11b.html|Cleary|James /Cleary/|EST BET 12 JAN 1889 AND 18 JAN 1889|Redhill, Culnacleha, Mayo, Ireland|1952|Durham, England|
+ppl/f/4/dc62a88c4c873ed4b39ee46f44f.html|Donnelly|Laurence /Donnelly/|16 AUG 1882|Boleyboy, Kilvine, Mayo, Ireland|22 FEB 1964|Feamore, Tulrahan, Mayo, Ireland|
+ppl/4/a/ddf4fe1d01af484438b79a2da4.html|Cleary|Tom /Cleary/|6 DEC 1921|Melbourne, Victoria, Australia|19 OCT 2011|Victoria, Australia|
+ppl/4/a/ddb731fc77046ade43a0658b3a4.html|Cleary|Mary Delia /Cleary/|21 SEP 1917|Bekan, Mayo, Ireland|1975||
+ppl/b/d/dd9e5eeb30e62ca376af5a6d8db.html|Mulkeen|Margaret /Mulkeen/|1 DEC 1877|Cloonbook, Mayo, Ireland|EST BEF 1997||
+ppl/5/6/dd80cfb1eaed93d9e724306865.html|Cleary|Patrick [Speculative] /Cleary/|EST ABT 1780||EST 1860||
+ppl/7/3/ddf225fee9211bad7bc5c14137.html|Cleary|Tim /Cleary/|12 APR 1868|Cossallagh, Culnacleha, Mayo, Ireland|16 MAY 1917|Calley, Queensland, Australia|
+ppl/e/a/dc62a88ca1823e479ffc8ce60ae.html|Walsh|Michael /Walsh/|27 DEC 1852||EST BEF 1972||
+ppl/f/5/ddde0fc3fb2624fdc66a206d75f.html|Mannion|Nora /Mannion/|CAL ABT 1902|Ireland|1998||
+ppl/e/f/dda0aa1ae9052442ab37e1423fe.html|Cleary|Michael /Cleary/|4 SEP 1853|Annagh, Mayo, Ireland|19 MAY 1929|Logboy, Mayo, Ireland|
+ppl/c/0/ddab9b528a040aa083e3673670c.html|Cleary|Bridget /Cleary/|||23 JAN 1887|Cloonboy, Mayo, Ireland|
+ppl/6/4/ddade7c1d0f23aff17627c55b46.html|Cleary|Mary /Cleary/|||22 DEC 1897|Cossallagh, Culnacleha, Mayo, Ireland|
+ppl/5/b/dc62a88be132757c5af587a02b5.html|Walsh|Charles D /Walsh/|27 JUL 1893|Ballinderris, Carrownamallaght, Knock, Mayo, Ireland|22 DEC 1969|Pennsylvania, USA|
+ppl/6/f/ddb0f7efdcf50064c7e4d25b5f6.html|Cleary|Martin /Cleary/|||DEC 1939||
+ppl/9/a/dde18aa25365f8f81ad66c183a9.html|Ralph|Winifred /Ralph/|||1902||
+ppl/5/0/dddba8953a35e76313f26ada205.html|Donnelly|Owen /Donnelly/|CAL ABT 1876||16 MAR 1964|Ballynagran, Claremorris, Mayo, Ireland|
+ppl/c/e/dd9bb46523d698a06476873d6ec.html|Ratigan|Bridget /Ratigan/|CAL ABT 1822||26 SEP 1892||
+ppl/8/d/ddb1ed2b939778979ad6e5ea0d8.html|Cleary|Austin /Cleary/|13 JUL 1870|Cossallagh, Culnacleha, Mayo, Ireland|10 APR 1896|Cossallagh, Culnacleha, Mayo, Ireland|
+ppl/2/e/dc62a88c8b821203b0dea26e4e2.html|Merrick|James /Merrick/|14 DEC 1877|Rockfield, Kilcolman, Mayo, Ireland|EST BEF 1997||
+ppl/7/e/ddb1f822e3d56c030e21a16a4e7.html|Cleary|Ann /Cleary/|13 JUL 1870|Cossallagh, Culnacleha, Mayo, Ireland|BEF 17 APR 1928||
+ppl/a/c/dcc419758ae797597ad5fc4b4ca.html|Flanagan|Molly /Flanagan/|23 JUL 1898|Brickeens, Culnacleha, Mayo, Ireland|EST BEF 2018||
+ppl/e/4/dc78a11f9fe5955df4ce972804e.html|Walsh|Catherine /Walsh/|||26 NOV 1912|Philadelphia, Pennsylvania, USA|
+ppl/f/8/dca90c8412f2798f500d6c4948f.html|Conway|Tom /Conway/|10 AUG 1938|Limerick, Limerick, Ireland|12 SEP 1973|Dublin, Dublin, Ireland|

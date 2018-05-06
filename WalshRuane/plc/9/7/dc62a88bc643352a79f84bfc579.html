@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en-GB" xml:lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
- <head lang="en-GB">
+<html lang="en-IE" xml:lang="en-IE" xmlns="https://www.w3.org/1999/xhtml">
+ <head lang="en-IE">
   <title>
    The Walsh &amp; Ruane Tree - Places
   </title>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" name="viewport"/>
   <meta content="yes" name="apple-mobile-web-app-capable"/>
-  <meta content="Gramps 4.2.2 http://gramps-project.org/" name="generator"/>
+  <meta content="Gramps 4.2.2 https://gramps-project.org/" name="generator"/>
   <meta content="" name="author"/>
   <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
   <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
   <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-maps.css" media="screen" rel="stylesheet" type="text/css"/>
+  <script src="https://www.openlayers.org/api/OpenLayers.js" type="text/javascript">
+  </script>
   <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
   <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
   <script id="timestampjs" src="../../../timestamp.js">
@@ -43,7 +46,7 @@ Header
      A family tree of the ancestors and relatives of
      <a href="../../../ppl/7/4/dc62a88bab448b1305c92af5747.html" id="relativePath" title="b1914 - d2007 Knock, Mayo, Ireland"><b>Martin Walsh</b></a>
      and
-     <a href="../../../ppl/9/a/dc62a88bc1357d7b7d184b138a9.html" id="relativePath" title="b1882 - d1970 Knock, Mayo, Ireland"><b>Delia Walsh</b></a>
+     <a href="../../../ppl/9/a/dc62a88bc1357d7b7d184b138a9.html" id="relativePath" title="b1882 - d1970 Knock, Mayo, Ireland"><b>Delia Ruane</b></a>
      <br/>
      <br/>
      <!--
@@ -80,6 +83,12 @@ End Header
       <a href="../../../sources.html" title="Sources">Sources</a>
      </li>
      <li>
+      <a href="../../../media.html" title="Media">Media</a>
+     </li>
+     <li>
+      <a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a>
+     </li>
+     <li>
       <a href="../../../download.html" title="Download">Download</a>
      </li>
      <li>
@@ -88,8 +97,6 @@ End Header
      <li>
       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
      </li>
-    </ul>
-    <ul class="menu" id="dropmenu">
     </ul>
    </div>
   </div>
@@ -100,6 +107,30 @@ End Header
    <div id="summaryarea">
     <table class="infolist place">
      <tbody>
+      <tr>
+       <td class="ColumnAttribute">
+        Latitude
+       </td>
+       <td class="ColumnValue">
+        53.78
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Longitude
+       </td>
+       <td class="ColumnValue">
+        -8.78
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Church Parish
+       </td>
+       <td class="ColumnValue">
+        Bekan
+       </td>
+      </tr>
       <tr>
        <td class="ColumnAttribute">
         County
@@ -119,14 +150,102 @@ End Header
      </tbody>
     </table>
    </div>
+   <h4>
+    Place Map
+   </h4>
+   <div id="place_canvas">
+    <script type="text/javascript">
+     OpenLayers.Lang.setCode("ie");
+
+  function initialize(){
+    var map = new OpenLayers.Map('place_canvas');
+
+    var osm = new OpenLayers.Layer.OSM()
+    map.addLayer(osm);
+    
+    var lonLat = new OpenLayers.LonLat(-8.78000000, 53.78000000)
+        .transform(
+            new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+            map.getProjectionObject() // to Spherical Mercator Projection
+        );
+    var zoom =16;
+    
+    map.setCenter(lonLat, zoom);
+
+    var markers = new OpenLayers.Layer.Markers("Markers");
+    markers.addMarker(new OpenLayers.Marker(lonLat));
+    map.addLayer(markers);
+
+    // add overview control
+    map.addControl(new OpenLayers.Control.OverviewMap());
+
+    // add a layer switcher
+    map.addControl(new OpenLayers.Control.LayerSwitcher());
+  }
+    </script>
+   </div>
    <div class="subsection" id="references">
     <h4>
      References
     </h4>
     <ol class="Col1" role="Volume-n-Page" type="1">
      <li>
+      <a href="../../../ppl/5/4/dcc2e77102327f92cdc5d742b45.html">
+					Cleary, Austin
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/b/4/dc62a88ca5c59f339decfc5474b.html">
+					Cleary, Jackie
+					
+					</a>
+     </li>
+     <li>
       <a href="../../../ppl/3/1/dc62a88c862501cc07824a47d13.html">
 					Cleary, John
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/a/7/dda45d3a71a17a80c36f592a37a.html">
+					Cleary, Kate Mary
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/4/a/ddb731fc77046ade43a0658b3a4.html">
+					Cleary, Mary Delia
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/2/d/dcc2e75639f2b9e91c291d8c9d2.html">
+					Cleary, Patrick
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/2/7/ddb74be1c056033f0def4b56672.html">
+					Cleary, Tess
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/7/e/dd9b277b7db6a4a32615e2670e7.html">
+					Cleary, Thomas [Speculative]
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/3/0/ddab3c696675c43b17f67577203.html">
+					Cleary, William Joseph
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/7/a/dcc2e7855aa622ea95b44484aa7.html">
+					Cleary, Willie
 					
 					</a>
      </li>
@@ -137,8 +256,62 @@ End Header
 					</a>
      </li>
      <li>
+      <a href="../../../ppl/5/c/dc62a88c7a574c2fbec26a1dcc5.html">
+					Concannon, Kate
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/b/b/ddf1239380e298b923c8190eebb.html">
+					Connell, Anne
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/e/7/dd9b57487f268af1d8532aea27e.html">
+					Delaney, Kate
+					
+					</a>
+     </li>
+     <li>
       <a href="../../../fam/a/1/dc62a88c875c36cb6b7f32441a.html">
 					Family of Cleary, John and Flanagan, Mary
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/3/d/dd9b5742eaa438fc74a524283d3.html">
+					Family of Cleary, Thomas [Speculative] and Delaney, Kate
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/6/5/dde46f6d7044f9d43ac9702ea56.html">
+					Family of Flanagan, Thomas and Ronayne, Delia
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/7/f/ddd79c73fe92ca0ddc9a754bbf7.html">
+					Family of Glynn, John and Ronayne, Eileen
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/f/a/ddb3ee79e3fd8beb83232445af.html">
+					Family of McGagh, Willie and Concannon, Kate
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/5/d/ddf1238e0c812e1cb0963eab7d5.html">
+					Family of Mulkeen, Thomas and Connell, Anne
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/4/a/dda0608a43e34a4888827b8eda4.html">
+					Family of Regan, Patrick and Mulkeen, Delia
 					
 					</a>
      </li>
@@ -149,14 +322,104 @@ End Header
 					</a>
      </li>
      <li>
+      <a href="../../../fam/1/2/ddd7d72a2503be2e8e247a71d21.html">
+					Family of Ronayne, Michael and Flanagan, Molly
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/d/1/dcc418c87f46835a988fafa911d.html">
+					Flanagan, Delia
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/0/0/dcc418a7efffa65eabe4aca500.html">
+					Flanagan, Maggie
+					
+					</a>
+     </li>
+     <li>
       <a href="../../../ppl/6/d/dc62a88ca457a1d817edfa0f2d6.html">
 					Flanagan, Mary
 					
 					</a>
      </li>
      <li>
+      <a href="../../../ppl/a/c/dcc419758ae797597ad5fc4b4ca.html">
+					Flanagan, Molly
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/8/0/dcc41060d887151ccb27231ea08.html">
+					Flanagan, Thomas
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/9/e/dcc418fe98a193a38c6926011e9.html">
+					Flanagan, William
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/5/2/ddd55568615678067e1e206f925.html">
+					Glynn, John
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/2/a/ddb3ee7e9a4eb16db4c9c9e5a2.html">
+					McGagh, Willie
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/f/a/dd9e5722c539dbf1a5930ddfaf.html">
+					Mulkeen, Delia
+					
+					</a>
+     </li>
+     <li>
       <a href="../../../ppl/8/9/dca02edeb553ad5fb0805350098.html">
 					Mulkeen, Thomas
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/0/a/dd9e134340f2247b6bee40959a0.html">
+					Mulkeen, Thomas
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/4/4/dda468075af5d682781bf76af44.html">
+					O' Cléirigh, Micheál
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/7/5/dda06093902447d4331869dd857.html">
+					Regan, Patrick
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/b/9/dde46f72a223a6ca6300a195b9b.html">
+					Ronayne, Delia
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/5/2/ddd79c7a435173245dccdc19e25.html">
+					Ronayne, Eileen
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/a/4/dcaa153b7d4575d3abbecb8344a.html">
+					Ronayne, Michael
 					
 					</a>
      </li>
@@ -192,7 +455,7 @@ End Header
   <div id="footer">
    <p id="createdate">
     Generated by
-    <a href="http://gramps-project.org/">Gramps</a>
+    <a href="https://gramps-project.org/">Gramps</a>
     4.2.2
     <script id="onTimeStamp">
      var placeholder = document.getElementById("onTimeStamp");
@@ -204,10 +467,10 @@ End Header
 			document.getElementById("updateDate").innerText=updateTimestampText();
     </script>
     <br/>
-    Last change was the 2018-01-19 21:06:09
+    Last change was the 2018-05-04 16:40:54
    </p>
    <p id="copyright">
-    <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
    </p>
   </div>
  </body>
