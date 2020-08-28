@@ -1,7 +1,7 @@
 function timestampText() {
-	return " on 2018-03-15";
+	return " 4.2.8";
 }
 
 function updateTimestampText() {
-	return "15 Mar 2018";
+	return "28 Aug 2020";
 }

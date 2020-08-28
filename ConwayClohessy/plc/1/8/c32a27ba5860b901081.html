@@ -1,42 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-IE" xml:lang="en-IE" xmlns="https://www.w3.org/1999/xhtml">
- <head lang="en-IE">
+<html lang="en-GB" xml:lang="en-GB" xmlns="https://www.w3.org/1999/xhtml">
+ <head lang="en-GB">
   <title>
    The Conway &amp; Clohessy Tree - Places
   </title>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" name="viewport"/>
   <meta content="yes" name="apple-mobile-web-app-capable"/>
-  <meta content="Gramps 4.2.2 https://gramps-project.org/" name="generator"/>
+  <meta content="Gramps 4.2.8 https://gramps-project.org/" name="generator"/>
   <meta content="" name="author"/>
   <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
   <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
   <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
   <link href="../../../css/narrative-maps.css" media="screen" rel="stylesheet" type="text/css"/>
-  <script src="https://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript">
-  </script>
-  <script type="text/javascript">
-   var myLatLng = new google.maps.LatLng(52.66000000, -8.63000000);
-
-  function initialize() {
-    var mapOptions = {
-      scaleControl:    true,
-      panControl:      true,
-      backgroundColor: '#000000',
-      draggable:       true,
-      zoom:            10,
-      center:          myLatLng,
-      mapTypeId:       google.maps.MapTypeId.ROADMAP
-    }
-    var map = new google.maps.Map(document.getElementById("place_canvas"), mapOptions);
-
-    var marker = new google.maps.Marker({
-      position:  myLatLng,
-      draggable: true,
-      title:     "Limerick, Limerick, Ireland",
-      map:       map
-    });
-  }
+  <script src="/common/js/OpenLayers/OpenLayers.js" type="text/javascript">
   </script>
   <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
   <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
@@ -125,7 +102,7 @@ End Header
   </div>
   <div class="content" id="PlaceDetail">
    <h3>
-    Limerick
+    Limerick, Limerick, Ireland
    </h3>
    <div id="summaryarea">
     <table class="infolist place">
@@ -177,12 +154,65 @@ End Header
     Place Map
    </h4>
    <div id="place_canvas">
+    <script type="text/javascript">
+     OpenLayers.Lang.setCode("gb");
+
+  function initialize(){
+    var map = new OpenLayers.Map('place_canvas');
+
+    var osm = new OpenLayers.Layer.OSM()
+    map.addLayer(osm);
+    
+    var lonLat = new OpenLayers.LonLat(-8.63000000, 52.66000000)
+        .transform(
+            new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+            map.getProjectionObject() // to Spherical Mercator Projection
+        );
+    var zoom =16;
+    
+    map.setCenter(lonLat, zoom);
+
+    var markers = new OpenLayers.Layer.Markers("Markers");
+    markers.addMarker(new OpenLayers.Marker(lonLat));
+    map.addLayer(markers);
+
+    // add overview control
+    map.addControl(new OpenLayers.Control.OverviewMap());
+
+    // add a layer switcher
+    map.addControl(new OpenLayers.Control.LayerSwitcher());
+  }
+    </script>
    </div>
    <div class="subsection" id="references">
     <h4>
      References
     </h4>
     <ol class="Col1" role="Volume-n-Page" type="1">
+     <li>
+      <a href="../../../ppl/c/8/de0e73d37f8743b32b13b2748c.html">
+					Carr, Annie
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/5/c/e55f7f55d1b493f115ff2353bc5.html">
+					Casey, Eliza
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/3/e/e55f6235c967ce70900b7ed23e3.html">
+					Casey, Michael
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/7/1/e55f316fa66373cf22ae3537617.html">
+					Casey, Patrick
+					
+					</a>
+     </li>
      <li>
       <a href="../../../ppl/6/b/c32abc1c9f06f4192b6.html">
 					Clohessy, Bridgie
@@ -209,7 +239,7 @@ End Header
      </li>
      <li>
       <a href="../../../ppl/d/d/bd878c60e226369a6dd.html">
-					Conway, Thomas
+					Conway, Tom
 					
 					</a>
      </li>
@@ -221,7 +251,7 @@ End Header
      </li>
      <li>
       <a href="../../../ppl/a/2/c33115f16042191762a.html">
-					Cusack, Bridget
+					Cusack, Bunny
 					
 					</a>
      </li>
@@ -232,8 +262,74 @@ End Header
 					</a>
      </li>
      <li>
+      <a href="../../../ppl/8/8/e5664ae5cf24b98295193431688.html">
+					Dantie, Christina
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/9/4/e5187b01a961c2fd42ed27f9049.html">
+					Dore, Bridget
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/6/f/e518865138a132b064c8d57eff6.html">
+					Dore, Edward
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/a/7/e7de12aa532361be11b0ac49e7a.html">
+					Dore, Mary
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/a/f/e4e4dc1485266519fcf3287b4fa.html">
+					Dore, Maurice
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/4/0/e518b8e31833908d55092f36c04.html">
+					Dore, Minnie
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/9/f/e5664aded164ab908b76d1214f9.html">
+					Family of Casey, Michael and Dantie, Christina
+					
+					</a>
+     </li>
+     <li>
       <a href="../../../fam/4/6/c32a116130d0af03364.html">
 					Family of Conway, Laurence Francis and Kelly, Edith
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/e/e/e54f4ff898d3e6a1c26fcc60bee.html">
+					Family of Dore, Edward and Keogh, Mary
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/7/5/de0802f4b75ca4d6586ee26957.html">
+					Family of Fitzgerald, Michael and Halpin, Johanna
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/d/e/de0e73cd9c35de029d24bae72ed.html">
+					Family of Halpin, Michael and Carr, Annie
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/a/3/e7dd118314d29f3e9ec7f7d743a.html">
+					Family of Hayes, James and Maguire, Bridget
 					
 					</a>
      </li>
@@ -244,14 +340,44 @@ End Header
 					</a>
      </li>
      <li>
+      <a href="../../../fam/f/8/e4df0c446ac64dde184aeeb088f.html">
+					Family of Madden, James and Hannan, Nora
+					
+					</a>
+     </li>
+     <li>
       <a href="../../../fam/c/7/dc4263d14331c4020a1c0f7d67c.html">
 					Family of Markham, Darby and Cusack, Annie
 					
 					</a>
      </li>
      <li>
+      <a href="../../../fam/2/9/e55990a8fc647fd762aa03ea792.html">
+					Family of O' Rourke, Michael and Dore, Bridget
+					
+					</a>
+     </li>
+     <li>
       <a href="../../../fam/5/7/c32abc7cb740840c875.html">
 					Family of Ryan, Dan and Clohessy, Bridgie
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/d/f/e86df57ec95bb50963271723fd.html">
+					Family of Ryan, Jeremiah and Hannan, Mary
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../fam/b/b/c32998e19c45a2497bb.html">
+					Family of Sullivan, James and McAuliffe, Nora
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/3/0/de0802fae4a7dc919ed52199e03.html">
+					Fitzgerald, Michael
 					
 					</a>
      </li>
@@ -269,7 +395,7 @@ End Header
      </li>
      <li>
       <a href="../../../ppl/6/6/dc455391a154dd42fc0f10d4666.html">
-					Galbraith, Ronald
+					Galbraith, Ro
 					
 					</a>
      </li>
@@ -281,13 +407,13 @@ End Header
      </li>
      <li>
       <a href="../../../ppl/7/9/dc44dd96abe72a6f0e4913a7397.html">
-					Gleeson, John
+					Gleeson, John Francis
 					
 					</a>
      </li>
      <li>
       <a href="../../../ppl/f/8/dc436b2183c10bdbb7777e0bb8f.html">
-					Gleeson, Stephen
+					Gleeson, Stephen Joseph
 					
 					</a>
      </li>
@@ -298,8 +424,110 @@ End Header
 					</a>
      </li>
      <li>
+      <a href="../../../ppl/b/9/c363fa9683f25b5569b.html">
+					Halpin, Johanna
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/b/c/c363f76fd0a6eac8ecb.html">
+					Halpin, Michael
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/a/0/c33120abce505d31c0a.html">
+					Hannan, Annie
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/b/2/e4d9465325034b100c9db28342b.html">
+					Hannan, Bridget
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/b/8/e4d1c3f13d178c08549bf67f38b.html">
+					Hannan, Gracie
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/d/8/e4d957071fb65225e4497a9868d.html">
+					Hannan, John
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/8/8/e4dcc51bd92643526fa5ba49188.html">
+					Hannan, Joseph
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/4/6/e864039bac85fddb1f8e20b8664.html">
+					Hannan, Joseph
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/d/2/e4d91f23cced93430b28c7bf2d.html">
+					Hannan, Katie
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/3/8/e86a09ae25a507d3d555c3b2e83.html">
+					Hannan, Liam
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/a/1/e4d94e075f43eca632def54621a.html">
+					Hannan, Margaret
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/4/8/e4d1c37b45a574aa20d75814d84.html">
+					Hannan, Mary
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/d/f/e4dea55104c31d81b08bdee21fd.html">
+					Hannan, Mary Catherine
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/f/7/e4de72079114de6ed4650e4a47f.html">
+					Hannan, Nora
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/f/8/e4cee68af245323c852af4a1a8f.html">
+					Hannan, Patrick
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/8/3/e4d1c0d70e62dbb60e3bb07f938.html">
+					Hannan, Thomas
+					
+					</a>
+     </li>
+     <li>
       <a href="../../../ppl/4/3/da193fe40c02cb166f9cbe4fb34.html">
 					Hartigan, Luke
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/4/9/e7dd11873fd633746bfc3517494.html">
+					Hayes, James
 					
 					</a>
      </li>
@@ -312,6 +540,30 @@ End Header
      <li>
       <a href="../../../ppl/f/7/da053de5ed4530aadd74fd7ab7f.html">
 					Kennedy, Michael
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/9/7/e54f5000c9633f2764d50d1cf79.html">
+					Keogh, Mary
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/a/1/c349847b39851ba261a.html">
+					Long, Una
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/3/d/e4df0c4d0b943ed25857d924ed3.html">
+					Madden, James
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/6/a/e7d94fc4b5820b2151a835149a6.html">
+					Maguire, Bridget
 					
 					</a>
      </li>
@@ -340,8 +592,26 @@ End Header
 					</a>
      </li>
      <li>
+      <a href="../../../ppl/0/6/e55990ae7d84543957c712f4160.html">
+					O' Rourke, Michael
+					
+					</a>
+     </li>
+     <li>
       <a href="../../../ppl/1/7/c32abdbee7242828a71.html">
 					Ryan, Dan
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/d/3/e86df58c37b20e1eadfae4e593d.html">
+					Ryan, Jeremiah
+					
+					</a>
+     </li>
+     <li>
+      <a href="../../../ppl/3/8/e4d1c3422761196747765646783.html">
+					Ryan, Nora
 					
 					</a>
      </li>
@@ -357,6 +627,12 @@ End Header
 					
 					</a>
      </li>
+     <li>
+      <a href="../../../ppl/4/0/c32999a17ad6675e904.html">
+					Sullivan, James
+					
+					</a>
+     </li>
     </ol>
    </div>
   </div>
@@ -366,7 +642,6 @@ End Header
    <p id="createdate">
     Generated by
     <a href="https://gramps-project.org/">Gramps</a>
-    4.2.2
     <script id="onTimeStamp">
      var placeholder = document.getElementById("onTimeStamp");
 			var version = placeholder.previousSibling.textContent;
@@ -377,7 +652,7 @@ End Header
 			document.getElementById("updateDate").innerText=updateTimestampText();
     </script>
     <br/>
-    Last change was the 2017-12-21 09:51:17
+    Last change was the 2020-08-10 16:28:35
    </p>
    <p id="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
