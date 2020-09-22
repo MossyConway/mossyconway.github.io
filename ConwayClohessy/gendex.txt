@@ -22,7 +22,7 @@ ppl/0/2/e7c0b3672455058226bda2db920.html|Hannan|William F /Hannan/|CAL NOV 1936|
 ppl/2/2/e858681d699577494bfaa5a7f22.html|Hannan|Alice /Hannan/|||||
 ppl/0/5/e4d20301cde6f9360fa8d8a4750.html|Hannan|Catherine /Hannan/|CAL ABT 1846||25 FEB 1924|Lissanalty, Roxborough, Limerick, Ireland|
 ppl/c/e/e545af691e71bbda700afdb85ec.html|Hannan|Eliza /Hannan/|||1 FEB 1928|Cloghkeating, Mungret, Limerick, Ireland|
-ppl/a/3/e86403ed1cc329f7dc195614e3a.html|Hannan|Margaret /Hannan/|1 MAR 1891|Newtown, Kilpeacon, Limerick, Ireland|||
+ppl/a/3/e86403ed1cc329f7dc195614e3a.html|Hannan|Margaret /Hannan/|1 MAR 1891|Newtown, Kilpeacon, Limerick, Ireland|4 MAY 1951|Limerick, Limerick, Ireland|
 ppl/c/5/e87e22207b66636208fd3b3e15c.html|Hannan|Pauline Lorna /Hannan/|15 JUL 1931||7 AUG 1985|Stonnington|
 ppl/e/8/c363eb39da125645c8e.html|Halpin|Anne /Halpin/|||||
 ppl/a/a/e5037dd9fc5721b368ca01aaa.html|Hannan|Ellen /Hannan/|||||
@@ -49,10 +49,12 @@ ppl/5/a/e7d9520833d3a0064dffa28e0a5.html|Guare|Alice /Guare/|14 JUL 1901|Boheryg
 ppl/7/6/e87d55825ea185ee2265408fc67.html|Healy|Mary Ann /Healy/|CAL ABT 1857||24 FEB 1906|Carlton, Melbourne, Victoria, Australia|
 ppl/b/9/bd87de29d8a0a634f9b.html|Clohessy|Bridie /Clohessy/|16 JUL 1904|Fanningstown, Fedamore, Limerick, Ireland|2 JUN 1986|Ballymacrory, Croom, Limerick, Ireland|
 ppl/5/7/dc42f77492861e20c0551d59c75.html|Gleeson|William /Gleeson/|CAL ABT 1861||24 MAR 1942|Fedamore, Limerick, Ireland|
+ppl/c/1/e86a052f3375320dce0b97cdf1c.html|Hannan|John J /Hannan/|1939|Limerick, Limerick, Ireland|BEF 20 FEB 1995||
 ppl/4/6/c31deac9bd374a0c564.html|Conway|Helen /Conway/|CAL ABT 1855||||
 ppl/b/2/c32a3ba513f4ed11e2b.html|Ambrose|Christine Francis /Ambrose/|CAL ABT 1890|New York, New York, USA|3 OCT 1971||
 ppl/f/f/d68c9520d3d5a878c918923fdff.html|Cusack|[Unknown] /Cusack/|2 DEC 1902||2 DEC 1902|Fanningstown, Fedamore, Limerick, Ireland|
 ppl/1/c/d68c9c161f84ab96564f7c916c1.html|Cusack|[Unknown] /Cusack/|2 DEC 1902||2 DEC 1902||
+ppl/7/a/e86862abce019df3b471b9914a7.html|McMahon|Mary /McMahon/|EST ABT 1909||20 FEB 1995|Limerick, Limerick, Ireland|
 ppl/5/1/bd885df1d201f8ae815.html|Conway|Tom /Conway/|10 AUG 1938|Maternity Hospital, Bedford Row, Limerick, Limerick, Ireland|12 SEP 1973|Richmond Hospital, Dublin, Dublin, Ireland|
 ppl/b/7/c326d4a0475282c4b7b.html|Sullivan|Michael /Sullivan/|CAL ABT 1836||||
 ppl/a/1/e864035b2f448fb0277d8c3ca1a.html|Hannan|Katie /Hannan/|18 SEP 1882|Newtown, Kilpeacon, Limerick, Ireland|6 MAY 1936|Newtown, Kilpeacon, Limerick, Ireland|
@@ -126,7 +128,7 @@ ppl/8/f/e7ba8dd06fef1892942b8575f8.html|Muldoon|Kate /Muldoon/|CAL ABT 1872|Carl
 ppl/2/0/bd87e12203f055c6f02.html|Clohessy|Paddy /Clohessy/|16 APR 1908|Fanningstown, Fedamore, Limerick, Ireland|6 AUG 1971|St John's Hospital, Limerick, Limerick, Ireland|
 ppl/7/e/c32a7bb1d741ac4a7e7.html|Looby|Pat /Looby/|9 NOV 1928|Tullovin, Croom, Limerick, Ireland|21 JUL 2001|Ballymacrory, Croom, Limerick, Ireland|
 ppl/a/9/c32adb7805f1fddab9a.html|Costelloe|[Unknown] /Costelloe/|EST 1888||||
-ppl/6/b/c34986828ef4a436ab6.html|Long|Liam /Long/|CAL AFT 1921||1968|Africa|
+ppl/6/b/c34986828ef4a436ab6.html|Long|Liam /Long/|CAL AFT 1921||17 JUL 1971|Africa|
 ppl/8/1/dc4266052dc5817efd218c7218.html|Markham|Darby /Markham/|3 MAY 1873|Creevagh Beg, Quin, Clare, Ireland|27 DEC 1939|Ballysheen, Sixmilebridge, Clare, Ireland|
 ppl/4/9/e52f6e14bf768378e026ffab194.html|Hannan|Michael /Hannan/|EST BEF 1808||||
 ppl/3/d/c31df23928e7c9691d3.html|Conway|John /Conway/|||12 SEP 1929|Castlemahon, Limerick, Ireland|
@@ -145,10 +147,10 @@ ppl/3/c/e8806ce417a73e23fd1ddfc29c3.html|Hannan|Frederick George /Hannan/|1887|W
 ppl/e/e/dc4513e2053593d2ea1a004d6ee.html|Gleeson|Eily /Gleeson/|19 MAY 1895||||
 ppl/0/6/e510295f7cc381fe87fb6aece60.html|O' Shaughnessy|Norah /O' Shaughnessy/|31 MAR 1874|Lissanalty, Roxborough, Limerick, Ireland|21 JAN 1948|Ballinvira, Limerick, Ireland|
 ppl/a/6/e7e313ca6227df0166fbd7e4a6a.html|Cusack|John Joseph /Cusack/|||20 SEP 1906|Fanningstown, Fedamore, Limerick, Ireland|
-ppl/9/1/e858414d1cfc9a0bb68759f119.html|Hannan|Bridget /Hannan/|21 OCT 1843|Fedamore, Limerick, Ireland|||
+ppl/9/1/e858414d1cfc9a0bb68759f119.html|Hannan|Bridget /Hannan/|||||
 ppl/0/b/e864042c8214ff1d76062ce09b0.html|Hannan|William /Hannan/|2 JUN 1896|Newtown, Kilpeacon, Limerick, Ireland|||
 ppl/9/7/e867c28adef29c3e43c898c7679.html|Hannan|Michael /Hannan/|||||
-ppl/0/1/e87de4af40c2bd0fa273be02410.html|Hannan|Kathleen Blanche /Hannan/|1892|Warrnambool, Victoria, Australia|14 JUN 1982||
+ppl/0/1/e87de4af40c2bd0fa273be02410.html|Hannan|Kathleen Blanche /Hannan/|1892|Warrnambool, Victoria, Australia|14 JUN 1982|Surrey Hills, Melbourne, Victoria, Australia|
 ppl/b/3/e8a106f011c5495ad5bcaf8ff3b.html|Maloney|Tom /Maloney/|CAL ABT 1823||14 JUL 1891|Gerald Griffin Street, Limerick, Limerick, Ireland|
 ppl/5/0/c3297436be34b029805.html|Geary|Kathleen /Geary/|CAL ABT 1896||||
 ppl/9/4/c32a35e85fc22a30649.html|Ambrose|Keane Matthew /Ambrose/|27 AUG 1884||1952||
@@ -257,13 +259,14 @@ ppl/2/0/dcf390f8ca05ebe7e0de97f7802.html|Noonan|Bernie /Noonan/|EST 1935||1998||
 ppl/d/b/e52f8b19c8139638f88c0006bd.html|Dwyer|Michael /Dwyer/|EST 1832||||
 ppl/9/9/e542a0762085bddf185f7088499.html|Hannan|Michael /Hannan/|||||
 ppl/4/f/e86820662cc6ad2001d7ef05bf4.html|Hannan|Mary /Hannan/|29 MAR 1888|Newtown, Kilpeacon, Limerick, Ireland|1 APR 1888|Newtown, Kilpeacon, Limerick, Ireland|
+ppl/2/6/e8a85875ea534f65beaaa301262.html|Hannan|Verna Mary /Hannan/|1909|Bendigo, Victoria, Australia|12 NOV 1977|Heidelberg, Victoria, Australia|
 ppl/9/7/e510282ca5417af07571c945979.html|O' Shaughnessy|John /O' Shaughnessy/|24 NOV 1867|Lissanalty, Roxborough, Limerick, Ireland|||
 ppl/b/4/e52f6dfc7673034c30dfe661b4b.html|Hannan|[Unknown] /Hannan/|EST BEF 1780||||
 ppl/3/8/e86a09ae25a507d3d555c3b2e83.html|Hannan|Liam /Hannan/|1944|Limerick, Limerick, Ireland|23 NOV 1991|Ottawa, Ontario, Canada|
 ppl/a/9/e4d89ab67dd114cb8b685bee9a.html|Hannan|Pat /Hannan/|22 DEC 1869|Ballyregan, Kilpeacon, Limerick, Ireland|1940||
 ppl/8/a/e52923abb3a34749f1bd09809a8.html|Hannan|Bill /Hannan/|11 APR 1913|Attleboro, Bristol, Massachusetts|1 APR 2009||
 ppl/4/8/e52bc8efe3d3866c1d47669ed84.html|Phelan|Helen Ruth /Phelan/|12 FEB 1912|Attleboro, Bristol, Massachusetts|21 JAN 2011|Attleboro, Bristol, Massachusetts|
-ppl/e/d/e85744c54eb4fc41ccaad2591de.html|Hannan|Johanna /Hannan/|20 DEC 1840|Fedamore, Limerick, Ireland|||
+ppl/e/d/e85744c54eb4fc41ccaad2591de.html|Hannan|Johanna /Hannan/|||||
 ppl/b/0/c331138ddaa48a1380b.html|Cusack|Margaret /Cusack/|EST BET 6 JAN 1874 AND 13 JAN 1874|Croom, Limerick, Ireland|||
 ppl/1/6/e4d92b8986024aa0e117760a561.html|Hannan|Minnie /Hannan/|24 APR 1864|Ballyregan, Kilpeacon, Limerick, Ireland|17 JUN 1885||
 ppl/8/e/e7bc306d6a02bb3aa20467f45e8.html|Hannan|James Patrick Joseph /Hannan/|10 MAR 1897|Fontenoy St, Dublin, Dublin, Ireland|1 FEB 1898|Ignatius Place, Dublin, Dublin, Ireland|
@@ -339,6 +342,7 @@ ppl/f/8/e4cee68af245323c852af4a1a8f.html|Hannan|Patrick /Hannan/|CAL ABT 1837|Gr
 ppl/7/3/e4d895aead859cfe5a43e29d937.html|Hannan|Thomas /Hannan/|14 JUN 1871|Ballyregan, Kilpeacon, Limerick, Ireland|BEF 1 OCT 1871||
 ppl/7/2/e87e3d8cd9a1fd146884b0d2727.html|Hannan|James Nathan /Hannan/|EST 1929||20 SEP 1973|Fiji|
 ppl/0/f/c3440b2a3d1553c58f0.html|Sullivan|Sean /Sullivan/|1928||JAN 2010||
+ppl/b/9/da11e5a54383b14817e1af7e29b.html|Kennedy|Patrick Martin /Kennedy/|10 NOV 1911||||
 ppl/3/0/de0802fae4a7dc919ed52199e03.html|Fitzgerald|Michael /Fitzgerald/|CAL ABT 1869||||
 ppl/0/c/e54277c42a110352fde28bec0c0.html|Hannan|James /Hannan/|||BEF 18 JAN 1841||
 ppl/7/2/e8a0f62db91611d0647e9918027.html|Hannan|[Unknown] /Hannan/|EST 1834||BEF 14 JUL 1891||

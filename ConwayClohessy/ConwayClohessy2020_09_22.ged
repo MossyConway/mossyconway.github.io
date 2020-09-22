@@ -2,10 +2,10 @@
 1 SOUR Gramps
 2 VERS 4.2.8
 2 NAME Gramps
-1 DATE 28 AUG 2020
-2 TIME 14:27:38
+1 DATE 22 SEP 2020
+2 TIME 16:11:14
 1 SUBM @SUBM@
-1 FILE /home/mossy/code/gene/trees/ConwayClohessy2020_08_28.ged
+1 FILE /home/mossy/code/gene/trees/ConwayClohessy2020_09_22.ged
 1 COPR Copyright (c) 2020 .
 1 GEDC
 2 VERS 5.5.1
@@ -1361,7 +1361,33 @@
 3 PAGE Clohessy in Fanningstown
 3 DATA
 4 DATE 1911
-3 NOTE @N0917@
+4 TEXT Residents of a house 16 in Fanningstown (Fedamore, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT 
+5 CONT Clohesy	Patrick	49	Male	Head of Family	Catholic	Co Limerick	Farmer	Rea
+5 CONC d and write	-	Married	-	13	8	7
+5 CONT Clohesy	Ellen	42	Female	Wife	Catholic	Co Limerick	-	Read and write	-	Mar
+5 CONC ried	-	13	8	7
+5 CONT Clohesy	Andrew	11	Male	Son	Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Clohesy	Mary	10	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wr
+5 CONC ite	-	Single	-	-	-	-
+5 CONT Clohesy	Eily	9	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wri
+5 CONC te	-	Single	-	-	-	-
+5 CONT Clohesy	John	8	Male	Son	Catholic	Co Limerick	Scholar	Read and write	-	Si
+5 CONC ngle	-	-	-	-
+5 CONT Clohesy	Bridget	6	Female	Daughter	Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	-	Single	-	-	-	-
+5 CONT Clohesy	David	5	Male	Son	Catholic	Co Limerick	Scholar	Cannot read	-	Sing
+5 CONC le	-	-	-	-
+5 CONT Clohesy	Patrick	2	Male	Son	Catholic	Co Limerick	-	Cannot read	-	Singl
+5 CONC e	-	-	-	-
+5 CONT Gleeson	Philip	48	Male	Servant	Catholic	Co Limerick	Farm Servant	Read an
+5 CONC d write	
+3 NOTE @N1970@
 1 FAMC @F0040@
 1 FAMS @F0002@
 1 SOUR @S0018@
@@ -1435,7 +1461,33 @@
 3 PAGE Clohessy in Fanningstown
 3 DATA
 4 DATE 1911
-3 NOTE @N0917@
+4 TEXT Residents of a house 16 in Fanningstown (Fedamore, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT 
+5 CONT Clohesy	Patrick	49	Male	Head of Family	Catholic	Co Limerick	Farmer	Rea
+5 CONC d and write	-	Married	-	13	8	7
+5 CONT Clohesy	Ellen	42	Female	Wife	Catholic	Co Limerick	-	Read and write	-	Mar
+5 CONC ried	-	13	8	7
+5 CONT Clohesy	Andrew	11	Male	Son	Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Clohesy	Mary	10	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wr
+5 CONC ite	-	Single	-	-	-	-
+5 CONT Clohesy	Eily	9	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wri
+5 CONC te	-	Single	-	-	-	-
+5 CONT Clohesy	John	8	Male	Son	Catholic	Co Limerick	Scholar	Read and write	-	Si
+5 CONC ngle	-	-	-	-
+5 CONT Clohesy	Bridget	6	Female	Daughter	Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	-	Single	-	-	-	-
+5 CONT Clohesy	David	5	Male	Son	Catholic	Co Limerick	Scholar	Cannot read	-	Sing
+5 CONC le	-	-	-	-
+5 CONT Clohesy	Patrick	2	Male	Son	Catholic	Co Limerick	-	Cannot read	-	Singl
+5 CONC e	-	-	-	-
+5 CONT Gleeson	Philip	48	Male	Servant	Catholic	Co Limerick	Farm Servant	Read an
+5 CONC d write	
+3 NOTE @N1970@
 1 FAMC @F0050@
 1 FAMS @F0002@
 1 SOUR @S0018@
@@ -1445,8 +1497,8 @@
 2 NOTE @N0631@
 2 NOTE @N0632@
 1 CHAN
-2 DATE 9 JUL 2020
-3 TIME 11:44:02
+2 DATE 2 SEP 2020
+3 TIME 15:42:11
 0 @I0010@ INDI
 1 NAME Andy /Clohessy/
 2 GIVN Andy
@@ -1517,7 +1569,33 @@
 3 PAGE Clohessy in Fanningstown
 3 DATA
 4 DATE 1911
-3 NOTE @N0917@
+4 TEXT Residents of a house 16 in Fanningstown (Fedamore, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT 
+5 CONT Clohesy	Patrick	49	Male	Head of Family	Catholic	Co Limerick	Farmer	Rea
+5 CONC d and write	-	Married	-	13	8	7
+5 CONT Clohesy	Ellen	42	Female	Wife	Catholic	Co Limerick	-	Read and write	-	Mar
+5 CONC ried	-	13	8	7
+5 CONT Clohesy	Andrew	11	Male	Son	Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Clohesy	Mary	10	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wr
+5 CONC ite	-	Single	-	-	-	-
+5 CONT Clohesy	Eily	9	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wri
+5 CONC te	-	Single	-	-	-	-
+5 CONT Clohesy	John	8	Male	Son	Catholic	Co Limerick	Scholar	Read and write	-	Si
+5 CONC ngle	-	-	-	-
+5 CONT Clohesy	Bridget	6	Female	Daughter	Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	-	Single	-	-	-	-
+5 CONT Clohesy	David	5	Male	Son	Catholic	Co Limerick	Scholar	Cannot read	-	Sing
+5 CONC le	-	-	-	-
+5 CONT Clohesy	Patrick	2	Male	Son	Catholic	Co Limerick	-	Cannot read	-	Singl
+5 CONC e	-	-	-	-
+5 CONT Gleeson	Philip	48	Male	Servant	Catholic	Co Limerick	Farm Servant	Read an
+5 CONC d write	
+3 NOTE @N1970@
 1 FAMC @F0002@
 1 FAMS @F0042@
 1 SOUR @S0018@
@@ -1607,7 +1685,33 @@
 3 PAGE Clohessy in Fanningstown
 3 DATA
 4 DATE 1911
-3 NOTE @N0917@
+4 TEXT Residents of a house 16 in Fanningstown (Fedamore, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT 
+5 CONT Clohesy	Patrick	49	Male	Head of Family	Catholic	Co Limerick	Farmer	Rea
+5 CONC d and write	-	Married	-	13	8	7
+5 CONT Clohesy	Ellen	42	Female	Wife	Catholic	Co Limerick	-	Read and write	-	Mar
+5 CONC ried	-	13	8	7
+5 CONT Clohesy	Andrew	11	Male	Son	Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Clohesy	Mary	10	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wr
+5 CONC ite	-	Single	-	-	-	-
+5 CONT Clohesy	Eily	9	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wri
+5 CONC te	-	Single	-	-	-	-
+5 CONT Clohesy	John	8	Male	Son	Catholic	Co Limerick	Scholar	Read and write	-	Si
+5 CONC ngle	-	-	-	-
+5 CONT Clohesy	Bridget	6	Female	Daughter	Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	-	Single	-	-	-	-
+5 CONT Clohesy	David	5	Male	Son	Catholic	Co Limerick	Scholar	Cannot read	-	Sing
+5 CONC le	-	-	-	-
+5 CONT Clohesy	Patrick	2	Male	Son	Catholic	Co Limerick	-	Cannot read	-	Singl
+5 CONC e	-	-	-	-
+5 CONT Gleeson	Philip	48	Male	Servant	Catholic	Co Limerick	Farm Servant	Read an
+5 CONC d write	
+3 NOTE @N1970@
 1 FAMC @F0002@
 1 SOUR @S0018@
 2 PAGE Mary Clohessy 1900 - Group Registration ID: 25201, SR District/Reg Area: Croom
@@ -1626,7 +1730,33 @@
 3 PAGE Clohessy in Fanningstown
 3 DATA
 4 DATE 1911
-3 NOTE @N0917@
+4 TEXT Residents of a house 16 in Fanningstown (Fedamore, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT 
+5 CONT Clohesy	Patrick	49	Male	Head of Family	Catholic	Co Limerick	Farmer	Rea
+5 CONC d and write	-	Married	-	13	8	7
+5 CONT Clohesy	Ellen	42	Female	Wife	Catholic	Co Limerick	-	Read and write	-	Mar
+5 CONC ried	-	13	8	7
+5 CONT Clohesy	Andrew	11	Male	Son	Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Clohesy	Mary	10	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wr
+5 CONC ite	-	Single	-	-	-	-
+5 CONT Clohesy	Eily	9	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wri
+5 CONC te	-	Single	-	-	-	-
+5 CONT Clohesy	John	8	Male	Son	Catholic	Co Limerick	Scholar	Read and write	-	Si
+5 CONC ngle	-	-	-	-
+5 CONT Clohesy	Bridget	6	Female	Daughter	Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	-	Single	-	-	-	-
+5 CONT Clohesy	David	5	Male	Son	Catholic	Co Limerick	Scholar	Cannot read	-	Sing
+5 CONC le	-	-	-	-
+5 CONT Clohesy	Patrick	2	Male	Son	Catholic	Co Limerick	-	Cannot read	-	Singl
+5 CONC e	-	-	-	-
+5 CONT Gleeson	Philip	48	Male	Servant	Catholic	Co Limerick	Farm Servant	Read an
+5 CONC d write	
+3 NOTE @N1970@
 1 NAME Ellen Carmelia /Clohessy/
 2 GIVN Ellen Carmelia
 2 SURN Clohessy
@@ -1673,7 +1803,33 @@
 3 PAGE Clohessy in Fanningstown
 3 DATA
 4 DATE 1911
-3 NOTE @N0917@
+4 TEXT Residents of a house 16 in Fanningstown (Fedamore, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT 
+5 CONT Clohesy	Patrick	49	Male	Head of Family	Catholic	Co Limerick	Farmer	Rea
+5 CONC d and write	-	Married	-	13	8	7
+5 CONT Clohesy	Ellen	42	Female	Wife	Catholic	Co Limerick	-	Read and write	-	Mar
+5 CONC ried	-	13	8	7
+5 CONT Clohesy	Andrew	11	Male	Son	Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Clohesy	Mary	10	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wr
+5 CONC ite	-	Single	-	-	-	-
+5 CONT Clohesy	Eily	9	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wri
+5 CONC te	-	Single	-	-	-	-
+5 CONT Clohesy	John	8	Male	Son	Catholic	Co Limerick	Scholar	Read and write	-	Si
+5 CONC ngle	-	-	-	-
+5 CONT Clohesy	Bridget	6	Female	Daughter	Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	-	Single	-	-	-	-
+5 CONT Clohesy	David	5	Male	Son	Catholic	Co Limerick	Scholar	Cannot read	-	Sing
+5 CONC le	-	-	-	-
+5 CONT Clohesy	Patrick	2	Male	Son	Catholic	Co Limerick	-	Cannot read	-	Singl
+5 CONC e	-	-	-	-
+5 CONT Gleeson	Philip	48	Male	Servant	Catholic	Co Limerick	Farm Servant	Read an
+5 CONC d write	
+3 NOTE @N1970@
 1 FAMC @F0002@
 1 SOUR @S0018@
 2 PAGE Eily Clohessy b1901 - Group Registration ID: 163006, SR District/Reg Area: Croom
@@ -1682,8 +1838,8 @@
 2 NOTE @N0568@
 2 NOTE @N0569@
 1 CHAN
-2 DATE 8 JUL 2020
-3 TIME 23:09:03
+2 DATE 30 AUG 2020
+3 TIME 15:35:40
 0 @I0013@ INDI
 1 NAME John Joseph /Clohessy/
 2 GIVN John Joseph
@@ -1737,7 +1893,33 @@
 3 PAGE Clohessy in Fanningstown
 3 DATA
 4 DATE 1911
-3 NOTE @N0917@
+4 TEXT Residents of a house 16 in Fanningstown (Fedamore, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT 
+5 CONT Clohesy	Patrick	49	Male	Head of Family	Catholic	Co Limerick	Farmer	Rea
+5 CONC d and write	-	Married	-	13	8	7
+5 CONT Clohesy	Ellen	42	Female	Wife	Catholic	Co Limerick	-	Read and write	-	Mar
+5 CONC ried	-	13	8	7
+5 CONT Clohesy	Andrew	11	Male	Son	Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Clohesy	Mary	10	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wr
+5 CONC ite	-	Single	-	-	-	-
+5 CONT Clohesy	Eily	9	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wri
+5 CONC te	-	Single	-	-	-	-
+5 CONT Clohesy	John	8	Male	Son	Catholic	Co Limerick	Scholar	Read and write	-	Si
+5 CONC ngle	-	-	-	-
+5 CONT Clohesy	Bridget	6	Female	Daughter	Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	-	Single	-	-	-	-
+5 CONT Clohesy	David	5	Male	Son	Catholic	Co Limerick	Scholar	Cannot read	-	Sing
+5 CONC le	-	-	-	-
+5 CONT Clohesy	Patrick	2	Male	Son	Catholic	Co Limerick	-	Cannot read	-	Singl
+5 CONC e	-	-	-	-
+5 CONT Gleeson	Philip	48	Male	Servant	Catholic	Co Limerick	Farm Servant	Read an
+5 CONC d write	
+3 NOTE @N1970@
 1 IMMI
 2 DATE 15 MAR 1928
 2 PLAC New York, New York, USA
@@ -1805,7 +1987,33 @@
 3 PAGE Clohessy in Fanningstown
 3 DATA
 4 DATE 1911
-3 NOTE @N0917@
+4 TEXT Residents of a house 16 in Fanningstown (Fedamore, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT 
+5 CONT Clohesy	Patrick	49	Male	Head of Family	Catholic	Co Limerick	Farmer	Rea
+5 CONC d and write	-	Married	-	13	8	7
+5 CONT Clohesy	Ellen	42	Female	Wife	Catholic	Co Limerick	-	Read and write	-	Mar
+5 CONC ried	-	13	8	7
+5 CONT Clohesy	Andrew	11	Male	Son	Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Clohesy	Mary	10	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wr
+5 CONC ite	-	Single	-	-	-	-
+5 CONT Clohesy	Eily	9	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wri
+5 CONC te	-	Single	-	-	-	-
+5 CONT Clohesy	John	8	Male	Son	Catholic	Co Limerick	Scholar	Read and write	-	Si
+5 CONC ngle	-	-	-	-
+5 CONT Clohesy	Bridget	6	Female	Daughter	Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	-	Single	-	-	-	-
+5 CONT Clohesy	David	5	Male	Son	Catholic	Co Limerick	Scholar	Cannot read	-	Sing
+5 CONC le	-	-	-	-
+5 CONT Clohesy	Patrick	2	Male	Son	Catholic	Co Limerick	-	Cannot read	-	Singl
+5 CONC e	-	-	-	-
+5 CONT Gleeson	Philip	48	Male	Servant	Catholic	Co Limerick	Farm Servant	Read an
+5 CONC d write	
+3 NOTE @N1970@
 1 RESI
 2 PLAC Carnane, Fedamore, Limerick, Ireland
 3 MAP
@@ -1864,7 +2072,33 @@
 3 PAGE Clohessy in Fanningstown
 3 DATA
 4 DATE 1911
-3 NOTE @N0917@
+4 TEXT Residents of a house 16 in Fanningstown (Fedamore, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT 
+5 CONT Clohesy	Patrick	49	Male	Head of Family	Catholic	Co Limerick	Farmer	Rea
+5 CONC d and write	-	Married	-	13	8	7
+5 CONT Clohesy	Ellen	42	Female	Wife	Catholic	Co Limerick	-	Read and write	-	Mar
+5 CONC ried	-	13	8	7
+5 CONT Clohesy	Andrew	11	Male	Son	Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Clohesy	Mary	10	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wr
+5 CONC ite	-	Single	-	-	-	-
+5 CONT Clohesy	Eily	9	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wri
+5 CONC te	-	Single	-	-	-	-
+5 CONT Clohesy	John	8	Male	Son	Catholic	Co Limerick	Scholar	Read and write	-	Si
+5 CONC ngle	-	-	-	-
+5 CONT Clohesy	Bridget	6	Female	Daughter	Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	-	Single	-	-	-	-
+5 CONT Clohesy	David	5	Male	Son	Catholic	Co Limerick	Scholar	Cannot read	-	Sing
+5 CONC le	-	-	-	-
+5 CONT Clohesy	Patrick	2	Male	Son	Catholic	Co Limerick	-	Cannot read	-	Singl
+5 CONC e	-	-	-	-
+5 CONT Gleeson	Philip	48	Male	Servant	Catholic	Co Limerick	Farm Servant	Read an
+5 CONC d write	
+3 NOTE @N1970@
 1 IMMI
 2 DATE 15 MAR 1928
 2 PLAC New York, New York, USA
@@ -1952,7 +2186,33 @@
 3 PAGE Clohessy in Fanningstown
 3 DATA
 4 DATE 1911
-3 NOTE @N0917@
+4 TEXT Residents of a house 16 in Fanningstown (Fedamore, Limerick)
+5 CONT 
+5 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
+5 CONC n	Literacy	Irish Language	Marital Status	Specified Illnesses	Years Marri
+5 CONC ed	Children Born	Children Living
+5 CONT 
+5 CONT Clohesy	Patrick	49	Male	Head of Family	Catholic	Co Limerick	Farmer	Rea
+5 CONC d and write	-	Married	-	13	8	7
+5 CONT Clohesy	Ellen	42	Female	Wife	Catholic	Co Limerick	-	Read and write	-	Mar
+5 CONC ried	-	13	8	7
+5 CONT Clohesy	Andrew	11	Male	Son	Catholic	Co Limerick	Scholar	Read and writ
+5 CONC e	-	Single	-	-	-	-
+5 CONT Clohesy	Mary	10	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wr
+5 CONC ite	-	Single	-	-	-	-
+5 CONT Clohesy	Eily	9	Female	Daughter	Catholic	Co Limerick	Scholar	Read and wri
+5 CONC te	-	Single	-	-	-	-
+5 CONT Clohesy	John	8	Male	Son	Catholic	Co Limerick	Scholar	Read and write	-	Si
+5 CONC ngle	-	-	-	-
+5 CONT Clohesy	Bridget	6	Female	Daughter	Catholic	Co Limerick	Scholar	Read an
+5 CONC d write	-	Single	-	-	-	-
+5 CONT Clohesy	David	5	Male	Son	Catholic	Co Limerick	Scholar	Cannot read	-	Sing
+5 CONC le	-	-	-	-
+5 CONT Clohesy	Patrick	2	Male	Son	Catholic	Co Limerick	-	Cannot read	-	Singl
+5 CONC e	-	-	-	-
+5 CONT Gleeson	Philip	48	Male	Servant	Catholic	Co Limerick	Farm Servant	Read an
+5 CONC d write	
+3 NOTE @N1970@
 1 FAMC @F0002@
 1 FAMS @F0045@
 1 SOUR @S0018@
@@ -3331,8 +3591,8 @@
 2 NOTE @N0355@
 2 NOTE @N0199@
 1 CHAN
-2 DATE 25 AUG 2020
-3 TIME 10:53:56
+2 DATE 29 AUG 2020
+3 TIME 10:56:52
 0 @I0045@ INDI
 1 NAME James /McAuliffe/
 2 GIVN James
@@ -4792,8 +5052,8 @@
 2 NOTE @N0361@
 2 NOTE @N0270@
 1 CHAN
-2 DATE 25 AUG 2020
-3 TIME 10:48:21
+2 DATE 28 AUG 2020
+3 TIME 15:30:18
 0 @I0066@ INDI
 1 NAME William /Long/
 2 GIVN William
@@ -6283,8 +6543,8 @@
 2 NOTE @N0668@
 1 NOTE @N0672@
 1 CHAN
-2 DATE 23 APR 2019
-3 TIME 13:11:40
+2 DATE 28 AUG 2020
+3 TIME 15:26:41
 0 @I0101@ INDI
 1 NAME Sadie Viola /Perry/
 2 GIVN Sadie Viola
@@ -7066,8 +7326,8 @@
 2 NOTE @N0903@
 1 NOTE @N0905@
 1 CHAN
-2 DATE 24 AUG 2020
-3 TIME 11:28:30
+2 DATE 31 AUG 2020
+3 TIME 10:53:56
 0 @I0109@ INDI
 1 NAME Frances Ann /Ambrose/
 2 GIVN Frances Ann
@@ -8887,10 +9147,11 @@
 2 NOTE @N0341@
 1 NOTE @N0741@
 1 CHAN
-2 DATE 24 AUG 2020
-3 TIME 11:35:20
+2 DATE 28 AUG 2020
+3 TIME 15:30:12
 0 @I0141@ INDI
-1 NAME  /Costelloe/
+1 NAME [Unknown] /Costelloe/
+2 GIVN [Unknown]
 2 SURN Costelloe
 1 SEX M
 1 BIRT
@@ -8908,8 +9169,8 @@
 1 SOUR @S0006@
 2 QUAY 3
 1 CHAN
-2 DATE 24 AUG 2020
-3 TIME 11:41:17
+2 DATE 28 AUG 2020
+3 TIME 15:28:14
 0 @I0155@ INDI
 1 NAME John /Cusack/
 2 GIVN John
@@ -9282,8 +9543,8 @@
 1 NOTE @N1229@
 1 NOTE @N1231@
 1 CHAN
-2 DATE 30 JUN 2020
-3 TIME 11:19:47
+2 DATE 22 SEP 2020
+3 TIME 15:16:11
 0 @I0157@ INDI
 1 NAME Thomas /Cusack/
 2 GIVN Thomas
@@ -10743,7 +11004,8 @@
 3 NOTE @N0394@
 3 NOTE @N0261@
 1 DEAT
-2 DATE 1968
+2 TYPE Haut Bay, Cape Providence
+2 DATE 17 JUL 1971
 2 PLAC Africa
 3 MAP
 4 LATI N2.0
@@ -10751,7 +11013,7 @@
 2 ADDR
 3 CTRY Africa
 3 NOTE @N0899@
-2 SOUR @S0006@
+2 NOTE @N1965@
 1 RESI
 2 PLAC Kilmurray House, Feenagh, Limerick, Ireland
 3 MAP
@@ -10764,11 +11026,14 @@
 1 SOUR @S0006@
 2 QUAY 3
 1 CHAN
-2 DATE 16 DEC 2017
-3 TIME 18:33:41
+2 DATE 31 AUG 2020
+3 TIME 09:54:11
 0 @I0294@ INDI
 1 NAME Mossie /Long/
 2 GIVN Mossie
+2 SURN Long
+1 NAME Maurice /Long/
+2 GIVN Maurice
 2 SURN Long
 1 SEX M
 1 BIRT
@@ -10809,8 +11074,8 @@
 1 SOUR @S0006@
 2 QUAY 3
 1 CHAN
-2 DATE 25 AUG 2020
-3 TIME 10:52:13
+2 DATE 29 AUG 2020
+3 TIME 16:10:06
 0 @I0298@ INDI
 1 NAME Kevin /Long/
 2 GIVN Kevin
@@ -11535,8 +11800,8 @@
 4 CONT Find A Grave Memorial# 141422287
 2 NOTE @N0399@
 1 CHAN
-2 DATE 16 DEC 2017
-3 TIME 23:09:36
+2 DATE 12 SEP 2020
+3 TIME 10:59:36
 0 @I0321@ INDI
 1 NAME John /McCullough/
 2 GIVN John
@@ -11700,8 +11965,8 @@
 2 NOTE @N0303@
 1 NOTE @N0774@
 1 CHAN
-2 DATE 25 AUG 2020
-3 TIME 10:56:18
+2 DATE 30 AUG 2020
+3 TIME 13:19:17
 0 @I0336@ INDI
 1 NAME Lar /Cusack/
 2 GIVN Lar
@@ -11753,7 +12018,8 @@
 2 DATE 9 JUL 2020
 3 TIME 11:44:02
 0 @I0337@ INDI
-1 NAME  /Cusack/
+1 NAME [Unknown] /Cusack/
+2 GIVN [Unknown]
 2 SURN Cusack
 1 SEX M
 1 BIRT
@@ -11807,10 +12073,11 @@
 2 NOTE @N0367@
 1 NOTE @N0163@
 1 CHAN
-2 DATE 1 JUL 2020
-3 TIME 15:47:32
+2 DATE 28 AUG 2020
+3 TIME 15:28:19
 0 @I0338@ INDI
-1 NAME  /Cusack/
+1 NAME [Unknown] /Cusack/
+2 GIVN [Unknown]
 2 SURN Cusack
 1 SEX F
 1 BIRT
@@ -11856,10 +12123,11 @@
 2 NOTE @N0164@
 1 NOTE @N0163@
 1 CHAN
-2 DATE 1 JUL 2020
-3 TIME 15:47:32
+2 DATE 28 AUG 2020
+3 TIME 18:28:24
 0 @I0339@ INDI
-1 NAME  /Cusack/
+1 NAME [Unknown] /Cusack/
+2 GIVN [Unknown]
 2 SURN Cusack
 1 SEX F
 1 BIRT
@@ -11917,8 +12185,8 @@
 2 NOTE @N0165@
 1 NOTE @N0163@
 1 CHAN
-2 DATE 1 JUL 2020
-3 TIME 15:47:32
+2 DATE 28 AUG 2020
+3 TIME 15:28:29
 0 @I0344@ INDI
 1 NAME Hugh /Hayes/
 2 GIVN Hugh
@@ -12244,7 +12512,8 @@
 2 DATE 6 DEC 2017
 3 TIME 15:45:54
 0 @I0350@ INDI
-1 NAME  /Clohessy/
+1 NAME [Unknown] /Clohessy/
+2 GIVN [Unknown]
 2 SURN Clohessy
 1 SEX F
 1 BIRT
@@ -12271,8 +12540,8 @@
 2 NOTE @N0364@
 2 NOTE @N0275@
 1 CHAN
-2 DATE 9 JUL 2020
-3 TIME 11:15:27
+2 DATE 28 AUG 2020
+3 TIME 15:27:21
 0 @I0351@ INDI
 1 NAME Michael /Conway/
 2 GIVN Michael
@@ -12968,7 +13237,8 @@
 2 DATE 29 JUN 2017
 3 TIME 21:48:09
 0 @I0362@ INDI
-1 NAME  /Ambrose/
+1 NAME [Unknown] /Ambrose/
+2 GIVN [Unknown]
 2 SURN Ambrose
 1 BIRT
 2 DATE BEF 5 JUN 1900
@@ -12983,10 +13253,11 @@
 2 NOTE @N0668@
 1 NOTE @N0677@
 1 CHAN
-2 DATE 14 JUN 2017
-3 TIME 17:21:46
+2 DATE 28 AUG 2020
+3 TIME 15:26:05
 0 @I0363@ INDI
-1 NAME  /Ambrose/
+1 NAME [Unknown] /Ambrose/
+2 GIVN [Unknown]
 2 SURN Ambrose
 1 BIRT
 2 DATE BEF 5 JUN 1900
@@ -13001,8 +13272,33 @@
 2 NOTE @N0668@
 1 NOTE @N0677@
 1 CHAN
-2 DATE 14 JUN 2017
-3 TIME 17:21:21
+2 DATE 28 AUG 2020
+3 TIME 15:26:12
+0 @I0366@ INDI
+1 NAME Patrick Martin /Kennedy/
+2 GIVN Patrick Martin
+2 SURN Kennedy
+1 SEX M
+1 BIRT
+2 DATE 10 NOV 1911
+2 SOUR @S0018@
+3 PAGE Patrick Kennedy b1911 - Group Registration ID: 1097247, SR District/Reg Area: Limerick
+3 DATA
+4 DATE 11 NOV 1911
+3 NOTE @N0782@
+3 NOTE @N0783@
+1 DEAT Y
+1 FAMC @F0103@
+1 FAMS @F0236@
+1 SOUR @S0018@
+2 PAGE Patrick Kennedy b1911 - Group Registration ID: 1097247, SR District/Reg Area: Limerick
+2 DATA
+3 DATE 11 NOV 1911
+2 NOTE @N0782@
+2 NOTE @N0783@
+1 CHAN
+2 DATE 15 SEP 2020
+3 TIME 09:52:19
 0 @I0368@ INDI
 1 NAME William /Kennedy/
 2 GIVN William
@@ -13068,8 +13364,8 @@
 2 NOTE @N0770@
 2 NOTE @N0776@
 1 CHAN
-2 DATE 9 JUL 2017
-3 TIME 16:56:44
+2 DATE 15 SEP 2020
+3 TIME 10:04:28
 0 @I0369@ INDI
 1 NAME Luke /Hartigan/
 2 GIVN Luke
@@ -14803,7 +15099,7 @@
 2 GIVN Tom
 2 SURN Markham
 2 SOUR @S0058@
-1 SEX F
+1 SEX M
 1 BIRT
 2 DATE 6 NOV 1911
 2 PLAC Ballysheen, Sixmilebridge, Clare, Ireland
@@ -14835,8 +15131,8 @@
 2 NOTE @N0973@
 2 NOTE @N1046@
 1 CHAN
-2 DATE 20 DEC 2017
-3 TIME 19:54:14
+2 DATE 12 SEP 2020
+3 TIME 09:42:53
 0 @I0424@ INDI
 1 NAME Joe /Markham/
 2 GIVN Joe
@@ -15408,7 +15704,8 @@
 2 DATE 7 JUL 2020
 3 TIME 17:26:12
 0 @I0437@ INDI
-1 NAME  /Gleeson/
+1 NAME [Unknown] /Gleeson/
+2 GIVN [Unknown]
 2 SURN Gleeson
 1 BIRT
 2 DATE BET 1886 AND 1911
@@ -15483,10 +15780,11 @@
 2 NOTE @N1071@
 1 NOTE @N1003@
 1 CHAN
-2 DATE 25 AUG 2020
-3 TIME 11:25:28
+2 DATE 28 AUG 2020
+3 TIME 15:28:43
 0 @I0438@ INDI
-1 NAME  /Williams/
+1 NAME [Unknown] /Williams/
+2 GIVN [Unknown]
 2 SURN Williams
 1 SEX M
 1 BIRT
@@ -15496,8 +15794,8 @@
 1 FAMS @F0126@
 1 SOUR @S0058@
 1 CHAN
-2 DATE 30 DEC 2017
-3 TIME 19:25:57
+2 DATE 28 AUG 2020
+3 TIME 15:30:06
 0 @I0443@ INDI
 1 NAME Peter /Galbraith/
 2 GIVN Peter
@@ -15714,7 +16012,8 @@
 2 DATE 7 JUL 2020
 3 TIME 16:11:34
 0 @I0447@ INDI
-1 NAME  /Kemp/
+1 NAME [Unknown] /Kemp/
+2 GIVN [Unknown]
 2 SURN Kemp
 1 SEX M
 1 BIRT
@@ -15724,8 +16023,8 @@
 1 FAMS @F0130@
 1 SOUR @S0058@
 1 CHAN
-2 DATE 30 DEC 2017
-3 TIME 19:23:53
+2 DATE 30 AUG 2020
+3 TIME 12:17:57
 0 @I0448@ INDI
 1 NAME Burdis William Bertram /Redford/
 2 GIVN Burdis William Bertram
@@ -16540,7 +16839,8 @@
 2 DATE 25 AUG 2020
 3 TIME 11:31:24
 0 @I0506@ INDI
-1 NAME  /Conway/
+1 NAME [Unknown] /Conway/
+2 GIVN [Unknown]
 2 SURN Conway
 1 SEX M
 1 BIRT
@@ -16580,8 +16880,8 @@
 2 NOTE @N1018@
 2 NOTE @N1128@
 1 CHAN
-2 DATE 13 MAR 2018
-3 TIME 12:49:10
+2 DATE 28 AUG 2020
+3 TIME 15:28:07
 0 @I0507@ INDI
 1 NAME Gracie /Hannan/
 2 GIVN Gracie
@@ -16954,8 +17254,8 @@
 2 NOTE @N1366@
 2 NOTE @N1365@
 1 CHAN
-2 DATE 20 AUG 2020
-3 TIME 12:24:07
+2 DATE 31 AUG 2020
+3 TIME 23:34:02
 0 @I0511@ INDI
 1 NAME Michael /Fitzgerald/
 2 GIVN Michael
@@ -18968,6 +19268,12 @@
 4 LONG W8.552222
 2 ADDR
 3 CTRY Ireland
+2 SOUR @S0017@
+3 PAGE Norah Hannan & James Madden m1927 - Group Registration ID: 1444807, SR District/Reg Area: Limerick
+3 DATA
+4 DATE 27 JUN 1929
+3 NOTE @N1308@
+3 NOTE @N1309@
 1 RESI
 2 PLAC Corbally, St Patrick's, Limerick, Limerick, Ireland
 3 MAP
@@ -19048,8 +19354,8 @@
 2 NOTE @N1308@
 2 NOTE @N1309@
 1 CHAN
-2 DATE 25 AUG 2020
-3 TIME 11:34:04
+2 DATE 4 SEP 2020
+3 TIME 15:47:22
 0 @I0553@ INDI
 1 NAME Maurice /Dore/
 2 GIVN Maurice
@@ -19148,8 +19454,8 @@
 2 NOTE @N1328@
 2 NOTE @N1329@
 1 CHAN
-2 DATE 11 AUG 2020
-3 TIME 15:08:37
+2 DATE 30 AUG 2020
+3 TIME 12:18:42
 0 @I0555@ INDI
 1 NAME John /Madden/
 2 GIVN John
@@ -19710,6 +20016,7 @@
 3 NOTE @N1866@
 1 FAMC @F0162@
 1 FAMS @F0227@
+1 FAMS @F0235@
 1 SOUR @S0014@
 2 PAGE Michael Hannon b1850 - Fedamore | Microfilm 02430 / 01  p107
 2 DATA
@@ -19717,8 +20024,8 @@
 2 NOTE @N1357@
 2 NOTE @N1356@
 1 CHAN
-2 DATE 27 AUG 2020
-3 TIME 17:24:16
+2 DATE 30 AUG 2020
+3 TIME 19:10:00
 0 @I0560@ INDI
 1 NAME John /O' Shaughnessy/
 2 GIVN John
@@ -21467,7 +21774,8 @@
 2 DATE 25 AUG 2020
 3 TIME 11:38:17
 0 @I0605@ INDI
-1 NAME  /Collins/
+1 NAME [Unknown] /Collins/
+2 GIVN [Unknown]
 2 SURN Collins
 1 SEX M
 1 BIRT
@@ -21570,8 +21878,8 @@
 4 CONT 
 2 NOTE @N1476@
 1 CHAN
-2 DATE 25 AUG 2020
-3 TIME 11:37:28
+2 DATE 28 AUG 2020
+3 TIME 15:27:29
 0 @I0612@ INDI
 1 NAME John /Hannan/
 2 GIVN John
@@ -21876,7 +22184,8 @@
 2 DATE 6 JUL 2020
 3 TIME 19:21:17
 0 @I0618@ INDI
-1 NAME  /Hannan/
+1 NAME [Unknown] /Hannan/
+2 GIVN [Unknown]
 2 SURN Hannan
 1 SEX M
 1 BIRT
@@ -22002,8 +22311,8 @@
 1 NOTE @N1953@
 1 NOTE @N1958@
 1 CHAN
-2 DATE 27 AUG 2020
-3 TIME 21:23:53
+2 DATE 28 AUG 2020
+3 TIME 15:28:53
 0 @I0619@ INDI
 1 NAME Michael /Hannan/
 2 GIVN Michael
@@ -22179,9 +22488,10 @@
 4 CONT - Buildings: £3  3s  0d 
 4 CONT - Total: £19  0s  0d
 2 NOTE @N1713@
+1 NOTE @N1790@
 1 CHAN
-2 DATE 27 AUG 2020
-3 TIME 20:39:32
+2 DATE 28 AUG 2020
+3 TIME 15:56:22
 0 @I0620@ INDI
 1 NAME Edmond /Hannan/
 2 GIVN Edmond
@@ -22514,8 +22824,8 @@
 2 NOTE @N1481@
 2 NOTE @N1480@
 1 CHAN
-2 DATE 12 AUG 2020
-3 TIME 16:30:16
+2 DATE 30 AUG 2020
+3 TIME 15:58:41
 0 @I0624@ INDI
 1 NAME Michael /Dwyer/
 2 GIVN Michael
@@ -22732,8 +23042,8 @@
 2 NOTE @N1489@
 2 NOTE @N1488@
 1 CHAN
-2 DATE 10 AUG 2020
-3 TIME 21:41:56
+2 DATE 30 AUG 2020
+3 TIME 17:34:05
 0 @I0629@ INDI
 1 NAME James /Hannan/
 2 GIVN James
@@ -23581,8 +23891,8 @@
 3 DATE 1955
 2 NOTE @N1551@
 1 CHAN
-2 DATE 28 JUL 2020
-3 TIME 11:53:39
+2 DATE 29 AUG 2020
+3 TIME 16:12:24
 0 @I0662@ INDI
 1 NAME Kate /Muldoon/
 2 GIVN Kate
@@ -23852,8 +24162,8 @@
 2 NOTE @N1567@
 2 NOTE @N1566@
 1 CHAN
-2 DATE 18 JUN 2020
-3 TIME 16:41:58
+2 DATE 29 AUG 2020
+3 TIME 16:11:27
 0 @I0667@ INDI
 1 NAME Patrick Leo /Hannan/
 2 GIVN Patrick Leo
@@ -24539,8 +24849,8 @@
 2 NOTE @N0814@
 2 NOTE @N0866@
 1 CHAN
-2 DATE 25 AUG 2020
-3 TIME 14:54:07
+2 DATE 3 SEP 2020
+3 TIME 22:56:34
 0 @I0690@ INDI
 1 NAME Rita /Madden/
 2 GIVN Rita
@@ -24749,8 +25059,8 @@
 2 NOTE @N1482@
 1 NOTE @N1790@
 1 CHAN
-2 DATE 27 AUG 2020
-3 TIME 20:40:36
+2 DATE 28 AUG 2020
+3 TIME 15:56:26
 0 @I0739@ INDI
 1 NAME Mary /Hannan/
 2 GIVN Mary
@@ -24849,7 +25159,8 @@
 2 GIVN Johanna
 2 SURN Hannan
 1 SEX F
-1 BIRT
+1 DEAT Y
+1 BAPM
 2 DATE 20 DEC 1840
 2 PLAC Fedamore, Limerick, Ireland
 3 MAP
@@ -24861,7 +25172,6 @@
 3 PAGE Johanna Hannan b1840 - Fedamore | Microfilm 02430 / 01 p59
 3 NOTE @N1743@
 3 NOTE @N1744@
-1 DEAT Y
 1 FAMC @F0217@
 1 SOUR @S0014@
 2 PAGE Johanna Hannan b1840 - Fedamore | Microfilm 02430 / 01 p59
@@ -24869,14 +25179,15 @@
 2 NOTE @N1744@
 1 NOTE @N1745@
 1 CHAN
-2 DATE 23 AUG 2020
-3 TIME 23:37:22
+2 DATE 30 AUG 2020
+3 TIME 18:49:20
 0 @I0744@ INDI
 1 NAME Bridget /Hannan/
 2 GIVN Bridget
 2 SURN Hannan
 1 SEX F
-1 BIRT
+1 DEAT Y
+1 BAPM
 2 DATE 21 OCT 1843
 2 PLAC Fedamore, Limerick, Ireland
 3 MAP
@@ -24888,15 +25199,14 @@
 3 PAGE Bridget Hannan b1843 - Fedamore | Microfilm 02430 / 01 p76
 3 NOTE @N1747@
 3 NOTE @N1748@
-1 DEAT Y
 1 FAMC @F0217@
 1 SOUR @S0014@
 2 PAGE Bridget Hannan b1843 - Fedamore | Microfilm 02430 / 01 p76
 2 NOTE @N1747@
 2 NOTE @N1748@
 1 CHAN
-2 DATE 27 AUG 2020
-3 TIME 17:21:13
+2 DATE 30 AUG 2020
+3 TIME 18:50:33
 0 @I0745@ INDI
 1 NAME Ellen /Hannan/
 2 GIVN Ellen
@@ -25059,7 +25369,8 @@
 2 DATE 23 AUG 2020
 3 TIME 23:36:03
 0 @I0751@ INDI
-1 NAME  /Hannan/
+1 NAME [Unknown] /Hannan/
+2 GIVN [Unknown]
 2 SURN Hannan
 1 DEAT Y
 1 BAPM
@@ -25080,8 +25391,8 @@
 2 NOTE @N1593@
 2 NOTE @N1761@
 1 CHAN
-2 DATE 23 AUG 2020
-3 TIME 23:18:28
+2 DATE 28 AUG 2020
+3 TIME 18:40:29
 0 @I0752@ INDI
 1 NAME Johanna /Mulcahy/
 2 GIVN Johanna
@@ -25218,6 +25529,27 @@
 3 DATA
 4 DATE FROM 1880 TO 1935
 3 NOTE @N1772@
+1 BURI
+2 TYPE Plot 170, Ic
+2 DATE 6 APR 1959
+2 PLAC Mount St. Lawrence, Limerick, Limerick, Ireland
+2 ADDR
+3 ADR2 Mount St. Lawrence
+3 CITY Limerick
+3 CTRY Ireland
+2 SOUR @S0001@
+3 PAGE Joseph Hannan d1959 - Burial Register ID: 54340, Sexton Number: 57932
+3 DATA
+4 TEXT Joseph Hannon
+5 CONT 
+5 CONT Institution: Saint John's Hospital
+5 CONT Age at Death: 65 years
+5 CONT Burial Date: April 6 1959
+5 CONT Mount Saint Lawrence Burial Register ID: 54340
+5 CONT Mount Saint Lawrence Sexton Number: 57932
+5 CONT Mount Saint Lawrence Latitude: 170
+5 CONT Mount Saint Lawrence Longitude: Ic
+3 NOTE @N1980@
 1 FAMC @F0220@
 1 FAMS @F0223@
 1 SOUR @S0018@
@@ -25227,8 +25559,8 @@
 2 NOTE @N1820@
 2 NOTE @N1821@
 1 CHAN
-2 DATE 12 AUG 2020
-3 TIME 16:19:33
+2 DATE 22 SEP 2020
+3 TIME 15:45:03
 0 @I0755@ INDI
 1 NAME Margaret /Hannan/
 2 GIVN Margaret
@@ -25248,7 +25580,60 @@
 4 DATE 1 APR 1891
 3 NOTE @N1842@
 3 NOTE @N1841@
-1 DEAT Y
+1 DEAT
+2 TYPE Limerick Mental Hospital, Pulmonary Tuberculosis
+2 DATE 4 MAY 1951
+2 PLAC Limerick, Limerick, Ireland
+3 MAP
+4 LATI N52.66
+4 LONG W8.63
+2 ADDR
+3 CITY Limerick
+3 CTRY Ireland
+2 SOUR @S0016@
+3 PAGE Margaret Hannan d1951 - Group Registration ID: 2060793, SR District/Reg Area: Limerick
+3 DATA
+4 DATE 28 MAY 1951
+4 TEXT 1951 Deaths registered in the District of No.3. in the Superintendent Re
+5 CONC gistrar's District of Limerick
+5 CONT in the County of 
+5 CONT 
+5 CONT 
+5 CONT No.: 128
+5 CONT Date and place of death: 1951 May Fourth Mental Hospital Limerick C.B.
+5 CONT Name and Surname: Margaret Hannon Newtown, Clarina Co. Limerick
+5 CONT Sex: F
+5 CONT Condition: Spinster
+5 CONT Age last birthday: 59 Years
+5 CONT Profession or occupation: Housekeeper
+5 CONT Certfified Cause of Death and Duration of Illness: Chronic Pulmonary Tub
+5 CONC erculosis some time Certified
+5 CONT Signature, Qualififcation, and Residence of Informant: P. Ryan Occupie
+5 CONC r Mental Hospital
+5 CONT When Registered: May Twenty Eighth 1951
+5 CONT 
+3 NOTE @N1974@
+1 BURI
+2 TYPE Plot 170, Ic
+2 DATE 5 MAY 1951
+2 PLAC Mount St. Lawrence, Limerick, Limerick, Ireland
+2 ADDR
+3 ADR2 Mount St. Lawrence
+3 CITY Limerick
+3 CTRY Ireland
+2 SOUR @S0001@
+3 PAGE Margaret Hannan d1951 - Burial Register ID: 50099, Sexton Number: 53692
+3 DATA
+4 TEXT Margaret Hannan
+5 CONT 
+5 CONT Institution: LMH
+5 CONT Age at Death: 53 years
+5 CONT Burial Date: May 5 1951
+5 CONT Mount Saint Lawrence Burial Register ID: 50099
+5 CONT Mount Saint Lawrence Sexton Number: 53692
+5 CONT Mount Saint Lawrence Latitude: 170
+5 CONT Mount Saint Lawrence Longitude: Ic
+3 NOTE @N1976@
 1 FAMC @F0220@
 1 SOUR @S0018@
 2 PAGE Margaret Hannan b1891 - Group Registration ID: 11037581, SR District/Reg Area: Croom
@@ -25257,8 +25642,8 @@
 2 NOTE @N1842@
 2 NOTE @N1841@
 1 CHAN
-2 DATE 12 AUG 2020
-3 TIME 15:19:51
+2 DATE 22 SEP 2020
+3 TIME 15:38:47
 0 @I0756@ INDI
 1 NAME Mary /Hannan/
 2 GIVN Mary
@@ -25650,6 +26035,167 @@
 1 CHAN
 2 DATE 12 AUG 2020
 3 TIME 11:27:52
+0 @I0767@ INDI
+1 NAME Mary /McMahon/
+2 GIVN Mary
+2 SURN McMahon
+1 SEX F
+1 BIRT
+2 DATE EST ABT 1909
+1 DEAT
+2 TYPE St. Camillus Hospital
+2 DATE 20 FEB 1995
+2 PLAC Limerick, Limerick, Ireland
+3 MAP
+4 LATI N52.66
+4 LONG W8.63
+2 ADDR
+3 CITY Limerick
+3 CTRY Ireland
+2 SOUR @S0029@
+3 PAGE Mary McMahon d1995 - p25
+3 DATA
+4 DATE 21 FEB 1995
+4 TEXT HANNAN (nee McMahon) (New-
+5 CONT town, Crecora, Co. Limerick) - 
+5 CONT Feb. 20 1995 (peacefully) at St.
+5 CONT Camillus Hospital, Limerick.
+5 CONT Mary J., wife of the late Joseph
+5 CONT and mother of the late John and
+5 CONT William, and granny of the late
+5 CONT Joseph Lyle deeply regretted by
+5 CONT her son Michael, daughters-in-
+5 CONT law, nieces, nephews, grandchil-
+5 CONT dren, great-grandchildren, sister-
+5 CONT in-law, relatives and friends.
+5 CONT R.I.P. Remains will be removed
+5 CONT this (Tuesday) evening from
+5 CONT McMahon's Funeral Home.
+5 CONT Blackwater, at 7.30 o'c. to Cre-
+5 CONT cora Church. Funeral tomorrow
+5 CONT (Wednesday) to Mount St.
+5 CONT Laurence Cemetery, after 12 o'c.
+5 CONT Mass.
+1 BURI
+2 TYPE Plot 170, Ic
+2 DATE 22 FEB 1995
+2 PLAC Mount St. Lawrence, Limerick, Limerick, Ireland
+2 ADDR
+3 ADR2 Mount St. Lawrence
+3 CITY Limerick
+3 CTRY Ireland
+2 SOUR @S0029@
+3 PAGE Mary McMahon d1995 - p25
+3 DATA
+4 DATE 21 FEB 1995
+4 TEXT HANNAN (nee McMahon) (New-
+5 CONT town, Crecora, Co. Limerick) - 
+5 CONT Feb. 20 1995 (peacefully) at St.
+5 CONT Camillus Hospital, Limerick.
+5 CONT Mary J., wife of the late Joseph
+5 CONT and mother of the late John and
+5 CONT William, and granny of the late
+5 CONT Joseph Lyle deeply regretted by
+5 CONT her son Michael, daughters-in-
+5 CONT law, nieces, nephews, grandchil-
+5 CONT dren, great-grandchildren, sister-
+5 CONT in-law, relatives and friends.
+5 CONT R.I.P. Remains will be removed
+5 CONT this (Tuesday) evening from
+5 CONT McMahon's Funeral Home.
+5 CONT Blackwater, at 7.30 o'c. to Cre-
+5 CONT cora Church. Funeral tomorrow
+5 CONT (Wednesday) to Mount St.
+5 CONT Laurence Cemetery, after 12 o'c.
+5 CONT Mass.
+2 SOUR @S0001@
+3 PAGE Mary McMahon d1995 - Burial Register ID: 64997
+3 DATA
+4 TEXT Mary Hannon
+5 CONT 
+5 CONT Burial Date: February 22 1995
+5 CONT Mount Saint Lawrence Burial Register ID: 64997
+5 CONT Mount Saint Lawrence Latitude: 170
+5 CONT Mount Saint Lawrence Longitude: Ic
+3 NOTE @N1978@
+1 FAMS @F0223@
+1 SOUR @S0017@
+2 PAGE Joseph Hannan & Mary McMahon m1938 - Group Registration ID: 1370000, SR District/Reg Area: Limerick
+2 DATA
+3 DATE 29 MAR 1938
+2 NOTE @N1822@
+2 NOTE @N1823@
+1 CHAN
+2 DATE 22 SEP 2020
+3 TIME 15:42:04
+0 @I0768@ INDI
+1 NAME John J /Hannan/
+2 GIVN John J
+2 SURN Hannan
+1 SEX M
+1 BIRT
+2 DATE 1939
+2 PLAC Limerick, Limerick, Ireland
+3 MAP
+4 LATI N52.66
+4 LONG W8.63
+2 ADDR
+3 CITY Limerick
+3 CTRY Ireland
+2 SOUR @S0044@
+3 PAGE John Hannan b1939
+3 DATA
+4 TEXT Last name Hannon
+5 CONT First name(s) John J
+5 CONT Year Of Birth 1939
+5 CONT Year Of Death
+5 CONT Year 1939
+5 CONT Record set Irish Births 1864-1958
+5 CONT Location Limerick, Ireland
+5 CONT 
+3 NOTE @N1824@
+1 DEAT
+2 DATE BEF 20 FEB 1995
+2 SOUR @S0029@
+3 PAGE Mary McMahon d1995 - p25
+3 DATA
+4 DATE 21 FEB 1995
+4 TEXT HANNAN (nee McMahon) (New-
+5 CONT town, Crecora, Co. Limerick) - 
+5 CONT Feb. 20 1995 (peacefully) at St.
+5 CONT Camillus Hospital, Limerick.
+5 CONT Mary J., wife of the late Joseph
+5 CONT and mother of the late John and
+5 CONT William, and granny of the late
+5 CONT Joseph Lyle deeply regretted by
+5 CONT her son Michael, daughters-in-
+5 CONT law, nieces, nephews, grandchil-
+5 CONT dren, great-grandchildren, sister-
+5 CONT in-law, relatives and friends.
+5 CONT R.I.P. Remains will be removed
+5 CONT this (Tuesday) evening from
+5 CONT McMahon's Funeral Home.
+5 CONT Blackwater, at 7.30 o'c. to Cre-
+5 CONT cora Church. Funeral tomorrow
+5 CONT (Wednesday) to Mount St.
+5 CONT Laurence Cemetery, after 12 o'c.
+5 CONT Mass.
+1 FAMC @F0223@
+1 SOUR @S0044@
+2 PAGE John Hannan b1939
+2 DATA
+3 TEXT Last name Hannon
+4 CONT First name(s) John J
+4 CONT Year Of Birth 1939
+4 CONT Year Of Death
+4 CONT Year 1939
+4 CONT Record set Irish Births 1864-1958
+4 CONT Location Limerick, Ireland
+4 CONT 
+2 NOTE @N1824@
+1 CHAN
+2 DATE 22 SEP 2020
+3 TIME 11:46:57
 0 @I0770@ INDI
 1 NAME Liam /Hannan/
 2 GIVN Liam
@@ -26108,8 +26654,8 @@
 4 CONT other information:
 4 CONT 
 1 CHAN
-2 DATE 17 AUG 2020
-3 TIME 15:50:42
+2 DATE 30 AUG 2020
+3 TIME 19:37:56
 0 @I0780@ INDI
 1 NAME Stanley James /Hannan/
 2 GIVN Stanley James
@@ -26249,7 +26795,7 @@
 3 STAE Victoria
 3 CTRY Australia
 2 SOUR @S0046@
-3 PAGE Kathleen Hannan b1892 - Registration Number: 02252
+3 PAGE Kathleen Hannan b1892 - Registration Number: 08832
 3 DATA
 4 TEXT Australia Victoria BMD indices
 5 CONT 
@@ -26267,6 +26813,14 @@
 5 CONT 
 1 DEAT
 2 DATE 14 JUN 1982
+2 PLAC Surrey Hills, Melbourne, Victoria, Australia
+3 MAP
+4 LATI S37.82786
+4 LONG E145.097885
+2 ADDR
+3 CITY Melbourne
+3 STAE Victoria
+3 CTRY Australia
 2 SOUR @S0046@
 3 PAGE Kathleen Hannan d1982 - Registration Number: 14755
 3 DATA
@@ -26302,7 +26856,7 @@
 1 FAMC @F0227@
 1 FAMS @F0228@
 1 SOUR @S0046@
-2 PAGE Kathleen Hannan b1892 - Registration Number: 02252
+2 PAGE Kathleen Hannan b1892 - Registration Number: 08832
 2 DATA
 3 TEXT Australia Victoria BMD indices
 4 CONT 
@@ -26319,8 +26873,8 @@
 4 CONT other information:
 4 CONT 
 1 CHAN
-2 DATE 17 AUG 2020
-3 TIME 15:58:20
+2 DATE 30 AUG 2020
+3 TIME 13:55:17
 0 @I0782@ INDI
 1 NAME Karl Prendergast /Podger/
 2 GIVN Karl Prendergast
@@ -26362,8 +26916,8 @@
 4 CONT 
 2 NOTE @N1883@
 1 CHAN
-2 DATE 25 AUG 2020
-3 TIME 12:51:16
+2 DATE 30 AUG 2020
+3 TIME 14:01:17
 0 @I0783@ INDI
 1 NAME Lorna /Nathan/
 2 GIVN Lorna
@@ -26452,6 +27006,7 @@
 5 CONT 
 5 CONT "Daughter of Stanley Hannan and Lorna. She married George James McIntos
 5 CONC h (1930-1982) and they had one child."
+3 NOTE @N1972@
 1 DEAT
 2 TYPE Prahan suburb
 2 DATE 7 AUG 1985
@@ -26493,6 +27048,7 @@
 5 CONT 
 5 CONT "Daughter of Stanley Hannan and Lorna. She married George James McIntos
 5 CONC h (1930-1982) and they had one child."
+3 NOTE @N1972@
 1 FAMC @F0229@
 1 FAMS @F0230@
 1 SOUR @S0027@
@@ -26510,9 +27066,10 @@
 4 CONT 
 4 CONT "Daughter of Stanley Hannan and Lorna. She married George James McIntos
 4 CONC h (1930-1982) and they had one child."
+2 NOTE @N1972@
 1 CHAN
-2 DATE 18 AUG 2020
-3 TIME 16:27:05
+2 DATE 12 SEP 2020
+3 TIME 23:19:04
 0 @I0785@ INDI
 1 NAME George James /McIntosh/
 2 GIVN George James
@@ -26539,6 +27096,7 @@
 5 CONT 
 5 CONT "Son of George McIntosh (1905-1969) and Annie Caird nee Cowan ( -1986)
 5 CONC . He married Pauline Lorna Hannan (1931-1985) and they had one child."
+3 NOTE @N1971@
 1 DEAT
 2 TYPE Aireys Inlet
 2 DATE 16 OCT 1982
@@ -26565,6 +27123,7 @@
 5 CONT 
 5 CONT "Son of George McIntosh (1905-1969) and Annie Caird nee Cowan ( -1986)
 5 CONC . He married Pauline Lorna Hannan (1931-1985) and they had one child."
+3 NOTE @N1971@
 1 FAMS @F0230@
 1 SOUR @S0027@
 2 PAGE George McIntosh d1982 - Memorial ID: 132838757
@@ -26581,9 +27140,10 @@
 4 CONT 
 4 CONT "Son of George McIntosh (1905-1969) and Annie Caird nee Cowan ( -1986)
 4 CONC . He married Pauline Lorna Hannan (1931-1985) and they had one child."
+2 NOTE @N1971@
 1 CHAN
-2 DATE 17 AUG 2020
-3 TIME 16:39:02
+2 DATE 12 SEP 2020
+3 TIME 11:12:38
 0 @I0786@ INDI
 1 NAME James Nathan /Hannan/
 2 GIVN James Nathan
@@ -26991,7 +27551,8 @@
 2 DATE 27 AUG 2020
 3 TIME 21:18:03
 0 @I0806@ INDI
-1 NAME  /Hannan/
+1 NAME [Unknown] /Hannan/
+2 GIVN [Unknown]
 2 SURN Hannan
 1 SEX F
 1 BIRT
@@ -27018,11 +27579,11 @@
 1 NOTE @N1963@
 1 CHAN
 2 DATE 28 AUG 2020
-3 TIME 14:12:54
+3 TIME 15:42:38
 0 @I0807@ INDI
-1 NAME Tom /Moloney/
+1 NAME Tom /Maloney/
 2 GIVN Tom
-2 SURN Moloney
+2 SURN Maloney
 1 SEX M
 1 BIRT
 2 DATE CAL ABT 1823
@@ -27067,9 +27628,119 @@
 3 NOTE @N1924@
 3 NOTE @N1944@
 1 FAMS @F0234@
+1 SOUR @S0086@
+2 PAGE Aunt Maloney, p5
+2 DATA
+3 TEXT "Well, Uncle Tom came to Dublin to give evidence in a dispute which wa
+4 CONC s being tried in the Four Courts which was a High court of Ireland in Du
+4 CONC blin.[...] He took me to Limerick and I stayed for three months, wasn'
+4 CONC t that fine, no school to go to for all that time, it just shows how a k
+4 CONC id's mind works, That was the first time I met my Aunt Maloney. My mothe
+4 CONC r's sister"
 1 CHAN
 2 DATE 28 AUG 2020
-3 TIME 14:19:03
+3 TIME 15:42:34
+0 @I0809@ INDI
+1 NAME Verna Mary /Hannan/
+2 GIVN Verna Mary
+2 SURN Hannan
+1 SEX F
+1 BIRT
+2 DATE 1909
+2 PLAC Bendigo, Victoria, Australia
+3 MAP
+4 LATI S36.757759
+4 LONG E144.278607
+2 ADDR
+3 CITY Bendigo
+3 STAE Victoria
+3 CTRY Australia
+2 SOUR @S0046@
+3 PAGE Verna May Hannan b1909 - Registration Number: 24865
+3 NOTE @N1968@
+1 DEAT
+2 DATE 12 NOV 1977
+2 PLAC Heidelberg, Victoria, Australia
+3 MAP
+4 LATI S37.753814
+4 LONG E145.066507
+2 ADDR
+3 STAE Victoria
+3 CTRY Australia
+2 SOUR @S0046@
+3 PAGE Verna May Hannan d1977 - Registration Number: 26807
+3 DATA
+4 TEXT year: 1977
+5 CONT registration number: 26807
+5 CONT gender: 
+5 CONT surname: Agg
+5 CONT first names: Verna Mary
+5 CONT father: Hannan Michael
+5 CONT mother: Magee
+5 CONT death place: Heidleberg
+5 CONT age: 68
+5 CONT other information: 
+2 SOUR @S0027@
+3 PAGE Grace Hannan d1968 - Memorial ID: 138225293
+3 DATA
+4 TEXT Grace M Hannan
+5 CONT 
+5 CONT BIRTH	1880
+5 CONT DEATH	31 Jul 1968 (aged 87–88) Victoria, Australia
+5 CONT BURIAL	Melbourne General Cemetery Carlton North, Melbourne City, Victori
+5 CONC a, Australia
+5 CONT PLOT	R-C, Comp-Q, No-0768c
+5 CONT MEMORIAL ID	138225293 
+5 CONT 
+5 CONT In Loving Memory of
+5 CONT GRACE M HANNAN
+5 CONT loved daughter of
+5 CONT MICHAEL & MARY HANNAN
+5 CONT Died 31.7.68 aged 88
+5 CONT 
+5 CONT also
+5 CONT VERNA MARY AGG
+5 CONT died 12.11.77
+3 NOTE @N1878@
+1 BURI
+2 TYPE Melbourne General Cemetery
+2 PLAC Carlton, Melbourne, Victoria, Australia
+3 MAP
+4 LATI S37.800837
+4 LONG E144.968595
+2 ADDR
+3 CITY Melbourne
+3 STAE Victoria
+3 CTRY Australia
+2 SOUR @S0027@
+3 PAGE Grace Hannan d1968 - Memorial ID: 138225293
+3 DATA
+4 TEXT Grace M Hannan
+5 CONT 
+5 CONT BIRTH	1880
+5 CONT DEATH	31 Jul 1968 (aged 87–88) Victoria, Australia
+5 CONT BURIAL	Melbourne General Cemetery Carlton North, Melbourne City, Victori
+5 CONC a, Australia
+5 CONT PLOT	R-C, Comp-Q, No-0768c
+5 CONT MEMORIAL ID	138225293 
+5 CONT 
+5 CONT In Loving Memory of
+5 CONT GRACE M HANNAN
+5 CONT loved daughter of
+5 CONT MICHAEL & MARY HANNAN
+5 CONT Died 31.7.68 aged 88
+5 CONT 
+5 CONT also
+5 CONT VERNA MARY AGG
+5 CONT died 12.11.77
+3 NOTE @N1878@
+1 FAMC @F0235@
+1 SOUR @S0046@
+2 PAGE Verna May Hannan b1909 - Registration Number: 24865
+2 NOTE @N1968@
+1 CHAN
+2 DATE 30 AUG 2020
+3 TIME 19:33:56
 0 @I500153@ INDI
 1 NAME Jack /Noonan/
 2 GIVN Jack
@@ -28351,6 +29022,7 @@
 4 DATE 26 JUL 1902
 3 NOTE @N0398@
 3 NOTE @N0303@
+1 CHIL @I0366@
 1 CHIL @I0368@
 1 CHAN
 2 DATE 27 JUN 2017
@@ -29499,6 +30171,7 @@
 3 TIME 19:10:02
 0 @F0223@ FAM
 1 HUSB @I0754@
+1 WIFE @I0767@
 1 MARR
 2 TYPE St. Joseph's church
 2 DATE 1 MAR 1938
@@ -29515,6 +30188,7 @@
 4 DATE 29 MAR 1938
 3 NOTE @N1822@
 3 NOTE @N1823@
+1 CHIL @I0768@
 1 CHIL @I0770@
 1 CHAN
 2 DATE 11 AUG 2020
@@ -29591,9 +30265,31 @@
 0 @F0228@ FAM
 1 HUSB @I0782@
 1 WIFE @I0781@
+1 MARR
+2 DATE 1927
+2 PLAC Victoria, Australia
+2 ADDR
+3 STAE Victoria
+3 CTRY Australia
+2 SOUR @S0046@
+3 PAGE Kathleen Hannan & Karl Podger m1927 - Registration Number: 04560
+3 DATA
+4 TEXT year: 1927
+5 CONT registration number: 04560
+5 CONT 
+5 CONT gender:
+5 CONT surname: Podger
+5 CONT first names: Karl Prendergast
+5 CONT other information:
+5 CONT 
+5 CONT gender:
+5 CONT surname: Hannan
+5 CONT first names: Kathleen Blanche
+5 CONT other information:
+5 CONT 
 1 CHAN
-2 DATE 17 AUG 2020
-3 TIME 15:57:36
+2 DATE 30 AUG 2020
+3 TIME 13:59:19
 0 @F0229@ FAM
 1 HUSB @I0780@
 1 WIFE @I0783@
@@ -29677,6 +30373,39 @@
 1 CHAN
 2 DATE 28 AUG 2020
 3 TIME 13:42:47
+0 @F0235@ FAM
+1 HUSB @I0559@
+1 MARR
+2 DATE 1909
+2 PLAC Victoria, Australia
+2 ADDR
+3 STAE Victoria
+3 CTRY Australia
+2 SOUR @S0046@
+3 PAGE Michael Hannan & Anna Magee m1909 - Registration Number: 01119
+3 DATA
+4 TEXT year: 1909
+5 CONT registration number: 01119
+5 CONT 
+5 CONT gender:
+5 CONT surname: Hannan
+5 CONT first names: Mich
+5 CONT other information: Ireland
+5 CONT 
+5 CONT gender:
+5 CONT surname: Magee
+5 CONT first names: Anna
+5 CONT other information: Bendigo
+5 CONT 
+1 CHIL @I0809@
+1 CHAN
+2 DATE 30 AUG 2020
+3 TIME 19:10:00
+0 @F0236@ FAM
+1 HUSB @I0366@
+1 CHAN
+2 DATE 15 SEP 2020
+3 TIME 09:52:19
 0 @F500117@ FAM
 1 HUSB @I500155@
 1 WIFE @I500154@
@@ -41033,6 +41762,26 @@
 1 CONC r a lot in St. Mary's cemetery, $260 for the gravestone and $200 gave t
 1 CONC o other priests for the saying of mass for the repose of her soul.
 1 CONT 
+0 @N0782@ NOTE https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-
+1 CONC search.jsp?namefm=patrick&namel=kennedy&type=B&ddBfrom=&mmBfrom=&yyBfrom
+1 CONC =1911&ddBto=&mmBto=&yyBto=1911&locationB=&keywordb=conway&ddMfrom=&mmMfr
+1 CONC om=&yyMfrom=&ddMto=&mmMto=&yyMto=&locationM=&keywordm=&ddDfrom=&mmDfrom=
+1 CONC &yyDfrom=&ddDto=&mmDto=&yyDto=&locationD=&keywordd=&submit=Search
+0 @N0783@ NOTE Births Registered in the District of Limerick No 2 in the County o
+1 CONC f Limerick
+1 CONT 
+1 CONT No.: 429
+1 CONT Date and Place of Birth: 1911 November Tenth / Lying in Hospital
+1 CONT Name (if any): Patrick Martin
+1 CONT Sex: F
+1 CONT Name and Surname and Dwelling Place of Father: Michael Kennedy / Fanning
+1 CONC stown
+1 CONT Name and Surname and Dwelling Place of Mother: Mary Kennedy formerly Con
+1 CONC way
+1 CONT Rank of Profession of Father: Farmer
+1 CONT Signature, Qualification and Residence of Informant: H. Dobbins / occupi
+1 CONC er / Lying in Hospital
+1 CONT When Registered: November Thirtieth 1911
 0 @N0784@ NOTE Residents of a house 2 in Boherload (Ballybricken, Limerick)
 1 CONT 
 1 CONT Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupatio
@@ -44772,17 +45521,20 @@
 1 CONT Lot 4B Thomas Gleeson
 1 CONT Lot 4C Thomas Gleeson
 1 CONT Lot 5 Thomas Gleeson
-1 CONT Lot !2A Daniel Gleeson
+1 CONT Lot 12A Daniel Gleeson
 1 CONT Lot 14 Martin Gleeson
 1 CONT 
 1 CONT 
 1 CONT 1849
-1 CONT Lot 4B previously occupied by James Gleeson, now occuppied by Danial Gle
-1 CONC eson and combined with 12A to become 8A
+1 CONT Lot 4B occupied by Thomas Gleeson, now occuppied by Daniel Gleeson and r
+1 CONC enumbered 8A. Note that part of this property had previously been occupi
+1 CONC ed by James Gleeson
 1 CONT => Lot8A Daniel Gleeson
-1 CONT Lot 14 Martin Gleeson => Lot 1Cc Thomas Gleeson
 1 CONT 
-1 CONT Lot 1C Thomas Gleeson
+1 CONT Lots 3 and 4A occupied by Thomas Gleeson are combined and renumbered 1C
+1 CONC a 
+1 CONT 
+1 CONT Lot 14 Martin Gleeson => Lot 1Cb Thomas Gleeson
 1 CONT 
 1 CONT 
 1 CONT 1850 - Griffith's Valuation
@@ -53219,6 +53971,16 @@
 1 CONT 
 1 CONT Priest: John Halpin C.C.
 1 CONT In the Prescence of William Hannan & Nora McMahon
+0 @N1824@ NOTE $ubscription only - https://www.findmypast.ie/transcript?id=IRE%2FB
+1 CONC MD%2FD%2F693014241
+0 @N1825@ NOTE Last name Hannon
+1 CONT First name(s) John J
+1 CONT Year Of Birth 1939
+1 CONT Year Of Death
+1 CONT Year 1939
+1 CONT Record set Irish Births 1864-1958
+1 CONT Location Limerick, Ireland
+1 CONT 
 0 @N1828@ NOTE $ubscription only - https://www.findmypast.ie/transcript?id=IRE%2FB
 1 CONC MD%2FD%2F698313160
 0 @N1829@ NOTE Last name Hannon
@@ -54631,4 +55393,138 @@
 1 CONC nan and several of relatives have lived in 28 Cornwallis Street, so reco
 1 CONC rds referring to Hannans living in Cornwallis Street are sometimes relev
 1 CONC ant, but some of those records refer to the "wrong" Hannans.
+0 @N1965@ NOTE Irish Press 1931 - 1995, Wednesday, July 21, 1971; Page: 2
+1 CONT 
+1 CONT LONG (Cork and Kilmurry, Limerick)
+1 CONT  - July 17, 1971 (suddenly) at Haut
+1 CONT Bay, Cape Providence, South Africa,
+1 CONT Rev. Liam Long, M.S.C., Sacred Heart
+1 CONT College, Cork, and Kilmurray House,
+1 CONT Feenagh, Charleville; very deeply
+1 CONT regretted by his loving parents,
+1 CONT brothers, sisters and his community.
+1 CONT May he rest in peace. Interment will
+1 CONT take place in South Africa.
+0 @N1966@ NOTE year: 1927
+1 CONT registration number: 04560
+1 CONT 
+1 CONT gender:
+1 CONT surname: Podger
+1 CONT first names: Karl Prendergast
+1 CONT other information:
+1 CONT 
+1 CONT gender:
+1 CONT surname: Hannan
+1 CONT first names: Kathleen Blanche
+1 CONT other information:
+1 CONT 
+0 @N1967@ NOTE year: 1909
+1 CONT registration number: 01119
+1 CONT 
+1 CONT gender:
+1 CONT surname: Hannan
+1 CONT first names: Mich
+1 CONT other information: Ireland
+1 CONT 
+1 CONT gender:
+1 CONT surname: Magee
+1 CONT first names: Anna
+1 CONT other information: Bendigo
+1 CONT 
+0 @N1968@ NOTE year: 1909
+1 CONT registration number: 24865
+1 CONT gender: F
+1 CONT surname: Hannan
+1 CONT first names: Verna Mary
+1 CONT father: Michael
+1 CONT mother: Mcgee Anna
+1 CONT birth place: Bendigo
+1 CONT other information: 
+1 CONT 
+0 @N1969@ NOTE year: 1977
+1 CONT registration number: 26807
+1 CONT gender: 
+1 CONT surname: Agg
+1 CONT first names: Verna Mary
+1 CONT father: Hannan Michael
+1 CONT mother: Magee
+1 CONT death place: Heidleberg
+1 CONT age: 68
+1 CONT other information: 
+0 @N1970@ NOTE http://www.census.nationalarchives.ie/pages/1911/Limerick/Fedamore/
+1 CONC Fanningstown/617757/
+0 @N1971@ NOTE https://www.findagrave.com/memorial/132838757/george-james-mcintosh
+0 @N1972@ NOTE https://www.findagrave.com/memorial/132838845/pauline-lorna-mcintos
+1 CONC h
+0 @N1973@ NOTE HANNAN (nee McMahon) (New-
+1 CONT town, Crecora, Co. Limerick) - 
+1 CONT Feb. 20 1995 (peacefully) at St.
+1 CONT Camillus Hospital, Limerick.
+1 CONT Mary J., wife of the late Joseph
+1 CONT and mother of the late John and
+1 CONT William, and granny of the late
+1 CONT Joseph Lyle deeply regretted by
+1 CONT her son Michael, daughters-in-
+1 CONT law, nieces, nephews, grandchil-
+1 CONT dren, great-grandchildren, sister-
+1 CONT in-law, relatives and friends.
+1 CONT R.I.P. Remains will be removed
+1 CONT this (Tuesday) evening from
+1 CONT McMahon's Funeral Home.
+1 CONT Blackwater, at 7.30 o'c. to Cre-
+1 CONT cora Church. Funeral tomorrow
+1 CONT (Wednesday) to Mount St.
+1 CONT Laurence Cemetery, after 12 o'c.
+1 CONT Mass.
+0 @N1974@ NOTE https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-
+1 CONC search.jsp?namefm=Margaret&namel=Hann*n&location=Limerick&yyfrom=1951&yy
+1 CONC to=1952&type=D&submit=Search
+0 @N1975@ NOTE 1951 Deaths registered in the District of No.3. in the Superintende
+1 CONC nt Registrar's District of Limerick
+1 CONT in the County of 
+1 CONT 
+1 CONT 
+1 CONT No.: 128
+1 CONT Date and place of death: 1951 May Fourth Mental Hospital Limerick C.B.
+1 CONT Name and Surname: Margaret Hannon Newtown, Clarina Co. Limerick
+1 CONT Sex: F
+1 CONT Condition: Spinster
+1 CONT Age last birthday: 59 Years
+1 CONT Profession or occupation: Housekeeper
+1 CONT Certfified Cause of Death and Duration of Illness: Chronic Pulmonary Tub
+1 CONC erculosis some time Certified
+1 CONT Signature, Qualififcation, and Residence of Informant: P. Ryan Occupie
+1 CONC r Mental Hospital
+1 CONT When Registered: May Twenty Eighth 1951
+1 CONT 
+0 @N1976@ NOTE http://archives.limerick.ie/index.php/Detail/Entity/Show/entity_id/
+1 CONC 52769
+0 @N1977@ NOTE Margaret Hannan
+1 CONT 
+1 CONT Institution: LMH
+1 CONT Age at Death: 53 years
+1 CONT Burial Date: May 5 1951
+1 CONT Mount Saint Lawrence Burial Register ID: 50099
+1 CONT Mount Saint Lawrence Sexton Number: 53692
+1 CONT Mount Saint Lawrence Latitude: 170
+1 CONT Mount Saint Lawrence Longitude: Ic
+0 @N1978@ NOTE http://archives.limerick.ie/index.php/Detail/Entity/Show/entity_id/
+1 CONC 67662
+0 @N1979@ NOTE Mary Hannon
+1 CONT 
+1 CONT Burial Date: February 22 1995
+1 CONT Mount Saint Lawrence Burial Register ID: 64997
+1 CONT Mount Saint Lawrence Latitude: 170
+1 CONT Mount Saint Lawrence Longitude: Ic
+0 @N1980@ NOTE http://archives.limerick.ie/index.php/Detail/Entity/Show/entity_id/
+1 CONC 57010
+0 @N1981@ NOTE Joseph Hannon
+1 CONT 
+1 CONT Institution: Saint John's Hospital
+1 CONT Age at Death: 65 years
+1 CONT Burial Date: April 6 1959
+1 CONT Mount Saint Lawrence Burial Register ID: 54340
+1 CONT Mount Saint Lawrence Sexton Number: 57932
+1 CONT Mount Saint Lawrence Latitude: 170
+1 CONT Mount Saint Lawrence Longitude: Ic
 0 TRLR
