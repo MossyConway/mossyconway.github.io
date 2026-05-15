@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Events
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li>
+       <a href="individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="families.html" title="Families">Families</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="EventList">
+    <p id="description">
+     This page contains an index of all the events in the database, sorted by their type and date (if one is present). Clicking on an event’s Gramps ID will open a page for that event.
+    </p>
+    <div id="ltr">
+     <ul class="ltr">
+      <li>
+       <a href="events.html" title="Alphabet Menu: A">A</a>
+      </li>
+      <li>
+       <a href="events1.html" title="Alphabet Menu: B">B</a>
+      </li>
+      <li>
+       <a href="events2.html" title="Alphabet Menu: C">C</a>
+      </li>
+      <li>
+       <a href="events3.html" title="Alphabet Menu: D">D</a>
+      </li>
+      <li>
+       <a href="events4.html" title="Alphabet Menu: E">E</a>
+      </li>
+      <li>
+       <a href="events5.html" title="Alphabet Menu: I">I</a>
+      </li>
+      <li>
+       <a href="events6.html" title="Alphabet Menu: M">M</a>
+      </li>
+      <li>
+       <a href="events7.html" title="Alphabet Menu: O">O</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="events8.html" title="Alphabet Menu: P">P</a>
+      </li>
+      <li>
+       <a href="events9.html" title="Alphabet Menu: R">R</a>
+      </li>
+      <li>
+       <a href="events10.html" title="Alphabet Menu: T">T</a>
+      </li>
+      <li>
+       <a href="events11.html" title="Alphabet Menu: W">W</a>
+      </li>
+     </ul>
+    </div>
+    <table class="infolist primobjlist alphaevent ltr">
+     <thead>
+      <tr>
+       <th class="ColumnRowLabel">
+        Letter
+       </th>
+       <th class="ColumnType">
+        Type
+       </th>
+       <th class="ColumnDate">
+        Date
+       </th>
+       <th class="ColumnGRAMPSID">
+        Gramps ID
+       </th>
+       <th class="ColumnPerson">
+        Person
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr class="BeginLetter BeginType">
+       <td class="ColumnLetter">
+        <a name="P" title="Event types beginning with letter P">P</a>
+       </td>
+       <td class="ColumnType" title="Probate">
+        Probate
+       </td>
+       <td class="ColumnDate">
+        1875-08-18
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/f/f/e85ac88a10344c807d8737391ff.html" title="E1455">E1455</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/f/0/e5037d6a1405415087846c2c30f.html">Hannan, Patrick</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        1898-06-04
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/2/c/d87086e111a54271220113031c2.html" title="E0602">E0602</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/5/5/c32777d5ef10fc77955.html">Conway, John</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        1902-03-08
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/4/d/d8708f33523606014f930e800d4.html" title="E0603">E0603</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/9/a/d87054689f84f2e04e16d3d28a9.html">Conway, Michael</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        1905-06-17
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/c/a/e4e8d0955b47cf1d033073480ac.html" title="E1164">E1164</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/d/8/e4d957071fb65225e4497a9868d.html">Hannan, John</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        1909-11-25
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/8/9/d9f8ecdda9a7e85ba1c724ec598.html" title="E0680">E0680</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/3/4/c32773837490bd7c043.html">Conway, Patrick</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        1910-03-11
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/5/6/e4e8d742ade5211bf3608dd1a65.html" title="E1165">E1165</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/3/8/e4d1c3422761196747765646783.html">Ryan, Nora</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        1982-07-13
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/2/3/e8814b9ee9ea5cb17004330232.html" title="E1558">E1558</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/8/7/e87de217d0033dfb9d757ffb578.html">Hannan, Stanley James</a></span>
+       </td>
+      </tr>
+      <tr class="BeginType">
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title="Property">
+        Property
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/7/a/e8299e5289cf9aeadb2ea31fa7.html" title="E1415">E1415</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/d/6/e4cf006595c1c488342cece0f6d.html">Hannan, Patrick</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/d/4/e8643d707006afa78f0af125e4d.html" title="E1465">E1465</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/4/6/e864039bac85fddb1f8e20b8664.html">Hannan, Joseph</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        estimated from 1820 to 1875
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/3/3/e82a799acd66426a872ceec2833.html" title="E1416">E1416</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/4/9/e52f6e14bf768378e026ffab194.html">Hannan, Michael</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        estimated from 1820 to 1855
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/a/2/e82aa93165639827bcb1d4c032a.html" title="E1418">E1418</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/5/a/e52f6e582c1315ddef24247c4a5.html">Hannan, William</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        estimated from 1820 to 1872
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/9/7/e82b0d6ca8046863d1ca99f0079.html" title="E1420">E1420</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/8/1/e52f6e3526d78bc24be4610cf18.html">Hannan, Edmond</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        estimated from 1820-09-19 to 1860
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/b/e/e8246f871963bb1928aca5ceeeb.html" title="E1413">E1413</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/d/6/e4cf006595c1c488342cece0f6d.html">Hannan, Patrick</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1825 to 1866
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/a/a/f6298a1bfa1a67aa93e4494eaa.html" title="E1977">E1977</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/8/d/f6297eafa7a79097d79a1c107d8.html">Halpin, Michael</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        estimated from 1849 to 1860
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/b/4/e82998e6cc41974ffe45043054b.html" title="E1414">E1414</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/d/6/e4cf006595c1c488342cece0f6d.html">Hannan, Patrick</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1849 to 1850
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/f/d/e853b180dc73c0c50c8f0d1d2df.html" title="E1428">E1428</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/4/9/e52f6e14bf768378e026ffab194.html">Hannan, Michael</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        1851
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/1/b/e82b0cfc10a68fd37169ba742b1.html" title="E1419">E1419</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/d/6/e4cf006595c1c488342cece0f6d.html">Hannan, Patrick</a></span>
+        <span class="person"><a href="ppl/8/1/e52f6e3526d78bc24be4610cf18.html">Hannan, Edmond</a></span>
+        <span class="person"><a href="ppl/5/a/e52f6e582c1315ddef24247c4a5.html">Hannan, William</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        estimated from 1855 to 1879
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/7/7/e85ec91c252681e83b20f132377.html" title="E1458">E1458</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/f/8/e4cee68af245323c852af4a1a8f.html">Hannan, Patrick</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        estimated from 1860 to 1861
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/f/2/e846e630501758b7f768296692f.html" title="E1425">E1425</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/1/8/e4cfeca2a3a7ce51af1a96b7681.html">Lyons, Grace</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        estimated from 1860 to 1861
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/5/f/e85d417f8965daaffce9d6f06f5.html" title="E1456">E1456</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/1/8/e4cfeca2a3a7ce51af1a96b7681.html">Lyons, Grace</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        estimated from 1860 to 1861
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/d/4/e89a6290e8676170c2fbf78c84d.html" title="E1930">E1930</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/1/8/e4cfeca2a3a7ce51af1a96b7681.html">Lyons, Grace</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1861 to 1865
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/f/4/e846e6fac9f48614ce2f0f09b4f.html" title="E1426">E1426</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/8/1/e52f6e3526d78bc24be4610cf18.html">Hannan, Edmond</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1861 to 1865
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/1/a/e85d42c05b069897511b0f47aa1.html" title="E1457">E1457</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/8/1/e52f6e3526d78bc24be4610cf18.html">Hannan, Edmond</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1861 to 1865
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/7/f/e8653de022b4b3ba0b32177f4f7.html" title="E1468">E1468</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/8/1/e52f6e3526d78bc24be4610cf18.html">Hannan, Edmond</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1865 to 1907
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/9/e/e8545f8b0241ecc3a7e37dc8ee9.html" title="E1430">E1430</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/b/2/e4d1c26587a1d7b570d38d2722b.html">Hannan, Ned</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1865 to 1907
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/2/5/e8677c8c5c9699239643336ed52.html" title="E1471">E1471</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/b/2/e4d1c26587a1d7b570d38d2722b.html">Hannan, Ned</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1865 to 1907
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/0/0/e8678879e559c923cd0b4a8000.html" title="E1472">E1472</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/b/2/e4d1c26587a1d7b570d38d2722b.html">Hannan, Ned</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1866 to 1897
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/6/b/f62bddbcc463900c8da204e9cb6.html" title="E1982">E1982</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/b/7/c333f32859129a0b17b.html">Halpin, Patrick</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        estimated from 1872 to 1880
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/a/2/e864400b8ce1740d3f1eb45a82a.html" title="E1466">E1466</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/9/8/e854639022754fb7c9dce3e7589.html">Ryan, James</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1880 to 1933
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/0/e/e860b9041ae66565f5145484fe0.html" title="E1461">E1461</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/6/c/e55f0aa2e6c23e97380694ceec6.html">Hannan, John</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1881 to 1897
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/b/4/e27530e827e26e778245efda94b.html" title="E1112">E1112</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/9/a/d87054689f84f2e04e16d3d28a9.html">Conway, Michael</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1892 to 1896
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/7/1/e8679e1e1001cb0c16658d96c17.html" title="E1473">E1473</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/d/8/e4d957071fb65225e4497a9868d.html">Hannan, John</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1897 to 1901
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/7/2/e275834cfa3e41553c30343227.html" title="E1113">E1113</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/f/e/d92421e7d461b5f8269861306ef.html">Conway, Patrick</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        after 1901
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/c/0/e27585995ec7d297fdbb9cc420c.html" title="E1114">E1114</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/f/7/da053de5ed4530aadd74fd7ab7f.html">Kennedy, Michael</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        estimated from 1907 to 1910
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/9/a/e854609ff6c45f6cd1542fbc2a9.html" title="E1431">E1431</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/3/8/e4d1c3422761196747765646783.html">Ryan, Nora</a></span>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnLetter">
+       </td>
+       <td class="ColumnType" title=" ">
+       </td>
+       <td class="ColumnDate">
+        from 1910 to 1954
+       </td>
+       <td class="ColumnGRAMPSID">
+        <a href="./evt/a/b/e854624b7a057961757eb26e0ba.html" title="E1432">E1432</a>
+       </td>
+       <td class="ColumnPerson">
+        <span class="person"><a href="ppl/f/0/e4d1c408d39107a4d8914a86a0f.html">Hannan, Martin</a></span>
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2023-09-05 21:23:46
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

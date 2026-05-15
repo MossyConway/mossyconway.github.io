@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Hannan, James
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Hannan, James
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Hannan, James
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        male
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/e/4/e54279d1eb630fa88f3771f504e.html" title="Baptism">
+								Baptism
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1839-07-03
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/3/5/bd87c54bc87790eaa53.html" title="Fedamore, Limerick, Ireland">
+								Fedamore, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1a">1a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/4/f/e55c4a3342d5ba021df0a806ff4.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         before 1841-01-18
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1b">1b</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="parents">
+     <h4>
+      Parents
+     </h4>
+     <table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnAttribute">
+         Relation to main person
+        </th>
+        <th class="ColumnValue">
+         Name
+        </th>
+        <th class="ColumnValue">
+         Birth date
+        </th>
+        <th class="ColumnValue">
+         Death date
+        </th>
+        <th class="ColumnValue">
+         Relation within this family (if not by birth)
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/4/9/e52f6e14bf768378e026ffab194.html">Hannan, Michael</a>
+        <td class="ColumnDate">
+        </td>
+        calculated about 1802
+        <td class="ColumnDate">
+        </td>
+        1877-07-02
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Mother
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/c/7/e52f8a4c85b15b3c239945bea7c.html">Meade, Mary</a>
+        <td class="ColumnDate">
+        </td>
+        estimated before 1818
+        <td class="ColumnDate">
+        </td>
+        1897-07-18
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/9/3/e5460c8ef74a0354457a1d9d39.html">Hannan, James</a>
+        </td>
+        <td class="ColumnDate">
+         1838-02-02
+        </td>
+        <td class="ColumnDate">
+         before 1839-07-03
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+        </td>
+        <td class="ColumnValue">
+         <b>Hannan, James</b>
+        </td>
+        <td class="ColumnDate">
+         1839-07-03
+        </td>
+        <td class="ColumnDate">
+         before 1841-01-18
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/c/2/e55c40d120133dd8b797abca82c.html">Hannan, James</a>
+        </td>
+        <td class="ColumnDate">
+         1841-01-18
+        </td>
+        <td class="ColumnDate">
+         before 1961
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/2/b/e52f8a6701820232978e7a8aab2.html">Hannan, Mary</a>
+        </td>
+        <td class="ColumnDate">
+         1842-12-14
+        </td>
+        <td class="ColumnDate">
+         before 1862
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/6/c/e55f0aa2e6c23e97380694ceec6.html">Hannan, John</a>
+        </td>
+        <td class="ColumnDate">
+         1844-10-17
+        </td>
+        <td class="ColumnDate">
+         1933-07-17
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/b/0/e5427da9e105d2f63f3a9c4c00b.html">Hannan, Bridget</a>
+        </td>
+        <td class="ColumnDate">
+         1846-09-16
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/9/9/e542a0762085bddf185f7088499.html">Hannan, Michael</a>
+        </td>
+        <td class="ColumnDate">
+         1850-10-31
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/c/e/e545af691e71bbda700afdb85ec.html">Hannan, Eliza</a>
+        </td>
+        <td class="ColumnDate">
+         1853-04-11
+        </td>
+        <td class="ColumnDate">
+         1928-02-01
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="familymap">
+     <h4>
+      Family Map
+     </h4>
+     <div id="toggle_map" style="display:block">
+      <a class="familymap" href="../../../maps/0/c/e54277c42a110352fde28bec0c0.html" title="Family Map">Family Map</a>
+     </div>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <a href="../../../ppl/4/9/e52f6e14bf768378e026ffab194.html">Hannan, Michael</a>
+       <ol>
+        <li class="spouse">
+         <a href="../../../ppl/c/7/e52f8a4c85b15b3c239945bea7c.html">Meade, Mary</a>
+         <ol>
+          <li>
+           <a href="../../../ppl/b/0/e5427da9e105d2f63f3a9c4c00b.html">Hannan, Bridget</a>
+          </li>
+          <li>
+           <a href="../../../ppl/9/9/e542a0762085bddf185f7088499.html">Hannan, Michael</a>
+          </li>
+          <li>
+           <a href="../../../ppl/c/e/e545af691e71bbda700afdb85ec.html">Hannan, Eliza</a>
+          </li>
+          <li>
+           <a href="../../../ppl/6/c/e55f0aa2e6c23e97380694ceec6.html">Hannan, John</a>
+          </li>
+          <li>
+           <a href="../../../ppl/9/3/e5460c8ef74a0354457a1d9d39.html">Hannan, James</a>
+          </li>
+          <li class="thisperson">
+           Hannan, James
+          </li>
+          <li>
+           <a href="../../../ppl/2/b/e52f8a6701820232978e7a8aab2.html">Hannan, Mary</a>
+          </li>
+          <li>
+           <a href="../../../ppl/c/2/e55c40d120133dd8b797abca82c.html">Hannan, James</a>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="tree">
+     <h4>
+      Ancestors
+     </h4>
+     <div class="tree" id="toggle_anc" style="display:block">
+      <div id="treeContainer" style="width:929px; height:300px; top: 0px">
+       <div class="boxbg male AncCol0" style="top: 80px; left: 6px;">
+        <a class="noThumb" href="../../../ppl/0/c/e54277c42a110352fde28bec0c0.html">
+							Hannan, James<br/>*1839-07-03<br/>+before 1841-01-18
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 10px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 285px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 105px; left: 285px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/4/9/e52f6e14bf768378e026ffab194.html">
+							Hannan, Michael<br/>*calculated about 1802<br/>+1877-07-02
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 300px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 595px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 30px; left: 595px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol2" style="top: 5px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/b/4/e52f6dfc7673034c30dfe661b4b.html">
+							Hannan, [Unknown]<br/>*estimated before 1780<br/>+before 1900
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 610px; height: 1px;">
+       </div>
+       <div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/c/7/e52f8a4c85b15b3c239945bea7c.html">
+							Meade, Mary<br/>*estimated before 1818<br/>+1897-07-18
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 300px; height: 76px;">
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/7/6/c36090364537103d667.html" name="sref1" title="National Library of Ireland: Catholic Parish Registers at the NLI">
+						National Library of Ireland: Catholic Parish Registers at the NLI
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Date: 1839-07-03
+          </li>
+          <li>
+           Page: James Hannon b1839 - Fedamore | Microfilm 02430 / 01 p49
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://registers.nli.ie//registers/vtls000634982#page/49/mode/1up">https://registers.nli.ie//registers/vtls000634982#page/49/mode/1up</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             Child:
+             <strong>James</strong>
+             <br/>
+             <strong></strong>
+             Parents:
+             <strong>Michael Hannan</strong>
+             &amp;
+             <strong>Mary Meade</strong>
+             <br/>
+             Sponsors:
+             <strong>Charles Hannan </strong>
+             &amp;
+             <strong>Margaret Clifford</strong>
+             <br/>
+             Date:
+             <strong>03 Jul 1839</strong>
+             <br/>
+             Parish:
+             <strong>Fedamore</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+        <li id="sref1b">
+         <ul>
+          <li>
+           Date: 1841-01-18
+          </li>
+          <li>
+           Page: James Hannan b1841 - Fedamore | Microfilm 02430 / 01 p59
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://registers.nli.ie//registers/vtls000634982#page/59/mode/1up">https://registers.nli.ie//registers/vtls000634982#page/59/mode/1up</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             Child:
+             <strong>James</strong>
+             <br/>
+             Parents:
+             <strong>Michael Hannan </strong>
+             &amp;
+             <strong>Mary Mead</strong>
+             <br/>
+             <strong></strong>
+             Sponsors:
+             <strong>Denis Quirk </strong>
+             &amp;
+             <strong>Anne Meade</strong>
+             <br/>
+             <strong></strong>
+             Date:
+             <strong>18 Jan 1841</strong>
+             <br/>
+             <strong></strong>
+             Parish:
+             <strong>Fedamore</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2023-09-05 22:35:04
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Moran, Margaret
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Moran, Margaret
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Moran, Margaret
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        female
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        about 63 years, 6 months, 1 day
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/a/0/dbdb42456dd55b2732d7b82200a.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         calculated about 1825
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+          <i class="NoteType">
+           Research
+          </i>
+          <div class="grampsstylednote">
+           <p>
+            Possible birth 1821 Hospital -  https://search.findmypast.ie/record?id=ire%2fprs%2fbap%2f0461489
+           </p>
+          </div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/e/a/da122e70c19552f6297cfdcefae.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1888-07-02
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/3/2/bd87c80ca7c18a56523.html" title="Fanningstown, Fedamore, Limerick, Ireland">
+								Fanningstown, Fedamore, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="families">
+     <h4>
+      Families
+     </h4>
+     <table class="infolist" id="toggle_families" style="display:block">
+      <tr class="BeginFamily">
+       <td class="ColumnValue" colspan="3">
+        <h4 class="subsection">
+         <a href="../../../fam/1/0/d87070b636666a8bdd517d3e001.html" title="Family of Conway, Michael and Moran, Margaret">Family of Conway, Michael and Moran, Margaret</a>
+        </h4>
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnType">
+        Married
+       </td>
+       <td class="ColumnAttribute">
+        Husband
+       </td>
+       <td class="ColumnValue">
+        <a href="../../../ppl/9/a/d87054689f84f2e04e16d3d28a9.html">Conway, Michael</a>
+        ( * 
+						calculated about 1824
+						 + 
+						1897-11-18
+						 )
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnType">
+       </td>
+       <td class="ColumnValue" colspan="2">
+        <table class="infolist eventlist ltr">
+         <thead>
+          <tr>
+           <th class="ColumnEvent">
+            Event
+           </th>
+           <th class="ColumnDate">
+            Date
+           </th>
+           <th class="ColumnPlace">
+            Place
+           </th>
+           <th class="ColumnDescription">
+            Description
+           </th>
+           <th class="ColumnSources">
+            Sources
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td class="ColumnEvent" rowspan="2">
+            <a href="../../../evt/4/8/d9241cd097d69aa8aaa345b5184.html" title="Marriage">
+											Marriage
+											</a>
+           </td>
+           <td class="ColumnDate">
+            1854-02-15
+           </td>
+           <td class="ColumnPlace">
+            <a href="../../../plc/b/4/d9241990db558987426be03044b.html" title="Hospital, Limerick, Ireland">
+											Hospital, Limerick, Ireland
+											</a>
+           </td>
+           <td class="ColumnDescription">
+           </td>
+           <td class="ColumnSources" rowspan="2">
+            <a href="#sref3a">3a</a>
+           </td>
+          </tr>
+          <tr>
+           <td class="ColumnNotes" colspan="3">
+            <div>
+            </div>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Children
+       </td>
+       <td class="ColumnValue Child" colspan="2">
+       </td>
+       <table class="infolist eventlist ltr">
+        <thead>
+         <tr>
+          <th class="ColumnName">
+           Name
+          </th>
+          <th class="ColumnDate">
+           Birth Date
+          </th>
+          <th class="ColumnDate">
+           Death Date
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           <a href="../../../ppl/a/2/d9242223b383da23042e809b92a.html">Conway, Thomas</a>
+          </td>
+          <td>
+          </td>
+          <td>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/8/1/d9bf58a5edefd2026e854c4618.html">Conway, Margaret</a>
+          </td>
+          <td>
+          </td>
+          <td>
+           1900-09-03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/5/a/d9241e8c3ca6bc602aa63ade8a5.html">Conway, John</a>
+          </td>
+          <td>
+          </td>
+          <td>
+           1905-08-03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/6/b/d924205a66c14f4684f183e81b6.html">Conway, Ellen</a>
+          </td>
+          <td>
+           calculated about 1863
+          </td>
+          <td>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/f/e/d92421e7d461b5f8269861306ef.html">Conway, Patrick</a>
+          </td>
+          <td>
+           calculated about 1866
+          </td>
+          <td>
+           1901-07-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/7/d/d87070c85a073b217bd408194d7.html">Conway, Mary</a>
+          </td>
+          <td>
+           1867-07-22
+          </td>
+          <td>
+           1921-10-27
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="familymap">
+     <h4>
+      Family Map
+     </h4>
+     <div id="toggle_map" style="display:block">
+      <a class="familymap" href="../../../maps/7/f/d9241842bec6241cbaee04f82f7.html" title="Family Map">Family Map</a>
+     </div>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <ol>
+        <li class="thisperson">
+         Moran, Margaret
+         <ol class="spouselist">
+          <li class="spouse">
+           <a href="../../../ppl/9/a/d87054689f84f2e04e16d3d28a9.html">Conway, Michael</a>
+           <ol>
+            <li>
+             <a href="../../../ppl/7/d/d87070c85a073b217bd408194d7.html">Conway, Mary</a>
+            </li>
+            <li>
+             <a href="../../../ppl/5/a/d9241e8c3ca6bc602aa63ade8a5.html">Conway, John</a>
+            </li>
+            <li>
+             <a href="../../../ppl/6/b/d924205a66c14f4684f183e81b6.html">Conway, Ellen</a>
+            </li>
+            <li>
+             <a href="../../../ppl/f/e/d92421e7d461b5f8269861306ef.html">Conway, Patrick</a>
+            </li>
+            <li>
+             <a href="../../../ppl/a/2/d9242223b383da23042e809b92a.html">Conway, Thomas</a>
+            </li>
+            <li>
+             <a href="../../../ppl/8/1/d9bf58a5edefd2026e854c4618.html">Conway, Margaret</a>
+            </li>
+           </ol>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/d/e/d68fb2a4378fb4a1d0f5c945ed.html" name="sref1" title="Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Birth Records, Ireland">
+						Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Birth Records, Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Date: 1867-07-26
+          </li>
+          <li>
+           Page: Mary Conway 1867 - Group Registration ID: 7733680, SR District/Reg Area: Croom
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?namefm=mary&amp;namel=conway&amp;location=Croom&amp;yyfrom=1867&amp;yyto=1867&amp;type=B&amp;submit=Search&amp;sort=&amp;pageSize=100&amp;century=&amp;decade=&amp;exact=&amp;ddBfrom=&amp;ddMfrom=&amp;ddDfrom=&amp;ddPfrom=&amp;mmBfrom=&amp;mmMfrom=&amp;mmDfrom=&amp;mmPfrom=&amp;yyBfrom=&amp;yyMfrom=&amp;yyDfrom=&amp;yyPfrom=&amp;ddBto=&amp;ddMto=&amp;ddDto=&amp;ddPto=&amp;mmBto=&amp;mmMto=&amp;mmDto=&amp;mmPto=&amp;yyBto=&amp;yyMto=&amp;yyDto=&amp;yyPto=&amp;locationB=&amp;locationM=&amp;locationD=&amp;locationP=&amp;keywordb=&amp;keywordm=&amp;keywordd=&amp;keywordp=&amp;event=&amp;district=">https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?na...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             Births Registered in the District of: Croom in the County of: Limerick
+            </p>
+            <p>
+             No.: 86
+             <br/>
+             Date and Place of Birth: Twenty second July 1867 / Fanningstown
+             <br/>
+             Name (if any): Mary
+             <br/>
+             Sex: Female
+             <br/>
+             Name and Surname and Dwelling Place of Father: Michael Conway / Fanningstown
+             <br/>
+             Name and Surname and Dwelling Place of Mother:  Mary Conway formerly Moran
+             <br/>
+             Rank of Profession of Father:  Farmer
+             <br/>
+             Signature, Qualification and Residence of Informant:  Michael Conway / Parent / Fanningstown
+             <br/>
+             When Registered: 26 July 1867
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/b/b/d68c651eb7e6bf699dd9cb5acbb.html" name="sref2" title="Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland">
+						Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref2a">
+         <ul>
+          <li>
+           Date: 1888-07-14
+          </li>
+          <li>
+           Page: Margaret Moran d1888 - Group Registration ID: 6975132, SR District/Reg Area: Croom
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?namefm=margaret&amp;namel=conway&amp;location=Croom&amp;yyfrom=1888&amp;yyto=1888&amp;type=D&amp;submit=Search&amp;sort=&amp;pageSize=100&amp;century=&amp;decade=&amp;exact=&amp;ddBfrom=&amp;ddMfrom=&amp;ddDfrom=&amp;ddPfrom=&amp;mmBfrom=&amp;mmMfrom=&amp;mmDfrom=&amp;mmPfrom=&amp;yyBfrom=&amp;yyMfrom=&amp;yyDfrom=&amp;yyPfrom=&amp;ddBto=&amp;ddMto=&amp;ddDto=&amp;ddPto=&amp;mmBto=&amp;mmMto=&amp;mmDto=&amp;mmPto=&amp;yyBto=&amp;yyMto=&amp;yyDto=&amp;yyPto=&amp;locationB=&amp;locationM=&amp;locationD=&amp;locationP=&amp;keywordb=&amp;keywordm=&amp;keywordd=&amp;keywordp=&amp;event=&amp;district=">https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?na...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             18
+             <strong>88 </strong>
+             Deaths registered in the District of
+             <strong>Croom</strong>
+             in the county of
+             <strong>Limerick</strong>
+            </p>
+            <p>
+             No.:
+             <strong>409</strong>
+             <br/>
+             <strong></strong>
+             Date and place of death: 18
+             <strong>88</strong>
+             <strong>Second July</strong>
+             /
+             <strong> Fanningstown</strong>
+             <br/>
+             <strong></strong>
+             Name and Surname:
+             <strong>Margaret Conway</strong>
+             <br/>
+             Sex:
+             <strong>Female</strong>
+             <br/>
+             <strong></strong>
+             Condition:
+             <strong>Married</strong>
+             <br/>
+             Age last birthday:
+             <strong>63 years</strong>
+             <br/>
+             <strong></strong>
+             Profession or occupation:
+             <strong>Farmer</strong>
+             <br/>
+             <strong></strong>
+             Certfified Cause of Death and Duration of Illness:
+             <strong>Debility</strong>
+             /
+             <strong>two years</strong>
+             /
+             <strong>No medical attendant</strong>
+             <br/>
+             <strong></strong>
+             Signature, Qualififcation, and Residence of Informant:
+             <strong>Michael Conway widower</strong>
+             /
+             <strong>Fanningstown</strong>
+             <br/>
+             <strong></strong>
+             When Registered:
+             <strong>Fourteenth July</strong>
+             18
+             <strong>88</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/7/6/c36090364537103d667.html" name="sref3" title="National Library of Ireland: Catholic Parish Registers at the NLI">
+						National Library of Ireland: Catholic Parish Registers at the NLI
+						</a>
+       <ol id="citr">
+        <li id="sref3a">
+         <ul>
+          <li>
+           Page: Michael Conway &amp; Margaret Moran 1854 -
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="http://search.findmypast.ie/record?id=ire%2fprs%2fmicrofilm02507-04%2f0078&amp;parentid=ire%2fprs%2fmar%2f0088483%2f1">http://search.findmypast.ie/record?id=ire%2fprs%2fmicrofilm02507-04%2f0078&amp;paren...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             Marriage record
+            </p>
+            <p>
+             Bride &amp; Groom: Michael Conway, Fedamore &amp; Margaret Moran
+             <br/>
+             Witnesses: Andrew Gleeson &amp; Margaret Moran, Banbridge
+             <br/>
+             Date: 15 Feb 1854
+             <br/>
+             Parish: Hospital
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2017-12-07 20:33:25
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

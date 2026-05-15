@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - McCarthy, Gerdi
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     McCarthy, Gerdi
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        McCarthy, Gerdi
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        male
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        62 years, 2 months, 4 days
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/1/a/e8942e32e682d4488e40d5df9a1.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         estimated 1953
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/9/4/e8942e80f654859ec9b7a9c4a49.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         2015-03-05
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1b">1b</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="parents">
+     <h4>
+      Parents
+     </h4>
+     <table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnAttribute">
+         Relation to main person
+        </th>
+        <th class="ColumnValue">
+         Name
+        </th>
+        <th class="ColumnValue">
+         Birth date
+        </th>
+        <th class="ColumnValue">
+         Death date
+        </th>
+        <th class="ColumnValue">
+         Relation within this family (if not by birth)
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/e/8/c34980ecce36159498e.html">McCarthy, Jim</a>
+        <td class="ColumnDate">
+        </td>
+        estimated 1918
+        <td class="ColumnDate">
+        </td>
+        before 2015-03-05
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Mother
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/2/a/c3497e5385e2d3153a2.html">Long, Maureen</a>
+        <td class="ColumnDate">
+        </td>
+        1928
+        <td class="ColumnDate">
+        </td>
+        2018-09-11
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+        </td>
+        <td class="ColumnValue">
+         <b>McCarthy, Gerdi</b>
+        </td>
+        <td class="ColumnDate">
+         estimated 1953
+        </td>
+        <td class="ColumnDate">
+         2015-03-05
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <a href="../../../ppl/e/8/c34980ecce36159498e.html">McCarthy, Jim</a>
+       <ol>
+        <li class="spouse">
+         <a href="../../../ppl/2/a/c3497e5385e2d3153a2.html">Long, Maureen</a>
+         <ol>
+          <li class="thisperson">
+           McCarthy, Gerdi
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="tree">
+     <h4>
+      Ancestors
+     </h4>
+     <div class="tree" id="toggle_anc" style="display:block">
+      <div id="treeContainer" style="width:1549px; height:525px; top: 0px">
+       <div class="boxbg male AncCol0" style="top: 80px; left: 6px;">
+        <a class="noThumb" href="../../../ppl/1/3/e8942e1713c2c393fc27ba61b31.html">
+							McCarthy, Gerdi<br/>*estimated 1953<br/>+2015-03-05
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 10px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 285px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 105px; left: 285px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/e/8/c34980ecce36159498e.html">
+							McCarthy, Jim<br/>*estimated 1918<br/>+before 2015-03-05
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 300px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/2/a/c3497e5385e2d3153a2.html">
+							Long, Maureen<br/>*1928<br/>+2018-09-11
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 300px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 595px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 180px; left: 595px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/8/7/c32985a7e9a01256878.html">
+							Long, William<br/>*estimated 1889<br/>+1978-06-30
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 610px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol2" style="top: 230px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/5/9/c3200316a02302b5e95.html">
+							Geary, Julia-Mai<br/>*1899-04-23<br/>+1973-02-20
+							</a>
+       </div>
+       <div class="shadow" style="top: 235px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 175px; left: 610px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 905px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 255px; left: 905px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol3" style="top: 155px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/a/2/c31ffe873001ef0732a.html">
+							Geary, John<br/>*calculated about 1866<br/>+1906-03-13
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 175px; left: 920px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol3" style="top: 305px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/3/d/c31dec3e5da40d4e8d3.html">
+							Conway, Mary Anne<br/>*1860-02-26<br/>+1934-02-24
+							</a>
+       </div>
+       <div class="shadow" style="top: 310px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 325px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 250px; left: 920px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 325px; left: 1215px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 330px; left: 1215px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol4" style="top: 230px; left: 1246px;">
+        <a class="noThumb" href="../../../ppl/e/2/bd877d7b2b90195152e.html">
+							Conway, Tom<br/>*calculated about 1820<br/>+1900-09-24
+							</a>
+       </div>
+       <div class="shadow" style="top: 235px; left: 1250px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 1230px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 250px; left: 1230px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol4" style="top: 380px; left: 1246px;">
+        <a class="noThumb" href="../../../ppl/1/a/c31de17ca7c1a7035a1.html">
+							Hannan, Bridget<br/>*1830<br/>+1903-10-05
+							</a>
+       </div>
+       <div class="shadow" style="top: 385px; left: 1250px;">
+       </div>
+       <div class="bvline" style="top: 400px; left: 1230px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 325px; left: 1230px; height: 76px;">
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/9/9/dd23cb8dac335b8139190f0f199.html" name="sref1" title="Gradam Communications Limited: RIP.ie">
+						Gradam Communications Limited: RIP.ie
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Date: 2015-12-20
+          </li>
+          <li>
+           Page: Una Long d2015
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             The death has occurred of
+             <strong>Sr. Agnes (Una) LONG. FCJ</strong>
+            </p>
+            <p>
+             Maryville Residence FCJ, Laurel Hill, South Circular Road, Limerick City, Limerick / Feenagh, Limerick
+            </p>
+            <p>
+             Late of Kilmurry Feenagh, Co. Limerick. Peacefully on the 20th December 2015. Very deeply regretted by her FCJ Sisters, her beloved sister Maureen (McCarthy), her brother Stephen, nieces, nephews, grandnieces and grandnephews, relatives and friends.
+            </p>
+            <p>
+            </p>
+            <p>
+             May she rest in peace.
+            </p>
+            <p>
+             Reposing at Maryville Residence on Monday (21st Dec.) from 4.00 pm, with prayers at 6.00 pm. Requiem Mass at St. Joseph’s Church, O’Connell Avenue, Limerick at 11.30 am on Tuesday (22nd Dec.) followed by burial at FCJ Cemetery, Laurel Hill, Limerick.
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+        <li id="sref1b">
+         <ul>
+          <li>
+           Date: 2015-03-05
+          </li>
+          <li>
+           Page: Gerdi McCarthy d2015
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://rip.ie/death-notice/gerard-[gerdi]-mccarthy-charleville-cork/250194">https://rip.ie/death-notice/gerard-[gerdi]-mccarthy-charleville-cork/250194</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             The death has occurred of Gerard [Gerdi] McCarthy
+             <br/>
+             Balmurry, Limerick Rd, Charleville, Cork
+             <br/>
+             <br/>
+             Beloved son of Maureen and the late Jim and dear brother of Barbara, Miriam,Charles, Una, Anrece, Donagh, Liam and Gemma. May he rest in peace. Reposing at his residence on Saturday evening from 4pm to 7pm. Funeral Mass on Sunday at 10am in Holy Cross church Charleville. Funeral afterwards to Holy Cross cemetery.Family flowers only. Donations if desired to St Joseph's Foundation, Charleville.
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2020-08-24 12:50:44
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Families
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li>
+       <a href="individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="Relationships">
+    <p id="description">
+     This page contains an index of all the families/ relationships in the database, sorted by their family name/ surname. Clicking on a person's name will take you to their family/relationship page.
+    </p>
+    <div id="ltr">
+     <ul class="ltr">
+      <li>
+       <a href="families.html" title="Alphabet Menu: A">A</a>
+      </li>
+      <li>
+       <a href="families1.html" title="Alphabet Menu: B">B</a>
+      </li>
+      <li>
+       <a href="families2.html" title="Alphabet Menu: C">C</a>
+      </li>
+      <li>
+       <a href="families3.html" title="Alphabet Menu: D">D</a>
+      </li>
+      <li>
+       <a href="families4.html" title="Alphabet Menu: F">F</a>
+      </li>
+      <li>
+       <a href="families5.html" title="Alphabet Menu: G">G</a>
+      </li>
+      <li>
+       <a href="families6.html" title="Alphabet Menu: H">H</a>
+      </li>
+      <li>
+       <a href="families7.html" title="Alphabet Menu: J">J</a>
+      </li>
+      <li>
+       <a href="families8.html" title="Alphabet Menu: K">K</a>
+      </li>
+      <li>
+       <a href="families9.html" title="Alphabet Menu: L">L</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="families10.html" title="Alphabet Menu: M">M</a>
+      </li>
+      <li>
+       <a href="families11.html" title="Alphabet Menu: N">N</a>
+      </li>
+      <li>
+       <a href="families12.html" title="Alphabet Menu: O">O</a>
+      </li>
+      <li>
+       <a href="families13.html" title="Alphabet Menu: P">P</a>
+      </li>
+      <li>
+       <a href="families14.html" title="Alphabet Menu: R">R</a>
+      </li>
+      <li>
+       <a href="families15.html" title="Alphabet Menu: S">S</a>
+      </li>
+      <li>
+       <a href="families16.html" title="Alphabet Menu: T">T</a>
+      </li>
+      <li>
+       <a href="families17.html" title="Alphabet Menu: V">V</a>
+      </li>
+     </ul>
+    </div>
+    <table class="infolist relationships ltr">
+     <thead>
+      <tr>
+       <th class="ColumnRowLabel">
+        Letter
+       </th>
+       <th class="ColumnPartner">
+        Person
+       </th>
+       <th class="ColumnPartner">
+        Family
+       </th>
+       <th class="ColumnDate">
+        Marriage
+       </th>
+       <th class="ColumnDate">
+        Divorce
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr class="BeginLetter BeginFamily">
+       <td class="ColumnRowLabel">
+        <a name="M" title="Families beginning with letter M">
+							M
+							</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/3/d/e4df0c4d0b943ed25857d924ed3.html">Madden, James</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/f/8/e4df0c446ac64dde184aeeb088f.html" title="Family of Madden, James and Hannan, Nora">
+							Family of Madden, James and Hannan, Nora
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1929-06-27
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/9/e/dcf390f89475d0725a6ea4df6e9.html">Madden, Jimmy</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/b/d/dcf390f7aaf2621dd8cb91ea4db.html" title="Family of Madden, Jimmy and Noonan, Rena">
+							Family of Madden, Jimmy and Noonan, Rena
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/a/8/e7f06d51dab15fa78246fbc798a.html">Madden, Rita</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/c/0/e7f0a81a74c386839de4a3cce0c.html" title="Family of Hannan, Eamonn and Madden, Rita">
+							Family of Hannan, Eamonn and Madden, Rita
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/b/0/e8a85478b4b5a3bdea21913610b.html">Magee, Anna</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/5/7/e8a85473965337921e15372b675.html" title="Family of Hannan, Michael and Magee, Anna">
+							Family of Hannan, Michael and Magee, Anna
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1909
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/6/a/e7d94fc4b5820b2151a835149a6.html">Maguire, Bridget</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/a/3/e7dd118314d29f3e9ec7f7d743a.html" title="Family of Maguire, Bridget">
+							Family of Maguire, Bridget
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/b/3/e8a106f011c5495ad5bcaf8ff3b.html">Maloney, Tom</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/5/a/e8a106ea9bc163512bc021257a5.html" title="Family of Maloney, Tom and Hannan, [Unknown]">
+							Family of Maloney, Tom and Hannan, [Unknown]
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/8/1/dc4266052dc5817efd218c7218.html">Markham, Darby</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/c/7/dc4263d14331c4020a1c0f7d67c.html" title="Family of Markham, Darby and Cusack, Annie">
+							Family of Markham, Darby and Cusack, Annie
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1893-11-28
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/1/9/dc428ef002e7f61f97c6585e791.html">Markham, Johnny</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/c/e/dc46640b58c32f26d9cb93fb9ec.html" title="Family of Markham, Johnny and McMahon, Teresa">
+							Family of Markham, Johnny and McMahon, Teresa
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1943-09-07
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/d/6/c321193a73e1ecbc56d.html">McAuliffe, James</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/1/6/c32117f238d4ef16761.html" title="Family of McAuliffe, James and Conway, Maggie">
+							Family of McAuliffe, James and Conway, Maggie
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1900-07-28
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/3/1/c3211b095ec2fa4fb13.html">McAuliffe, Nora</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/b/b/c32998e19c45a2497bb.html" title="Family of McAuliffe, Nora">
+							Family of McAuliffe, Nora
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/d/4/e7f9c75eba81c94d9eca807544d.html">McCafferty, Mary</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/e/2/e7f9c75a2742492f1ef5b83a42e.html" title="Family of Gleeson, Billy and McCafferty, Mary">
+							Family of Gleeson, Billy and McCafferty, Mary
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1957
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/e/8/c34980ecce36159498e.html">McCarthy, Jim</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/1/f/c3497e64e7378fd6af1.html" title="Family of McCarthy, Jim and Long, Maureen">
+							Family of McCarthy, Jim and Long, Maureen
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/b/d/dcfd3cbfeec4d6f59e4b375bcdb.html">McCormack, Carmel A</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/6/8/e7e9643d7d8357288c083280986.html" title="Family of McCormack, Carmel A">
+							Family of McCormack, Carmel A
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/0/9/c3c0ed68d9353621090.html">McCullough, John</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/a/f/c3c0ed7bc993cda9afa.html" title="Family of McCullough, John">
+							Family of McCullough, John
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/0/3/c32a3c42daf1ff41c30.html">McCullough, John E</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/9/3/c32a3bdb9522f697939.html" title="Family of McCullough, John E and Ambrose, Christine Francis">
+							Family of McCullough, John E and Ambrose, Christine Francis
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1917-11-26
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/1/a/e7d93cfe9ed60191c4ac5a8eda1.html">McGuire, Annie</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/8/b/e7dcba42894714cb36d9a9f0bb8.html" title="Family of McGuire, Annie">
+							Family of McGuire, Annie
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/e/a/e87e27aa48afec5c32283b24ae.html">McIntosh, George James</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/5/6/e87e27a515374a34cc65c84bf65.html" title="Family of McIntosh, George James and Hannan, Pauline Lorna">
+							Family of McIntosh, George James and Hannan, Pauline Lorna
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/a/6/e515b19b9e522faf9c75496856a.html">McLean, John</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/6/8/e515b192b603df406b9934f5986.html" title="Family of McLean, John and O' Shaughnessy, Mary">
+							Family of McLean, John and O' Shaughnessy, Mary
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1912-10-13
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/7/a/e86862abce019df3b471b9914a7.html">McMahon, Mary</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/1/1/e86868f46dc48f7d74bf187ad11.html" title="Family of Hannan, Joseph and McMahon, Mary">
+							Family of Hannan, Joseph and McMahon, Mary
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1938-03-01
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/a/b/dc466412b991c0d70af0e80e1ba.html">McMahon, Teresa</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/c/e/dc46640b58c32f26d9cb93fb9ec.html" title="Family of Markham, Johnny and McMahon, Teresa">
+							Family of Markham, Johnny and McMahon, Teresa
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1943-09-07
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/0/9/e867d80b0a12f9cd9a6ed2dc590.html">McNamara, Julia</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/e/3/e867bf03d1069fab2912dc0f73e.html" title="Family of Hannan, Charles and McNamara, Julia">
+							Family of Hannan, Charles and McNamara, Julia
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/c/7/e52f8a4c85b15b3c239945bea7c.html">Meade, Mary</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/b/f/e52f8a469ed6621991925a98efb.html" title="Family of Hannan, Michael and Meade, Mary">
+							Family of Hannan, Michael and Meade, Mary
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/1/0/c326e16ec2347ffb501.html">Meaney, Nicholas</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/d/e/c326e0a55757eaeafed.html" title="Family of Meaney, Nicholas and Conway, Josephine">
+							Family of Meaney, Nicholas and Conway, Josephine
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/1/8/dc453959db14358227aa305c181.html">Minahan, May</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/e/3/dc4539517bd7369d6b841e6153e.html" title="Family of Gleeson, Bill and Minahan, May">
+							Family of Gleeson, Bill and Minahan, May
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1936-02-16
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/b/a/f62fa82b63570756da7679d73ab.html">Moloney, John Francis</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/b/a/f62fa808106327c42198eb6b4ab.html" title="Family of Moloney, John Francis and Halpin, Bridget">
+							Family of Moloney, John Francis and Halpin, Bridget
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/7/f/d9241842bec6241cbaee04f82f7.html">Moran, Margaret</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/1/0/d87070b636666a8bdd517d3e001.html" title="Family of Conway, Michael and Moran, Margaret">
+							Family of Conway, Michael and Moran, Margaret
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1854-02-15
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/1/d/e863ebf35d649d6062701e253d1.html">Mulcahy, Johanna</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/4/8/e863ebef650564645cc9e0aa184.html" title="Family of Hannan, John and Mulcahy, Johanna">
+							Family of Hannan, John and Mulcahy, Johanna
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1881-11-12
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/0/d/e4d643784e430f76119d3c53ed0.html">Mulcahy, Mary Margaret</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/7/3/e4d6436e9b97ce358582633dc37.html" title="Family of Hannan, Martin and Mulcahy, Mary Margaret">
+							Family of Hannan, Martin and Mulcahy, Mary Margaret
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1926-02-09
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/8/f/e7ba8dd06fef1892942b8575f8.html">Muldoon, Kate</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/3/a/e7ba8dc96c14f6ed86c1db62ba3.html" title="Family of Hannan, William and Muldoon, Kate">
+							Family of Hannan, William and Muldoon, Kate
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1892-04-24
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2023-08-11 19:27:45
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

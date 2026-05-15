@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Ambrose, James Thomas
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Ambrose, James Thomas
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Ambrose, James Thomas
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        male
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        1 month, 13 days
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/f/4/c32a39b76bb2c68a54f.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1888-10-16
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1">1</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/0/4/d6de9d80bd43c8b7cc8102ae40.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1888-11-29
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/d/b/d9c847d2a954b6e2871a21d3cbd.html" title="Kings, New York, New York, USA">
+								Kings, New York, New York, USA
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="parents">
+     <h4>
+      Parents
+     </h4>
+     <table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnAttribute">
+         Relation to main person
+        </th>
+        <th class="ColumnValue">
+         Name
+        </th>
+        <th class="ColumnValue">
+         Birth date
+        </th>
+        <th class="ColumnValue">
+         Death date
+        </th>
+        <th class="ColumnValue">
+         Relation within this family (if not by birth)
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/b/7/c326ca7c8744e41a07b.html">Ambrose, Jeremiah</a>
+        <td class="ColumnDate">
+        </td>
+        1860-06-01
+        <td class="ColumnDate">
+        </td>
+        1934-01-10
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Mother
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/3/2/bd8789df2ad5b158723.html">Conway, Hannie</a>
+        <td class="ColumnDate">
+        </td>
+        1857-05-03
+        <td class="ColumnDate">
+        </td>
+        1939-07-01
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/7/0/c32a32c926849a02607.html">Ambrose, May Catherine</a>
+        </td>
+        <td class="ColumnDate">
+         1881-03
+        </td>
+        <td class="ColumnDate">
+         before 1939-07
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/5/a/c32a34ffc735c3f7aa5.html">Ambrose, Thomas Joseph</a>
+        </td>
+        <td class="ColumnDate">
+         1882
+        </td>
+        <td class="ColumnDate">
+         1885-03-03
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/9/4/c32a35e85fc22a30649.html">Ambrose, Keane Matthew</a>
+        </td>
+        <td class="ColumnDate">
+         1884-08-27
+        </td>
+        <td class="ColumnDate">
+         1952
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/4/6/c32a38f78e00d553164.html">Ambrose, Jeremiah John</a>
+        </td>
+        <td class="ColumnDate">
+         1886-07-12
+        </td>
+        <td class="ColumnDate">
+         1886-09-08
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/1/e/c32a39bcc582ac913e1.html">Ambrose, Ellen Bridgit</a>
+        </td>
+        <td class="ColumnDate">
+         1888-10-16
+        </td>
+        <td class="ColumnDate">
+         1889-08-13
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+        </td>
+        <td class="ColumnValue">
+         <b>Ambrose, James Thomas</b>
+        </td>
+        <td class="ColumnDate">
+         1888-10-16
+        </td>
+        <td class="ColumnDate">
+         1888-11-29
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/b/2/c32a3ba513f4ed11e2b.html">Ambrose, Christine Francis</a>
+        </td>
+        <td class="ColumnDate">
+         calculated about 1890
+        </td>
+        <td class="ColumnDate">
+         1971-10-03
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/2/f/c32a482c29f37530ff2.html">Ambrose, Esther Lillian</a>
+        </td>
+        <td class="ColumnDate">
+         1899-04
+        </td>
+        <td class="ColumnDate">
+         1937
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/2/3/c32a74e1fce525fbd32.html">Ambrose, Frances Ann</a>
+        </td>
+        <td class="ColumnDate">
+         1901-06-15
+        </td>
+        <td class="ColumnDate">
+         1995-01-12
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sibling
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/7/6/d9ce5442b98744acd1988c94e67.html">Ambrose, [Unknown]</a>
+        </td>
+        <td class="ColumnDate">
+         before 1900-06-05
+        </td>
+        <td class="ColumnDate">
+         before 1900-06-05
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sibling
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/9/1/d9ce55c966b200f5652e8248a19.html">Ambrose, [Unknown]</a>
+        </td>
+        <td class="ColumnDate">
+         before 1900-06-05
+        </td>
+        <td class="ColumnDate">
+         before 1900-06-05
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <a href="../../../ppl/b/7/c326ca7c8744e41a07b.html">Ambrose, Jeremiah</a>
+       <ol>
+        <li class="spouse">
+         <a href="../../../ppl/3/2/bd8789df2ad5b158723.html">Conway, Hannie</a>
+         <ol>
+          <li>
+           <a href="../../../ppl/7/0/c32a32c926849a02607.html">Ambrose, May Catherine</a>
+          </li>
+          <li>
+           <a href="../../../ppl/5/a/c32a34ffc735c3f7aa5.html">Ambrose, Thomas Joseph</a>
+          </li>
+          <li>
+           <a href="../../../ppl/9/4/c32a35e85fc22a30649.html">Ambrose, Keane Matthew</a>
+          </li>
+          <li>
+           <a href="../../../ppl/4/6/c32a38f78e00d553164.html">Ambrose, Jeremiah John</a>
+          </li>
+          <li class="thisperson">
+           Ambrose, James Thomas
+          </li>
+          <li>
+           <a href="../../../ppl/1/e/c32a39bcc582ac913e1.html">Ambrose, Ellen Bridgit</a>
+          </li>
+          <li>
+           <a href="../../../ppl/b/2/c32a3ba513f4ed11e2b.html">Ambrose, Christine Francis</a>
+          </li>
+          <li>
+           <a href="../../../ppl/2/f/c32a482c29f37530ff2.html">Ambrose, Esther Lillian</a>
+          </li>
+          <li>
+           <a href="../../../ppl/7/6/d9ce5442b98744acd1988c94e67.html">Ambrose, [Unknown]</a>
+          </li>
+          <li>
+           <a href="../../../ppl/9/1/d9ce55c966b200f5652e8248a19.html">Ambrose, [Unknown]</a>
+          </li>
+          <li>
+           <a href="../../../ppl/2/3/c32a74e1fce525fbd32.html">Ambrose, Frances Ann</a>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="tree">
+     <h4>
+      Ancestors
+     </h4>
+     <div class="tree" id="toggle_anc" style="display:block">
+      <div id="treeContainer" style="width:1549px; height:487px; top: 0px">
+       <div class="boxbg male AncCol0" style="top: 80px; left: 6px;">
+        <a class="noThumb" href="../../../ppl/a/8/c32a3a7c7e02c642f8a.html">
+							Ambrose, James Thomas<br/>*1888-10-16<br/>+1888-11-29
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 10px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 285px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 105px; left: 285px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/b/7/c326ca7c8744e41a07b.html">
+							Ambrose, Jeremiah<br/>*1860-06-01<br/>+1934-01-10
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 300px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/3/2/bd8789df2ad5b158723.html">
+							Conway, Hannie<br/>*1857-05-03<br/>+1939-07-01
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 300px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 595px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 180px; left: 595px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol2" style="top: 42px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/e/2/bd877d7b2b90195152e.html">
+							Conway, Tom<br/>*calculated about 1820<br/>+1900-09-24
+							</a>
+       </div>
+       <div class="shadow" style="top: 47px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 62px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 62px; left: 610px; height: 113px;">
+       </div>
+       <div class="bvline" style="top: 62px; left: 905px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 67px; left: 905px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol3" style="top: 42px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/c/2/c3276f1508a641ffa2c.html">
+							Conway, John<br/>*estimated before 1800<br/>+before 1920
+							</a>
+       </div>
+       <div class="shadow" style="top: 47px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 62px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 62px; left: 920px; height: 1px;">
+       </div>
+       <div class="boxbg female AncCol2" style="top: 267px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/1/a/c31de17ca7c1a7035a1.html">
+							Hannan, Bridget<br/>*1830<br/>+1903-10-05
+							</a>
+       </div>
+       <div class="shadow" style="top: 272px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 287px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 175px; left: 610px; height: 113px;">
+       </div>
+       <div class="bvline" style="top: 287px; left: 905px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 292px; left: 905px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol3" style="top: 192px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/d/6/e4cf006595c1c488342cece0f6d.html">
+							Hannan, Patrick<br/>*estimated before 1800<br/>+estimated before 1861
+							</a>
+       </div>
+       <div class="shadow" style="top: 197px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 212px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 212px; left: 920px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 212px; left: 1215px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 217px; left: 1215px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol4" style="top: 192px; left: 1246px;">
+        <a class="noThumb" href="../../../ppl/b/4/e52f6dfc7673034c30dfe661b4b.html">
+							Hannan, [Unknown]<br/>*estimated before 1780<br/>+before 1900
+							</a>
+       </div>
+       <div class="shadow" style="top: 197px; left: 1250px;">
+       </div>
+       <div class="bvline" style="top: 212px; left: 1230px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 212px; left: 1230px; height: 1px;">
+       </div>
+       <div class="boxbg female AncCol3" style="top: 342px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/1/8/e4cfeca2a3a7ce51af1a96b7681.html">
+							Lyons, Grace<br/>*estimated before 1810<br/>+estimated before 1861
+							</a>
+       </div>
+       <div class="shadow" style="top: 347px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 362px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 287px; left: 920px; height: 76px;">
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/1/c/c31deb3d698640626c1.html" name="sref1" title="Mary Looby">
+						Mary Looby
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Confidence: Very High
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/3/1/d9f8f2245c744dfec11ad31f613.html" name="sref2" title="Ancestry.com: New York, New York, Death Index, 1862-1948">
+						Ancestry.com: New York, New York, Death Index, 1862-1948
+						</a>
+       <ol id="citr">
+        <li id="sref2a">
+         <ul>
+          <li>
+           Date: 1888-11-29
+          </li>
+          <li>
+           Page: James Ambrose d1888
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="http://search.ancestry.co.uk/cgi-bin/sse.dll?_phsrc=qm3-307080&amp;_phstart=successSource&amp;usePUBJs=true&amp;indiv=1&amp;db=NYdeathindexes&amp;gss=angs-d&amp;new=1&amp;rank=1&amp;gsln=Ambrose&amp;gsln_x=1&amp;msbdy=1890&amp;msbdy_x=1&amp;msbdp=10&amp;msdpn__ftp=Kings%20County,%20New%20York,%20USA&amp;msdpn=1610&amp;msdpn_PInfo=7-%7C0%7C1652393%7C0%7C2%7C0%7C35%7C0%7C1610%7C0%7C0%7C0%7C&amp;MSAV=1&amp;MSV=0&amp;uidh=qm3&amp;pcat=34&amp;fh=16&amp;h=3890&amp;recoff=10&amp;ml_rpos=17">http://search.ancestry.co.uk/cgi-bin/sse.dll?_phsrc=qm3-307080&amp;_phstart=successS...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             Name:
+             <strong>James T Ambrose</strong>
+             <br/>
+             Age:
+             <strong>1/12</strong>
+             <br/>
+             Birth Year:
+             <strong>abt 1888</strong>
+             <br/>
+             Death Date:
+             <strong>29 Nov 1888</strong>
+             <br/>
+             Death Place:
+             <strong>Kings, New York, USA</strong>
+             <br/>
+             Certificate Number:
+             <strong>16495</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2017-12-16 14:02:00
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

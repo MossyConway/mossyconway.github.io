@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Families
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li>
+       <a href="individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="Relationships">
+    <p id="description">
+     This page contains an index of all the families/ relationships in the database, sorted by their family name/ surname. Clicking on a person's name will take you to their family/relationship page.
+    </p>
+    <div id="ltr">
+     <ul class="ltr">
+      <li>
+       <a href="families.html" title="Alphabet Menu: A">A</a>
+      </li>
+      <li>
+       <a href="families1.html" title="Alphabet Menu: B">B</a>
+      </li>
+      <li>
+       <a href="families2.html" title="Alphabet Menu: C">C</a>
+      </li>
+      <li>
+       <a href="families3.html" title="Alphabet Menu: D">D</a>
+      </li>
+      <li>
+       <a href="families4.html" title="Alphabet Menu: F">F</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="families5.html" title="Alphabet Menu: G">G</a>
+      </li>
+      <li>
+       <a href="families6.html" title="Alphabet Menu: H">H</a>
+      </li>
+      <li>
+       <a href="families7.html" title="Alphabet Menu: J">J</a>
+      </li>
+      <li>
+       <a href="families8.html" title="Alphabet Menu: K">K</a>
+      </li>
+      <li>
+       <a href="families9.html" title="Alphabet Menu: L">L</a>
+      </li>
+      <li>
+       <a href="families10.html" title="Alphabet Menu: M">M</a>
+      </li>
+      <li>
+       <a href="families11.html" title="Alphabet Menu: N">N</a>
+      </li>
+      <li>
+       <a href="families12.html" title="Alphabet Menu: O">O</a>
+      </li>
+      <li>
+       <a href="families13.html" title="Alphabet Menu: P">P</a>
+      </li>
+      <li>
+       <a href="families14.html" title="Alphabet Menu: R">R</a>
+      </li>
+      <li>
+       <a href="families15.html" title="Alphabet Menu: S">S</a>
+      </li>
+      <li>
+       <a href="families16.html" title="Alphabet Menu: T">T</a>
+      </li>
+      <li>
+       <a href="families17.html" title="Alphabet Menu: V">V</a>
+      </li>
+     </ul>
+    </div>
+    <table class="infolist relationships ltr">
+     <thead>
+      <tr>
+       <th class="ColumnRowLabel">
+        Letter
+       </th>
+       <th class="ColumnPartner">
+        Person
+       </th>
+       <th class="ColumnPartner">
+        Family
+       </th>
+       <th class="ColumnDate">
+        Marriage
+       </th>
+       <th class="ColumnDate">
+        Divorce
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr class="BeginLetter BeginFamily">
+       <td class="ColumnRowLabel">
+        <a name="G" title="Families beginning with letter G">
+							G
+							</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/e/b/ed3e9db570a3341ec8649aca0be.html">Galbraith, Connie</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/8/b/ed3ea09be91680f7fe02efd85b8.html" title="Family of Galbraith, Connie">
+							Family of Galbraith, Connie
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/9/1/dc4542a4f5774b2f0e3bfe38219.html">Galbraith, Peter</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/e/1/dc45429e5a04a4549d41842711e.html" title="Family of Galbraith, Peter and Gleeson, Mary Anne">
+							Family of Galbraith, Peter and Gleeson, Mary Anne
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1915-07-12
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/a/2/c31ffe873001ef0732a.html">Geary, John</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/5/e/c320005a0cc1bc4d0e5.html" title="Family of Geary, John and Conway, Mary Anne">
+							Family of Geary, John and Conway, Mary Anne
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1897-07-13
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/5/9/c3200316a02302b5e95.html">Geary, Julia-Mai</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/2/6/c329841e4c8419be462.html" title="Family of Long, William and Geary, Julia-Mai">
+							Family of Long, William and Geary, Julia-Mai
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1921-11-22
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/4/0/dc451366d1f65107386c559304.html">Gleeson, Agnes</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/e/8/dc4563d73e541761be75c0d618e.html" title="Family of Redford, Burdis William Bertram and Gleeson, Agnes">
+							Family of Redford, Burdis William Bertram and Gleeson, Agnes
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1921-05-18
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/d/d/dc450fa1bd1748dbfa516c791dd.html">Gleeson, Bill</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/e/3/dc4539517bd7369d6b841e6153e.html" title="Family of Gleeson, Bill and Minahan, May">
+							Family of Gleeson, Bill and Minahan, May
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1936-02-16
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/9/6/e7f9c6f728f6d60104143520669.html">Gleeson, Billy</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/e/2/e7f9c75a2742492f1ef5b83a42e.html" title="Family of Gleeson, Billy and McCafferty, Mary">
+							Family of Gleeson, Billy and McCafferty, Mary
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1957
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/7/0/dc451452fd2e26a89956dd4e07.html">Gleeson, Bridie</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/3/1/dc4526ce676291ea9bfac52013.html" title="Family of Gleeson, Bridie">
+							Family of Gleeson, Bridie
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/e/e/dc4513e2053593d2ea1a004d6ee.html">Gleeson, Eily</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/6/c/dc4562dca1a4c7f58b0eed585c6.html" title="Family of Gleeson, Eily">
+							Family of Gleeson, Eily
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/9/f/c330004cdb0450ee4f9.html">Gleeson, Ellen Anastasia</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/3/e/c32ff5620967e215ae3.html" title="Family of Cusack, John and Gleeson, Ellen Anastasia">
+							Family of Cusack, John and Gleeson, Ellen Anastasia
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1859-05-22
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/7/9/dc44dd96abe72a6f0e4913a7397.html">Gleeson, John Francis</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/0/2/dc44e04298348903856b7450620.html" title="Family of Gleeson, John Francis and O' Neill, Johanna">
+							Family of Gleeson, John Francis and O' Neill, Johanna
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1922-07-12
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/e/1/c32ab4442e97377fc1e.html">Gleeson, Mary</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/e/3/c32ab00c5326ab4203e.html" title="Family of Clohessy, Dave and Gleeson, Mary">
+							Family of Clohessy, Dave and Gleeson, Mary
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1852-01-10
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/8/e/dc450cb642955bddf33ffb98ae8.html">Gleeson, Mary Anne</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/e/1/dc45429e5a04a4549d41842711e.html" title="Family of Galbraith, Peter and Gleeson, Mary Anne">
+							Family of Galbraith, Peter and Gleeson, Mary Anne
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1915-07-12
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/f/8/dc436b2183c10bdbb7777e0bb8f.html">Gleeson, Stephen Joseph</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/2/c/de1153149935c019606ee2776c2.html" title="Family of Gleeson, Stephen Joseph and Noonan, May">
+							Family of Gleeson, Stephen Joseph and Noonan, May
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1925-05-18
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/d/4/de11b66946f6e3b4df2c55e5c4d.html">Gleeson, Steve</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/5/3/e7f99f9a9b75e8f36b8ecd52f35.html" title="Family of Gleeson, Steve and Bourke, Eileen">
+							Family of Gleeson, Steve and Bourke, Eileen
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/5/7/dc42f77492861e20c0551d59c75.html">Gleeson, William</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/c/7/dc42f752fb671c85a11d079bd7c.html" title="Family of Gleeson, William and Cusack, Bunny">
+							Family of Gleeson, William and Cusack, Bunny
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1886-08-21
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/3/4/e7ffacaf1525eebb1a6d63baa43.html">Glennon, John F.</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/6/a/e7ffaca9a6b70c7192a4333afa6.html" title="Family of Glennon, John F. and Clohessy, Patsy">
+							Family of Glennon, John F. and Clohessy, Patsy
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnPartner">
+        <a href="ppl/0/c/e7d624b08c1258e53f867b01cc0.html">Guare, Patrick</a>
+       </td>
+       <td class="ColumnPartner">
+        <a href="fam/9/4/e7d624ab5c5edb5b894d71a949.html" title="Family of Guare, Patrick and Hannan, Bridget">
+							Family of Guare, Patrick and Hannan, Bridget
+							
+							</a>
+       </td>
+       <td class="ColumnDate">
+        1890-05-24
+       </td>
+       <td class="ColumnDate">
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2022-03-01 16:34:06
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

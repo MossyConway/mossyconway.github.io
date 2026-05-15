@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Gleeson, Michael
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Gleeson, Michael
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Gleeson, Michael
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        male
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        about 24 years, 2 months, 11 days
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/6/b/e7f9c3fbbec2bd5ac5b48b4b7b6.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         calculated about 1927
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/6/9/de11b95df3525dff2635af3e596.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1951-03-12
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/1/e/e7f9b90fde48b6677fa61c92e1.html" title="Mulhuddart, Dublin, Ireland">
+								Mulhuddart, Dublin, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+         Blessed Oliver Plunkett Colony
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1a">1a</a>
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="parents">
+     <h4>
+      Parents
+     </h4>
+     <table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnAttribute">
+         Relation to main person
+        </th>
+        <th class="ColumnValue">
+         Name
+        </th>
+        <th class="ColumnValue">
+         Birth date
+        </th>
+        <th class="ColumnValue">
+         Death date
+        </th>
+        <th class="ColumnValue">
+         Relation within this family (if not by birth)
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/f/8/dc436b2183c10bdbb7777e0bb8f.html">Gleeson, Stephen Joseph</a>
+        <td class="ColumnDate">
+        </td>
+        1887-07-02
+        <td class="ColumnDate">
+        </td>
+        1972-02-14
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Mother
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/c/a/dd23927eae835b54fbed4b37dac.html">Noonan, May</a>
+        <td class="ColumnDate">
+        </td>
+        calculated about 1902
+        <td class="ColumnDate">
+        </td>
+        1984-02-24
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/d/4/de11b66946f6e3b4df2c55e5c4d.html">Gleeson, Steve</a>
+        </td>
+        <td class="ColumnDate">
+         1927
+        </td>
+        <td class="ColumnDate">
+         2001-12-02
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+        </td>
+        <td class="ColumnValue">
+         <b>Gleeson, Michael</b>
+        </td>
+        <td class="ColumnDate">
+         calculated about 1927
+        </td>
+        <td class="ColumnDate">
+         1951-03-12
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/9/6/e7f9c6f728f6d60104143520669.html">Gleeson, Billy</a>
+        </td>
+        <td class="ColumnDate">
+         1926
+        </td>
+        <td class="ColumnDate">
+         2018-10-27
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="familymap">
+     <h4>
+      Family Map
+     </h4>
+     <div id="toggle_map" style="display:block">
+      <a class="familymap" href="../../../maps/b/c/de11b89093adb4e32280599ccb.html" title="Family Map">Family Map</a>
+     </div>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <a href="../../../ppl/f/8/dc436b2183c10bdbb7777e0bb8f.html">Gleeson, Stephen Joseph</a>
+       <ol>
+        <li class="spouse">
+         <a href="../../../ppl/c/a/dd23927eae835b54fbed4b37dac.html">Noonan, May</a>
+         <ol>
+          <li>
+           <a href="../../../ppl/9/6/e7f9c6f728f6d60104143520669.html">Gleeson, Billy</a>
+          </li>
+          <li>
+           <a href="../../../ppl/d/4/de11b66946f6e3b4df2c55e5c4d.html">Gleeson, Steve</a>
+          </li>
+          <li class="thisperson">
+           Gleeson, Michael
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="tree">
+     <h4>
+      Ancestors
+     </h4>
+     <div class="tree" id="toggle_anc" style="display:block">
+      <div id="treeContainer" style="width:1239px; height:375px; top: 0px">
+       <div class="boxbg male AncCol0" style="top: 155px; left: 6px;">
+        <a class="noThumb" href="../../../ppl/b/c/de11b89093adb4e32280599ccb.html">
+							Gleeson, Michael<br/>*calculated about 1927<br/>+1951-03-12
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 10px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 285px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 180px; left: 285px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol1" style="top: 80px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/f/8/dc436b2183c10bdbb7777e0bb8f.html">
+							Gleeson, Stephen Joseph<br/>*1887-07-02<br/>+1972-02-14
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 300px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 595px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 105px; left: 595px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol2" style="top: 5px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/5/7/dc42f77492861e20c0551d59c75.html">
+							Gleeson, William<br/>*calculated about 1861<br/>+1942-03-24
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 610px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol2" style="top: 155px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/a/2/c33115f16042191762a.html">
+							Cusack, Bunny<br/>*between 1865-06-17 and 1865-06-24<br/>+1930-06-10
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 610px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 905px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 180px; left: 905px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol3" style="top: 80px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/4/9/c32ff5f276c219f6b94.html">
+							Cusack, John<br/>*calculated about 1831<br/>+1894-04-13
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 920px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol3" style="top: 230px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/9/f/c330004cdb0450ee4f9.html">
+							Gleeson, Ellen Anastasia<br/>*calculated about 1840<br/>+1918-03-05
+							</a>
+       </div>
+       <div class="shadow" style="top: 235px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 175px; left: 920px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol1" style="top: 230px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/c/a/dd23927eae835b54fbed4b37dac.html">
+							Noonan, May<br/>*calculated about 1902<br/>+1984-02-24
+							</a>
+       </div>
+       <div class="shadow" style="top: 235px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 175px; left: 300px; height: 76px;">
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/a/7/d84fc849e9e29a9fd4c39000f7a.html" name="sref1" title="Irish Independent">
+						Irish Independent
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Date: 1951-03-14
+          </li>
+          <li>
+           Page: Michael Gleeson d1951 - Death Notice
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             <strong>GLEESON</strong>
+             (Fedamore) - March 12, 1951, in Dublin, Michael Gleeson, second son of Stephen Gleeson, Postmaster, Fedamore, deeply regretted by his father, mother, brothers and sisters. R.I.P. Funeral to local cemetery to-day at 1 o'c.
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/b/b/d68c651eb7e6bf699dd9cb5acbb.html" name="sref2" title="Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland">
+						Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref2a">
+         <ul>
+          <li>
+           Date: 1951-03-12
+          </li>
+          <li>
+           Page: Michael Gleeson d1951 - Group Registration ID: 2120353, SR District/Reg Area: Dublin North
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             19
+             <strong>51 </strong>
+             Deaths registered in the District of
+             <strong>Castleknock</strong>
+             in the Superintendent Registrar's District of
+             <strong>Dublin</strong>
+             <br/>
+             <strong></strong>
+             in the County of
+             <strong>Dublin</strong>
+            </p>
+            <p>
+            </p>
+            <p>
+             No.:
+             <strong>171</strong>
+             <br/>
+             <strong></strong>
+             Date and place of death: 19
+             <strong>51 March Twelfth Oliver Plunkett Colony Mulhuddert Co Dublin</strong>
+             <br/>
+             <strong></strong>
+             Name and Surname:
+             <strong>Michael Gleeson</strong>
+             <br/>
+             <strong></strong>
+             Sex:
+             <strong>M</strong>
+             <br/>
+             <strong></strong>
+             Condition:
+             <strong>Bachelor</strong>
+             <br/>
+             <strong></strong>
+             Age last birthday:
+             <strong>24</strong>
+             <br/>
+             <strong></strong>
+             Profession or occupation:
+             <br/>
+             Certfified Cause of Death and Duration of Illness:
+             <strong>Epilepsy Mental Deficiency Aspiration Pneumonia 2 days Cardiac failure Certified</strong>
+             <br/>
+             <strong></strong>
+             Signature, Qualififcation, and Residence of Informant:
+             <strong>Patrick Scully Occupier Oliver Plunkett Colony Mulhuddert Co Dublin</strong>
+             <br/>
+             <strong></strong>
+             When Registered:
+             <strong>March Twelfth </strong>
+             19
+             <strong>51</strong>
+            </p>
+           </div>
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?namefm=michael&amp;namel=gleeson&amp;location=Dublin&amp;yyfrom=1951&amp;yyto=1951&amp;type=D&amp;submit=Search&amp;sort=&amp;pageSize=100&amp;century=&amp;decade=&amp;exact=&amp;ddBfrom=&amp;ddMfrom=&amp;ddDfrom=&amp;ddPfrom=&amp;mmBfrom=&amp;mmMfrom=&amp;mmDfrom=&amp;mmPfrom=&amp;yyBfrom=&amp;yyMfrom=&amp;yyDfrom=&amp;yyPfrom=&amp;ddBto=&amp;ddMto=&amp;ddDto=&amp;ddPto=&amp;mmBto=&amp;mmMto=&amp;mmDto=&amp;mmPto=&amp;yyBto=&amp;yyMto=&amp;yyDto=&amp;yyPto=&amp;locationB=&amp;locationM=&amp;locationD=&amp;locationP=&amp;keywordb=&amp;keywordm=&amp;keywordd=&amp;keywordp=&amp;event=&amp;district=">https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?na...</a>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2020-07-07 13:21:56
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Halpin, Michael
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Halpin, Michael
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Halpin, Michael
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        male
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        about 82 years, 1 month, 24 days
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection narrative">
+     <h4>
+      Notes
+     </h4>
+     <div class="subsection narrative" id="toggle_note" style="display:block">
+      <h4>
+       Note
+      </h4>
+      <div class="grampsstylednote">
+       <p>
+        Note that the Cancelled Land Books show that Patrick Halpin had replaced Michael Halpin as occupier of Lot 26 in Drombanny , Cahernarry by 1867. This corresponds with the death of Michael Halpin in 1866.  Patrick remained occupier at least until 1897 when his daughter Mary Agnes married Patrick Conway.
+       </p>
+       <p>
+        That is an indication that Michael Halpin 1784 - 1866, who was married to Ann Peagum, could be Patrick's father.
+       </p>
+       <p>
+        The marriage record of Patrick's brother Michael 1830 - 1904 of Ardkilmartin shows that his father's name was also Michael.
+       </p>
+       <p>
+        Together this information indicates that Michael b1784 and Ann Peagum were likely the parents of Michael b1830, Patrick and their siblings.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/c/3/f629872562858d7d3f0bee5603c.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         calculated about 1784
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/a/a/f6298a1bfa1a67aa93e4494eaa.html" title="Property">
+								Property
+								</a>
+        </td>
+        <td class="ColumnDate">
+         from 1825 to 1866
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref3a">3a</a>
+         <a href="#sref4a">4a</a>
+         <a href="#sref1a">1a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+          <i class="NoteType">
+           Note
+          </i>
+          <div class="grampsstylednote">
+           <p>
+            Land records show that Michael occupied property in Drombanny from at least as far back as 1825 and until his death in 1866.
+           </p>
+          </div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/1/8/f62b8ebd424c936a1403671e81.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1866-02-25
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="families">
+     <h4>
+      Families
+     </h4>
+     <table class="infolist" id="toggle_families" style="display:block">
+      <tr class="BeginFamily">
+       <td class="ColumnValue" colspan="3">
+        <h4 class="subsection">
+         <a href="../../../fam/a/4/f6297eaa5e94d489cd26d888a4a.html" title="Family of Halpin, Michael and Peagum, Anne">Family of Halpin, Michael and Peagum, Anne</a>
+        </h4>
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnType">
+        Married
+       </td>
+       <td class="ColumnAttribute">
+        Wife
+       </td>
+       <td class="ColumnValue">
+        <a href="../../../ppl/5/3/f6298a32dfd38f1fcc008c3c035.html">Peagum, Anne</a>
+        ( * 
+						calculated about 1789
+						 + 
+						1870-02-01
+						 )
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Children
+       </td>
+       <td class="ColumnValue Child" colspan="2">
+       </td>
+       <table class="infolist eventlist ltr">
+        <thead>
+         <tr>
+          <th class="ColumnName">
+           Name
+          </th>
+          <th class="ColumnDate">
+           Birth Date
+          </th>
+          <th class="ColumnDate">
+           Death Date
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           <a href="../../../ppl/e/b/f62e74b290120157b28e7a85cbe.html">Halpin, John</a>
+          </td>
+          <td>
+           1820-03-31
+          </td>
+          <td>
+           1894-04-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/0/3/f62f61d47c15e08b8390e383530.html">Halpin, Timothy</a>
+          </td>
+          <td>
+           calculated about 1825
+          </td>
+          <td>
+           1900-05-14
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/b/7/c333f32859129a0b17b.html">Halpin, Patrick</a>
+          </td>
+          <td>
+           calculated about 1829
+          </td>
+          <td>
+           after 1901-03-31
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/9/b/f62c4c649b54474764266fabab9.html">Halpin, Michael</a>
+          </td>
+          <td>
+           1830
+          </td>
+          <td>
+           1904
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/3/7/f62bdf527aa12fa774c8fe53573.html">Halpin, Jeremiah</a>
+          </td>
+          <td>
+           1832
+          </td>
+          <td>
+           1904-02-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/e/b/f62c1b01f5967aa451fe3a92be.html">Halpin, George</a>
+          </td>
+          <td>
+           1834
+          </td>
+          <td>
+           before 1954
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/a/6/f62fa7ac3ab1eb17bd44378086a.html">Halpin, Bridget</a>
+          </td>
+          <td>
+           calculated about 1836
+          </td>
+          <td>
+           1890
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="familymap">
+     <h4>
+      Family Map
+     </h4>
+     <div id="toggle_map" style="display:block">
+      <a class="familymap" href="../../../maps/8/d/f6297eafa7a79097d79a1c107d8.html" title="Family Map">Family Map</a>
+     </div>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <ol>
+        <li class="thisperson">
+         Halpin, Michael
+         <ol class="spouselist">
+          <li class="spouse">
+           <a href="../../../ppl/5/3/f6298a32dfd38f1fcc008c3c035.html">Peagum, Anne</a>
+           <ol>
+            <li>
+             <a href="../../../ppl/b/7/c333f32859129a0b17b.html">Halpin, Patrick</a>
+            </li>
+            <li>
+             <a href="../../../ppl/3/7/f62bdf527aa12fa774c8fe53573.html">Halpin, Jeremiah</a>
+            </li>
+            <li>
+             <a href="../../../ppl/e/b/f62c1b01f5967aa451fe3a92be.html">Halpin, George</a>
+            </li>
+            <li>
+             <a href="../../../ppl/9/b/f62c4c649b54474764266fabab9.html">Halpin, Michael</a>
+            </li>
+            <li>
+             <a href="../../../ppl/e/b/f62e74b290120157b28e7a85cbe.html">Halpin, John</a>
+            </li>
+            <li>
+             <a href="../../../ppl/0/3/f62f61d47c15e08b8390e383530.html">Halpin, Timothy</a>
+            </li>
+            <li>
+             <a href="../../../ppl/a/6/f62fa7ac3ab1eb17bd44378086a.html">Halpin, Bridget</a>
+            </li>
+           </ol>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/9/7/e274efe4f8c2f21ed1d45827679.html" name="sref1" title="Valuation Office: Cancelled Land Books">
+						Valuation Office: Cancelled Land Books
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Date: 1867
+          </li>
+          <li>
+           Page: Patrick Halpin replacing Michael as landholder in Drombanny, Cahernarry
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             Barony of
+             <strong>Clanwilliam</strong>
+             <br/>
+             <strong></strong>
+             Parish of
+             <strong>Cahernarry</strong>
+             <br/>
+             <strong></strong>
+             Union of
+             <strong>Limerick</strong>
+             <br/>
+             <strong></strong>
+             District of
+             <strong>Ballysimon</strong>
+             <br/>
+             <strong></strong>
+             Page
+             <strong>17</strong>
+            </p>
+            <p>
+             Reference to Map
+             <br/>
+             NAMES
+             <br/>
+             - Townlands and Occupiers
+             <strong>Patrick Halpin </strong>
+             [Michael's name crossed out]
+             <br/>
+             - Immediate Lessors
+             <strong>Declan Murphy</strong>
+             <br/>
+             <strong></strong>
+             Description of Tenement
+             <strong>Ho off &amp; land</strong>
+             <br/>
+             <strong></strong>
+             Area: A:
+             <strong>33 </strong>
+             R:
+             <strong>1 </strong>
+             P:
+             <strong>30</strong>
+             <br/>
+             <strong></strong>
+             Rateable Annual Valuation
+             <br/>
+             - Land: £
+             <strong>29 </strong>
+             s
+             <strong>0</strong>
+             <br/>
+             <strong></strong>
+             - Buildings: £
+             <strong>0 </strong>
+             s
+             <strong>15</strong>
+             <br/>
+             <strong></strong>
+             - Total: £
+             <strong>29 </strong>
+             s
+             <strong>15</strong>
+             <br/>
+             <strong></strong>
+             Observations
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/f/0/e4ecc19c83050cca5fab268ac0f.html" name="sref2" title="Historic Graveyards">
+						Historic Graveyards
+						</a>
+       <ol id="citr">
+        <li id="sref2a">
+         <ul>
+          <li>
+           Date: 2012-11-22
+          </li>
+          <li>
+           Page: Cahernarry LI-CHNY-106
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://historicgraves.com/cahernarry/li-chny-106/grave">https://historicgraves.com/cahernarry/li-chny-106/grave</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             <strong>Exact wording of epitaph:</strong>
+             <br/>
+             O Lord
+             <br/>
+             have mercy on the soul
+             <br/>
+             of
+             <br/>
+             Michael Halpin
+             <br/>
+             died 25th Feb 1866
+             <br/>
+             aged 82 years
+             <br/>
+             and his wife
+             <br/>
+             Anne
+             <br/>
+             died 1st Feb 1870
+             <br/>
+             aged 81 years
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/2/f/e8247904c54589aaad4411b42f2.html" name="sref3" title="The National Archives of Ireland: The Tithe Applotment Books">
+						The National Archives of Ireland: The Tithe Applotment Books
+						</a>
+       <ol id="citr">
+        <li id="sref3a">
+         <ul>
+          <li>
+           Date: 1825
+          </li>
+          <li>
+           Page: Michael Halpin in Drombanny, Cahernarry 004587410_00645
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="http://titheapplotmentbooks.nationalarchives.ie/search/tab/results.jsp?surname=Halpin&amp;firstname=&amp;county=Limerick&amp;townland=&amp;parish=&amp;search=Search&amp;sort=parish_sort&amp;pageSize=10&amp;pager.offset=20">http://titheapplotmentbooks.nationalarchives.ie/search/tab/results.jsp?surname=H...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             No.
+             <strong>15</strong>
+             Town land of
+             <strong>Drumbanny Cahernarry</strong>
+            </p>
+            <p>
+             Landholders or Tentants Names:
+             <strong>82 Michl. Halpin</strong>
+             <br/>
+             <strong></strong>
+             Total No. of Acres:
+             <strong>21</strong>
+             A
+             <strong>2</strong>
+             R
+             <strong>16</strong>
+             P
+             <br/>
+             First Class:
+             <strong>16 </strong>
+             A
+             <strong>0 </strong>
+             R
+             <strong>00 </strong>
+             P
+             <br/>
+             Second Class:
+             <strong>1 </strong>
+             A
+             <strong>2 </strong>
+             R
+             <strong>12 </strong>
+             P
+             <br/>
+             Third Class:
+             <strong>0 </strong>
+             A
+             <strong>2 </strong>
+             R
+             <strong>00 </strong>
+             P
+             <br/>
+             Fourth Class:
+             <strong>3 </strong>
+             A
+             <strong>2 </strong>
+             R
+             <strong>04 </strong>
+             P
+             <br/>
+             Roads:
+             <strong>0 </strong>
+             A
+             <strong>0 </strong>
+             R
+             <strong>00 </strong>
+             P
+             <br/>
+             Bog or land not Titheable:
+             <strong>0 </strong>
+             A
+             <strong>0 </strong>
+             R
+             <strong>00 </strong>
+             P
+             <br/>
+             Total Payable: £
+             <strong>2 </strong>
+             S
+             <strong>17 </strong>
+             D
+             <strong>1 1/2</strong>
+             <br/>
+             <strong></strong>
+             Observations:
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/1/7/bd877f03b915fd9e971.html" name="sref4" title="OMS Services Ltd, Eneclann Ltd and the National Library of Ireland: Griffith's Valuation">
+						OMS Services Ltd, Eneclann Ltd and the National Library of Ireland: Griffith's Valuation
+						</a>
+       <ol id="citr">
+        <li id="sref4a">
+         <ul>
+          <li>
+           Date: 1852
+          </li>
+          <li>
+           Page: Parish: CAHERNARRY, Townland: DROMBANNY, Position on Page: 25, Act: 9&amp;10, Sheet Number: 13, Map Reference: 24
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://askaboutireland.ie/griffith-valuation/index.xml?action=doNameSearch&amp;Submit.x=45&amp;Submit.y=13&amp;familyname=halpin&amp;firstname=&amp;baronyname=&amp;countyname=LIMERICK&amp;unionname=&amp;parishname=CAHERNARRY">https://askaboutireland.ie/griffith-valuation/index.xml?action=doNameSearch&amp;Subm...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             Parish of
+             <strong>Cahernarry</strong>
+            </p>
+            <p>
+             No. and Letters of Reference to Map:
+             <strong>24a</strong>
+             <br/>
+             <strong></strong>
+             Names
+             <br/>
+             - Townlands and Occupiers:
+             <strong>DROMBANNY Michael Halpin</strong>
+             <br/>
+             <strong></strong>
+             - Immediate Lessors:
+             <strong>Sir Matthew Barrington, Bart.</strong>
+             <br/>
+             <strong></strong>
+             Description of Tenement:
+             <strong>House, office, and land,</strong>
+             <br/>
+             <strong></strong>
+             Area: A:
+             <strong>33 </strong>
+             R:
+             <strong>1 </strong>
+             P:
+             <strong>30</strong>
+             <br/>
+             <strong></strong>
+             Net Annual Value
+             <br/>
+             - Land: £
+             <strong>28 </strong>
+             s
+             <strong>18 </strong>
+             d
+             <strong>0</strong>
+             <br/>
+             <strong></strong>
+             - Buildings: £
+             <strong>0 </strong>
+             s
+             <strong>17 </strong>
+             d
+             <strong>0</strong>
+             <br/>
+             <strong></strong>
+             - Total: £
+             <strong>29 </strong>
+             s
+             <strong>15 </strong>
+             d
+             <strong>0</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2023-08-10 15:13:12
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Guare, Michael
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Guare, Michael
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Guare, Michael
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        male
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        1 year, 1 month, 2 days
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/e/3/e7d94efc9d9985c4629d8e813e.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1897-04-10
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/e/4/e7d930665f1c11e229fcf8c84e.html" title="Boherygeela, Limerick, Ireland">
+								Boherygeela, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1a">1a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/a/5/e884d6ace9e7903763d511d05a.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1898-05-12
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/e/4/e7d930665f1c11e229fcf8c84e.html" title="Boherygeela, Limerick, Ireland">
+								Boherygeela, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+         Pneumonia
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="parents">
+     <h4>
+      Parents
+     </h4>
+     <table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnAttribute">
+         Relation to main person
+        </th>
+        <th class="ColumnValue">
+         Name
+        </th>
+        <th class="ColumnValue">
+         Birth date
+        </th>
+        <th class="ColumnValue">
+         Death date
+        </th>
+        <th class="ColumnValue">
+         Relation within this family (if not by birth)
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/0/c/e7d624b08c1258e53f867b01cc0.html">Guare, Patrick</a>
+        <td class="ColumnDate">
+        </td>
+        calculated about 1860
+        <td class="ColumnDate">
+        </td>
+        1916-11-11
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Mother
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/b/2/e4d9465325034b100c9db28342b.html">Hannan, Bridget</a>
+        <td class="ColumnDate">
+        </td>
+        1857-09-21
+        <td class="ColumnDate">
+        </td>
+        1921-10-06
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/0/5/e7d92ab23e979dd6df8b3ca8950.html">Guare, Patrick</a>
+        </td>
+        <td class="ColumnDate">
+         1891-05-28
+        </td>
+        <td class="ColumnDate">
+         1891-08-14
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/0/7/e7d9390444d4185f42abc030070.html">Guare, Mary</a>
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnDate">
+         1898-11-07
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/1/a/e7d93cfe9ed60191c4ac5a8eda1.html">McGuire, Annie</a>
+        </td>
+        <td class="ColumnDate">
+         1892-09-24
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/6/d/e7d945e02af3f23c479b5d507d6.html">Guare, Margaret</a>
+        </td>
+        <td class="ColumnDate">
+         1896-03-23
+        </td>
+        <td class="ColumnDate">
+         1945-07-13
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/c/7/e7d949631895f191efc055d607c.html">Guare, Katie</a>
+        </td>
+        <td class="ColumnDate">
+         1894-04-13
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+        </td>
+        <td class="ColumnValue">
+         <b>Guare, Michael</b>
+        </td>
+        <td class="ColumnDate">
+         1897-04-10
+        </td>
+        <td class="ColumnDate">
+         1898-05-12
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/6/a/e7d94fc4b5820b2151a835149a6.html">Maguire, Bridget</a>
+        </td>
+        <td class="ColumnDate">
+         1899-10-16
+        </td>
+        <td class="ColumnDate">
+         1978-09-28
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/5/a/e7d9520833d3a0064dffa28e0a5.html">Guare, Alice</a>
+        </td>
+        <td class="ColumnDate">
+         1901-07-14
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="familymap">
+     <h4>
+      Family Map
+     </h4>
+     <div id="toggle_map" style="display:block">
+      <a class="familymap" href="../../../maps/5/c/e7d94c43cf23e51aa54dc3545c5.html" title="Family Map">Family Map</a>
+     </div>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <a href="../../../ppl/0/c/e7d624b08c1258e53f867b01cc0.html">Guare, Patrick</a>
+       <ol>
+        <li class="spouse">
+         <a href="../../../ppl/b/2/e4d9465325034b100c9db28342b.html">Hannan, Bridget</a>
+         <ol>
+          <li>
+           <a href="../../../ppl/0/7/e7d9390444d4185f42abc030070.html">Guare, Mary</a>
+          </li>
+          <li>
+           <a href="../../../ppl/0/5/e7d92ab23e979dd6df8b3ca8950.html">Guare, Patrick</a>
+          </li>
+          <li>
+           <a href="../../../ppl/1/a/e7d93cfe9ed60191c4ac5a8eda1.html">McGuire, Annie</a>
+          </li>
+          <li>
+           <a href="../../../ppl/c/7/e7d949631895f191efc055d607c.html">Guare, Katie</a>
+          </li>
+          <li>
+           <a href="../../../ppl/6/d/e7d945e02af3f23c479b5d507d6.html">Guare, Margaret</a>
+          </li>
+          <li class="thisperson">
+           Guare, Michael
+          </li>
+          <li>
+           <a href="../../../ppl/6/a/e7d94fc4b5820b2151a835149a6.html">Maguire, Bridget</a>
+          </li>
+          <li>
+           <a href="../../../ppl/5/a/e7d9520833d3a0064dffa28e0a5.html">Guare, Alice</a>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="tree">
+     <h4>
+      Ancestors
+     </h4>
+     <div class="tree" id="toggle_anc" style="display:block">
+      <div id="treeContainer" style="width:1549px; height:450px; top: 0px">
+       <div class="boxbg male AncCol0" style="top: 80px; left: 6px;">
+        <a class="noThumb" href="../../../ppl/5/c/e7d94c43cf23e51aa54dc3545c5.html">
+							Guare, Michael<br/>*1897-04-10<br/>+1898-05-12
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 10px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 285px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 105px; left: 285px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/0/c/e7d624b08c1258e53f867b01cc0.html">
+							Guare, Patrick<br/>*calculated about 1860<br/>+1916-11-11
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 300px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/b/2/e4d9465325034b100c9db28342b.html">
+							Hannan, Bridget<br/>*1857-09-21<br/>+1921-10-06
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 300px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 595px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 180px; left: 595px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol2" style="top: 80px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/f/8/e4cee68af245323c852af4a1a8f.html">
+							Hannan, Patrick<br/>*calculated about 1837<br/>+1900-02-15
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 610px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol2" style="top: 230px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/c/6/e4ceff650f17684cb2598660d6c.html">
+							Hannan, Mary<br/>*calculated about 1833<br/>+1883-06-11
+							</a>
+       </div>
+       <div class="shadow" style="top: 235px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 175px; left: 610px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 905px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 255px; left: 905px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol3" style="top: 155px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/d/6/e4cf006595c1c488342cece0f6d.html">
+							Hannan, Patrick<br/>*estimated before 1800<br/>+estimated before 1861
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 175px; left: 920px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 1215px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 180px; left: 1215px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol4" style="top: 155px; left: 1246px;">
+        <a class="noThumb" href="../../../ppl/b/4/e52f6dfc7673034c30dfe661b4b.html">
+							Hannan, [Unknown]<br/>*estimated before 1780<br/>+before 1900
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 1250px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 1230px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 175px; left: 1230px; height: 1px;">
+       </div>
+       <div class="boxbg female AncCol3" style="top: 305px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/1/8/e4cfeca2a3a7ce51af1a96b7681.html">
+							Lyons, Grace<br/>*estimated before 1810<br/>+estimated before 1861
+							</a>
+       </div>
+       <div class="shadow" style="top: 310px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 325px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 250px; left: 920px; height: 76px;">
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/d/e/d68fb2a4378fb4a1d0f5c945ed.html" name="sref1" title="Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Birth Records, Ireland">
+						Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Birth Records, Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Date: 1897-04-24
+          </li>
+          <li>
+           Page: Michael Guare b1897 - Group Registration ID: 9954907, SR District/Reg Area: Croom
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?namefm=&amp;namel=Guare&amp;location=Croom&amp;yyfrom=1891&amp;yyto=1901&amp;type=B&amp;submit=Search&amp;sort=date&amp;pageSize=100&amp;century=&amp;decade=&amp;exact=&amp;ddBfrom=&amp;ddMfrom=&amp;ddDfrom=&amp;ddPfrom=&amp;mmBfrom=&amp;mmMfrom=&amp;mmDfrom=&amp;mmPfrom=&amp;yyBfrom=&amp;yyMfrom=&amp;yyDfrom=&amp;yyPfrom=&amp;ddBto=&amp;ddMto=&amp;ddDto=&amp;ddPto=&amp;mmBto=&amp;mmMto=&amp;mmDto=&amp;mmPto=&amp;yyBto=&amp;yyMto=&amp;yyDto=&amp;yyPto=&amp;locationB=&amp;locationM=&amp;locationD=&amp;locationP=&amp;keywordb=&amp;keywordm=&amp;keywordd=&amp;keywordp=&amp;event=&amp;district=">https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?na...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             Births Registered in the District of C
+             <strong>room </strong>
+             in the Union of
+             <strong>Croom </strong>
+             in the County
+             <strong> </strong>
+             of L
+             <strong>imerick</strong>
+            </p>
+            <p>
+             No.: 2
+             <strong>4</strong>
+             <br/>
+             <strong>D</strong>
+             ate and Place of Birth: 189
+             <strong>7 Tenth April Boherygeela</strong>
+             <br/>
+             <strong>N</strong>
+             ame (if any): M
+             <strong>ichael</strong>
+             <br/>
+             <strong>S</strong>
+             ex: M
+             <strong></strong>
+             <br/>
+             <strong>N</strong>
+             ame and Surname and Dwelling Place of Father: P
+             <strong>atrick Guare Boherygeela</strong>
+             <br/>
+             <strong></strong>
+             Name and Surname and Maiden Surname of Mother: B
+             <strong>ridget Guare f</strong>
+             ormerly H
+             <strong>annan</strong>
+             <br/>
+             <strong></strong>
+             Rank of Profession of Father: B
+             <strong>lacksmith</strong>
+             <br/>
+             <strong></strong>
+             Signature, Qualification and Residence of Informant: P
+             <strong>atrick Guare Father Boherygeela</strong>
+             <br/>
+             <strong></strong>
+             When Registered: T
+             <strong>wenty fourth April 1</strong>
+             89
+             <strong>7</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/b/b/d68c651eb7e6bf699dd9cb5acbb.html" name="sref2" title="Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland">
+						Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref2a">
+         <ul>
+          <li>
+           Date: 1898-05-14
+          </li>
+          <li>
+           Page: Michael Guare d1898 - Group Registration ID: 4267550, SR District/Reg Area: Croom
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?namefm=michael&amp;namel=guare&amp;exact=&amp;name2fm=&amp;name2l=&amp;location=Croom&amp;yyfrom=1897&amp;yyto=1898&amp;type=B&amp;type=D&amp;century=&amp;decade=&amp;sort=date&amp;pageSize=100&amp;ddBfrom=&amp;mmBfrom=&amp;yyBfrom=&amp;ddMfrom=&amp;mmMfrom=&amp;yyMfrom=&amp;ddDfrom=&amp;mmDfrom=&amp;yyDfrom=&amp;ddPfrom=&amp;mmPfrom=&amp;yyPfrom=&amp;ddBto=&amp;mmBto=&amp;yyBto=&amp;ddMto=&amp;mmMto=&amp;yyMto=&amp;ddDto=&amp;mmDto=&amp;yyDto=&amp;ddPto=&amp;mmPto=&amp;yyPto=&amp;locationB=&amp;locationM=&amp;locationD=&amp;locationP=&amp;keywordb=&amp;keywordm=&amp;keywordd=&amp;keywordp=&amp;event=&amp;district=Croom&amp;submit=Search">https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?na...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             18
+             <strong>98 </strong>
+             Deaths registered in the District of
+             <strong>Croom</strong>
+             in the Union of
+             <strong>Croom</strong>
+             <br/>
+             in the Count
+             <strong>y</strong>
+             of
+             <strong>Limerick</strong>
+            </p>
+            <p>
+            </p>
+            <p>
+             No.:
+             <strong>486</strong>
+             <br/>
+             <strong></strong>
+             Date and place of death: 18
+             <strong>98 Twelfth May, Boherygeela</strong>
+             <br/>
+             <strong></strong>
+             Name and Surname:
+             <strong>Michael Guare</strong>
+             <br/>
+             Sex:
+             <strong>M</strong>
+             <br/>
+             <strong></strong>
+             Condition:
+             <strong>Bachelor</strong>
+             <br/>
+             Age last birthday:
+             <strong>13 months</strong>
+             <br/>
+             Profession or occupation:
+             <strong>Son of a Blacksmith</strong>
+             <br/>
+             Certfified Cause of Death and Duration of Illness:
+             <strong>Pneumonia eight days Certified</strong>
+             <br/>
+             <strong></strong>
+             Signature, Qualifcation, and Residence of Informant:
+             <strong>Kate Flynn Present at Death Meanus</strong>
+             <br/>
+             When Registered:
+             <strong>Fourteenth May </strong>
+             18
+             <strong>98</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2020-08-19 18:22:00
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

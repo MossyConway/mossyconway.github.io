@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Redford, Burdis William Bertram
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Redford, Burdis William Bertram
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Redford, Burdis William Bertram
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        male
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        unknown
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/2/d/dc690cdb3411d5410080f02ddd2.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1897-08-12
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/3/3/dc690cc6f8821b5ac7768bc8233.html" title="Sunderland, Durham, England">
+								Sunderland, Durham, England
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+         <a href="#sref3a">3a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/4/8/dc692098f1b76fdc378e5a4084.html" title="Occupation">
+								Occupation
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1913
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+         Royal Marines Band
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref3a">3a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/a/2/dd50532c07753ac69a9c13b092a.html" title="Occupation">
+								Occupation
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1920
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+         R.I.C. Enlistment
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref4a">4a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/5/b/dc4564b8a4b33ca1d66bbaee6b5.html" title="Marriage (Unknown)">
+								Marriage (Unknown)
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1921-05-18
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/3/5/bd87c54bc87790eaa53.html" title="Fedamore, Limerick, Ireland">
+								Fedamore, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1a">1a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+          <p>
+           (
+           <b>Family</b>
+           )
+           <a href="../../../fam/e/8/dc4563d73e541761be75c0d618e.html" title="Family of Redford, Burdis William Bertram and Gleeson, Agnes">Family of Redford, Burdis William Bertram and Gleeson, Agnes</a>
+          </p>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/a/6/dc48792395275063ddf7dc3b16a.html" title="Residence">
+								Residence
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1921
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/3/5/bd87c54bc87790eaa53.html" title="Fedamore, Limerick, Ireland">
+								Fedamore, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1a">1a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/b/6/dd50595b3bf4f462810b5469f6b.html" title="Occupation">
+								Occupation
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1922
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/8/e/dd5055dc4676db618b3836709e8.html" title="Galway, Ireland">
+								Galway, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+         R.I.C. pension
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref5a">5a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/f/a/dc4887ae64562bb5ecd68f539af.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="families">
+     <h4>
+      Families
+     </h4>
+     <table class="infolist" id="toggle_families" style="display:block">
+      <tr class="BeginFamily">
+       <td class="ColumnValue" colspan="3">
+        <h4 class="subsection">
+         <a href="../../../fam/e/8/dc4563d73e541761be75c0d618e.html" title="Family of Redford, Burdis William Bertram and Gleeson, Agnes">Family of Redford, Burdis William Bertram and Gleeson, Agnes</a>
+        </h4>
+       </td>
+      </tr>
+      <tr class="BeginFamily">
+       <td class="ColumnType">
+        Married
+       </td>
+       <td class="ColumnAttribute">
+        Wife
+       </td>
+       <td class="ColumnValue">
+        <a href="../../../ppl/4/0/dc451366d1f65107386c559304.html">Gleeson, Agnes</a>
+        ( * 
+						1894-01-21
+						 + 
+						...
+						 )
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnType">
+       </td>
+       <td class="ColumnValue" colspan="2">
+        <table class="infolist eventlist ltr">
+         <thead>
+          <tr>
+           <th class="ColumnEvent">
+            Event
+           </th>
+           <th class="ColumnDate">
+            Date
+           </th>
+           <th class="ColumnPlace">
+            Place
+           </th>
+           <th class="ColumnDescription">
+            Description
+           </th>
+           <th class="ColumnSources">
+            Sources
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td class="ColumnEvent" rowspan="2">
+            <a href="../../../evt/5/b/dc4564b8a4b33ca1d66bbaee6b5.html" title="Marriage">
+											Marriage
+											</a>
+           </td>
+           <td class="ColumnDate">
+            1921-05-18
+           </td>
+           <td class="ColumnPlace">
+            <a href="../../../plc/3/5/bd87c54bc87790eaa53.html" title="Fedamore, Limerick, Ireland">
+											Fedamore, Limerick, Ireland
+											</a>
+           </td>
+           <td class="ColumnDescription">
+           </td>
+           <td class="ColumnSources" rowspan="2">
+            <a href="#sref1a">1a</a>
+           </td>
+          </tr>
+          <tr>
+           <td class="ColumnNotes" colspan="3">
+            <div>
+             <p>
+              (
+              <b>Unknown</b>
+              )
+              <a href="../../../ppl/8/0/dc4563dba6150b9ae3db3e87d08.html">Redford, Burdis William Bertram</a>
+             </p>
+            </div>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="familymap">
+     <h4>
+      Family Map
+     </h4>
+     <div id="toggle_map" style="display:block">
+      <a class="familymap" href="../../../maps/8/0/dc4563dba6150b9ae3db3e87d08.html" title="Family Map">Family Map</a>
+     </div>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <ol>
+        <li class="thisperson">
+         Redford, Burdis William Bertram
+         <ol class="spouselist">
+          <li class="spouse">
+           <a href="../../../ppl/4/0/dc451366d1f65107386c559304.html">Gleeson, Agnes</a>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/f/f/d68c89eb6cb5b14e962929bbdff.html" name="sref1" title="Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Marriage Records, Ireland">
+						Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Marriage Records, Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Page: Agnes Gleeson &amp; Burdis Redford 1921
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?namefm=burdis&amp;namel=redford&amp;location=&amp;yyfrom=1921&amp;yyto=1921&amp;type=M&amp;submit=Search&amp;sort=&amp;pageSize=100&amp;century=&amp;decade=&amp;exact=&amp;ddBfrom=&amp;ddMfrom=&amp;ddDfrom=&amp;ddPfrom=&amp;mmBfrom=&amp;mmMfrom=&amp;mmDfrom=&amp;mmPfrom=&amp;yyBfrom=&amp;yyMfrom=&amp;yyDfrom=&amp;yyPfrom=&amp;ddBto=&amp;ddMto=&amp;ddDto=&amp;ddPto=&amp;mmBto=&amp;mmMto=&amp;mmDto=&amp;mmPto=&amp;yyBto=&amp;yyMto=&amp;yyDto=&amp;yyPto=&amp;locationB=&amp;locationM=&amp;locationD=&amp;locationP=&amp;keywordb=&amp;keywordm=&amp;keywordd=&amp;keywordp=&amp;event=&amp;district=">https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?na...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             19
+             <strong>21 </strong>
+             Marriage solemnized at the Roman Catholic
+             <strong>Church</strong>
+             of
+             <strong>Fedamore </strong>
+             in the Registrar's District of
+             <strong>Croom </strong>
+             in the Union of
+             <strong>Croom </strong>
+             in the County of
+             <strong>Limerick</strong>
+            </p>
+            <p>
+             No:
+             <strong>137</strong>
+             <br/>
+             <strong></strong>
+             When Married:
+             <strong>Wednesday 18 May 1921</strong>
+             <br/>
+             <strong></strong>
+             Name and Surnames:
+             <strong>B W B Redford</strong>
+             <br/>
+             <strong></strong>
+             Age:
+             <strong>Full</strong>
+             <br/>
+             <strong></strong>
+             Condition:
+             <strong>Bachelor</strong>
+             <br/>
+             <strong></strong>
+             Rank or Profession:
+             <strong>R I C Force</strong>
+             <br/>
+             <strong></strong>
+             Residence at the Time of Marriage:
+             <strong>Fedamore</strong>
+             <br/>
+             <strong></strong>
+             Father's Name and Surname:
+             <strong>James Redford</strong>
+             <br/>
+             <strong></strong>
+             Rank or Profession of Father:
+             <strong>Ironworker</strong>
+            </p>
+            <p>
+             Name and Surnames:
+             <strong>Agnes Gleeson</strong>
+             <br/>
+             <strong></strong>
+             Age:
+             <strong>Full</strong>
+             <br/>
+             <strong></strong>
+             Condition:
+             <strong>Spinster</strong>
+             <br/>
+             <strong></strong>
+             Rank or Profession:
+             <br/>
+             Residence at the Time of Marriage:
+             <strong>Fedamore</strong>
+             <br/>
+             <strong></strong>
+             Father's Name and Surname:
+             <strong>William Gleeson</strong>
+             <br/>
+             <strong></strong>
+             Rank or Profession of Father:
+             <strong>Contractor</strong>
+            </p>
+            <p>
+             Registration Date:
+             <strong>25th May </strong>
+             19
+             <strong>21</strong>
+            </p>
+            <p>
+             Priest:
+             <strong>Richard Canon O'Kennedy P.P.</strong>
+             <br/>
+             <strong></strong>
+             In the Prescence of
+             <strong>John O'Sullivan</strong>
+             &amp;
+             <strong>Mollie Beirne</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/a/6/dc69073873b713bb2a2bec45f6a.html" name="sref2" title="Ancestry Information Operations Unlimited Company: England &amp; Wales, Civil Registration Birth Index, 1837-1915">
+						Ancestry Information Operations Unlimited Company: England &amp; Wales, Civil Registration Birth Index, 1837-1915
+						</a>
+       <ol id="citr">
+        <li id="sref2a">
+         <ul>
+          <li>
+           Page: Burdis William Redford b1897 - Registration district: 	Sunderland, Volume: 10a, Page:  683
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <strong>$ubscription only </strong>
+             -
+             <strong> </strong>
+             <a href="https://search.ancestry.co.uk/cgi-bin/sse.dll?_phsrc=qzc552&amp;_phstart=successSource&amp;usePUBJs=true&amp;gss=angs-g&amp;new=1&amp;rank=1&amp;gsfn=burdis&amp;gsfn_x=1&amp;gsln=redford&amp;gsln_x=NP_NN&amp;cp=0&amp;catbucket=rstp&amp;MSAV=1&amp;uidh=qm3&amp;pcat=ROOT_CATEGORY&amp;h=30182449&amp;recoff=7%209&amp;dbid=8912&amp;indiv=1&amp;ml_rpos=4">https://search.ancestry.co.uk/cgi-bin/sse.dll?_phsrc=qzc552&amp;_phstart=successSour...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             Name:
+             <strong>Burdis William Redford</strong>
+             <br/>
+             Registration Year:
+             <strong>1897</strong>
+             <br/>
+             Registration Quarter:
+             <strong>Jul-Aug-Sep</strong>
+             <br/>
+             Registration district:
+             <strong>Sunderland</strong>
+             <br/>
+             Inferred County:
+             <strong>Durham</strong>
+             <br/>
+             Volume:
+             <strong>10a</strong>
+             <br/>
+             Page:
+             <strong>683</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/2/a/dc691c7f46645ada7995c1176a2.html" name="sref3" title="Board of Admiralty, Royal Marines: Admiralty: Royal Marines: Registers of Service">
+						Board of Admiralty, Royal Marines: Admiralty: Royal Marines: Registers of Service
+						</a>
+       <ol id="citr">
+        <li id="sref3a">
+         <ul>
+          <li>
+           Page: Burdis Redford - Reference: ADM 159/110/2140, Register Number: 2140, Division: Royal Marines Band
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <strong>$ubscription only </strong>
+             -
+             <a href="http://discovery.nationalarchives.gov.uk/details/r/D7799465">http://discovery.nationalarchives.gov.uk/details/r/D7799465</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             Reference:
+             <strong>ADM 159/110/2140</strong>
+             <br/>
+             Description:
+             <br/>
+             Name
+             <strong>Redford, Burdis William</strong>
+             <br/>
+             Register Number:
+             <strong>2140</strong>
+             <br/>
+             Division:
+             <strong>Royal Marines Band</strong>
+             <br/>
+             When Enlisted/Date of Enlistment:
+             <strong>25 July 1913</strong>
+             <br/>
+             Date of Birth:
+             <strong>12 August 1897</strong>
+             <br/>
+             Date:
+             <strong>[1911-1913]</strong>
+             <br/>
+             Held by:
+             <strong>The National Archives, Kew</strong>
+             <br/>
+             Legal status:
+             <strong>Public Record(s)</strong>
+             <br/>
+             Closure status:
+             <strong>Open Document, Open Description</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/1/7/dd5042401db62edf32ecbc25171.html" name="sref4" title="Ancestry.com Operations Inc, 2004.: Ireland, The Royal Irish Constabulary 1816-1921">
+						Ancestry.com Operations Inc, 2004.: Ireland, The Royal Irish Constabulary 1816-1921
+						</a>
+       <ol id="citr">
+        <li id="sref4a">
+         <ul>
+          <li>
+           Date: 1920
+          </li>
+          <li>
+           Page: Burdis Redford 1920 - Film #: 852094 / 2094, Page #: 2B
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://search.ancestry.co.uk/cgi-bin/sse.dll?db=royirshco1816&amp;gss=sfs28_ms_db&amp;new=1&amp;rank=1&amp;msT=1&amp;gsfn=Burdis&amp;gsfn_x=NP_NN&amp;gsln=Redford&amp;gsln_x=1&amp;msbpn__ftp=England&amp;msbpn=3251&amp;MSAV=1&amp;uidh=qm3">https://search.ancestry.co.uk/cgi-bin/sse.dll?db=royirshco1816&amp;gss=sfs28_ms_db&amp;n...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             Name:
+             <strong>Redford, Burdis W</strong>
+             <br/>
+             Birth Date/Age:
+             <strong>1897</strong>
+             <br/>
+             Birthplace:
+             <strong>Durham</strong>
+             <br/>
+             Marriage or Comments:
+             <strong>Y</strong>
+             <br/>
+             Enlisted:
+             <strong>1920</strong>
+             <br/>
+             Film #:
+             <strong>852094</strong>
+             <br/>
+             Page #:
+             <strong>2B</strong>
+            </p>
+            <p>
+             Name:
+             <strong>Redford, Burdis W</strong>
+             <br/>
+             Birth Date/Age:
+             <strong>1897</strong>
+             <br/>
+             Birthplace:
+             <strong>Durham</strong>
+             <br/>
+             Marriage or Comments:
+             <strong>Y</strong>
+             <br/>
+             Film #:
+             <strong>2094</strong>
+             <br/>
+             Page #:
+             <strong>2B</strong>
+             <br/>
+             Year:
+             <strong>1920</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/5/f/dd5057400817361b679c99eb8f5.html" name="sref5" title="Ancestry.com Operations, Inc., 2016: Ireland, Royal Irish Constabulary Pensions, 1873-1925">
+						Ancestry.com Operations, Inc., 2016: Ireland, Royal Irish Constabulary Pensions, 1873-1925
+						</a>
+       <ol id="citr">
+        <li id="sref5a">
+         <ul>
+          <li>
+           Date: 1922
+          </li>
+          <li>
+           Page: Burdis Redford 1922
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <strong>$ubscription only - </strong>
+             <a href="https://search.ancestry.co.uk/cgi-bin/sse.dll?db=RoyalIrishConstabulary&amp;gss=sfs28_ms_db&amp;new=1&amp;rank=1&amp;msT=1&amp;gsfn=Burdis&amp;gsfn_x=NP_NN&amp;gsln=Redford&amp;gsln_x=1&amp;MSAV=1&amp;uidh=qm3">https://search.ancestry.co.uk/cgi-bin/sse.dll?db=RoyalIrishConstabulary&amp;gss=sfs2...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             Name:
+             <strong>Burdis W Redford</strong>
+             <br/>
+             Rank:
+             <strong>Constable</strong>
+             <br/>
+             Commencement Date:
+             <strong>10 Feb 1922</strong>
+             <br/>
+             Place of Last Service:
+             <strong>Galway, Ireland</strong>
+             <br/>
+             Where Paid:
+             <strong>Northampton</strong>
+            </p>
+            <p>
+            </p>
+            <p>
+             Name:
+             <strong>Burdis W Redford</strong>
+             <br/>
+             Rank:
+             <strong>Constable</strong>
+             <br/>
+             Place of Last Service:
+             <strong>Galway, Ireland</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2020-08-19 23:13:05
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

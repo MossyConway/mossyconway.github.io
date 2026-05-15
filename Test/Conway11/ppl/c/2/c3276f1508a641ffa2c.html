@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Conway, John
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Conway, John
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+       <a href="#sref2a">2a</a>
+       <a href="#sref3a">3a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Conway, John
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        male
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        Unknown
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection narrative">
+     <h4>
+      Notes
+     </h4>
+     <div class="subsection narrative" id="toggle_note" style="display:block">
+      <h4>
+       Note: 1 (Research)
+      </h4>
+      <div class="grampsstylednote">
+       <p>
+        The information I received via Mary Looby had John Conway married to Margaret Hall, with the following children in addition to Thomas and Patrick:
+       </p>
+       <p>
+        Baptisms -
+        <br/>
+        John - 21/9/1830 in St. John's, Co. Limerick, Ireland
+        <br/>
+        Ellen - 4/6/1833 in St. John's, Co. Limerick, Ireland
+        <br/>
+        Anne - 6/4/1839 in St. John's, Co. Limerick, Ireland
+        <br/>
+        Robert - 12/11/1843 in St. John's, Co. Limerick, Ireland
+       </p>
+       <p>
+        There is also a record of Patrick Conway in the same family being baptised on 22 Jun 1836.
+       </p>
+       <p>
+        St. John's parish is in Limerick city. The above can be verified as baptisms of children of John Conway and Margaret Hall from the parish records online (there are also a few baptisms of children of John Conway and Margaret Hall from 1823 onwards in the neighbouring parish of St. Mary, though Thomas is not apparent).
+       </p>
+       <p>
+        Mary Looby's information also has it that came from Pallas Grean, which is about 20 kilometers from St. John's parish. Normally baptisms are performed in the parish in which the family lives, so the information about the baptisms may be incorrect.
+       </p>
+       <p>
+        It is possible that Thomas Conway (with or without the rest of the family) moved to Pallas Grean when he was a teenager, or later
+        <strong>or </strong>
+        that the family lived in Pallas Grean but for some reason had their children baptised in the city.
+       </p>
+       <p>
+        Alternatively it could be that someone found that the baptism records in St. John's parish matched some of the information on the family and incorrectly concluded that those records refer to people in this family tree.
+       </p>
+       <p>
+        Without knowing why those baptisms are thought to apply to our family it is difficult to know if the information is correct or not. Until I find out that those records should apply, I shall err on the side of caution leave out the children for which there is no other evidence of a connection to the family. By the same token I will also exclude Margaret Hall.
+       </p>
+      </div>
+      <h4>
+       Note: 2
+      </h4>
+      <div class="grampsstylednote">
+       <p>
+        Michael Conway of Fanningstown is the informant on the death record of John Conway of Fanningstown in 1880 aged 96.
+        <br/>
+        Michael Conway replaced John Conway as the occuppier of lots 12 and 16 in Fanningstown after John's death.
+        <br/>
+        Neither record states the nature of their relationship but it seems likely that they were father and son given
+       </p>
+       <p>
+        1) John and Michael's ages
+        <br/>
+        2) The above records
+        <br/>
+        3) The fact that Michael's father's name is believed to be John (because there is evidence that Michael's son John is cousin to Thomas Conway's son John and Patrick Conway's son John;  Thomas and Patrick's father was John).
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/3/f/dc100b1bb054ab3990403c98ef3.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         estimated before 1800
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+         Assuming he was over 20 when his son Thomas was born
+        </td>
+        <td class="ColumnSources" rowspan="2">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/b/f/dc100b7a51a6fd480f25f2775fb.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         before 1920
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+         Assuming he was less than 120 when he passed
+        </td>
+        <td class="ColumnSources" rowspan="2">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="families">
+     <h4>
+      Families
+     </h4>
+     <table class="infolist" id="toggle_families" style="display:block">
+      <tr class="BeginFamily">
+       <td class="ColumnValue" colspan="3">
+        <h4 class="subsection">
+         <a href="../../../fam/f/9/c3276ead248203a5e9f.html" title="Family of Conway, John">Family of Conway, John</a>
+        </h4>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Children
+       </td>
+       <td class="ColumnValue Child" colspan="2">
+       </td>
+       <table class="infolist eventlist ltr">
+        <thead>
+         <tr>
+          <th class="ColumnName">
+           Name
+          </th>
+          <th class="ColumnDate">
+           Birth Date
+          </th>
+          <th class="ColumnDate">
+           Death Date
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           <a href="../../../ppl/e/2/bd877d7b2b90195152e.html">Conway, Tom</a>
+          </td>
+          <td>
+           calculated about 1820
+          </td>
+          <td>
+           1900-09-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/9/a/d87054689f84f2e04e16d3d28a9.html">Conway, Michael</a>
+          </td>
+          <td>
+           calculated about 1824
+          </td>
+          <td>
+           1897-11-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/5/5/c32777d5ef10fc77955.html">Conway, John</a>
+          </td>
+          <td>
+           calculated about 1826
+          </td>
+          <td>
+           1898-03-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="../../../ppl/3/4/c32773837490bd7c043.html">Conway, Patrick</a>
+          </td>
+          <td>
+           calculated about 1837
+          </td>
+          <td>
+           1909-06-08
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="familymap">
+     <h4>
+      Family Map
+     </h4>
+     <div id="toggle_map" style="display:block">
+      <a class="familymap" href="../../../maps/c/2/c3276f1508a641ffa2c.html" title="Family Map">Family Map</a>
+     </div>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <ol>
+        <li class="thisperson">
+         Conway, John
+         <ol class="spouselist">
+          <li class="spouse">
+           <ol>
+            <li>
+             <a href="../../../ppl/e/2/bd877d7b2b90195152e.html">Conway, Tom</a>
+            </li>
+            <li>
+             <a href="../../../ppl/5/5/c32777d5ef10fc77955.html">Conway, John</a>
+            </li>
+            <li>
+             <a href="../../../ppl/3/4/c32773837490bd7c043.html">Conway, Patrick</a>
+            </li>
+            <li>
+             <a href="../../../ppl/9/a/d87054689f84f2e04e16d3d28a9.html">Conway, Michael</a>
+            </li>
+           </ol>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/4/7/d6cb3dfd04a3a89160c74a86474.html" name="sref1" title="Ancestry Information Operations Unlimited Company: Ancestry - Ireland, Select Marriages, 1619-1898">
+						Ancestry Information Operations Unlimited Company: Ancestry - Ireland, Select Marriages, 1619-1898
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Date: 1867-02-14
+          </li>
+          <li>
+           Page: Pat Conway &amp; Ellen Hayes 1867 - FHL Film Number:	101506, Reference ID:	P824 #25
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <strong>$ubscription only</strong>
+             -
+             <a href="http://search.ancestry.co.uk/cgi-bin/sse.dll?_phsrc=XOA860&amp;_phstart=successSource&amp;usePUBJs=true&amp;gss=angs-c&amp;new=1&amp;rank=1&amp;gsfn=Patrick&amp;gsfn_x=0&amp;gsln=Conway&amp;gsln_x=NP_NN_NS&amp;msbpn__ftp=Limerick,%20Ireland&amp;msbpn=5310&amp;msbpn_PInfo=7-%7C0%7C1652381%7C0%7C3250%7C0%7C0%7C0%7C5310%7C0%7C0%7C0%7C&amp;msgdy=1867&amp;msgdy_x=1&amp;msgdp=5&amp;msypn__ftp=Limerick,%20Ireland&amp;msypn=5310&amp;msypn_PInfo=7-%7C0%7C1652381%7C0%7C3250%7C0%7C0%7C0%7C5310%7C0%7C0%7C0%7C&amp;mssng=Ellen&amp;mssns=Hayes&amp;gskw=Curate&amp;MSAV=1&amp;uidh=qm3&amp;pcat=UK_IRISH_RECORDS&amp;h=1130209&amp;db=FS1IrelandMarriages&amp;indiv=1&amp;ml_rpos=2">http://search.ancestry.co.uk/cgi-bin/sse.dll?_phsrc=XOA860&amp;_phstart=successSourc...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             Name:	Pat Conway
+             <br/>
+             Gender:	Male
+             <br/>
+             Marital Status:	Single
+             <br/>
+             Age:	30
+             <br/>
+             Birth Date:	1837
+             <br/>
+             Father: 	John Conway
+            </p>
+            <p>
+             Name:	Ellen Hayes
+             <br/>
+             Gender:	Female
+             <br/>
+             Marital Status:	Single
+             <br/>
+             Age:	24
+             <br/>
+             Birth Date:	1843
+             <br/>
+             Father:	Hugh Hayes
+            </p>
+            <p>
+             Marriage Date:	14 Feb 1867
+             <br/>
+             Marriage Place:	Grean, Tipperary, Limerick, Ireland
+             <br/>
+             FHL Film Number:	101506
+             <br/>
+             Reference ID:	P824 #25
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/9/7/e274efe4f8c2f21ed1d45827679.html" name="sref2" title="Valuation Office: Cancelled Land Books">
+						Valuation Office: Cancelled Land Books
+						</a>
+       <ol id="citr">
+        <li id="sref2a">
+         <ul>
+          <li>
+           Date: between 1876 and 1882
+          </li>
+          <li>
+           Page: Limerick, Fedamore, Vol 15, Book 5, Page 49
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             Barony of
+             <strong>Small Co.</strong>
+             <br/>
+             <strong></strong>
+             Parish of
+             <strong>Fedamore</strong>
+             <br/>
+             <strong></strong>
+             Union of
+             <strong>Croom</strong>
+             <br/>
+             <strong></strong>
+             Electoral Division of
+             <strong>Fedamore</strong>
+             <br/>
+             <strong></strong>
+             Page
+             <strong>49</strong>
+            </p>
+            <p>
+             NAMES
+             <br/>
+             - Townlands and Occupiers
+             <strong>Fanningstown, John Conway</strong>
+             <br/>
+             <strong></strong>
+             - Immediate Lessors
+             <strong>Lord Lisonfield</strong>
+             <br/>
+             <strong></strong>
+             Description of Tenement
+             <strong>Ho off. + land</strong>
+            </p>
+            <p>
+             Reference to Map
+             <strong>12</strong>
+             <br/>
+             <strong></strong>
+             Area: A:
+             <strong>10 </strong>
+             R:
+             <strong>3 </strong>
+             P:
+             <strong>30</strong>
+             <br/>
+             <strong></strong>
+             Rateable Annual Valuation
+             <br/>
+             - Land: £
+             <strong>7 5</strong>
+             s
+             <strong>0</strong>
+             d
+             <br/>
+             - Buildings: £  s  d
+            </p>
+            <p>
+             Reference to Map
+             <strong>16</strong>
+             <br/>
+             <strong></strong>
+             Area: A:
+             <strong>66 </strong>
+             R:
+             <strong>0 </strong>
+             P:
+             <strong>0</strong>
+             <br/>
+             <strong></strong>
+             Rateable Annual Valuation
+             <br/>
+             - Land: £
+             <strong>40 15</strong>
+             s
+             <strong>0</strong>
+             d
+             <br/>
+             - Buildings: £
+             <strong>2 5</strong>
+             s
+             <strong>0</strong>
+             d
+            </p>
+            <p>
+             - Total: £
+             <strong>56 5</strong>
+             s
+             <strong>0</strong>
+             d
+             <br/>
+             Observations
+             <strong>81</strong>
+            </p>
+            <p>
+             Changes:
+             <br/>
+             1881: Occupier changed "John Conway" -&gt; "Michl Conway"
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/b/b/d68c651eb7e6bf699dd9cb5acbb.html" name="sref3" title="Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland">
+						Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref3a">
+         <ul>
+          <li>
+           Date: 1880-02-28
+          </li>
+          <li>
+           Page: John Conway d1880 - Group Registration ID: 6174378, SR District/Reg Area: Croom
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?namefm=john&amp;namel=conway&amp;location=Croom&amp;yyfrom=1880&amp;yyto=1880&amp;type=D&amp;submit=Search&amp;sort=&amp;pageSize=100&amp;century=&amp;decade=&amp;exact=&amp;ddBfrom=&amp;ddMfrom=&amp;ddDfrom=&amp;ddPfrom=&amp;mmBfrom=&amp;mmMfrom=&amp;mmDfrom=&amp;mmPfrom=&amp;yyBfrom=&amp;yyMfrom=&amp;yyDfrom=&amp;yyPfrom=&amp;ddBto=&amp;ddMto=&amp;ddDto=&amp;ddPto=&amp;mmBto=&amp;mmMto=&amp;mmDto=&amp;mmPto=&amp;yyBto=&amp;yyMto=&amp;yyDto=&amp;yyPto=&amp;locationB=&amp;locationM=&amp;locationD=&amp;locationP=&amp;keywordb=&amp;keywordm=&amp;keywordd=&amp;keywordp=&amp;event=&amp;district=">https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?na...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             18
+             <strong>79 </strong>
+             Deaths registered in the District of
+             <strong>Croom</strong>
+             in the county of
+             <strong>Limerick</strong>
+            </p>
+            <p>
+            </p>
+            <p>
+             No.:
+             <strong>98</strong>
+             <br/>
+             <strong></strong>
+             Date and place of death: 18
+             <strong>80 Fourteenth February Fanningstown</strong>
+             <br/>
+             <strong></strong>
+             Name and Surname:
+             <strong>John Conway</strong>
+             <br/>
+             Sex:
+             <strong>Male</strong>
+             <br/>
+             <strong></strong>
+             Condition:
+             <strong>Widower</strong>
+             <br/>
+             <strong></strong>
+             Age last birthday:
+             <strong>96 years</strong>
+             <br/>
+             <strong></strong>
+             Profession or occupation:
+             <strong>Farmer</strong>
+             <br/>
+             <strong></strong>
+             Certfified Cause of Death and Duration of Illness:
+             <strong>Debility 2 months no medical attendant</strong>
+             <br/>
+             <strong></strong>
+             Signature, Qualififcation, and Residence of Informant:
+             <strong>Michael Conway present at death Fanningstown</strong>
+             <br/>
+             <strong></strong>
+             When Registered:
+             <strong>Twenty eight February </strong>
+             18
+             <strong>80</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2023-09-05 16:01:14
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

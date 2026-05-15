@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Hannan, Frederick George
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Hannan, Frederick George
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Hannan, Frederick George
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        male
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        76 years, 1 month, 27 days
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/4/f/e8806f18a3d13a4eb339ea3faf4.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1887
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/3/5/e87de3602ae396d07fd797f4a53.html" title="Warrnambool, Victoria, Australia">
+								Warrnambool, Victoria, Australia
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1a">1a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/2/9/e880811ed9b4aab02f28ded5992.html" title="Military Service">
+								Military Service
+								</a>
+        </td>
+        <td class="ColumnDate">
+         from 1917 to 1919
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/0/e/e8807318f483392ea85aab844e0.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1963-02-28
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/d/6/e880717a4696643946e955bcf6d.html" title="St Kilda, Melbourne, Victoria, Australia">
+								St Kilda, Melbourne, Victoria, Australia
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1b">1b</a>
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="parents">
+     <h4>
+      Parents
+     </h4>
+     <table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnAttribute">
+         Relation to main person
+        </th>
+        <th class="ColumnValue">
+         Name
+        </th>
+        <th class="ColumnValue">
+         Birth date
+        </th>
+        <th class="ColumnValue">
+         Death date
+        </th>
+        <th class="ColumnValue">
+         Relation within this family (if not by birth)
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/6/e/e5037f8d8c731d3b97b5ff7dae6.html">Hannan, Michael</a>
+        <td class="ColumnDate">
+        </td>
+        1850-01-24
+        <td class="ColumnDate">
+        </td>
+        1937-10-13
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Mother
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/7/6/e87d55825ea185ee2265408fc67.html">Healy, Mary Ann</a>
+        <td class="ColumnDate">
+        </td>
+        calculated about 1857
+        <td class="ColumnDate">
+        </td>
+        1906-02-24
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/6/0/e87dde19d665c66b8e16ca62a06.html">Hannan, Honora Ashforth</a>
+        </td>
+        <td class="ColumnDate">
+         1878
+        </td>
+        <td class="ColumnDate">
+         1953
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/a/5/e87de0b6dcd3be6032e2ffdfd5a.html">Hannan, Grace Margaret</a>
+        </td>
+        <td class="ColumnDate">
+         1880
+        </td>
+        <td class="ColumnDate">
+         1968-07-31
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/8/7/e87de217d0033dfb9d757ffb578.html">Hannan, Stanley James</a>
+        </td>
+        <td class="ColumnDate">
+         1889
+        </td>
+        <td class="ColumnDate">
+         1981-10-16
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/0/1/e87de4af40c2bd0fa273be02410.html">Hannan, Kathleen Blanche</a>
+        </td>
+        <td class="ColumnDate">
+         1892
+        </td>
+        <td class="ColumnDate">
+         1982-06-14
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+        </td>
+        <td class="ColumnValue">
+         <b>Hannan, Frederick George</b>
+        </td>
+        <td class="ColumnDate">
+         1887
+        </td>
+        <td class="ColumnDate">
+         1963-02-28
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/6/e/e5037f8d8c731d3b97b5ff7dae6.html">Hannan, Michael</a>
+        <td class="ColumnDate">
+        </td>
+        1850-01-24
+        <td class="ColumnDate">
+        </td>
+        1937-10-13
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Stepmother
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/b/0/e8a85478b4b5a3bdea21913610b.html">Magee, Anna</a>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnDate">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Half-sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/2/6/e8a85875ea534f65beaaa301262.html">Hannan, Verna Mary</a>
+        </td>
+        <td class="ColumnDate">
+         1909
+        </td>
+        <td class="ColumnDate">
+         1977-11-12
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="familymap">
+     <h4>
+      Family Map
+     </h4>
+     <div id="toggle_map" style="display:block">
+      <a class="familymap" href="../../../maps/3/c/e8806ce417a73e23fd1ddfc29c3.html" title="Family Map">Family Map</a>
+     </div>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <a href="../../../ppl/6/e/e5037f8d8c731d3b97b5ff7dae6.html">Hannan, Michael</a>
+       <ol>
+        <li class="spouse">
+         <a href="../../../ppl/7/6/e87d55825ea185ee2265408fc67.html">Healy, Mary Ann</a>
+         <ol>
+          <li>
+           <a href="../../../ppl/6/0/e87dde19d665c66b8e16ca62a06.html">Hannan, Honora Ashforth</a>
+          </li>
+          <li>
+           <a href="../../../ppl/a/5/e87de0b6dcd3be6032e2ffdfd5a.html">Hannan, Grace Margaret</a>
+          </li>
+          <li class="thisperson">
+           Hannan, Frederick George
+          </li>
+          <li>
+           <a href="../../../ppl/8/7/e87de217d0033dfb9d757ffb578.html">Hannan, Stanley James</a>
+          </li>
+          <li>
+           <a href="../../../ppl/0/1/e87de4af40c2bd0fa273be02410.html">Hannan, Kathleen Blanche</a>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="tree">
+     <h4>
+      Ancestors
+     </h4>
+     <div class="tree" id="toggle_anc" style="display:block">
+      <div id="treeContainer" style="width:1239px; height:375px; top: 0px">
+       <div class="boxbg male AncCol0" style="top: 155px; left: 6px;">
+        <a class="noThumb" href="../../../ppl/3/c/e8806ce417a73e23fd1ddfc29c3.html">
+							Hannan, Frederick George<br/>*1887<br/>+1963-02-28
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 10px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 285px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 180px; left: 285px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol1" style="top: 80px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/6/e/e5037f8d8c731d3b97b5ff7dae6.html">
+							Hannan, Michael<br/>*1850-01-24<br/>+1937-10-13
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 300px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 595px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 105px; left: 595px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol2" style="top: 5px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/d/6/e4cf006595c1c488342cece0f6d.html">
+							Hannan, Patrick<br/>*estimated before 1800<br/>+estimated before 1861
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 610px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 905px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 30px; left: 905px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/b/4/e52f6dfc7673034c30dfe661b4b.html">
+							Hannan, [Unknown]<br/>*estimated before 1780<br/>+before 1900
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 920px; height: 1px;">
+       </div>
+       <div class="boxbg female AncCol2" style="top: 155px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/1/8/e4cfeca2a3a7ce51af1a96b7681.html">
+							Lyons, Grace<br/>*estimated before 1810<br/>+estimated before 1861
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 610px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol1" style="top: 230px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/7/6/e87d55825ea185ee2265408fc67.html">
+							Healy, Mary Ann<br/>*calculated about 1857<br/>+1906-02-24
+							</a>
+       </div>
+       <div class="shadow" style="top: 235px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 175px; left: 300px; height: 76px;">
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/b/8/da20065d72342444103afdf7c8b.html" name="sref1" title="zamyatin, archive.org Member: Australia Victoria BMD historical index">
+						zamyatin, archive.org Member: Australia Victoria BMD historical index
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Page: Frederick Hannan b1887 - Registration Number: 07537
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             Australia Victoria BMD indices
+            </p>
+            <p>
+             Birth
+            </p>
+            <p>
+             year:
+             <strong>1887</strong>
+             <br/>
+             <strong></strong>
+             registration number:
+             <strong>07537</strong>
+             <br/>
+             <strong></strong>
+             gender:
+             <br/>
+             surname:
+             <strong>Hannah</strong>
+             <br/>
+             <strong></strong>
+             first names:
+             <strong>Frederick George</strong>
+             <br/>
+             <strong></strong>
+             father:
+             <strong>Michael</strong>
+             <br/>
+             <strong></strong>
+             mother:
+             <strong>Healy Mary</strong>
+             <br/>
+             <strong></strong>
+             birth place:
+             <strong>Warr</strong>
+             <br/>
+             <strong></strong>
+             other information:
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+        <li id="sref1b">
+         <ul>
+          <li>
+           Page: Frederick Hannan d1963 - Registration Number: 03859
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             Australia Victoria BMD indices
+            </p>
+            <p>
+             Death
+            </p>
+            <p>
+             year:
+             <strong>1963</strong>
+             <br/>
+             <strong></strong>
+             registration number:
+             <strong>03859</strong>
+             <br/>
+             <strong></strong>
+             gender:
+             <br/>
+             surname:
+             <strong>Hannan</strong>
+             <br/>
+             <strong></strong>
+             first names:
+             <strong>Frederick George</strong>
+             <br/>
+             <strong></strong>
+             father:
+             <strong>Michael</strong>
+             <br/>
+             <strong></strong>
+             mother:
+             <strong>Healey Mary</strong>
+             <br/>
+             <strong></strong>
+             death place:
+             <strong>St Kilda</strong>
+             <br/>
+             <strong></strong>
+             age:
+             <strong>75</strong>
+             <br/>
+             <strong></strong>
+             other information:
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/d/d/d6dcfa2ada55e7defccbe39c0dd.html" name="sref2" title="Jim Tipton ( Find A Grave Founder ): Find A Grave">
+						Jim Tipton ( Find A Grave Founder ): Find A Grave
+						</a>
+       <ol id="citr">
+        <li id="sref2a">
+         <ul>
+          <li>
+           Page: Frederick Hannan d1963 - Memorial ID: 191078793
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://www.findagrave.com/memorial/191078793/frederick-george-hannan">https://www.findagrave.com/memorial/191078793/frederick-george-hannan</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             <strong>Frederick George Hannan</strong>
+            </p>
+            <p>
+             BIRTH
+             <strong>1888 Warrnambool, Warrnambool City, Victoria, Australia</strong>
+             <br/>
+             DEATH
+             <strong>28 Feb 1963 (aged 74–75) St Kilda, Port Phillip City, Victoria, Australia</strong>
+             <br/>
+             BURIAL
+             <strong>Melbourne General Cemetery Carlton North, Melbourne City, Victoria, Australia</strong>
+             <br/>
+             PLOT
+             <strong>MGC-RC-Comp-D-No-237</strong>
+             <br/>
+             MEMORIAL ID
+             <strong>191078793</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2020-08-18 10:02:56
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

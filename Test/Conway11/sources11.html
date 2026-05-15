@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Sources
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li>
+       <a href="individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="Sources">
+    <p id="description">
+     This page contains an index of all the sources in the database, sorted by their title. Clicking on a source’s title will take you to that source’s page.
+    </p>
+    <div id="ltr">
+     <ul class="ltr">
+      <li>
+       <a href="sources.html" title="Alphabet Menu: A">A</a>
+      </li>
+      <li>
+       <a href="sources1.html" title="Alphabet Menu: B">B</a>
+      </li>
+      <li>
+       <a href="sources2.html" title="Alphabet Menu: C">C</a>
+      </li>
+      <li>
+       <a href="sources3.html" title="Alphabet Menu: D">D</a>
+      </li>
+      <li>
+       <a href="sources4.html" title="Alphabet Menu: E">E</a>
+      </li>
+      <li>
+       <a href="sources5.html" title="Alphabet Menu: F">F</a>
+      </li>
+      <li>
+       <a href="sources6.html" title="Alphabet Menu: G">G</a>
+      </li>
+      <li>
+       <a href="sources7.html" title="Alphabet Menu: H">H</a>
+      </li>
+      <li>
+       <a href="sources8.html" title="Alphabet Menu: I">I</a>
+      </li>
+      <li>
+       <a href="sources9.html" title="Alphabet Menu: K">K</a>
+      </li>
+      <li>
+       <a href="sources10.html" title="Alphabet Menu: L">L</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="sources11.html" title="Alphabet Menu: M">M</a>
+      </li>
+      <li>
+       <a href="sources12.html" title="Alphabet Menu: N">N</a>
+      </li>
+      <li>
+       <a href="sources13.html" title="Alphabet Menu: P">P</a>
+      </li>
+      <li>
+       <a href="sources14.html" title="Alphabet Menu: R">R</a>
+      </li>
+      <li>
+       <a href="sources15.html" title="Alphabet Menu: S">S</a>
+      </li>
+      <li>
+       <a href="sources16.html" title="Alphabet Menu: T">T</a>
+      </li>
+      <li>
+       <a href="sources17.html" title="Alphabet Menu: U">U</a>
+      </li>
+      <li>
+       <a href="sources18.html" title="Alphabet Menu: V">V</a>
+      </li>
+     </ul>
+    </div>
+    <table class="infolist primobjlist sourcelist ltr">
+     <thead>
+      <tr>
+       <th class="ColumnRowLabel">
+        Number
+       </th>
+       <th class="ColumnAuthor">
+        Author
+       </th>
+       <th class="ColumnName">
+        Name
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td class="ColumnRowLabel">
+        M
+       </td>
+       <td class="ColumnAuthor">
+        Jennifer
+       </td>
+       <td class="ColumnName">
+        <a href="src/d/9/dcf390f7b3a76f9225c8517aa9d.html" title="Macarthur Family Website">
+							Macarthur Family Website
+							</a>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnAuthor">
+       </td>
+       <td class="ColumnName">
+        <a href="src/0/d/dcc6f2232673a5e65302c1ee5d0.html" title="Mark McCullough">
+							Mark McCullough
+							</a>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnAuthor">
+       </td>
+       <td class="ColumnName">
+        <a href="src/1/c/c31deb3d698640626c1.html" title="Mary Looby">
+							Mary Looby
+							</a>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnAuthor">
+        Secretary of the Commonwealth. Massachusetts Archives, Boston.
+       </td>
+       <td class="ColumnName">
+        <a href="src/b/3/e528f0145a924d0a26c711e443b.html" title="Massachusetts Births, 1841-1915">
+							Massachusetts Births, 1841-1915
+							</a>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnAuthor">
+        Commonwealth of Massachusetts Department of Health Services in Boston. Index provided by Ancestry.com.
+       </td>
+       <td class="ColumnName">
+        <a href="src/e/7/e52c24c391e127a5548f863707e.html" title="Massachusetts Death Index, 1970-2003">
+							Massachusetts Death Index, 1970-2003
+							</a>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnAuthor">
+        Secretary of the Commonwealth. State Archives, Boston.
+       </td>
+       <td class="ColumnName">
+        <a href="src/d/4/e5238ea03d6f7938f9f5998b4d.html" title="Massachusetts Marriages, 1841-1915">
+							Massachusetts Marriages, 1841-1915
+							</a>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnAuthor">
+        Secretary of the Commonwealth. State Archives, Boston.
+       </td>
+       <td class="ColumnName">
+        <a href="src/8/b/e529289f2be2a99d410f5b615b8.html" title="Massachusetts State Vital Records, 1841-1920">
+							Massachusetts State Vital Records, 1841-1920
+							</a>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnAuthor">
+        Patrick J. Hamell
+       </td>
+       <td class="ColumnName">
+        <a href="src/1/1/d86fab1ffbc64a2864bde56e511.html" title="Maynooth students and ordinations index 1795-1895">
+							Maynooth students and ordinations index 1795-1895
+							</a>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnAuthor">
+        Limerick City Archives and Mary Immaculate College Staff and Students
+       </td>
+       <td class="ColumnName">
+        <a href="src/f/b/da18c8f288077ecad8b09a3a3bf.html" title="Mount Saint Lawrence Cemetery Project">
+							Mount Saint Lawrence Cemetery Project
+							</a>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnRowLabel">
+       </td>
+       <td class="ColumnAuthor">
+        Limerick City and County Council
+       </td>
+       <td class="ColumnName">
+        <a href="src/0/d/bd8782aec9f36de11d0.html" title="Mount St. Lawrence Burial Ground Registers">
+							Mount St. Lawrence Burial Ground Registers
+							</a>
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     6.0.8 on
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

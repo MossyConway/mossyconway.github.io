@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Conway, Pat
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Conway, Pat
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Conway, Pat
+        <a href="#sref2">2</a>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Conway, Patrick O
+        <a href="#sref1a">1a</a>
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        male
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        5 years, 2 months, 17 days
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/4/e/c32a8ddcbdf4f8865e4.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1935-07
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/3/2/c326d0065fc48397223.html" title="Maternity Hospital, Bedford Row, Limerick, Limerick, Ireland">
+								Maternity Hospital, Bedford Row, Limerick, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2">2</a>
+         <a href="#sref1a">1a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/3/d/c32a8e3d14168b2c4d3.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1940-09-18
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/2/6/bd878863548352d2562.html" title="Carnane, Fedamore, Limerick, Ireland">
+								Carnane, Fedamore, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+         Sarcoma of Femur
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref3a">3a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="parents">
+     <h4>
+      Parents
+     </h4>
+     <table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnAttribute">
+         Relation to main person
+        </th>
+        <th class="ColumnValue">
+         Name
+        </th>
+        <th class="ColumnValue">
+         Birth date
+        </th>
+        <th class="ColumnValue">
+         Death date
+        </th>
+        <th class="ColumnValue">
+         Relation within this family (if not by birth)
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html">Conway, Thomas Joseph</a>
+        <td class="ColumnDate">
+        </td>
+        1900-11-23
+        <td class="ColumnDate">
+        </td>
+        1980-06-30
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Mother
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html">Clohessy, Bridie</a>
+        <td class="ColumnDate">
+        </td>
+        1904-07-16
+        <td class="ColumnDate">
+        </td>
+        1986-06-02
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/5/1/bd885df1d201f8ae815.html">Conway, Tom</a>
+        </td>
+        <td class="ColumnDate">
+         1938-08-10
+        </td>
+        <td class="ColumnDate">
+         1973-09-12
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+        </td>
+        <td class="ColumnValue">
+         <b>Conway, Pat</b>
+        </td>
+        <td class="ColumnDate">
+         1935-07
+        </td>
+        <td class="ColumnDate">
+         1940-09-18
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="familymap">
+     <h4>
+      Family Map
+     </h4>
+     <div id="toggle_map" style="display:block">
+      <a class="familymap" href="../../../maps/0/9/c32a8e662c8165a2890.html" title="Family Map">Family Map</a>
+     </div>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html">Conway, Thomas Joseph</a>
+       <ol>
+        <li class="spouse">
+         <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html">Clohessy, Bridie</a>
+         <ol>
+          <li class="thisperson">
+           Conway, Pat
+          </li>
+          <li>
+           <a href="../../../ppl/5/1/bd885df1d201f8ae815.html">Conway, Tom</a>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="tree">
+     <h4>
+      Ancestors
+     </h4>
+     <div class="tree" id="toggle_anc" style="display:block">
+      <div id="treeContainer" style="width:1549px; height:1425px; top: 0px">
+       <div class="boxbg male AncCol0" style="top: 708px; left: 6px;">
+        <a class="noThumb" href="../../../ppl/0/9/c32a8e662c8165a2890.html">
+							Conway, Pat<br/>*1935-07<br/>+1940-09-18
+							</a>
+       </div>
+       <div class="shadow" style="top: 713px; left: 10px;">
+       </div>
+       <div class="bvline" style="top: 728px; left: 285px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 733px; left: 285px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol1" style="top: 361px; left: 316px;">
+        <a class="thumbnail" href="../../../ppl/1/7/bd87ba505da3e0d8671.html">
+</a>
+        <table class="table">
+         <tr>
+          <td class="img">
+           <img alt="Img: Conway, Thomas Joseph" src="../../../thumb/5/f/c34dceff895397406f5.png"/>
+          </td>
+          <td class="name">
+           Conway, Thomas Joseph
+           <br/>
+           *1900-11-23
+           <br/>
+           +1980-06-30
+          </td>
+         </tr>
+        </table>
+       </div>
+       <div class="shadow" style="top: 366px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 381px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 381px; left: 300px; height: 347px;">
+       </div>
+       <div class="bvline" style="top: 381px; left: 595px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 386px; left: 595px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol2" style="top: 117px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/0/2/bd87b702c8f73973f20.html">
+							Conway, Pat<br/>*calculated about 1853<br/>+1901-05-01
+							</a>
+       </div>
+       <div class="shadow" style="top: 122px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 137px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 137px; left: 610px; height: 244px;">
+       </div>
+       <div class="bvline" style="top: 137px; left: 905px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 142px; left: 905px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol3" style="top: 5px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/e/2/bd877d7b2b90195152e.html">
+							Conway, Tom<br/>*calculated about 1820<br/>+1900-09-24
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 920px; height: 113px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 1215px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 30px; left: 1215px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol4" style="top: 5px; left: 1246px;">
+        <a class="noThumb" href="../../../ppl/c/2/c3276f1508a641ffa2c.html">
+							Conway, John<br/>*estimated before 1800<br/>+before 1920
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 1250px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 1230px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 1230px; height: 1px;">
+       </div>
+       <div class="boxbg female AncCol3" style="top: 230px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/1/a/c31de17ca7c1a7035a1.html">
+							Hannan, Bridget<br/>*1830<br/>+1903-10-05
+							</a>
+       </div>
+       <div class="shadow" style="top: 235px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 137px; left: 920px; height: 113px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 1215px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 255px; left: 1215px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol4" style="top: 155px; left: 1246px;">
+        <a class="noThumb" href="../../../ppl/d/6/e4cf006595c1c488342cece0f6d.html">
+							Hannan, Patrick<br/>*estimated before 1800<br/>+estimated before 1861
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 1250px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 1230px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 175px; left: 1230px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol4" style="top: 305px; left: 1246px;">
+        <a class="noThumb" href="../../../ppl/1/8/e4cfeca2a3a7ce51af1a96b7681.html">
+							Lyons, Grace<br/>*estimated before 1810<br/>+estimated before 1861
+							</a>
+       </div>
+       <div class="shadow" style="top: 310px; left: 1250px;">
+       </div>
+       <div class="bvline" style="top: 325px; left: 1230px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 250px; left: 1230px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol2" style="top: 605px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/5/1/bd87bdb1ae15a5bed15.html">
+							Halpin, Mary Agnes<br/>*1864-05-11<br/>+1947-01-16
+							</a>
+       </div>
+       <div class="shadow" style="top: 610px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 625px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 381px; left: 610px; height: 244px;">
+       </div>
+       <div class="bvline" style="top: 625px; left: 905px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 630px; left: 905px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol3" style="top: 530px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/b/7/c333f32859129a0b17b.html">
+							Halpin, Patrick<br/>*calculated about 1829<br/>+after 1901-03-31
+							</a>
+       </div>
+       <div class="shadow" style="top: 535px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 550px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 550px; left: 920px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 550px; left: 1215px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 555px; left: 1215px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol4" style="top: 455px; left: 1246px;">
+        <a class="noThumb" href="../../../ppl/8/d/f6297eafa7a79097d79a1c107d8.html">
+							Halpin, Michael<br/>*calculated about 1784<br/>+1866-02-25
+							</a>
+       </div>
+       <div class="shadow" style="top: 460px; left: 1250px;">
+       </div>
+       <div class="bvline" style="top: 475px; left: 1230px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 475px; left: 1230px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol4" style="top: 605px; left: 1246px;">
+        <a class="noThumb" href="../../../ppl/5/3/f6298a32dfd38f1fcc008c3c035.html">
+							Peagum, Anne<br/>*calculated about 1789<br/>+1870-02-01
+							</a>
+       </div>
+       <div class="shadow" style="top: 610px; left: 1250px;">
+       </div>
+       <div class="bvline" style="top: 625px; left: 1230px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 550px; left: 1230px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol3" style="top: 680px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/b/6/c333f37a2a57350c46b.html">
+							Cunningham, Jane<br/>*estimated before 1842<br/>+1872-12-20
+							</a>
+       </div>
+       <div class="shadow" style="top: 685px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 700px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 625px; left: 920px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol1" style="top: 1055px; left: 316px;">
+        <a class="thumbnail" href="../../../ppl/b/9/bd87de29d8a0a634f9b.html">
+</a>
+        <table class="table">
+         <tr>
+          <td class="img">
+           <img alt="Img: Clohessy, Bridie" src="../../../thumb/7/5/c34dd4194727cd47a57.png"/>
+          </td>
+          <td class="name">
+           Clohessy, Bridie
+           <br/>
+           *1904-07-16
+           <br/>
+           +1986-06-02
+          </td>
+         </tr>
+        </table>
+       </div>
+       <div class="shadow" style="top: 1060px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 1075px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 728px; left: 300px; height: 347px;">
+       </div>
+       <div class="bvline" style="top: 1075px; left: 595px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 1080px; left: 595px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol2" style="top: 905px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/5/6/bd87c421d486a25ed65.html">
+							Clohessy, Patrick<br/>*1862-04-12<br/>+1948-04-17
+							</a>
+       </div>
+       <div class="shadow" style="top: 910px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 925px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 925px; left: 610px; height: 151px;">
+       </div>
+       <div class="bvline" style="top: 925px; left: 905px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 930px; left: 905px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol3" style="top: 830px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/1/b/c32ab1463037ce2b1b1.html">
+							Clohessy, Dave<br/>*calculated about 1821<br/>+1902-06-25
+							</a>
+       </div>
+       <div class="shadow" style="top: 835px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 850px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 850px; left: 920px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol3" style="top: 980px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/e/1/c32ab4442e97377fc1e.html">
+							Gleeson, Mary<br/>*1823<br/>+1872
+							</a>
+       </div>
+       <div class="shadow" style="top: 985px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 1000px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 925px; left: 920px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol2" style="top: 1205px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/e/7/bd87c61b24851c0987e.html">
+							Cusack, Ellie<br/>*1868-05-13<br/>+1917-03-24
+							</a>
+       </div>
+       <div class="shadow" style="top: 1210px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 1225px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 1075px; left: 610px; height: 151px;">
+       </div>
+       <div class="bvline" style="top: 1225px; left: 905px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 1230px; left: 905px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol3" style="top: 1130px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/4/9/c32ff5f276c219f6b94.html">
+							Cusack, John<br/>*calculated about 1831<br/>+1894-04-13
+							</a>
+       </div>
+       <div class="shadow" style="top: 1135px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 1150px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 1150px; left: 920px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol3" style="top: 1280px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/9/f/c330004cdb0450ee4f9.html">
+							Gleeson, Ellen Anastasia<br/>*calculated about 1840<br/>+1918-03-05
+							</a>
+       </div>
+       <div class="shadow" style="top: 1285px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 1300px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 1225px; left: 920px; height: 76px;">
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/6/0/da1ba73ee453df1c37b01165306.html" name="sref1" title="FindMyPast: Irish Births 1864-1958">
+						FindMyPast: Irish Births 1864-1958
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Page: Patrick Conway b1935 - Registration district: Limerick, Volume: 5, Page: 281
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             $ubscription only -
+             <a href="http://search.findmypast.ie/record?id=IRE/BMD/D/692742306">http://search.findmypast.ie/record?id=IRE/BMD/D/692742306</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             <strong>Ireland Births 1864-1958 Transcription</strong>
+            </p>
+            <p>
+             First name(s)
+             <strong>Patrick O</strong>
+             <br/>
+             Last name
+             <strong>Conway</strong>
+             <br/>
+             Registration year
+             <strong>1935</strong>
+             <br/>
+             Registered quarter/year
+             <strong>Jul - Sep 1935</strong>
+             <br/>
+             Registration district
+             <strong>Limerick</strong>
+             <br/>
+             Volume
+             <strong>5</strong>
+             <br/>
+             Page
+             <strong>281</strong>
+             <br/>
+             Mother's last name (original)
+             <strong>Clohessy</strong>
+             <br/>
+             County
+             <strong>Clare, Limerick</strong>
+             <br/>
+             Country	Ireland
+             <br/>
+             Record set	Irish Births 1864-1958
+             <br/>
+             Category	Life Events (Birth, Marriage, Death)
+             <br/>
+             Subcategory	Births &amp; baptisms
+             <br/>
+             Collections from	Ireland
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/1/c/c31deb3d698640626c1.html" name="sref2" title="Mary Looby">
+						Mary Looby
+						</a>
+      </li>
+      <li>
+       <a href="../../../src/b/b/d68c651eb7e6bf699dd9cb5acbb.html" name="sref3" title="Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland">
+						Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref3a">
+         <ul>
+          <li>
+           Date: 1940-09-26
+          </li>
+          <li>
+           Page: Pat Conway d1940 - Group Registration ID: 1659907, SR District/Reg Area: Croom
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?namefm=patrick&amp;namel=Conway&amp;location=Croom&amp;yyfrom=1940&amp;yyto=1940&amp;type=D&amp;submit=Search&amp;sort=&amp;pageSize=100&amp;century=&amp;decade=&amp;exact=&amp;ddBfrom=&amp;ddMfrom=&amp;ddDfrom=&amp;ddPfrom=&amp;mmBfrom=&amp;mmMfrom=&amp;mmDfrom=&amp;mmPfrom=&amp;yyBfrom=&amp;yyMfrom=&amp;yyDfrom=&amp;yyPfrom=&amp;ddBto=&amp;ddMto=&amp;ddDto=&amp;ddPto=&amp;mmBto=&amp;mmMto=&amp;mmDto=&amp;mmPto=&amp;yyBto=&amp;yyMto=&amp;yyDto=&amp;yyPto=&amp;locationB=&amp;locationM=&amp;locationD=&amp;locationP=&amp;keywordb=&amp;keywordm=&amp;keywordd=&amp;keywordp=&amp;event=&amp;district=">https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?na...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             19
+             <strong>40 </strong>
+             Deaths registered in the District of
+             <strong>Croom</strong>
+             in the county of
+             <strong>Limerick</strong>
+            </p>
+            <p>
+             No.:
+             <strong>34</strong>
+             <br/>
+             Date and place of death: 19
+             <strong>40</strong>
+             <strong>Eighteenth September </strong>
+             /
+             <strong> Carnane</strong>
+             <br/>
+             <strong></strong>
+             Name and Surname:
+             <strong>Patrick Conway</strong>
+             <br/>
+             <strong></strong>
+             Sex:
+             <strong>M</strong>
+             <br/>
+             <strong></strong>
+             Condition:
+             <strong>Bachelor</strong>
+             <br/>
+             <strong></strong>
+             Age last birthday:
+             <strong>5</strong>
+             <br/>
+             <strong></strong>
+             Profession or occupation:
+             <strong>Farmer's Son</strong>
+             <br/>
+             <strong></strong>
+             Certfified Cause of Death and Duration of Illness:
+             <strong>Sarcoma of Femur</strong>
+             /
+             <strong>7 months</strong>
+             /
+             <strong>Certified</strong>
+             <br/>
+             <strong></strong>
+             Signature, Qualififcation, and Residence of Informant:
+             <strong>Thomas Conway</strong>
+             <strong>Father </strong>
+             /
+             <strong>Present at death</strong>
+             /
+             <strong>Carnane</strong>
+             <br/>
+             <strong></strong>
+             When Registered:
+             <strong>Twenty Sixth September</strong>
+             19
+             <strong>40</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2017-12-21 11:04:53
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

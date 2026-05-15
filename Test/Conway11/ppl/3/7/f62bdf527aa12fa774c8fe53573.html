@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Halpin, Jeremiah
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Halpin, Jeremiah
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Halpin, Jeremiah
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        male
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        72 years, 1 month, 15 days
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/d/3/f62c0c3ae523302b101a109023d.html" title="Baptism">
+								Baptism
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1832-02-05
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/e/6/c3606b34f1e7a9d6c6e.html" title="Cahirnorry, Limerick, Ireland">
+								Cahirnorry, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/6/d/f62c0cc6c4e4cdd87a8a35c39d6.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1832
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/c/c/f62bd22a09248e1e07ec57010cc.html" title="Census (Unknown)">
+								Census (Unknown)
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1901
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/7/4/f62bcff2d346da2790584bc1647.html" title="Dohora, Limerick, Ireland">
+								Dohora, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+         Halpins in Dohora 1901
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1a">1a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+          <p>
+           (
+           <b>Primary</b>
+           )
+           <a href="../../../ppl/b/7/c333f32859129a0b17b.html">Halpin, Patrick</a>
+          </p>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/4/5/f62c13282fcc8e62c6514b9c54.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1904-02-16
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/1/8/c32a27ba5860b901081.html" title="Limerick, Limerick, Ireland">
+								Limerick, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+         St John's, cerebral haemorrage
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref3a">3a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/d/e/f62c19cb9d0681e2b19f2dd00ed.html" title="Occupation">
+								Occupation
+								</a>
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+         Parish Priest of Banogue
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref4a">4a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="parents">
+     <h4>
+      Parents
+     </h4>
+     <table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnAttribute">
+         Relation to main person
+        </th>
+        <th class="ColumnValue">
+         Name
+        </th>
+        <th class="ColumnValue">
+         Birth date
+        </th>
+        <th class="ColumnValue">
+         Death date
+        </th>
+        <th class="ColumnValue">
+         Relation within this family (if not by birth)
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/8/d/f6297eafa7a79097d79a1c107d8.html">Halpin, Michael</a>
+        <td class="ColumnDate">
+        </td>
+        calculated about 1784
+        <td class="ColumnDate">
+        </td>
+        1866-02-25
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Mother
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/5/3/f6298a32dfd38f1fcc008c3c035.html">Peagum, Anne</a>
+        <td class="ColumnDate">
+        </td>
+        calculated about 1789
+        <td class="ColumnDate">
+        </td>
+        1870-02-01
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/b/7/c333f32859129a0b17b.html">Halpin, Patrick</a>
+        </td>
+        <td class="ColumnDate">
+         calculated about 1829
+        </td>
+        <td class="ColumnDate">
+         after 1901-03-31
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+        </td>
+        <td class="ColumnValue">
+         <b>Halpin, Jeremiah</b>
+        </td>
+        <td class="ColumnDate">
+         1832
+        </td>
+        <td class="ColumnDate">
+         1904-02-16
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/e/b/f62c1b01f5967aa451fe3a92be.html">Halpin, George</a>
+        </td>
+        <td class="ColumnDate">
+         1834
+        </td>
+        <td class="ColumnDate">
+         before 1954
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/9/b/f62c4c649b54474764266fabab9.html">Halpin, Michael</a>
+        </td>
+        <td class="ColumnDate">
+         1830
+        </td>
+        <td class="ColumnDate">
+         1904
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/e/b/f62e74b290120157b28e7a85cbe.html">Halpin, John</a>
+        </td>
+        <td class="ColumnDate">
+         1820-03-31
+        </td>
+        <td class="ColumnDate">
+         1894-04-30
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/0/3/f62f61d47c15e08b8390e383530.html">Halpin, Timothy</a>
+        </td>
+        <td class="ColumnDate">
+         calculated about 1825
+        </td>
+        <td class="ColumnDate">
+         1900-05-14
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/a/6/f62fa7ac3ab1eb17bd44378086a.html">Halpin, Bridget</a>
+        </td>
+        <td class="ColumnDate">
+         calculated about 1836
+        </td>
+        <td class="ColumnDate">
+         1890
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="familymap">
+     <h4>
+      Family Map
+     </h4>
+     <div id="toggle_map" style="display:block">
+      <a class="familymap" href="../../../maps/3/7/f62bdf527aa12fa774c8fe53573.html" title="Family Map">Family Map</a>
+     </div>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <a href="../../../ppl/8/d/f6297eafa7a79097d79a1c107d8.html">Halpin, Michael</a>
+       <ol>
+        <li class="spouse">
+         <a href="../../../ppl/5/3/f6298a32dfd38f1fcc008c3c035.html">Peagum, Anne</a>
+         <ol>
+          <li>
+           <a href="../../../ppl/e/b/f62e74b290120157b28e7a85cbe.html">Halpin, John</a>
+          </li>
+          <li>
+           <a href="../../../ppl/0/3/f62f61d47c15e08b8390e383530.html">Halpin, Timothy</a>
+          </li>
+          <li>
+           <a href="../../../ppl/b/7/c333f32859129a0b17b.html">Halpin, Patrick</a>
+          </li>
+          <li>
+           <a href="../../../ppl/9/b/f62c4c649b54474764266fabab9.html">Halpin, Michael</a>
+          </li>
+          <li class="thisperson">
+           Halpin, Jeremiah
+          </li>
+          <li>
+           <a href="../../../ppl/e/b/f62c1b01f5967aa451fe3a92be.html">Halpin, George</a>
+          </li>
+          <li>
+           <a href="../../../ppl/a/6/f62fa7ac3ab1eb17bd44378086a.html">Halpin, Bridget</a>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="tree">
+     <h4>
+      Ancestors
+     </h4>
+     <div class="tree" id="toggle_anc" style="display:block">
+      <div id="treeContainer" style="width:619px; height:300px; top: 0px">
+       <div class="boxbg male AncCol0" style="top: 80px; left: 6px;">
+        <a class="noThumb" href="../../../ppl/3/7/f62bdf527aa12fa774c8fe53573.html">
+							Halpin, Jeremiah<br/>*1832<br/>+1904-02-16
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 10px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 285px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 105px; left: 285px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol1" style="top: 5px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/8/d/f6297eafa7a79097d79a1c107d8.html">
+							Halpin, Michael<br/>*calculated about 1784<br/>+1866-02-25
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 300px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol1" style="top: 155px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/5/3/f6298a32dfd38f1fcc008c3c035.html">
+							Peagum, Anne<br/>*calculated about 1789<br/>+1870-02-01
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 300px; height: 76px;">
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/1/d/bd87c758acd020b33d1.html" name="sref1" title="The National Archives of Ireland: Census 1901 Ireland">
+						The National Archives of Ireland: Census 1901 Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Date: 1901
+          </li>
+          <li>
+           Page: Halpins in Dohora
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="http://census.nationalarchives.ie/pages/1901/Limerick/Ballynabanoge/Dohora/1488587/">http://census.nationalarchives.ie/pages/1901/Limerick/Ballynabanoge/Dohora/14885...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             <strong>Residents of a house 1 in Dohora (Ballynabanoge, Limerick)</strong>
+            </p>
+            <p>
+             <strong></strong>
+             <span style="font-family:'Courier 10 Pitch';"><strong>Surname	Forename	Age	Sex	Relation to head	Religion	Birthplace	Occupation	Literacy	Irish Language	Marital Status	Specified Illnesses</strong></span>
+             <span style="font-family:'Courier 10 Pitch';"></span>
+             <br/>
+             <span style="font-family:'Courier 10 Pitch';"></span>
+             <em><span style="font-family:'Courier 10 Pitch';">Halpin	Jeremiah</span></em>
+             <span style="font-family:'Courier 10 Pitch';">	66	Male	Head of Family	Roman Catholic	Co Limerick	Roman Catholic Priest	Read and write	Irish and English	Not Married	-</span>
+             <br/>
+             <span style="font-family:'Courier 10 Pitch';"></span>
+             <em><span style="font-family:'Courier 10 Pitch';">Halpin	Patrick</span></em>
+             <span style="font-family:'Courier 10 Pitch';">	72	Male	Brother	Roman Catholic	Co Limerick	Farmer Retired	Read and write	-	Widower	-</span>
+             <br/>
+             <span style="font-family:'Courier 10 Pitch';"></span>
+             <em><span style="font-family:'Courier 10 Pitch';">Halpin	Dina</span></em>
+             <span style="font-family:'Courier 10 Pitch';">	24	Female	Niece	Roman Catholic	Co Limerick	Lady Housekeeper	Read and write	-	Not Married	-</span>
+             <br/>
+             <span style="font-family:'Courier 10 Pitch';"></span>
+             <em><span style="font-family:'Courier 10 Pitch';">Minahan	Mary</span></em>
+             <span style="font-family:'Courier 10 Pitch';">	11	Female	Great Niece	R Catholic	Limerick	Scholar	Read and write	-	Not Married	-</span>
+             <br/>
+             <span style="font-family:'Courier 10 Pitch';">Carr	John	33	Male	Boarder	R Catholic	Co Limerick	Roman Catholic Priest	Read and write	-	Not Married	-</span>
+             <br/>
+             <span style="font-family:'Courier 10 Pitch';">OGorman	Catherine	31	Female	Servant	R Catholic	Co Limerick	Domestic Servant	Read and write	-	Not Married	-</span>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/7/6/c36090364537103d667.html" name="sref2" title="National Library of Ireland: Catholic Parish Registers at the NLI">
+						National Library of Ireland: Catholic Parish Registers at the NLI
+						</a>
+       <ol id="citr">
+        <li id="sref2a">
+         <ul>
+          <li>
+           Date: 1832-02-05
+          </li>
+          <li>
+           Page: Jeremiah Halpin b1832 - Cahirnorry | Microfilm 02419 / 02 p14
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://registers.nli.ie//registers/vtls000634948#page/14/mode/1up">https://registers.nli.ie//registers/vtls000634948#page/14/mode/1up</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             Child:
+             <strong>Demetriam</strong>
+             <br/>
+             <strong></strong>
+             Parents:
+             <strong>Michl Halpin</strong>
+             &amp;
+             <strong>Anna Pegum</strong>
+             <br/>
+             <strong></strong>
+             Sponsors:
+             <strong>Thoma Halpin </strong>
+             &amp;
+             <strong>Brigida Mulqueen</strong>
+             <br/>
+             <strong></strong>
+             Date:
+             <strong>05 Feb 1832</strong>
+             <br/>
+             <strong></strong>
+             Parish:
+             <strong>Cahirnorry</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/b/b/d68c651eb7e6bf699dd9cb5acbb.html" name="sref3" title="Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland">
+						Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref3a">
+         <ul>
+          <li>
+           Date: 1904-06-21
+          </li>
+          <li>
+           Page: Jeremiah Halpin d1904 - Group Registration ID: 4705497, SR District/Reg Area: Limerick
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?namefm=jer&amp;namel=halpin&amp;location=&amp;yyfrom=1904&amp;yyto=1904&amp;type=D&amp;submit=Search&amp;sort=date&amp;pageSize=100&amp;century=&amp;decade=&amp;exact=&amp;ddBfrom=&amp;ddMfrom=&amp;ddDfrom=&amp;ddPfrom=&amp;mmBfrom=&amp;mmMfrom=&amp;mmDfrom=&amp;mmPfrom=&amp;yyBfrom=&amp;yyMfrom=&amp;yyDfrom=&amp;yyPfrom=&amp;ddBto=&amp;ddMto=&amp;ddDto=&amp;ddPto=&amp;mmBto=&amp;mmMto=&amp;mmDto=&amp;mmPto=&amp;yyBto=&amp;yyMto=&amp;yyDto=&amp;yyPto=&amp;locationB=&amp;locationM=&amp;locationD=&amp;locationP=&amp;keywordb=&amp;keywordm=&amp;keywordd=&amp;keywordp=&amp;event=&amp;district=">https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?na...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             19
+             <strong>04 </strong>
+             Deaths registered in the District of
+             <strong>No. 1</strong>
+             in the Union of
+             <strong>Limerick </strong>
+             in the County of
+             <strong>Limerick</strong>
+            </p>
+            <p>
+            </p>
+            <p>
+             No.:
+             <strong>423</strong>
+             <br/>
+             <strong></strong>
+             Date and place of death:
+             <strong>February Sizteen St Johns Hospital</strong>
+             <br/>
+             <strong></strong>
+             Name and Surname:
+             <strong>Jeremiah Halpin of Banogue Croom Co. Limerick</strong>
+             <br/>
+             <strong></strong>
+             Sex:
+             <strong>M</strong>
+             <br/>
+             <strong></strong>
+             Condition:
+             <strong>Bachelor</strong>
+             <br/>
+             <strong></strong>
+             Age last birthday:
+             <strong>69 years</strong>
+             <br/>
+             <strong></strong>
+             Profession or occupation:
+             <strong>Roman Catholic Church</strong>
+             <br/>
+             <strong></strong>
+             Certfified Cause of Death and Duration of Illness:
+             <strong>Cerebral Haemorrhage Cerebral Comprissc??? 12 months Certified.</strong>
+             <br/>
+             <strong></strong>
+             Signature, Qualififcation, and Residence of Informant:
+             <strong>Mary Crocker Occupier St Johns Hospital</strong>
+             <br/>
+             <strong></strong>
+             When Registered:
+             <strong>June Twenty first </strong>
+             19
+             <strong>04</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/8/d/bd87b6e48fc30ea5ad8.html" name="sref4" title="Limerick City Council: Limerick Chronicle - Obituaries, death notices, etc.">
+						Limerick City Council: Limerick Chronicle - Obituaries, death notices, etc.
+						</a>
+       <ol id="citr">
+        <li id="sref4a">
+         <ul>
+          <li>
+           Date: 1904-02-18
+          </li>
+          <li>
+           Page: Jeremiah Halpin d1904, funeral report
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://www.limerickcity.ie/Library/LocalStudies/ObituariesdeathnoticesetcfromtheLimerickChronicle/1904/">https://www.limerickcity.ie/Library/LocalStudies/Obituariesdeathnoticesetcfromth...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             <strong>FUNERAL OF REV. J. HALPIN, P.P.</strong>
+            </p>
+            <p>
+             <strong></strong>
+             The funeral of the late Rev. Jeremiah Halpin,
+             <br/>
+             P.P. Banogue, took place to-day after Solemn
+             <br/>
+             Requiem High MAss at St. John's Cathedral, at
+             <br/>
+             which the Most Rev. Dr. O'Dwyer presided.
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2023-08-12 18:34:18
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

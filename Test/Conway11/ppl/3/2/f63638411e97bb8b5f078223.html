@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Halpin, Margaret
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Halpin, Margaret
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Halpin, Margaret
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        female
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        19 years, 7 months, 4 days
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/4/a/f6363ac80514e74d1e6e786c9a4.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1870-05-28
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/8/f/f635339ad7f3e0cc5748e69a0f8.html" title="Ardkilmartin, Kilmallock, Limerick, Ireland">
+								Ardkilmartin, Kilmallock, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1a">1a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/2/d/f6363d3455530efaaafae60fed2.html" title="Baptism">
+								Baptism
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1870-05-29
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/d/3/f6353393b1c7c3420d4dc504d3d.html" title="Kilmallock, Limerick, Ireland">
+								Kilmallock, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/4/1/f63b3ebcf2148a5b27fc2464714.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1890
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="parents">
+     <h4>
+      Parents
+     </h4>
+     <table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnAttribute">
+         Relation to main person
+        </th>
+        <th class="ColumnValue">
+         Name
+        </th>
+        <th class="ColumnValue">
+         Birth date
+        </th>
+        <th class="ColumnValue">
+         Death date
+        </th>
+        <th class="ColumnValue">
+         Relation within this family (if not by birth)
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/9/b/f62c4c649b54474764266fabab9.html">Halpin, Michael</a>
+        <td class="ColumnDate">
+        </td>
+        1830
+        <td class="ColumnDate">
+        </td>
+        1904
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Mother
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/3/a/f62c4ed8ac24bc2e769180c09a3.html">Turner, Winifred</a>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnDate">
+        </td>
+        after 1877-01-08
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/7/9/f6363f4aba51b08b85a1ab75397.html">Halpin, Annie Maria</a>
+        </td>
+        <td class="ColumnDate">
+         1868-08-09
+        </td>
+        <td class="ColumnDate">
+         1931-07-10
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/c/3/f635ec588352025c6485a71633c.html">Halpin, Catherine</a>
+        </td>
+        <td class="ColumnDate">
+         1872-06-10
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+        </td>
+        <td class="ColumnValue">
+         <b>Halpin, Margaret</b>
+        </td>
+        <td class="ColumnDate">
+         1870-05-28
+        </td>
+        <td class="ColumnDate">
+         1890
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/2/b/f62c4efbe3169513b49d799f4b2.html">Halpin, Winifred</a>
+        </td>
+        <td class="ColumnDate">
+         1873-07-31
+        </td>
+        <td class="ColumnDate">
+         1946-11-20
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/4/a/f635de2787d1c752e7befc746a4.html">Halpin, Bridget</a>
+        </td>
+        <td class="ColumnDate">
+         before 1875-05-06
+        </td>
+        <td class="ColumnDate">
+         1924-07-15
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/c/3/f635be40ee0127287922bf5923c.html">Halpin, Teresa</a>
+        </td>
+        <td class="ColumnDate">
+         1877-01-08
+        </td>
+        <td class="ColumnDate">
+         1878-02-23
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/9/b/f62c4c649b54474764266fabab9.html">Halpin, Michael</a>
+        <td class="ColumnDate">
+        </td>
+        1830
+        <td class="ColumnDate">
+        </td>
+        1904
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/7/f/f63876a88b52d9c3b6172dfd1f7.html">Halpin, John</a>
+        </td>
+        <td class="ColumnDate">
+         calculated about 1860
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="familymap">
+     <h4>
+      Family Map
+     </h4>
+     <div id="toggle_map" style="display:block">
+      <a class="familymap" href="../../../maps/3/2/f63638411e97bb8b5f078223.html" title="Family Map">Family Map</a>
+     </div>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <a href="../../../ppl/9/b/f62c4c649b54474764266fabab9.html">Halpin, Michael</a>
+       <ol>
+        <li class="spouse">
+         <a href="../../../ppl/3/a/f62c4ed8ac24bc2e769180c09a3.html">Turner, Winifred</a>
+         <ol>
+          <li>
+           <a href="../../../ppl/7/9/f6363f4aba51b08b85a1ab75397.html">Halpin, Annie Maria</a>
+          </li>
+          <li class="thisperson">
+           Halpin, Margaret
+          </li>
+          <li>
+           <a href="../../../ppl/c/3/f635ec588352025c6485a71633c.html">Halpin, Catherine</a>
+          </li>
+          <li>
+           <a href="../../../ppl/2/b/f62c4efbe3169513b49d799f4b2.html">Halpin, Winifred</a>
+          </li>
+          <li>
+           <a href="../../../ppl/4/a/f635de2787d1c752e7befc746a4.html">Halpin, Bridget</a>
+          </li>
+          <li>
+           <a href="../../../ppl/c/3/f635be40ee0127287922bf5923c.html">Halpin, Teresa</a>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="tree">
+     <h4>
+      Ancestors
+     </h4>
+     <div class="tree" id="toggle_anc" style="display:block">
+      <div id="treeContainer" style="width:929px; height:375px; top: 0px">
+       <div class="boxbg female AncCol0" style="top: 155px; left: 6px;">
+        <a class="noThumb" href="../../../ppl/3/2/f63638411e97bb8b5f078223.html">
+							Halpin, Margaret<br/>*1870-05-28<br/>+1890
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 10px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 285px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 180px; left: 285px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol1" style="top: 80px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/9/b/f62c4c649b54474764266fabab9.html">
+							Halpin, Michael<br/>*1830<br/>+1904
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 300px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 595px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 105px; left: 595px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol2" style="top: 5px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/8/d/f6297eafa7a79097d79a1c107d8.html">
+							Halpin, Michael<br/>*calculated about 1784<br/>+1866-02-25
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 610px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol2" style="top: 155px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/5/3/f6298a32dfd38f1fcc008c3c035.html">
+							Peagum, Anne<br/>*calculated about 1789<br/>+1870-02-01
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 610px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol1" style="top: 230px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/3/a/f62c4ed8ac24bc2e769180c09a3.html">
+							Turner, Winifred<br/>*<br/>+after 1877-01-08
+							</a>
+       </div>
+       <div class="shadow" style="top: 235px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 175px; left: 300px; height: 76px;">
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/d/e/d68fb2a4378fb4a1d0f5c945ed.html" name="sref1" title="Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Birth Records, Ireland">
+						Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Birth Records, Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Date: 1870
+          </li>
+          <li>
+           Page: Margaet Halpin b1870 - Group Registration ID: 7951271, SR District/Reg Area: Kilmallock
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?namefm=margaret&amp;namel=halpin&amp;location=Kilmallock&amp;yyfrom=1870&amp;yyto=1870&amp;type=B&amp;submit=Search&amp;sort=date&amp;pageSize=100&amp;century=&amp;decade=&amp;exact=&amp;ddBfrom=&amp;ddMfrom=&amp;ddDfrom=&amp;ddPfrom=&amp;mmBfrom=&amp;mmMfrom=&amp;mmDfrom=&amp;mmPfrom=&amp;yyBfrom=&amp;yyMfrom=&amp;yyDfrom=&amp;yyPfrom=&amp;ddBto=&amp;ddMto=&amp;ddDto=&amp;ddPto=&amp;mmBto=&amp;mmMto=&amp;mmDto=&amp;mmPto=&amp;yyBto=&amp;yyMto=&amp;yyDto=&amp;yyPto=&amp;locationB=&amp;locationM=&amp;locationD=&amp;locationP=&amp;keywordb=&amp;keywordm=&amp;keywordd=&amp;keywordp=&amp;event=&amp;district=Kilmallock">https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?na...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             Births Registered in the District of K
+             <strong>ilmallock </strong>
+             in the Union of K
+             <strong>ilmallock</strong>
+             <br/>
+             <strong>i</strong>
+             n the County
+             <strong> o</strong>
+             f L
+             <strong>imerick</strong>
+            </p>
+            <p>
+             <strong></strong>
+             No.: 5
+             <strong>5</strong>
+             <br/>
+             <strong>D</strong>
+             ate and Place of Birth: T
+             <strong>wenty eighth May 1870 Ardkilmartin Kilmallock</strong>
+             <br/>
+             <strong>N</strong>
+             ame (if any): M
+             <strong>argaret</strong>
+             <br/>
+             <strong>S</strong>
+             ex: F
+             <strong>emale</strong>
+             <br/>
+             <strong>N</strong>
+             ame and Surname and Dwelling Place of Father: M
+             <strong>ichael Halpin Ardkilmartin</strong>
+             <br/>
+             <strong>N</strong>
+             ame and Surname and Maiden Surname of Mother: W
+             <strong>inifred Halpin f</strong>
+             ormerly T
+             <strong>urner</strong>
+             <br/>
+             <strong>R</strong>
+             ank of Profession of Father: F
+             <strong>armer</strong>
+             <br/>
+             <strong>S</strong>
+             ignature, Qualification and Residence of Informant: W
+             <strong>inifred Halpin Mother Ardkilmartin</strong>
+             <br/>
+             <strong></strong>
+             When Registered: E
+             <strong>ighteenth June 1</strong>
+             87
+             <strong>0</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/7/6/c36090364537103d667.html" name="sref2" title="National Library of Ireland: Catholic Parish Registers at the NLI">
+						National Library of Ireland: Catholic Parish Registers at the NLI
+						</a>
+       <ol id="citr">
+        <li id="sref2a">
+         <ul>
+          <li>
+           Date: 1870-05-29
+          </li>
+          <li>
+           Page: Margaret Halpin b1870 - Kilmallock | Microfilm 02427 / 01 p114
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://registers.nli.ie//registers/vtls000632271#page/114/mode/1up">https://registers.nli.ie//registers/vtls000632271#page/114/mode/1up</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             Child:
+             <strong>Margaret</strong>
+             <br/>
+             <strong></strong>
+             Parents:
+             <strong>Michael Halpin</strong>
+             &amp;
+             <strong>Winifred Turner</strong>
+             <br/>
+             <strong></strong>
+             Sponsors:
+             <strong>Patrick Turner </strong>
+             &amp;
+             <strong>Margaret Barry</strong>
+             <br/>
+             <strong></strong>
+             Date:
+             <strong>29 May 1870</strong>
+             <br/>
+             <strong></strong>
+             Parish:
+             <strong>Kilmallock</strong>
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2023-08-15 09:51:17
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

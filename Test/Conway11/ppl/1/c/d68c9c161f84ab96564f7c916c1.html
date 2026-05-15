@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Cusack, [Unknown]
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li>
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="IndividualDetail">
+    <h3>
+     Cusack, [Unknown]
+     <sup>
+      <small>
+       <a href="#sref1a">1a</a>
+      </small>
+     </sup>
+    </h3>
+    <div id="summaryarea">
+     <table class="infolist">
+      <tr>
+       <td class="ColumnAttribute">
+        Birth Name
+       </td>
+       <td class="ColumnValue">
+        Cusack, [Unknown]
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Gender
+       </td>
+       <td class="ColumnValue">
+        female
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Age at Death
+       </td>
+       <td class="ColumnValue">
+        0 days
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="subsection narrative">
+     <h4>
+      Notes
+     </h4>
+     <div class="subsection narrative" id="toggle_note" style="display:block">
+      <h4>
+       Note
+      </h4>
+      <div class="grampsstylednote">
+       <p>
+        One of a set of premature triplets that lived for a few hours only.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="events">
+     <h4>
+      Events
+     </h4>
+     <table class="infolist eventlist toggle_event ltr" id="toggle_event" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnEvent">
+         Event
+        </th>
+        <th class="ColumnDate">
+         Date
+        </th>
+        <th class="ColumnPlace">
+         Place
+        </th>
+        <th class="ColumnDescription">
+         Description
+        </th>
+        <th class="ColumnSources">
+         Sources
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/4/c/d68c9c5c6a64efbcb3fa4b774c4.html" title="Birth">
+								Birth
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1902-12-02
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/e/5/d68c9fd2de17a7da6e6f34bad5e.html" title="Death">
+								Death
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1902-12-02
+        </td>
+        <td class="ColumnPlace">
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref1a">1a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnEvent" rowspan="2">
+         <a href="../../../evt/f/b/d68cb179431797f2a10a8c52abf.html" title="Burial">
+								Burial
+								</a>
+        </td>
+        <td class="ColumnDate">
+         1902-12-03
+        </td>
+        <td class="ColumnPlace">
+         <a href="../../../plc/1/8/c329ccf63397e026781.html" title="Mount St. Lawrence, Limerick, Limerick, Ireland">
+								Mount St. Lawrence, Limerick, Limerick, Ireland
+								</a>
+        </td>
+        <td class="ColumnDescription">
+        </td>
+        <td class="ColumnSources" rowspan="2">
+         <a href="#sref2a">2a</a>
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnNotes" colspan="3">
+         <div>
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="parents">
+     <h4>
+      Parents
+     </h4>
+     <table class="infolist toggle_parent ltr" id="toggle_parent" style="display:block">
+      <thead>
+       <tr>
+        <th class="ColumnAttribute">
+         Relation to main person
+        </th>
+        <th class="ColumnValue">
+         Name
+        </th>
+        <th class="ColumnValue">
+         Birth date
+        </th>
+        <th class="ColumnValue">
+         Death date
+        </th>
+        <th class="ColumnValue">
+         Relation within this family (if not by birth)
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="ColumnAttribute">
+         Father
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/5/7/c330a2f44f04b28bf75.html">Cusack, Thomas</a>
+        <td class="ColumnDate">
+        </td>
+        1863-08-21
+        <td class="ColumnDate">
+        </td>
+        1925-06-20
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Mother
+        </td>
+        <td class="ColumnValue">
+        </td>
+        <a href="../../../ppl/a/0/c33120abce505d31c0a.html">Hannan, Annie</a>
+        <td class="ColumnDate">
+        </td>
+        1866-02-18
+        <td class="ColumnDate">
+        </td>
+        1946-05-20
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/f/f/d68c9520d3d5a878c918923fdff.html">Cusack, [Unknown]</a>
+        </td>
+        <td class="ColumnDate">
+         1902-12-02
+        </td>
+        <td class="ColumnDate">
+         1902-12-02
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+        </td>
+        <td class="ColumnValue">
+         <b>Cusack, [Unknown]</b>
+        </td>
+        <td class="ColumnDate">
+         1902-12-02
+        </td>
+        <td class="ColumnDate">
+         1902-12-02
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/c/b/d68ca04599d65203da0f435eebc.html">Cusack, [Unknown]</a>
+        </td>
+        <td class="ColumnDate">
+         1902-12-02
+        </td>
+        <td class="ColumnDate">
+         1902-12-02
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/e/9/c3312d70baa0e1cc59e.html">Cusack, Mary Patrick</a>
+        </td>
+        <td class="ColumnDate">
+         1904-03-17
+        </td>
+        <td class="ColumnDate">
+         1985-08-21
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/e/c/c3312e835e737ed7fce.html">Cusack, Eily</a>
+        </td>
+        <td class="ColumnDate">
+         1905-02-09
+        </td>
+        <td class="ColumnDate">
+         1974-10-09
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Brother
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/a/6/e7e313ca6227df0166fbd7e4a6a.html">Cusack, John Joseph</a>
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnDate">
+         1906-09-20
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/7/2/c3312f1293b5b3d4f27.html">Cusack, Catherine</a>
+        </td>
+        <td class="ColumnDate">
+         1906-03-19
+        </td>
+        <td class="ColumnDate">
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+       <tr>
+        <td class="ColumnAttribute">
+         Sister
+        </td>
+        <td class="ColumnValue">
+         <a href="../../../ppl/0/5/c331302c480272fdb50.html">Cusack, Annie</a>
+        </td>
+        <td class="ColumnDate">
+         1907-09-04
+        </td>
+        <td class="ColumnDate">
+         1985
+        </td>
+        <td class="ColumnValue">
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="subsection" id="pedigree">
+     <h4>
+      Pedigree
+     </h4>
+     <ol class="pedigreegen" id="toggle_pedigree" style="display:block">
+      <li>
+       <a href="../../../ppl/5/7/c330a2f44f04b28bf75.html">Cusack, Thomas</a>
+       <ol>
+        <li class="spouse">
+         <a href="../../../ppl/a/0/c33120abce505d31c0a.html">Hannan, Annie</a>
+         <ol>
+          <li>
+           <a href="../../../ppl/a/6/e7e313ca6227df0166fbd7e4a6a.html">Cusack, John Joseph</a>
+          </li>
+          <li>
+           <a href="../../../ppl/f/f/d68c9520d3d5a878c918923fdff.html">Cusack, [Unknown]</a>
+          </li>
+          <li class="thisperson">
+           Cusack, [Unknown]
+          </li>
+          <li>
+           <a href="../../../ppl/c/b/d68ca04599d65203da0f435eebc.html">Cusack, [Unknown]</a>
+          </li>
+          <li>
+           <a href="../../../ppl/e/9/c3312d70baa0e1cc59e.html">Cusack, Mary Patrick</a>
+          </li>
+          <li>
+           <a href="../../../ppl/e/c/c3312e835e737ed7fce.html">Cusack, Eily</a>
+          </li>
+          <li>
+           <a href="../../../ppl/7/2/c3312f1293b5b3d4f27.html">Cusack, Catherine</a>
+          </li>
+          <li>
+           <a href="../../../ppl/0/5/c331302c480272fdb50.html">Cusack, Annie</a>
+          </li>
+         </ol>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+    <div class="subsection" id="tree">
+     <h4>
+      Ancestors
+     </h4>
+     <div class="tree" id="toggle_anc" style="display:block">
+      <div id="treeContainer" style="width:1549px; height:675px; top: 0px">
+       <div class="boxbg female AncCol0" style="top: 230px; left: 6px;">
+        <a class="noThumb" href="../../../ppl/1/c/d68c9c161f84ab96564f7c916c1.html">
+							Cusack, [Unknown]<br/>*1902-12-02<br/>+1902-12-02
+							</a>
+       </div>
+       <div class="shadow" style="top: 235px; left: 10px;">
+       </div>
+       <div class="bvline" style="top: 250px; left: 285px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 255px; left: 285px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol1" style="top: 80px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/5/7/c330a2f44f04b28bf75.html">
+							Cusack, Thomas<br/>*1863-08-21<br/>+1925-06-20
+							</a>
+       </div>
+       <div class="shadow" style="top: 85px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 300px; height: 151px;">
+       </div>
+       <div class="bvline" style="top: 100px; left: 595px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 105px; left: 595px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol2" style="top: 5px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/4/9/c32ff5f276c219f6b94.html">
+							Cusack, John<br/>*calculated about 1831<br/>+1894-04-13
+							</a>
+       </div>
+       <div class="shadow" style="top: 10px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 25px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 25px; left: 610px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol2" style="top: 155px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/9/f/c330004cdb0450ee4f9.html">
+							Gleeson, Ellen Anastasia<br/>*calculated about 1840<br/>+1918-03-05
+							</a>
+       </div>
+       <div class="shadow" style="top: 160px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 175px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 100px; left: 610px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol1" style="top: 380px; left: 316px;">
+        <a class="noThumb" href="../../../ppl/a/0/c33120abce505d31c0a.html">
+							Hannan, Annie<br/>*1866-02-18<br/>+1946-05-20
+							</a>
+       </div>
+       <div class="shadow" style="top: 385px; left: 320px;">
+       </div>
+       <div class="bvline" style="top: 400px; left: 300px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 250px; left: 300px; height: 151px;">
+       </div>
+       <div class="bvline" style="top: 400px; left: 595px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 405px; left: 595px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol2" style="top: 305px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/f/8/e4cee68af245323c852af4a1a8f.html">
+							Hannan, Patrick<br/>*calculated about 1837<br/>+1900-02-15
+							</a>
+       </div>
+       <div class="shadow" style="top: 310px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 325px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 325px; left: 610px; height: 76px;">
+       </div>
+       <div class="boxbg female AncCol2" style="top: 455px; left: 626px;">
+        <a class="noThumb" href="../../../ppl/c/6/e4ceff650f17684cb2598660d6c.html">
+							Hannan, Mary<br/>*calculated about 1833<br/>+1883-06-11
+							</a>
+       </div>
+       <div class="shadow" style="top: 460px; left: 630px;">
+       </div>
+       <div class="bvline" style="top: 475px; left: 610px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 400px; left: 610px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 475px; left: 905px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 480px; left: 905px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol3" style="top: 380px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/d/6/e4cf006595c1c488342cece0f6d.html">
+							Hannan, Patrick<br/>*estimated before 1800<br/>+estimated before 1861
+							</a>
+       </div>
+       <div class="shadow" style="top: 385px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 400px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 400px; left: 920px; height: 76px;">
+       </div>
+       <div class="bvline" style="top: 400px; left: 1215px; width: 15px">
+       </div>
+       <div class="gvline" style="top: 405px; left: 1215px; width: 20px">
+       </div>
+       <div class="boxbg male AncCol4" style="top: 380px; left: 1246px;">
+        <a class="noThumb" href="../../../ppl/b/4/e52f6dfc7673034c30dfe661b4b.html">
+							Hannan, [Unknown]<br/>*estimated before 1780<br/>+before 1900
+							</a>
+       </div>
+       <div class="shadow" style="top: 385px; left: 1250px;">
+       </div>
+       <div class="bvline" style="top: 400px; left: 1230px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 400px; left: 1230px; height: 1px;">
+       </div>
+       <div class="boxbg female AncCol3" style="top: 530px; left: 936px;">
+        <a class="noThumb" href="../../../ppl/1/8/e4cfeca2a3a7ce51af1a96b7681.html">
+							Lyons, Grace<br/>*estimated before 1810<br/>+estimated before 1861
+							</a>
+       </div>
+       <div class="shadow" style="top: 535px; left: 940px;">
+       </div>
+       <div class="bvline" style="top: 550px; left: 920px; width: 15px;">
+       </div>
+       <div class="bhline" style="top: 475px; left: 920px; height: 76px;">
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="sourcerefs">
+     <h4>
+      Source References
+     </h4>
+     <ol id="srcr">
+      <li>
+       <a href="../../../src/b/b/d68c651eb7e6bf699dd9cb5acbb.html" name="sref1" title="Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland">
+						Department of Arts, Heritage, Regional, Rural and Gaeltacht Affairs: Civil Death Records, Ireland
+						</a>
+       <ol id="citr">
+        <li id="sref1a">
+         <ul>
+          <li>
+           Date: 1903-02-07
+          </li>
+          <li>
+           Page: Unknown Cusack 1903 - SR District/Reg Area: Croom, Group Registration ID: 3664265
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?namefm=&amp;namel=cusack&amp;location=Croom&amp;yyfrom=1903&amp;yyto=1903&amp;type=B&amp;type=D&amp;submit=Search&amp;sort=&amp;pageSize=100&amp;century=&amp;decade=&amp;exact=&amp;ddBfrom=&amp;ddMfrom=&amp;ddDfrom=&amp;ddPfrom=&amp;mmBfrom=&amp;mmMfrom=&amp;mmDfrom=&amp;mmPfrom=&amp;yyBfrom=&amp;yyMfrom=&amp;yyDfrom=&amp;yyPfrom=&amp;ddBto=&amp;ddMto=&amp;ddDto=&amp;ddPto=&amp;mmBto=&amp;mmMto=&amp;mmDto=&amp;mmPto=&amp;yyBto=&amp;yyMto=&amp;yyDto=&amp;yyPto=&amp;locationB=&amp;locationM=&amp;locationD=&amp;locationP=&amp;keywordb=&amp;keywordm=&amp;keywordd=&amp;keywordp=&amp;event=&amp;district=">https://civilrecords.irishgenealogy.ie/churchrecords/civil-perform-search.jsp?na...</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Transcript:
+           <div class="grampsstylednote">
+            <p>
+             Deaths registered in the District of: Croom in the county of: Limerick
+            </p>
+            <p>
+            </p>
+            <p>
+             No.: 436
+             <br/>
+             Date and place of death: Second December  Fanningstown
+             <br/>
+             Name and Surname: - Cusack
+             <br/>
+             Sex: F
+             <br/>
+             Condition: Spinster
+             <br/>
+             Age last birthday: 3 hours
+             <br/>
+             Profession or occupation: Farmers daughter
+             <br/>
+             Certfified Cause of Death and Duration of Illness:  Premature Birth / Exhaustion / three hours / Certified
+             <br/>
+             Signature, Qualififcation, and Residence of Informant: Ellen Cusack  grandmother in attedndance / Fanningstown
+             <br/>
+             When Registered: Seventh February 1903
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+      <li>
+       <a href="../../../src/0/d/bd8782aec9f36de11d0.html" name="sref2" title="Limerick City and County Council: Mount St. Lawrence Burial Ground Registers">
+						Limerick City and County Council: Mount St. Lawrence Burial Ground Registers
+						</a>
+       <ol id="citr">
+        <li id="sref2a">
+         <ul>
+          <li>
+           Date: 1902-12-03
+          </li>
+          <li>
+           Page: Unknown Cusack d1902 - Burial Register ID: 21784, Sexton Number: 22118
+          </li>
+          <li>
+           Web Page:
+           <div class="grampsstylednote">
+            <p>
+             <a href="http://archives.limerick.ie/index.php/Detail/Entity/Show/entity_id/24778">http://archives.limerick.ie/index.php/Detail/Entity/Show/entity_id/24778</a>
+            </p>
+           </div>
+          </li>
+          <li>
+           Source text:
+           <div class="grampsstylednote">
+            <p>
+             Surname:  Cusack
+             <br/>
+             Forename:
+             <br/>
+             Marital Status: Unknown
+             <br/>
+             Burial Date:  December 3 1902
+             <br/>
+             Institution:
+             <br/>
+             Age at Death:
+             <br/>
+             Address: Fanningstown Limerick
+             <br/>
+             Longitude: 47
+             <br/>
+             Latitude:  La
+             <br/>
+             Burial Register ID: 21784
+             <br/>
+             Sexton Number: 22118
+            </p>
+           </div>
+          </li>
+         </ul>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+     <br/>
+     Last change was the 2020-08-28 18:28:24
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

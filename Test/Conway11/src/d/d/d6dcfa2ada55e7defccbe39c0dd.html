@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-IE" xml:lang="en-IE" xmlns="http://www.w3.org/1999/xhtml">
+ <head dir="ltr" lang="en-IE">
+  <title>
+   The Conway &amp; Clohessy Tree - Sources - Find A Grave
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="Gramps 6.0.8 http://gramps-project.org/" name="generator"/>
+  <meta content="" name="author"/>
+  <meta content="noindex" name="robots"/>
+  <meta content="noindex" name="googlebot"/>
+  <link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css"/>
+  <link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css"/>
+  <link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css"/>
+  <link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css"/>
+  <link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css"/>
+  <link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css"/>
+  <link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css"/>
+  <link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css"/>
+  <script>
+   function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }
+  </script>
+  <!--[if IE ]><link href="../../../css/narrative-screen_IE.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="../../../css/narrative-screen_narrow.css" media="screen and (max-device-width: 1050px)" rel="stylesheet" type="text/css"/>
+  <script id="timestampjs" src="../../../timestamp.js">
+  </script>
+ </head>
+ <body dir="ltr">
+  <div id="outerwrapper">
+   <div class="ltr" id="header">
+    <button class="navIcon" href="javascript:void(0);" onclick="navFunction()">
+     ≡
+    </button>
+    <h1 class="nav" id="SiteTitle">
+     The Conway &amp; Clohessy Tree
+    </h1>
+    <div id="user_header">
+     <div class="grampsstylednote">
+      <!--
+Header
+-->
+      <style>
+       .ColumnName a {
+    text-decoration: underline;   
+}
+
+ .ColumnValue a {
+    text-decoration: underline;   
+}
+
+ .grampsstylednote a {
+    text-decoration: underline;   
+}
+      </style>
+      A family tree of the ancestors and relatives of
+      <a href="../../../ppl/1/7/bd87ba505da3e0d8671.html" id="relativePath" title="b1900 - d1980 Fedamore, Limerick, Ireland"><b>Thomas Conway</b></a>
+      and
+      <a href="../../../ppl/b/9/bd87de29d8a0a634f9b.html" id="relativePath" title="b1904 - d1986 Fedamore, Limerick, Ireland"><b>Bridie Clohessy</b></a>
+      <br/>
+      <br/>
+      <!--
+End Header
+-->
+     </div>
+    </div>
+   </div>
+   <div class="wrappernav ltr" id="nav" role="navigation">
+    <div class="container">
+     <ul class="nav" id="dropmenu">
+      <li>
+       <a href="../../../index.html" title="Home">Home</a>
+      </li>
+      <li>
+       <a href="../../../introduction.html" title="Introduction">Introduction</a>
+      </li>
+      <li>
+       <a href="../../../individuals.html" title="Individuals">Individuals</a>
+      </li>
+      <li>
+       <a href="../../../surnames.html" title="Surnames">Surnames</a>
+      </li>
+      <li>
+       <a href="../../../families.html" title="Families">Families</a>
+      </li>
+      <li>
+       <a href="../../../events.html" title="Events">Events</a>
+      </li>
+      <li>
+       <a href="../../../places.html" title="Places">Places</a>
+      </li>
+      <li>
+       <a href="../../../heat/s/t/AllEvents.html" title="Heatmaps">Heatmaps</a>
+      </li>
+      <li class="CurrentSection">
+       <a href="../../../sources.html" title="Sources">Sources</a>
+      </li>
+      <li>
+       <a href="../../../repositories.html" title="Repositories">Repositories</a>
+      </li>
+      <li>
+       <a href="../../../media.html" title="Media">Media</a>
+      </li>
+      <li>
+       <a href="../../../download.html" title="Download">Download</a>
+      </li>
+      <li>
+       <a href="../../../contact.html" title="Contact">Contact</a>
+      </li>
+      <li>
+       <a href="../../../statistics.html" title="Statistics">Statistics</a>
+      </li>
+      <li>
+       <a href="../../../updates.html" title="Update">Update - <i id="updateDate"></i></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <button id="gototop" onclick="GoToTop()" title="Go to top">
+    <svg class="triangle" viewbox="0 0 100 100">
+     <polygon points="0,100 100,100, 50,10">
+     </polygon>
+    </svg>
+   </button>
+   <script>
+    //Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+   </script>
+   <div class="content" id="SourceDetail">
+    <h3>
+     Find A Grave
+    </h3>
+    <table class="infolist source ltr">
+     <tbody>
+      <tr>
+       <td class="ColumnAttribute">
+        Author
+       </td>
+       <td class="ColumnValue">
+        Jim Tipton ( Find A Grave Founder )
+       </td>
+      </tr>
+      <tr>
+       <td class="ColumnAttribute">
+        Publication information
+       </td>
+       <td class="ColumnValue">
+        <a href="http://www.findagrave.com">http://www.findagrave.com</a>
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <div class="subsection narrative">
+     <h4>
+      Notes
+     </h4>
+     <div class="subsection narrative" id="toggle_note" style="display:block">
+      <h4>
+       Note
+      </h4>
+      <div class="grampsstylednote">
+       <p>
+        Find a Grave's mission is to find, record and present final disposition information from around the world as a virtual cemetery experience.
+       </p>
+       <p>
+        Memorial contributions to Find A Grave must fulfill that mission - registration of the final disposition. If the memorial contribution corresponds with only the main mission, then the memorial fulfills its purpose as part of Find A Grave's mission.
+       </p>
+       <p>
+        Find a Grave memorials may contain rich content including pictures, biographies and more specific information. Members can leave remembrances via 'virtual flowers' on the memorials they visit, completing the virtual cemetery experience.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="subsection" id="references">
+     <h4>
+      References
+     </h4>
+     <ol class="Col1" role="Volume-n-Page" type="1">
+      <li>
+       Nora Sparkman Ambrose, memorial  # 141422287
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../evt/f/3/d6dcf91afed223fd5d603afc43f.html">
+								Richmond County
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../ppl/2/6/c3bba285f4672a71b62.html">
+								Sparkman, Nora
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/d/d/d6dcfbf9088196bdc824c544add.html">
+								Death, Sparkman, Nora
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       Andrew G Clohessy d1946 - #34729392
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../evt/4/3/da1865447764d659b812e50ee34.html">
+								Mount St Mary's Cemetery
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/7/3/da18577303a6372a93a5d61f837.html">
+								Right Reverend Monsignor
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/0/d/c32ab8a3fdd2c99bdd0.html">
+								Death, Clohessy, Andrew G
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../ppl/3/d/c32ab8bcf8b240e00d3.html">
+								Clohessy, Andrew G
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       Pauline Hannan d1985 - Memorial ID: 132838845
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../evt/0/f/e87e273f6d5303395ca499b7df0.html">
+								Birth, Hannan, Pauline Lorna
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/6/c/e87e2754156d1378633d00e7c6.html">
+								Prahan suburb
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../ppl/c/5/e87e22207b66636208fd3b3e15c.html">
+								Hannan, Pauline Lorna
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       Stephen Corcoran d1978 - Memorial ID: 98870676
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../ppl/e/2/dc4259373a24ef39d4e6366c42e.html">
+								Corcoran, Stephen Joseph
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/e/d/e89490ce24bbc843477e57f7de.html">
+								Death, Corcoran, Stephen Joseph
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       Eily Cusack d1974 - Memorial ID: 98870639
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../evt/8/f/e7e30c90d9a5191208052fa57f8.html">
+								Death, Cusack, Eily
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../ppl/e/c/c3312e835e737ed7fce.html">
+								Cusack, Eily
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       Grace Hannan d1968 - Memorial ID: 138225293
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../ppl/2/6/e8a85875ea534f65beaaa301262.html">
+								Hannan, Verna Mary
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/6/d/e8a86006002599406aec96fcdd6.html">
+								Death, Hannan, Verna Mary
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/b/1/e87deeb4b40493bf612cf3b871b.html">
+								Death, Hannan, Grace Margaret
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../ppl/a/5/e87de0b6dcd3be6032e2ffdfd5a.html">
+								Hannan, Grace Margaret
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/f/b/e87df4ba97c5daa88cde5361bf.html">
+								Melbourne General Cemetery
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/8/a/e8a8678b4aa556cc6ff61cb93a8.html">
+								Melbourne General Cemetery
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       Christine Ambrose d1971 - Memorial no.: 173674646  Holy Cross Cemetery, Brooklyn, Kings County (Brooklyn), New York, USA ; Maintained by LCruise (contributor 48881040) .
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../ppl/b/2/c32a3ba513f4ed11e2b.html">
+								Ambrose, Christine Francis
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/2/0/c32a3b952636daad402.html">
+								Death, Ambrose, Christine Francis
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/f/3/de11c1939916f09d83d6808703f.html">
+								Holy Cross Cemetary
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       Mary Healy d1906 - Memorial ID: 162415514
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../ppl/7/6/e87d55825ea185ee2265408fc67.html">
+								Healy, Mary Ann
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/e/8/e87d65e16c67ee39a80a8b55a8e.html">
+								Death, Healy, Mary Ann
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       John E McCullough - Memorial ID: 173783399
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../evt/9/f/dc1ee5155351b84facd6527d3f9.html">
+								Holy Cross Cemetery
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../ppl/0/3/c32a3c42daf1ff41c30.html">
+								McCullough, John E
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       John Hannan d2016 - Memorial 162852716
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../ppl/8/e/e529261e07c6c8e298237a30ae8.html">
+								Hannan, John R
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../ppl/5/9/e52c52b535f101b9bdbec7cd195.html">
+								Hannan, John
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../ppl/3/8/e52c517895554e369f8e182f083.html">
+								Jette, Alice
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/d/a/e52c5035cec23d8423920205ad.html">
+								Death, Hannan, John R
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       Dorothy Hannan d2017 - MEMORIAL ID: 178782017
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../ppl/a/d/e529bf7c1667d0cfa54917e0eda.html">
+								Hannan, Dorothy
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/3/6/e52c0cfb880d422fd483893a63.html">
+								Marriage, Family of Cunningham, Robert K and Hannan, Dorothy
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/4/7/e529c0f95e2401d8976d60cca74.html">
+								Birth, Hannan, Dorothy
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/4/4/e52c36b96ae7e278ecc154ded44.html">
+								Death, Hannan, Dorothy
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../ppl/5/2/e52c0abc13657a7c52b8b7aa125.html">
+								Cunningham, Robert K
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       Patrick Hannan d1875 - Memorial ID: 162415515
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../evt/b/8/e87b5e55fe11e3b6a52a24f428b.html">
+								Melbourne General Cemetary
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../ppl/f/0/e5037d6a1405415087846c2c30f.html">
+								Hannan, Patrick
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       Richard Keane Ambrose Sr., memorial 141422273
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../ppl/3/4/c3bba2207ac5ff52943.html">
+								Ambrose, Richard Keane
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/d/3/da3944206055b16cb999cdcd53d.html">
+								Trinity Episcopal Cathedral Cemetery, Columbia
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/3/6/d6dcf6e8e2125701328baa3d363.html">
+								Death, Ambrose, Richard Keane
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       George McIntosh d1982 - Memorial ID: 132838757
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../ppl/e/a/e87e27aa48afec5c32283b24ae.html">
+								McIntosh, George James
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/e/6/e87e2b223ab1877d82aead5186e.html">
+								Aireys Inlet
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../evt/a/8/e87e2897a9d74b3bd4f3fab7c8a.html">
+								Birth, McIntosh, George James
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+      <li>
+       Frederick Hannan d1963 - Memorial ID: 191078793
+       <ol class="Col1" role="Volume-n-Page" type="a">
+        <li>
+         <a href="../../../evt/0/e/e8807318f483392ea85aab844e0.html">
+								Death, Hannan, Frederick George
+								
+								
+								</a>
+        </li>
+        <li>
+         <a href="../../../ppl/3/c/e8806ce417a73e23fd1ddfc29c3.html">
+								Hannan, Frederick George
+								
+								
+								</a>
+        </li>
+       </ol>
+      </li>
+     </ol>
+    </div>
+   </div>
+   <div class="fullclear">
+   </div>
+   <div id="footer">
+    <p id="createdate">
+     Generated by
+     <a href="http://gramps-project.org/">Gramps</a>
+     6.0.8 on
+     <script id="onTimeStamp">
+      var placeholder = document.getElementById("onTimeStamp");
+			var version = placeholder.previousSibling.textContent;
+		if (typeof version == "undefined") version=" 4.2.2 ";
+		
+			var newTextNode = document.createTextNode( version + timestampText() );
+			placeholder.parentNode.replaceChild(newTextNode, placeholder.previousSibling );
+			document.getElementById("updateDate").innerText=updateTimestampText();
+     </script>
+    </p>
+    <p id="copyright">
+     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License - By attribution, Non-commerical, Share-alike" src="../../../images/somerights20.gif" title="Creative Commons License - By attribution, Non-commerical, Share-alike"/></a>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
